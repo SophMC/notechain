@@ -1,8 +1,11 @@
-# Project Learn Python
+# Data Science Daily Discoveries
 
-Every day I will upload a new notebook of something new I have done.
+This is a daily diary to keep me focussed and moving. 
+Every day I will upload something I have learned on the path to gaining data 
+science skills.
 
-I'm using the [IPython Notebook](http://ipython.org).
+I'm using the [IPython Notebook](http://ipython.org) the Anaconda (2.4.1) 
+Python (2.7.11) distribution.
 
 
 ### Links to each day:
