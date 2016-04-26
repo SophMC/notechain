@@ -19,11 +19,11 @@ df.columns(), df.index(), df.dtypes().
 Day 2:                                                                                                                          
 More pandas practise [here](002-LendingClub.ipynb). Re-discovered the 
 usefulness of cheatsheats. Now have a number of functions for exploring the 
-data. 
+data.    
 df.head(), df.unique(), df.describe(), df.iloc(), 
 df.count(),df.isin(),np.where()
 
 Day 3:
-%timeit : time how long a command takes to run.
-More pandas practise [here](003-LendingClub.ipynb).
+%timeit : time how long a command takes to run.  
+More pandas practise [here](003-LendingClub.ipynb).   
 df.dropna(), df.isnull(),df.any(), df.sum()
