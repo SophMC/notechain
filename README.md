@@ -24,5 +24,6 @@ df.head(), df.unique(), df.describe(), df.iloc(),
 df.count(),df.isin(),np.where()
 
 Day 3:
-%timeit : time how long a command takes to run
-More pandas practise here. df.dropna(), df.isnull(), df.any(), df.sum()
+%timeit : time how long a command takes to run.
+More pandas practise [here](003-LendingClub.ipynb).
+df.dropna(), df.isnull(),df.any(), df.sum()
