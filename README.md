@@ -27,7 +27,7 @@ df.count(),df.isin(),np.where()
 
 ---------------
 
-Day 3:
+Day 3:  
 %timeit : time how long a command takes to run.  
 More pandas practise [here](003-LendingClub.ipynb).   
 df.dropna(), df.isnull(),df.any(), df.sum()
