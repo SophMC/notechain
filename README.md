@@ -54,9 +54,9 @@ Did not fit in one line in my editor. When I shortened it to one line it
 worked. An \ was needed between the message and the html emphasized text 
 between <em </em> 
 
-`$if greeting:
+```$if greeting:
     I just wanted to say \    
-    <em style="color: green; font-size: 2em;">$greeting</em>.`
+    <em style="color: green; font-size: 2em;">$greeting</em>.```
 
 Started [plotting the data](pandas-notebook-csv/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
