@@ -44,7 +44,7 @@ made on the remote repository:
 
 I made [this](http://learnpythonthehardway.org/book/ex50.html) work, only after 
 working out (google useless!) where to put a line continuation in 
-index.html
+index.html  
 `$if greeting:
     I just wanted to say <em style="color: green; font-size: 
 2em;">$greeting</em>.`
