@@ -12,15 +12,16 @@ Python (2.7.11) distribution.
 
 **Day 1**                                                                 
 I learned some [git commands](001-git-basics.md) and [played around 
-with some data](001-pandas-csv/LendingClub.ipynb) in ipython using the 
-data frames (df) in pandas library. 
+with some data](pandas-notebooks-csv/001-LendingClub.ipynb) in ipython using 
+the data frames (df) in pandas library. 
 `df.columns(), df.index(), df.dtypes()`
 
 -------------
 
 **Day 2**                                                                       
                                                 
-More pandas practise [here](002-LendingClub.ipynb). Re-discovered the 
+More pandas practise [here](pandas-notebooks-csv/002-LendingClub.ipynb). 
+Re-discovered the 
 usefulness of cheatsheats. Now have a number of functions for exploring the 
 data.    
 ```df.head(), df.unique(), df.describe(), df.iloc(), df.count(), 
@@ -30,7 +31,7 @@ df.isin(), np.where()```
 
 **Day 3**  
 %timeit : time how long a command takes to run.  
-More pandas practise [here](003-LendingClub.ipynb).   
+More pandas practise [here](pandas-notebooks-csv/003-LendingClub.ipynb).   
 `df.dropna(), df.isnull(), df.any(), df.sum()`
 
 ----------------
@@ -49,13 +50,14 @@ index.html
     I just wanted to say <em style="color: green; font-size: 
 2em;">$greeting</em>.`
 
-had to become 
+Did not fit in one line in my editor. When I shortened it to one line it 
+worked. An \ was needed between the message and the html emphasized text 
+between <em </em> 
 
 `$if greeting:
-    I just wanted to say \
+    I just wanted to say \    
     <em style="color: green; font-size: 2em;">$greeting</em>.`
 
-before it would work. 
 
 
 ----------------
