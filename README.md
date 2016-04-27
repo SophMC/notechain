@@ -58,6 +58,10 @@ between <em </em>
     I just wanted to say \    
     <em style="color: green; font-size: 2em;">$greeting</em>.`
 
+Started [plotting the data](pandas-notebook-csv/004-LendingClub.ipynb) with  
+`df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
 
+To suppress the printing of the object before a panel of plots
+`_ = df.hist()` etc.
 
 ----------------
