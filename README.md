@@ -34,3 +34,28 @@ More pandas practise [here](003-LendingClub.ipynb).
 `df.dropna(), df.isnull(), df.any(), df.sum()`
 
 ----------------
+
+**Day 4**
+If you remove from local directory you must do this before the changes will be 
+made on the remote repository:   
+`git rm filename`
+`git commit -m "message"`
+`git push`
+
+I made [this](http://learnpythonthehardway.org/book/ex50.html) work, only after 
+working out (google useless!) where to put a line continuation in 
+index.html
+`$if greeting:
+    I just wanted to say <em style="color: green; font-size: 
+2em;">$greeting</em>.`
+
+had to become 
+
+`$if greeting:
+    I just wanted to say \
+    <em style="color: green; font-size: 2em;">$greeting</em>.`
+
+before it would work. 
+
+
+----------------
