@@ -65,3 +65,29 @@ To suppress the printing of the object before a panel of plots
 `_ = df.hist()` etc.
 
 ----------------
+
+**Day 5**
+
+Notebook found [here](pandas-notebooks-csv/004-LendingClub.ipynb)  
+Removed % signs and "months" and converted the rest into a number.  
+Removed null values with `dropna()`. Can investigate the rows with these null 
+values by saving them in a new df.  
+Removed data above the 95th percentile by using conditional statements for each 
+column. There must be a cleaner way to do it than this:
+
+`no_outliers = nonan[(nonan[columns[0]] < p[0]) & (nonan[columns[1]] < p[1]) &
+(nonan[columns[2]] < p[2]) & (nonan[columns[3]] < p[3]) & (nonan[columns[4]] < 
+p[4]) & (nonan[columns[5]] < p[5])]` 
+  
+saved as a new dataframe and then a csv using `to_csv()`. 
+Eyeballed the difference before/after cleaning with a subset of columns in 
+`scatter_matrix`
+
+`df.count()` only returns non-nans.
+
+
+
+
+----------------
+
+
