@@ -64,7 +64,7 @@ To suppress the printing of the object before a panel of plots
 
 ----------------
 
-**Day 5**
+**Day 5**   
 Notebook found [here](pandas-notebooks-csv/004-LendingClub.ipynb).  
 Removed % signs and "months" and converted the rest into a number.  
 Removed null values with `df.dropna()`. Can investigate the rows with these 
