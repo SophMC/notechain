@@ -51,12 +51,11 @@ index.html
 2em;">$greeting</em>.`
 
 Did not fit in one line in my editor. When I shortened it to one line it 
-worked. An \ was needed between the message and the html emphasized text 
-between <em </em> 
+worked. An \ was needed between the message and the html emphasized text.
 
 ```$if greeting:
     I just wanted to say \    
-    <em style="color: green; font-size: 2em;">$greeting</em>.```
+<em style="color: green; font-size: 2em;">$greeting</em>.```
 
 Started [plotting the data](pandas-notebooks-csv/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
@@ -68,7 +67,7 @@ To suppress the printing of the object before a panel of plots
 
 **Day 5**
 
-Notebook found [here](pandas-notebooks-csv/004-LendingClub.ipynb)  
+Notebook found [here](pandas-notebooks-csv/004-LendingClub.ipynb).  
 Removed % signs and "months" and converted the rest into a number.  
 Removed null values with `dropna()`. Can investigate the rows with these null 
 values by saving them in a new df.  
