@@ -87,6 +87,15 @@ Eyeballed the difference before/after cleaning with a subset of columns in
 
 **Day 6**
 
+[Exercise 51](gothonweb) from [Learning Python the Hard 
+Way](http://learnpythonthehardway.org/book/ex51.html)
 
+Instructions:  
+* Download /notechain/gothonweb recursively.
+* Inside /gothonweb enter to the command line: `python \
+bin/app.py` http://0.0.0.0:8080/ should print on the terminal
+* Copy `http://localhost:8080/hello` into your address bar.
 
+In relation to how your web browser displays a page:
+Browser, Address, Connection, Request, Server and Response
 
