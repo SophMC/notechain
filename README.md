@@ -65,22 +65,24 @@ To suppress the printing of the object before a panel of plots
 ----------------
 
 **Day 5**   
-Notebook found [here](pandas-notebooks-csv/004-LendingClub.ipynb).  
-Removed % signs and "months" and converted the rest into a number.  
-Removed null values with `df.dropna()`. Can investigate the rows with these 
-null values by saving them in a new df.  
-Removed data above the 95th percentile by using conditional statements for each 
-column. There must be a cleaner way to do it than this:
+The following actions are found 
+[here](pandas-notebooks-csv/004-LendingClub.ipynb):  
+
+* Removed % signs and "months" and converted the rest into a number.  
+* Removed null values with `df.dropna()`. Can investigate the rows with these 
+  null values by saving them in a new df.  
+* Removed data above the 95th percentile by using conditional statements for 
+  each column. There must be a cleaner way to do it than this:
 
 `no_outliers = nonan[(nonan[columns[0]] < p[0]) & (nonan[columns[1]] < p[1]) &
 (nonan[columns[2]] < p[2]) & (nonan[columns[3]] < p[3]) & (nonan[columns[4]] < 
 p[4]) & (nonan[columns[5]] < p[5])]` 
   
-Saved no_outliers as a new dataframe and then a csv using `to_csv()`. 
-Eyeballed the difference before/after cleaning with a subset of columns in 
+* Saved the new dataframe with `to_csv()`. 
+* Eyeballed the difference before/after cleaning with a subset of columns in 
 `scatter_matrix`
 
-`df.count()` only returns non-nans.
+IMPORTANT: `df.count()` only returns non-nans.
 
 
 ----------------
@@ -92,10 +94,8 @@ Way](http://learnpythonthehardway.org/book/ex51.html)
 
 Instructions:  
 * Download /notechain/gothonweb recursively.
-* Inside /gothonweb enter to the command line: `python \
-bin/app.py` http://0.0.0.0:8080/ should print on the terminal
+* Inside /gothonweb enter to the command line: `python
+bin/app.py` `http://0.0.0.0:8080/` should print on the terminal
 * Copy `http://localhost:8080/hello` into your address bar.
 
-In relation to how your web browser displays a page:
-Browser, Address, Connection, Request, Server and Response
 
