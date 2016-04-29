@@ -36,12 +36,15 @@ More pandas practise [here](pandas-notebooks-csv/003-LendingClub.ipynb).
 ----------------
 
 **Day 4**  
+
+Git:  
 If you remove from local directory you must do this before the changes will be 
 made on the remote repository:   
 `git rm filename`
 `git commit -m "message"`
 `git push`
 
+Building Web Apps: 
 I made [this](http://learnpythonthehardway.org/book/ex50.html) work, only after 
 working out (google useless!) where to put a line continuation in 
 index.html  
@@ -56,6 +59,7 @@ worked. An \ was needed between the message and the html emphasized text.
     I just wanted to say \    
 <em style="color: green; font-size: 2em;">$greeting</em>.```
 
+More Data Analysis in Pandas: 
 Started [plotting the data](pandas-notebooks-csv/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
 
@@ -88,14 +92,13 @@ IMPORTANT: `df.count()` only returns non-nans.
 ----------------
 
 **Day 6**
-
 [Exercise 51](gothonweb) from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex51.html)
 
 Instructions:  
 * Download /notechain/gothonweb recursively.
-* Inside /gothonweb enter to the command line: `python
-bin/app.py` `http://0.0.0.0:8080/` should print on the terminal
+* Inside /gothonweb entering: `python
+bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
 * Copy `http://localhost:8080/hello` into your address bar.
 
 
