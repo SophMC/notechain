@@ -7,6 +7,7 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+-------------
 
 ####Day 1                                                                
 I learned some [git commands](001-git-basics.md) and [played around 
@@ -66,13 +67,14 @@ To suppress the printing of the object before a panel of plots
 
 ----------------
 
-####Day 5   
+####Day 5 
+#####Pandas Data Analysis
 The following actions are found 
 [here](pandas-notebooks-csv/004-LendingClub.ipynb):  
 
 * Removed % signs and "months" and converted the rest into a number.  
-* Removed null values with `df.dropna()`. Can investigate the rows with these 
-  null values by saving them in a new df.  
+* Removed null values with `df.dropna()`. Investigate null values by saving 
+them in a new df.  
 * Removed data above the 95th percentile by using conditional statements for 
   each column. There must be a cleaner way to do it than this:
 
@@ -90,6 +92,7 @@ IMPORTANT: `df.count()` only returns non-nans.
 ----------------
 
 ####Day 6
+#####Web App Building
 [Exercise 51](gothonweb) from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex51.html)
 
