@@ -10,7 +10,7 @@ Python (2.7.11) distribution.
 
 ### Links to each day:
 
-**Day 1**                                                                 
+###Day 1                                                                
 I learned some [git commands](001-git-basics.md) and [played around 
 with some data](pandas-notebooks-csv/001-LendingClub.ipynb) in ipython using 
 the data frames (df) in pandas library. 
@@ -18,9 +18,9 @@ the data frames (df) in pandas library.
 
 -------------
 
-**Day 2**                                                                       
-                                               More pandas practise 
-[here](pandas-notebooks-csv/002-LendingClub.ipynb). Re-discovered the 
+###Day 2                                                                       
+More pandas practise [here](pandas-notebooks-csv/002-LendingClub.ipynb). 
+Re-discovered the 
 usefulness of cheatsheats. Now have a number of functions for exploring the 
 data.    
 ```df.head(), df.unique(), df.describe(), df.iloc(), df.count(), 
@@ -28,23 +28,23 @@ df.isin(), np.where()```
 
 ---------------
 
-**Day 3**  
+###Day 3  
 %timeit : time how long a command takes to run.  
 More pandas practise [here](pandas-notebooks-csv/003-LendingClub.ipynb).   
 `df.dropna(), df.isnull(), df.any(), df.sum()`
 
 ----------------
 
-**Day 4**  
+###Day 4 
 
-Git:  
+####Git:  
 If you remove from local directory you must do this before the changes will be 
 made on the remote repository:   
 `git rm filename`
 `git commit -m "message"`
 `git push`
 
-Building Web Apps: 
+####Building Web Apps: 
 I made [this](http://learnpythonthehardway.org/book/ex50.html) work, only after 
 working out (google useless!) where to put a line continuation in 
 index.html  
@@ -59,7 +59,7 @@ worked. An \ was needed between the message and the html emphasized text.
     I just wanted to say \    
 <em style="color: green; font-size: 2em;">$greeting</em>.```
 
-More Data Analysis in Pandas: 
+####More Data Analysis in Pandas: 
 Started [plotting the data](pandas-notebooks-csv/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
 
@@ -68,7 +68,7 @@ To suppress the printing of the object before a panel of plots
 
 ----------------
 
-**Day 5**   
+###Day 5   
 The following actions are found 
 [here](pandas-notebooks-csv/004-LendingClub.ipynb):  
 
@@ -91,7 +91,7 @@ IMPORTANT: `df.count()` only returns non-nans.
 
 ----------------
 
-**Day 6**
+###Day 6
 [Exercise 51](gothonweb) from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex51.html)
 
