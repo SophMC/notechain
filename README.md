@@ -97,9 +97,26 @@ IMPORTANT: `df.count()` only returns non-nans.
 Way](http://learnpythonthehardway.org/book/ex51.html)
 
 Instructions:  
-* Download /notechain/gothonweb recursively.
-* Inside /gothonweb entering: `python
+* Download /notechain/firstform recursively.
+* Inside /firstform entering: `python
 bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
 * Copy `http://localhost:8080/hello` into your address bar.
+
+----------------
+
+####Day 7
+#####Web App Building
+Exercise 52 from [Learning Python the Hard 
+Way](http://learnpythonthehardway.org/book/ex52.html)
+
+Nothing to show yet as only have the first room working. Need to work out how 
+to take the input from the form to lead onto the next room.
+
+$ is used to specify python expressions in html, using web.py
+
+
+-----------------
+
+
 
 
