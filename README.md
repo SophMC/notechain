@@ -4,7 +4,7 @@ This is a daily diary to keep me focussed and moving.
 For ~74 days (over 3 months) I will upload something related to learning 
 Python, git and other tools useful for data science. 
 
-I'm using the [IPython Notebook](http://ipython.org) the Anaconda (2.4.1) 
+I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
 -------------
@@ -12,7 +12,7 @@ Python (2.7.11) distribution.
 ####Day 1                                                                
 I learned some [git commands](001-git-basics.md) and [played around 
 with some data](pandas-notebooks-csv/001-LendingClub.ipynb) in ipython using 
-the data frames (df) in pandas library. 
+DataFrames (df) in pandas library. 
 `df.columns(), df.index(), df.dtypes()`
 
 -------------
