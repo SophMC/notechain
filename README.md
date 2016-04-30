@@ -93,7 +93,7 @@ IMPORTANT: `df.count()` only returns non-nans.
 
 ####Day 6
 #####Web App Building
-[Exercise 51](gothonweb) from [Learning Python the Hard 
+[Exercise 51](firstform) from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex51.html)
 
 Instructions:  
