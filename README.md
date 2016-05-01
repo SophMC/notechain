@@ -131,13 +131,13 @@ out.
 
 #####Plotting windspeed 
 
-My [first attempt to read in](windspeed/windspeed.ipynd) [windspeed 
+My [first attempt](windspeed/windspeed.ipynd)to read in [windspeed 
 data](windspeed/61401BirMoghrein_allwinds.txt) with the format:
-`year, month, day, time, ws`
+`year, month, day, time, ws` 
 I wanted to combine the first four columns into a new timestamp column but this 
 has proved difficult. I want to do it as I read the columns in using read_csv 
 but the time data were in the format 600, 1200, 1800 and it wasn't recognised 
-when reading in. 
+when reading in.   
 I am now going down the route of creating the timestamp after reading in the 
 data but there are problems with the input having to be strings and I can't 
 seem to change the dataFrame objects to strings to allow it to do this. 
