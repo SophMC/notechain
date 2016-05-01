@@ -113,10 +113,20 @@ Nothing to show yet as only have the first room working. Need to work out how
 to take the input from the form to lead onto the next room.
 
 $ is used to specify python expressions in html, using web.py
+$elif cannot be used. Replace with $else and $if.
+You must place a __init__.py inside a directory if you wish to use 
+`from bin.app import app` to run app_tests.py nosetests on app.py which is 
+inside /bin
 
 
 -----------------
 
+####Day 8
+#####Web App Building
 
+Exercise 52 from [Learning Python the Hard 
+Way](http://learnpythonthehardway.org/book/ex52.html). I think I will be 
+working on this a few days more before uploading something that you can test 
+out. 
 
 
