@@ -165,7 +165,7 @@ index_col=False stops pandas using the first column as the index
 having a quick squint at discrete values
 `for x in range(0,4): print wind[column_names[x]].unique()`
 
-This didn't work. Anything about 12 in the hour column only recognised the 
+This didn't work. Anything above 12 in the hour column only recognised the 
 second digit, i.e. 2 in 12, 8 in 18.   
 `p = pd.to_datetime(year + month + day + hour, yearfirst=True, utc=True, 
 format='%Y%m%d%H') ; print p`
