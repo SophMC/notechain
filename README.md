@@ -131,7 +131,7 @@ out.
 
 #####Plotting windspeed 
 
-My [first attempt](windspeed/008-windspeed.ipynd) to read in [windspeed 
+My [first attempt](windspeed/008-windspeed.ipynb) to read in [windspeed 
 data](windspeed/61401BirMoghrein_allwinds.txt) with the format:   
 `year, month, day, time, ws`         
 I wanted to combine the first four columns into a new timestamp column but this 
@@ -149,3 +149,30 @@ Opening an [issue](https://github.com/SophMC/notechain/issues/1) on the
 timestamp problem.
 
 ----------------
+
+####Day 10
+Solved my [issue](https://github.com/SophMC/notechain/issues/1) on the 
+timestamp problem.
+Here is [some working](windspeed/010-windspeed.ipynb) on the way to finding it 
+out.Tips to remember:
+
+double brackets to ref several columns at once:
+`print wind[['year','month','day']][0:5]`
+
+index_col=False stops pandas using the first column as the index
+`wind = pd.read_csv(datafile, sep=" ", names=column_names, index_col=False )` 
+
+having a quick squint at discrete values
+`for x in range(0,4): print wind[column_names[x]].unique()`
+
+Didn't work. Anything about 12 in the hour column only recognised the second 
+digit, i.e. 2 in 12, 8 in 18. 
+`p = pd.to_datetime(year + month + day + hour, yearfirst=True, utc=True, 
+format='%Y%m%d%H') ; print p`
+`0   1984-03-10 06:00:00
+1   1984-03-11 02:00:00
+2   1984-03-11 08:00:00
+3   1984-03-20 06:00:00
+4   1984-03-21 02:00:00
+dtype: datetime64[ns]`
+
