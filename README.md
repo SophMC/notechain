@@ -114,7 +114,7 @@ to take the input from the form to lead onto the next room.
 
 $ is used to specify python expressions in html, using web.py
 $elif cannot be used. Replace with $else and $if.
-You must place a __init__.py inside a directory if you wish to use 
+You must place a `__init__.py` inside a directory if you wish to use 
 `from bin.app import app` to run app_tests.py nosetests on app.py which is 
 inside /bin
 
@@ -136,7 +136,7 @@ data](windspeed/61401BirMoghrein_allwinds.txt) with the format:
 `year, month, day, time, ws`         
 I wanted to combine the first four columns into a new timestamp column but this 
 has proved difficult. I tried to use read_csv but as the time data were in the 
-format 600, 1200, 1800 and it wasn't recognised when reading in.   
+format 600, 1200, 1800 it wasn't recognised when reading in.   
 Next, I created the timestamp after reading in the data but there were problems 
 with the input requiring a string and I can't seem to change the dataFrame 
 objects to strings to allow it to do this. 
@@ -160,7 +160,7 @@ Tips to remember:
 Double brackets to ref several columns at once:
 `print wind[['year','month','day']][0:5]`
 
-index_col=False stops pandas using the first column as the index:    
+`index_col=False` stops pandas using the first column as the index:    
 `wind = pd.read_csv(datafile, sep=" ", names=column_names, index_col=False )` 
 
 Having a quick squint at discrete values
@@ -171,12 +171,12 @@ second digit, i.e. 2 in 12, 8 in 18.
 `p = pd.to_datetime(year + month + day + hour, yearfirst=True, utc=True, 
 format='%Y%m%d%H') ; print p` 
 
-`0   1984-03-10 06:00:00
+```0   1984-03-10 06:00:00
 1   1984-03-11 02:00:00
 2   1984-03-11 08:00:00
 3   1984-03-20 06:00:00
 4   1984-03-21 02:00:00
-dtype: datetime64[ns]`
+dtype: datetime64[ns]```
 
 ---------------------
 
