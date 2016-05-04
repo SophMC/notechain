@@ -187,24 +187,24 @@ format='%Y%m%d%H') ; print p`
 
 
 Opened an [issue](https://github.com/SophMC/notechain/issues). Not able to use 
-`df.query()` as apparently numexpr is not supported. 
+`df.query()` as apparently `numexpr` is not supported. 
 
 The following working is in 
-[011-windspeed.ipynb](windspeed/011-windspeed.ipynb). 
+[011-windspeed.ipynb](windspeed/011-windspeed.ipynb).   
 `%matplotlib inline` ensures plots display in the notebook
 
-`plt.plot(xaxis,yaxis)` `plt.xlable()` `plt.show()` 
+`plt.plot(xaxis,yaxis)` `plt.xlable()` `plt.show()`   
 Change size of x ticks `plt.rc("font", size=7)`
 
 Three different ways to use `pd.astype()`
 
-To make a sub-set of data (a more limited method):
-1) create a mask `row_mask = wind['year'].isin([1985,1986])`
+To make a sub-set of data (a more limited method):  
+1) create a mask `row_mask = wind['year'].isin([1985,1986])`  
 2) apply mask to the df or column `wind['year'].loc[row_mask][0:5]`
 
-Best to apply one criteria at a time and make a new data fram each time: 
-`years_sub = wind[wind['year'].isin([1998,1999,2000,2001,2002])]`
-`highwind_sub = years_sub[years_sub['ws'] > 8]` 
+Best to apply one criteria at a time and make a new data fram each time:  
+`years_sub = wind[wind['year'].isin([1998,1999,2000,2001,2002])]` 
+`highwind_sub = years_sub[years_sub['ws'] > 8]`   
 This was you can apply conditions to select a subset. Can't do that using 
 isin().
 
