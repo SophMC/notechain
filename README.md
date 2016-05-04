@@ -160,7 +160,7 @@ Tips to remember:
 Double brackets to ref several columns at once:
 `print wind[['year','month','day']][0:5]`
 
-index_col=False stops pandas using the first column as the index: 
+index_col=False stops pandas using the first column as the index:    
 `wind = pd.read_csv(datafile, sep=" ", names=column_names, index_col=False )` 
 
 Having a quick squint at discrete values
@@ -170,6 +170,7 @@ This didn't work. Anything above 12 in the hour column only recognised the
 second digit, i.e. 2 in 12, 8 in 18.   
 `p = pd.to_datetime(year + month + day + hour, yearfirst=True, utc=True, 
 format='%Y%m%d%H') ; print p` 
+
 `0   1984-03-10 06:00:00
 1   1984-03-11 02:00:00
 2   1984-03-11 08:00:00
