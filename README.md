@@ -202,8 +202,8 @@ To make a sub-set of data (a more limited method):
 1) create a mask `row_mask = wind['year'].isin([1985,1986])`  
 2) apply mask to the df or column `wind['year'].loc[row_mask][0:5]`
 
-Best to apply one criteria at a time and make a new data fram each time:  
-`years_sub = wind[wind['year'].isin([1998,1999,2000,2001,2002])]` 
+Better to apply one criteria at a time and make a new data fram each time:  
+`years_sub = wind[wind['year'].isin([1998,1999,2000,2001,2002])]`   
 `highwind_sub = years_sub[years_sub['ws'] > 8]`   
 This was you can apply conditions to select a subset. Can't do that using 
 isin().
