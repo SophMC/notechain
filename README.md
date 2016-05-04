@@ -145,7 +145,7 @@ objects to strings to allow it to do this.
 
 ####Day 9
 
-Opening an [issue](https://github.com/SophMC/notechain/issues/1) on the 
+Opened an [issue](https://github.com/SophMC/notechain/issues/1) on the 
 timestamp problem.
 
 ----------------
@@ -153,26 +153,31 @@ timestamp problem.
 ####Day 10
 Solved my [issue](https://github.com/SophMC/notechain/issues/1) on the 
 timestamp problem.
-Here is [some working](windspeed/010-windspeed.ipynb) on the way to finding it 
-out.Tips to remember:
+Here is [some working](windspeed/010_1-windspeed.ipynb) on the way to finding 
+it out. 
+Tips to remember:   
 
-double brackets to ref several columns at once:
+Double brackets to ref several columns at once:
 `print wind[['year','month','day']][0:5]`
 
-index_col=False stops pandas using the first column as the index
+index_col=False stops pandas using the first column as the index: 
 `wind = pd.read_csv(datafile, sep=" ", names=column_names, index_col=False )` 
 
-having a quick squint at discrete values
+Having a quick squint at discrete values
 `for x in range(0,4): print wind[column_names[x]].unique()`
 
 This didn't work. Anything above 12 in the hour column only recognised the 
 second digit, i.e. 2 in 12, 8 in 18.   
 `p = pd.to_datetime(year + month + day + hour, yearfirst=True, utc=True, 
-format='%Y%m%d%H') ; print p`
+format='%Y%m%d%H') ; print p` 
 `0   1984-03-10 06:00:00
 1   1984-03-11 02:00:00
 2   1984-03-11 08:00:00
 3   1984-03-20 06:00:00
 4   1984-03-21 02:00:00
 dtype: datetime64[ns]`
+
+---------------------
+
+####Day 11
 
