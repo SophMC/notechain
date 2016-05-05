@@ -1,0 +1,39 @@
+$def with (room)
+
+<h1> $room.name </h1>
+
+<pre>
+$room.description
+</pre>
+
+$if room.name == "death":
+    <p><a href="/">Play Again?</a></p>
+
+ 
+$if room.name == "Central Corridor":
+    <p>
+    <form action="/game" method="POST">
+    Write 1,2 or 3 in the box \
+    <input type="text" name="action"> <input type="SUBMIT">
+    </form>
+    </p>
+  
+    
+$if room.name == "Laser Weapon Armory":
+    <p>
+    <form action="/game" method="POST">
+    <!--very strangely need the \ here, but not above!-->
+    Guess the code \
+    <input type="text" name="action"> <input type="SUBMIT">
+    </form>
+    </p>
+
+$if room.name == "The Bridge":
+    <p>
+    <form action="/game" method="POST">
+     \
+    <input type="text" name="action"> <input type="SUBMIT">
+    </form>
+    </p>  
+
+<!--- Took the \$else out of here as it was not working for some reason --->

@@ -210,4 +210,20 @@ isin().
 
 ---------------------------
 
+####Day 12
 
+#####Web App Building
+
+A [very primative game](gothonweb) which can take an input and move to another 
+page, based on the user input. It only works for the first two rooms. I think 
+you will pretty much die whatever input you put after that. 
+
+Instructions:  
+* Download /notechain/gothonweb recursively.
+* Inside /gothonweb entering: `python
+bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
+* Copy `http://localhost:8080/game` into your address bar.
+* Follow the game!
+
+The [tutorial](http://learnpythonthehardway.org/book/ex52.html) suggests a lot 
+more refining but spent as much time on this as I want to.
