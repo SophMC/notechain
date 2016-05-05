@@ -27,7 +27,7 @@ bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
 The [tutorial](http://learnpythonthehardway.org/book/ex52.html) suggests a lot 
 more refining but spent as much time on this as I want to.
 
-######Windspeed plotting
+#####Windspeed plotting
 I want to make a script using and classes and functions which can: 
 - Allow a file to be selected by the user from a list of files in the directory 
 - This will then be plotted as a timeseries of windspeed, split 4 lines of 
