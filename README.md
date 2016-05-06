@@ -7,6 +7,35 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+--------------------------
+
+####Day 13 
+
+#####Windspeed Plotting
+`list(df)` - really nice way to show dataframe column names
+
+[New script](windspeed/scripts/013-ws_tseries.py) where I am trying to practise 
+using OOP methods with classes. Whether it is suitable or not for the problem I 
+am not sure. So far, the script does the following (you can download [3 data 
+files](windspeed/data) to try it with):
+
+* Shows you a list of N African stations from which you can pick the index.
+* Gives you options to; 
+    - Give descriptive statistics
+    - Make a time series plot to view 
+    - Save a copy of the plot
+
+The few final things I want to get into this script before I will move on:
+
+* Plot the timeseries in monthly bins (error bars)
+* Make a nice plot with 4 timeseries on the same plot from obs at 00,06,12 and 
+18
+* Design a test script (really need to practise this!)
+
+I will test the ideas out in a notebook first before trying to organise them in 
+a script with classes and methods. 
+
 ---------------------------
 
 ####Day 12
