@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 class Analysis(object):
     '''take a file and read it into a dataframe
     then ask user if they want to show statistics 
-    or making plots'''
+    or make plots'''
    
     
     def __init__(self):
@@ -26,7 +26,7 @@ class Analysis(object):
         
         #self.wind_00= wind[wind['hour'].isin([0000])]
         #print self.wind_00['hour'][0:5]
-        wind_00= wind[wind['hour'].isin([0])]
+        wind_00=wind[wind['hour'].isin([0])]
         wind_06=wind[wind['hour'].isin([6])]
         wind_12=wind[wind['hour'].isin([12])]
         wind_18=wind[wind['hour'].isin([18])]
@@ -62,7 +62,7 @@ class Analysis(object):
         plt.rc("font", size=7)
         
                
-        #chopping the file extension off to put in the name of the image fileh
+        #chopping the file extension off to put in the name of the image file
         fname = fname_list[location][:-4]
         
         #print the plot to the screen
