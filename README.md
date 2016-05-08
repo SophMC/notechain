@@ -19,10 +19,10 @@ learning) to "Create an Employment Analytics Visualization in Less Than 10
 Minutes". It's definitely taken me more than 10 mins due to lots of teething 
 problems with import.io.
 
-*Can use [magic import.io](https://magic.import.io/examples) to very quickly 
+- Can use [magic import.io](https://magic.import.io/examples) to very quickly 
 get up to 20 consecutive pages.
 
-*Better to input the values manually in the [extractor 
+- Better to input the values manually in the [extractor 
 page](https://dash.import.io/) if you have more than 20 pages. Use excel to 
 change the last digit i.e.
 
