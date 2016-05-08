@@ -9,7 +9,32 @@ Python (2.7.11) distribution.
 
 
 --------------------------
+####Day 14
+#####Import.io
 
+I'm trying to work through this short article which uses import.io (to scrape 
+lists from the web) and Monkeylearn (to get data from text using machine 
+learning) to "Create an Employment Analytics Visualization in Less Than 10 
+Minutes". It's definitely taken me more than 10 mins due to lots of teething 
+problems with import.io.
+
+*Can use [magic import.io](https://magic.import.io/examples) to very quickly 
+get up to 20 consecutive pages.
+
+*Better to input the values manually in the [extractor 
+page](https://dash.import.io/) if you have more than 20 pages. Use excel to 
+change the last digit i.e.
+
+```http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=10
+http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=20
+http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=30```
+
+It took 7mins to scrape the data from 203 pages. 
+
+
+
+
+--------------------------
 ####Day 13 
 
 #####Windspeed Plotting
