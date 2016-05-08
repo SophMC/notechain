@@ -14,9 +14,7 @@ Python (2.7.11) distribution.
 
 I'm trying to work through this [short 
 article](https://blog.monkeylearn.com/how-to-create-an-employment-analytics-
-visualization-in-less-than-10-minutes/?utm_source=Email&utm_medium=Intercom&
-utm_content=FP&utm_campaign=4-employment-analytics) which uses import.io (to 
-scrape 
+visualization-in-less-than-10-minutes/) which uses import.io (to scrape 
 lists from the web) and Monkeylearn (to get data from text using machine 
 learning) to "Create an Employment Analytics Visualization in Less Than 10 
 Minutes". It's definitely taken me more than 10 mins due to lots of teething 
