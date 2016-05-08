@@ -28,7 +28,8 @@ change the last digit i.e.
 
 ```http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=10
 http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=20
-http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=30```
+http://www.indeed.co.uk/jobs?q=data+scientist&l=England&start=30
+```
 
 It took 7mins to scrape the data from 203 pages. 
 
