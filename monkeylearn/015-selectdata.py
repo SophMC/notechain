@@ -2,9 +2,9 @@ import json
 import pandas as pd
 import requests
 
-PI_open = open('API_key.txt')
-API_read = API_open.read()
-# Your API key goes here.
+with open('API_key.txt') as f:
+    API_KEY = f.read().strip()
+
 API_KEY = API_read
 
 raw_df = pd.read_csv('indeed_edin.csv', encoding='utf-8',

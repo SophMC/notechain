@@ -12,9 +12,7 @@ Python (2.7.11) distribution.
 ####Day 15 
 #####Markdown
 
-- If you have a weblink that goes over several lines, sometimes it gets broken 
-up. Use `&#160` at the end of the line to keep the whole link in tact.
-Couldn't get the link below to the Monkeylearn article to work without this.
+I configured Kate to extend the line length limit to 140, up from 80. This should reduce the problems from long web links.
 
 #####Monkey Learn visualisation
 
@@ -24,8 +22,8 @@ with the help of pandas and requests in python, found
 which hire data scientists in 
 England](https://goo.gl/zMsRZ6).  
 
-(https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-&#160
-indeedcouk/). Can't get this link to work in markdown, even with &#160 - 
+(https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-indeedcouk/). Can't get this link to work in markdown, 
+even with &#160 - 
 whatever I do there is always a space before indeedcouk which breaks up the 
 link. I don't know if it is a kate issue?  
 To get the above link to work I had to use googles [url 
