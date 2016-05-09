@@ -19,10 +19,12 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 #####Monkey Learn visualisation
 
 [Industries which hire data scientists in 
-England](https://goo.gl/zMsRZ6)
+England](https://goo.gl/zMsRZ6) 
+
 (https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-&#160
-indeedcouk/). Can't get this link to work in markdown - whatever I do there is 
-always a space before indeedcouk which breaks up the link.
+indeedcouk/). Can't get this link to work in markdown, even with &#160 - 
+whatever I do there is always a space before indeedcouk which breaks up the 
+link. I don't know if it is a kate issue?  
 To get the above link to work I had to use googles [url 
 shortener](https://goo.gl/).
 
