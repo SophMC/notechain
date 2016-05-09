@@ -21,6 +21,9 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 All done from scratch by me: 
 [Industries which hire data scientists in 
 England](https://goo.gl/zMsRZ6) 
+Enriching the [raw data](monkeylearn/indeed_edin.csv) with Monkeylearns API, 
+with the help of pandas and requests in python, found 
+[here](monkeylearn/selectdata.py).
 
 (https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-&#160
 indeedcouk/). Can't get this link to work in markdown, even with &#160 - 
