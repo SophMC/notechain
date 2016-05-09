@@ -8,6 +8,29 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 
+####Day 15 
+#####Markdown
+
+- If you have a weblink that goes over several lines, sometimes it gets broken 
+up. Use `&#160` at the end of the line to keep the whole link in tact.
+Couldn't get the link below to the Monkeylearn article to work without this.
+
+#####Monkey Learn visualisation
+
+[Industries which hire data scientists in 
+England](https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-
+england-indeedcouk/).
+
+
+#####Plot.ly
+
+I can produce a graph in ipython notebook and it will appear on the plot.ly 
+account online, along with a table with the data.   
+This is publicly available,privacy is paid for.
+
+
+
+
 --------------------------
 ####Day 14
 #####Import.io
