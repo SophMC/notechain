@@ -7,6 +7,7 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+--------------------
 
 ####Day 15 
 #####Markdown
@@ -18,7 +19,7 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 #####Monkey Learn visualisation
 
 [Industries which hire data scientists in 
-England](https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-
+England](https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-&#160
 england-indeedcouk/).
 
 
