@@ -18,16 +18,8 @@ I configured Kate to extend the line length limit to 140, up from 80. This shoul
 
 Enriching the [raw data](monkeylearn/indeed_edin.csv) with Monkeylearns API, 
 with the help of pandas and requests in python, found 
-[here](monkeylearn/015-selectdata.py) led to this plot in plot.ly: [Industries 
-which hire data scientists in 
-England](https://goo.gl/zMsRZ6).  
-
-(https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-indeedcouk/). Can't get this link to work in markdown, 
-even with &#160 - 
-whatever I do there is always a space before indeedcouk which breaks up the 
-link. I don't know if it is a kate issue?  
-To get the above link to work I had to use googles [url 
-shortener](https://goo.gl/).
+[here](monkeylearn/015-selectdata.py) led to this plot in plot.ly: [Industries which hire data scientists in 
+England](https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-indeedcouk/).  
 
 
 #####Plot.ly
