@@ -16,8 +16,9 @@ I'm trying to work through a short
 article which uses import.io (to scrape 
 lists from the web) and Monkeylearn (to get data from text using machine 
 learning) to ["Create an Employment Analytics Visualization in Less Than 10 
-Minutes"][https://blog.monkeylearn.com/how-to-create-an-employment-analytics-\
-visualization-in-less-than-10-minutes/]. It's definitely taken me more than 10 
+Minutes"]
+(https://blog.monkeylearn.com/how-to-create-an-employment-analytics-
+visualization-in-less-than-10-minutes/). It's definitely taken me more than 10 
 mins due to lots of teething 
 problems with import.io.
 
