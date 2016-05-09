@@ -19,15 +19,15 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 #####Monkey Learn visualisation
 
 [Industries which hire data scientists in 
-England](https://plot.ly/~SophMC/6/industries-employing-data-scientists-&#160
-in-england-indeedcouk/).
+England](https://plot.ly/~SophMC/6/industries-employing-data-scien&#160
+tists-in-england-indeedcouk/).
 
 
 #####Plot.ly
 
 I can produce a graph in ipython notebook and it will appear on the plot.ly 
-account online, along with a table with the data.   
-This is publicly available,privacy is paid for.
+account online, along with a table with the data.    
+This is publicly available, privacy is paid for.
 
 
 
