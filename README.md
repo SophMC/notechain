@@ -19,8 +19,8 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 #####Monkey Learn visualisation
 
 [Industries which hire data scientists in 
-England](https://plot.ly/~SophMC/6/industries-employing-data-scien&#160
-tists-in-england-indeedcouk/).
+England](<https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-
+england-indeedcouk/>).
 
 
 #####Plot.ly
