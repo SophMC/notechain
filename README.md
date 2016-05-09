@@ -20,8 +20,8 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 
 Industries which hire data scientists in 
 England -  
-(<https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-
-indeedcouk/>). Can't get this link to work in markdown.
+(https://plot.ly/~SophMC/6/industries-employing-data-scientists-in-england-
+indeedcouk/). Can't get this link to work in markdown.
 
 
 #####Plot.ly
