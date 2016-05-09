@@ -18,6 +18,7 @@ Couldn't get the link below to the Monkeylearn article to work without this.
 
 #####Monkey Learn visualisation
 
+All done from scratch by me: 
 [Industries which hire data scientists in 
 England](https://goo.gl/zMsRZ6) 
 
