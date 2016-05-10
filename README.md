@@ -23,7 +23,7 @@ Averaging timeseries data:
 
 - resampling using resample() is handy with datetime information, but you have to turn it into an index. There are two steps here, first you 
 have to make object with resample, then apply `.agg()` do do the statistics (mean, std).     
-- couldn't upsample the mean and std for each month into the same irregularity as the original array, though it is very easy to make it 
+- couldn't upsample the mean and std for each month to the same irregular original array, though it is very easy to make it 
 into a regularly spaced array. Could do that, then match it to the original array. 
 - Or, use groupby `grouped = wind.groupby(['year','month'])` though I haven't worked out if this is actually doing what I want, and if it 
 is possible to upsample it to the original array.
