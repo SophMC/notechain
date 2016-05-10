@@ -7,6 +7,29 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+--------------------
+####Day 16
+
+#####Wind speed plotting
+
+- Used pandas plotting `df.plot` is a wrapper for `plt.plot(df)`  
+- density functions (kind='kde') of ws at different times of day  
+- Overplotting several lines in one plot  
+- Adding a legend  
+- Specifying the colour of each line  
+
+Averaging timeseries data:
+
+- resampling using resample() is handy with datetime information, but you have to turn it into an index.    
+- couldn't upsample the mean and std for each month into the same irregularity as the original array, though it is very easy to make it 
+into a regularly spaced array. Could do that, then match it to the original array. There are two steps here, first you have to make object 
+with resample, then apply `.agg()` do do the statistics (mean, std).  
+- Or, use groupby `grouped = wind.groupby(['year','month'])` though I haven't worked out if this is actually doing what I want, and if it 
+is possible to upsample it to the original array.
+
+[See the notebook](windspeed/notebooks/016-windspeed.ipynb) for the working.
+
 --------------------
 
 ####Day 15 
