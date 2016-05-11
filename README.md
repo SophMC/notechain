@@ -7,11 +7,35 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+--------------------
+#####Day 17
+
+######windspeed plotting
+
+- Select rows based on two different conditions in two different columns. 
+I was nearly there before - just needed brackets around each condition!  
+`onemonth = wind[(wind['year']== 1984) & (wind['month'] == 3)]`
+This selects rows from march in 1984.   
+
+- Grouping and averagind data using `df.groupby` and `.aggregate([np.mean,np.std])`.  
+
+- Using lambda to define a function to pass to transform():
+  ```f = lambda x: x.mean()
+     transformed = grouped.transform(f)```  
+
+- Some very simple code for plotting a comparison between an averaged dataset and it's original:
+`compare = pd.DataFrame({'Original':wind['ws'], 'Transformed':wind['mean_ws']})`
+`compare.plot()`
+
+- Experimented a little with plotting std error bars. 
+
+[Notebook](windspeed/notebooks/017-windspeed.ipynb) with the working
+
 
 --------------------
 ####Day 16
 
-#####Wind speed plotting
+#####windspeed plotting
 
 - Used pandas plotting. `df.plot` is a wrapper for `plt.plot(df)`.    
 - Plotted density functions (kind='kde') of ws at different times of day.  
