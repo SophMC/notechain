@@ -139,7 +139,7 @@ I want to make a script using and classes and functions which can:
 winds at 00,06,12 and 18.
 - The graph will be output into a image file.
 
-So far I have made [this mess](windspeed/012-ws_tseries.py). Maybe functions 
+So far I have made [this mess](windspeed/notebooks/012-ws_tseries.py). Maybe functions 
 and classes are just not needed for this task, or maybe I don't really have a 
 clue on how to apply them. 
 
@@ -153,7 +153,7 @@ Opened an [issue](https://github.com/SophMC/notechain/issues). Not able to use
 `df.query()` as apparently `numexpr` is not supported. 
 
 The following working is in 
-[011-windspeed.ipynb](windspeed/011-windspeed.ipynb).   
+[011-windspeed.ipynb](windspeed/notebooks/011-windspeed.ipynb).   
 `%matplotlib inline` ensures plots display in the notebook
 
 `plt.plot(xaxis,yaxis)` `plt.xlable()` `plt.show()`   
@@ -179,7 +179,7 @@ isin().
 
 Solved my [issue](https://github.com/SophMC/notechain/issues/1) on the 
 timestamp problem.
-Here is [some working](windspeed/010_1-windspeed.ipynb) on the way to finding 
+Here is [some working](windspeed/notebooks/010_1-windspeed.ipynb) on the way to finding 
 it out. 
 Tips to remember:   
 
@@ -225,7 +225,7 @@ out.
 
 #####Plotting windspeed 
 
-My [first attempt](windspeed/008-windspeed.ipynb) to read in [windspeed 
+My [first attempt](windspeed/notebooks/008-windspeed.ipynb) to read in [windspeed 
 data](windspeed/61401BirMoghrein_allwinds.txt) with the format:   
 `year, month, day, time, ws`         
 I wanted to combine the first four columns into a new timestamp column but this 
