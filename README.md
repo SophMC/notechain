@@ -8,16 +8,16 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 --------------------
-#####Day 17
+####Day 17
 
-######windspeed plotting
+#####windspeed plotting
 
 - Select rows based on two different conditions in two different columns. 
 I was nearly there before - just needed brackets around each condition!  
 `onemonth = wind[(wind['year']== 1984) & (wind['month'] == 3)]`
 This selects rows from march in 1984.   
 
-- Grouping and averagind data using `df.groupby` and `.aggregate([np.mean,np.std])`.  
+- Grouping and averaging data using `df.groupby` and `.aggregate([np.mean,np.std])`.  
 
 - Using lambda to define a function to pass to transform():
   ```f = lambda x: x.mean()
