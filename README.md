@@ -8,6 +8,21 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 --------------------
+####Day 18
+
+#####windspeed plotting
+
+- Used `reset_index()` on a new dataframe created from a groupby() object with monthly averages.
+- First tried to do the above with a loop and MultiIndex- it worked fine.
+- Subsections can be selected by specifying datetimes as strings e.g.
+`w['mean']['1998-05':'1998-10'].plot(yerr=w['std'])`. 
+- Plotted some error bars and a shaded error "band"
+- Converted an index into a datetime object `df.index=pd.to_datetime(year + month)`. Try to remember the syntax!
+
+Notebook found [here](windspeed/notebooks/017-windspeed.ipynb).
+
+
+--------------------
 ####Day 17
 
 #####windspeed plotting
