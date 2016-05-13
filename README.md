@@ -8,6 +8,30 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 --------------------
+####Day 19
+
+#####MySQL   
+
+Learned some basics:
+- Noticed lots of similarities to ideas from python oop. 
+- SQL has classes with attributes, these are similar to python class attributes.
+Python class methods are called associations in SQL and the associated class is a child of the parent (which the child inherits attributes 
+from)    
+- Each row is a tuple.   
+- Super Key (SK), Primary Key(PK), Foreign Key(FK), Candidate Key(CK), surrogate PK and substitute PK.    
+
+
+#####windspeed plotting
+
+- Opened an issue on creating the datetime index from a grouped dataframe and `reset_index()`
+- Could still achieve the above using a loop.
+- Some overplotting of different frequency data and shaded error region
+
+Notebook found [here](windspeed/notebooks/019-windspeed.ipynb).
+
+*To do - make a script to group stations, make panels of plots, and output them to a file per group. 
+
+--------------------
 ####Day 18
 
 #####windspeed plotting
@@ -17,10 +41,9 @@ Python (2.7.11) distribution.
 - Subsections can be selected by specifying datetimes as strings e.g.    
 `w['mean']['1998-05':'1998-10'].plot(yerr=w['std'])`. 
 - Plotted some error bars and a shaded error "band"
-- Converted an index into a datetime object `df.index=pd.to_datetime(year + month)`. Try to remember the syntax!
 
-Notebook found [here](windspeed/notebooks/017-windspeed.ipynb).
-
+Have added an [updated version](windspeed/notebooks/018_2-windspeed.ipynb) of this because the datetime index was wrong and I have no idea 
+how it worked [here](windspeed/notebooks/018-windspeed.ipynb).
 
 --------------------
 ####Day 17
@@ -34,7 +57,7 @@ This selects rows from march in 1984.
 
 - Grouping and averaging data using `df.groupby` and `.aggregate([np.mean,np.std])`.  
 
-- Using lambda to define a function to pass to transform():
+- Using lambda to define a function to pass to transform():   
   `f = lambda x: x.mean()     
    transformed = grouped.transform(f)` 
 
