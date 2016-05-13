@@ -29,7 +29,7 @@ from)
 
 Notebook found [here](windspeed/notebooks/019-windspeed.ipynb).
 
-*To do - make a script to group stations, make panels of plots, and output them to a file per group. 
+*To do* - make a script to group stations, make panels of plots, and output them to a file per group. 
 
 --------------------
 ####Day 18
