@@ -15,16 +15,17 @@ Python (2.7.11) distribution.
 
 #####MySQL
 
-- `mysql -u root -p --local-infile` if you want to load local files into a database
+`mysql -u root -p --local-infile` if you want to load local files into a database.
+  
 Today covered:
-  - Making a new database (CREATE DATABASE)
-  - Select database to work on (USE ..). Don't need ;
-  - Making a table in a database (CREATE TABLE)
-  - Inserting values into the table (INSERT INTO table VALUES (list of values))
-  - Loading data from a locally stored text file into the table (LOAD DATA)
-  - Changing a record in the table (UPDATE table SET .. WHERE ..)
-  - Selecting unique values form a column (SELECT DISTINCT column FROM table;)
-  - Finished with [datetime selections](http://dev.mysql.com/doc/refman/5.5/en/date-calculations.html)
+- Making a new database (CREATE DATABASE)
+- Select database to work on (USE ..). Don't need ;
+- Making a table in a database (CREATE TABLE)
+- Inserting values into the table (INSERT INTO table VALUES (list of values))
+- Loading data from a locally stored text file into the table (LOAD DATA)
+- Changing a record in the table (UPDATE table SET .. WHERE ..)
+- Selecting unique values form a column (SELECT DISTINCT column FROM table;)
+Finished with [datetime selections](http://dev.mysql.com/doc/refman/5.5/en/date-calculations.html)
 
 
 --------------------
