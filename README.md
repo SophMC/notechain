@@ -55,7 +55,7 @@ of counts which correspond to each boxplot (labelled with a MultiIndex!).
 
 - Violin plots might be an interesting alternative. 
 
-Workings [here](windspeed/notebooks/019-windspeed.ipynb)
+Workings [here](windspeed/notebooks/020-windspeed.ipynb)
 
 --------------------
 ####Day 19
