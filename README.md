@@ -32,10 +32,10 @@ tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-
 
 #####windspeed plotting 
 
-- if you make the index a datetime object it is easier to slice when plotting i.e. 
-`wind.index=wind['date_time']`     
-`year_sub = wind['1997':'2001']`       
-`plt.plot(year_sub.date_time,year_sub.ws)`    
+- Make index a datetime object - easier to slice when plotting i.e.     
+`wind.index=wind['date_time']`        
+`year_sub = wind['1997':'2001']`          
+`plt.plot(year_sub.date_time,year_sub.ws)`      
 
 - I want to create a box and whisker plot, with the number of observations on top for each box and whisker. The issue is sharing the x-axis 
 between the two sets of data. Its nice to use pandas for making the boxplot (very easy to create groups), but very hard to then plot a line 
