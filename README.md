@@ -7,6 +7,44 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+
+--------------------
+
+####Day 21
+
+#####MySQL
+
+
+--------------------
+
+####Day 20
+
+#####MySQL
+
+- Installed version and client 5.5, using [this 
+tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04)
+
+- To remove current version, to make way for new version (5.6 - 5.7 is available too) follow 
+[this](http://askubuntu.com/questions/489815/cannot-install-mysql-server-5-5-the-following-packages-have-unmet-dependicies)  
+
+- To log in `mysql -u root -p` and it will ask for a password.
+
+#####windspeed plotting 
+
+- if you make the index a datetime object it is easier to slice when plotting i.e. 
+`wind.index=wind['date_time']`     
+`year_sub = wind['1997':'2001']`       
+`plt.plot(year_sub.date_time,year_sub.ws)`    
+
+- I want to create a box and whisker plot, with the number of observations on top for each box and whisker. The issue is sharing the x-axis 
+between the two sets of data. Its nice to use pandas for making the boxplot (very easy to create groups), but very hard to then plot a line 
+of counts which correspond to each boxplot (labelled with a MultiIndex!).
+
+- Violin plots might be an interesting alternative. 
+
+Workings [here](windspeed/notebooks/019-windspeed.ipynb)
+
 --------------------
 ####Day 19
 
