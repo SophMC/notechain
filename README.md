@@ -12,7 +12,7 @@ Python (2.7.11) distribution.
 
 #####boxplot with width = counts
 
-My annotated working [here](tutorials/boxplot_counts.ipynb)
+My annotated working through a tutorial [here](tutorials/boxplot_counts.ipynb).
 
 Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspeed.ipynb).
   - used `ax.set_xticklabels()` to add a counts label to each tick.     
@@ -20,9 +20,12 @@ Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspe
 
 #####datetime
 
-- pd.to_datetime and datetime both need year, month and day. I don't think it is possible to just do with year and month
+- pd.to_datetime and datetime both need year, month and day. I don't think it is possible to just do with year and month.
 
 #####SQL
+- You can extract parts of a date from a column (type=date) using functions YEAR(), MONTH() and DAYOFMONTH()
+- An empty string in a cell IS NOT NULL. so " " IS NOT NULL = 1 (true)
+- Use LIKE instead of = and NOT LIKE instead of !=
 
 
 --------------------
