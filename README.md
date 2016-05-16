@@ -7,6 +7,22 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+--------------------
+####Day 22
+
+#####boxplot with width = counts
+
+My annotated working [here](tutorials/boxplot_counts.ipynb)
+
+Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspeed.ipynb).
+  - used `ax.set_xticklabels()` to add a counts label to each tick.     
+  - splitting up tuples to get counts `counts = [len(v) for k,v in windg]` where windg = grouped object 
+
+#####datetime
+
+- pd.to_datetime and datetime both need year, month and day. I don't think it is possible to just do with year and month
+
+#####SQL
 
 
 --------------------
