@@ -12,7 +12,7 @@ Python (2.7.11) distribution.
 
 #####boxplot with width = counts
 
-My annotated working through a tutorial [here](tutorials/boxplot_counts.ipynb).
+My annotated working through a tutorial [here](tutorials/022-boxplot_counts.ipynb).
 
 Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspeed.ipynb).
   - used `ax.set_xticklabels()` to add a counts label to each tick.     
@@ -26,7 +26,9 @@ Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspe
 - You can extract parts of a date from a column (type=date) using functions YEAR(), MONTH() and DAYOFMONTH()
 - An empty string in a cell IS NOT NULL. so " " IS NOT NULL = 1 (true)
 - Use LIKE instead of = and NOT LIKE instead of !=
-
+- Find names with a w in table pet: `SELECT * FROM pet WHERE name LIKE '%w%';`
+  - % is like * or `wildcard`
+- Find something with 5 characters; '_____' (5 _ underscores)
 
 --------------------
 
