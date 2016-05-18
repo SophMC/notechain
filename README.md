@@ -12,9 +12,9 @@ Python (2.7.11) distribution.
 
 ##### SQL
 
-- Must use brackets around a query using OR. 
+- Must use brackets around a query using OR.      
   `SELECT * FROM stars WHERE starid>1000 AND starid <2000 AND (class=0 OR class=1)`
-- `<>` for NOT.
+- `<>` for NOT.    
 - `ORDER BY ..` for ascending `ORDER BY .. DESC for descending`
 - BEGIN;..queries...ROLLBACK to "undo"
 - INSERT INTO .. with SELECT..
@@ -23,7 +23,7 @@ Python (2.7.11) distribution.
 
 - `list('abcdef')` splits up the string into a,b,c,d,e,f. Good to remember! 
 - selecting from df using lambda function 
-  - `criterion = df2['a'].map(lambda x: x.startswith('t'))`
+  - `criterion = df2['a'].map(lambda x: x.startswith('t'))`   
     `df2[criterion]`
     
 ##### Windspeed group plots
