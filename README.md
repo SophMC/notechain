@@ -12,16 +12,16 @@ Python (2.7.11) distribution.
 
 ##### SQL
 
-- using REGEXP(RLIKE) to find patterns. Using ^ and $ to specify beginning and end.
+- Using REGEXP(RLIKE) to find patterns. Using ^ and $ to specify beginning and end.
 - '[abd]' finds any values which have a, b or d in them. '[0-9]' to find a number.
 - Going to do [this](http://sol.gfxile.net/g3/) tutorial from now on.
 
-##### index tutorial
+##### Index tutorial
 
 - Working through the Pandas [basics of indexing](http://pandas.pydata.org/pandas-docs/stable/indexing.html). Need to get a good grounding 
 in this. 
 
-##### windspeed group plots
+##### Windspeed group plots
 
 - Working on a script which produces a panel of plots for a group of stations in one output file. 
 
