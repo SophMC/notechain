@@ -7,10 +7,34 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+--------------------
+####Day 25
+
+##### SQL [tutorial](http://sol.gfxile.net/g3/)
+
+- Best to use transations (BEGIN; ROLLBACK) when using UPDATE or DELETE
+- COALESCE(value1,value2,value3) returns the first non-NULL value in a list
+- Using UPDATE with WHERE to only update columns if they meet a criteria
+- Can't get my head around the query:     
+  `SELECT COUNT() FROM stars, (SELECT AVG(intensity) AS ai2 FROM stars, (SELECT AVG(intensity) AS ai FROM stars) WHERE intensity > ai) WHERE 
+intensity > ai2` --> count the stars that have higher than average intensity of only those stars that have higher than average intensity.
+
+##### Indexing tutorial
+
+- Using `isin()` together with `all()` to select particular values from particular columns in a DataFrame
+- Using `where()` to select values, change them inplace and change them with values from other columns
+
+##### Windspeed groups
+
+- `type(obj)`  to find the object type.
+
+
+
 --------------------
 ####Day 24
 
-##### SQL
+##### SQL [tutorial](http://sol.gfxile.net/g3/)
 
 - Must use brackets around a query using OR.      
   `SELECT * FROM stars WHERE starid>1000 AND starid <2000 AND (class=0 OR class=1)`
