@@ -28,6 +28,11 @@ intensity > ai2` --> count the stars that have higher than average intensity of 
 ##### Windspeed groups
 
 - `type(obj)`  to find the object type.
+- Improved the code by adding the 06,12 etc values to the wind dataframe, then grouping them all at the same time. 
+`wind['ws_06']= wind['ws'][wind['hour'].isin([6])]` 
+`group = wind.groupby(['year','month'])`
+`wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].aggregate([np.mean,np.std])`
+Now these will be much easier to plot against each other. Can even use a loop to do it. 
 
 #### Todo list
 
