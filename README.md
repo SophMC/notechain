@@ -36,7 +36,7 @@ Now these will be much easier to plot against each other. Can even use a loop to
 
 #### Todo list
 
-- [This is](TOdo.md) a reference of the learning resources I am in the process of working through. This is the very minimum I would 
+- [These are](TOdo.md) the learning resources I am in the process of working through. This is the very minimum I would 
 like to get through in the next couple of months!
 
 --------------------

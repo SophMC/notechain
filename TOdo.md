@@ -2,7 +2,7 @@
 
 ### General Data Science stats
 
-- Do [this](http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/tree/master/notebooks/) before the Machine Learning below
+- Do [this](http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/tree/master/notebooks/) before the Machine Learning below.
 
 
 ### Machine Learning 
@@ -10,7 +10,7 @@
 - Learn and understand [this introduction](http://www.astroml.org/sklearn_tutorial/general_concepts.html) from the python lib scikit. I also 
 like this [reference map](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html). 
 
-- Clone [this](https://github.com/ogrisel/sklearn_pycon2014) repository and work through
+- Clone [this](https://github.com/ogrisel/sklearn_pycon2014) repository and work through.
 
 - Do the MonkeyLearn tutorials [here]
 (https://blog.monkeylearn.com/getting-actionable-insights-from-reviews-using-machine-learning-part1/?utm_source=Email&utm_medium= 
@@ -23,9 +23,9 @@ utm_campaign=16-hacker-news-categorizer)
 
 - Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. 
 
-- Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/retrieving-data.html) tutorial from the when finished the one above.
+- Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/retrieving-data.html) tutorial from MySQL when finished the one above.
 
-- Find a SQL project to work on
+- Find a MySQL project to work on.
 
 ### Pandas
 
