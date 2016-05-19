@@ -29,7 +29,10 @@ intensity > ai2` --> count the stars that have higher than average intensity of 
 
 - `type(obj)`  to find the object type.
 
+#### Todo list
 
+- A reference of the learning resources I am in the process of working through. This is the very minimum I would like to get through in the 
+next couple of months!
 
 --------------------
 ####Day 24
