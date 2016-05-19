@@ -22,22 +22,22 @@ intensity > ai2` --> count the stars that have higher than average intensity of 
 
 ##### Indexing tutorial
 
-- Using `isin()` together with `all()` to select particular values from particular columns in a DataFrame
-- Using `where()` to select values, change them inplace and change them with values from other columns
+- Using `isin()` together with `all()` to select particular values from particular columns in a DataFrame.
+- Using `where()` to select values, change them inplace and change them with values from other columns.
 
 ##### Windspeed groups
 
 - `type(obj)`  to find the object type.
 - Improved the code by adding the 06,12 etc values to the wind dataframe, then grouping them all at the same time. 
-`wind['ws_06']= wind['ws'][wind['hour'].isin([6])]` 
-`group = wind.groupby(['year','month'])`
-`wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].aggregate([np.mean,np.std])`
+`wind['ws_06']= wind['ws'][wind['hour'].isin([6])]`     
+`group = wind.groupby(['year','month'])`        
+`wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].aggregate([np.mean,np.std])`        
 Now these will be much easier to plot against each other. Can even use a loop to do it. 
 
 #### Todo list
 
-- A reference of the learning resources I am in the process of working through. This is the very minimum I would like to get through in the 
-next couple of months!
+- [This is](Todo.md) reference of the learning resources I am in the process of working through. This is the very minimum I would like to 
+get through in the next couple of months!
 
 --------------------
 ####Day 24
