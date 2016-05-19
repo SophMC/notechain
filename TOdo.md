@@ -1,8 +1,4 @@
-# This is my list of learning resources which I want to work through
-
-
-## Priority
-
+# Learning resources to work through
 
 ### General Data Science stats
 
