@@ -17,7 +17,10 @@ Python (2.7.11) distribution.
 - INNER JOIN, OUTER JOIN (Qu12)
 - CREATE VIEW (Qu13)
 
+##### Lending Club Linear Regression 
 
+- Modelling Interest rate as a function of Loan amount and FICO Score
+- 
 
 
 
@@ -87,7 +90,7 @@ like to get through in the next couple of months!
 ##### Index tutorial
 
 - Working through the Pandas [basics of indexing](http://pandas.pydata.org/pandas-docs/stable/indexing.html). Need to get a good grounding 
-in this. 
+in this. Notebook found [here](tutorials/023-indexing.ipynb).
 
 ##### Windspeed group plots
 
