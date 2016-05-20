@@ -9,6 +9,19 @@ Python (2.7.11) distribution.
 
 
 --------------------
+
+####Day 26
+
+##### SQL [tutorial](http://sol.gfxile.net/g3/)
+
+- INNER JOIN, OUTER JOIN (Qu12)
+- CREATE VIEW (Qu13)
+
+
+
+
+
+--------------------
 ####Day 25
 
 ##### SQL [tutorial](http://sol.gfxile.net/g3/)

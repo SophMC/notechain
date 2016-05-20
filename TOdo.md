@@ -23,7 +23,7 @@ utm_campaign=16-hacker-news-categorizer)
 
 - Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. 
 
-- Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/retrieving-data.html) tutorial from MySQL when finished the one above.
+- Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/examples.html) tutorial which goes through common queries from MySQL.
 
 - Find a MySQL project to work on.
 
