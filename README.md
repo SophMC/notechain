@@ -19,10 +19,14 @@ Python (2.7.11) distribution.
 
 ##### Lending Club Linear Regression 
 
-- Modelling Interest rate as a function of Loan amount and FICO Score
-- 
-
-
+- Modelling Interest rate as a function of Loan amount and FICO Score. Steps:
+  - Put the pandas columns into seperate variables. Turn these into 2D arrays and into columns eg `x1=np.matrix(fico).T`
+  - Put the two idependent vars into a stacked 2D array `x = np.column_stack([x1,x2])`
+  - Add a constant (a column on 1s) to x `X = sm.add_constant(x)`. X is now x.
+  - Create an ordinary least squarts model with `model = sm.OLS(y,X)`, y=response, X=independents+constant
+  - Apply a fitting method to the model. `f = model.fit()`
+    - There is now a list of attributes to f, such as `f.params`(coefficients), `f.pvalues`
+Full notes and working [here](tutorials/026-Linear_Regression_Analysis.ipynb).
 
 --------------------
 ####Day 25
@@ -493,7 +497,7 @@ bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
 ####Day 5 
 #####Pandas Data Analysis
 The following actions are found 
-[here](pandas-notebooks-csv/004-LendingClub.ipynb):  
+[here](LendingClub/004-LendingClub.ipynb):  
 
 * Removed % signs and "months" and converted the rest into a number.  
 * Removed null values with `df.dropna()`. Investigate null values by saving 
@@ -538,7 +542,7 @@ worked. An \ was needed between the message and the html emphasized text.
 <em style="color: green; font-size: 2em;">$greeting</em>.```
 
 #####More Data Analysis in Pandas: 
-Started [plotting the data](pandas-notebooks-csv/004-LendingClub.ipynb) with  
+Started [plotting the data](LendingClub/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
 
 To suppress the printing of the object before a panel of plots
@@ -549,14 +553,14 @@ To suppress the printing of the object before a panel of plots
 
 ####Day 3  
 %timeit : time how long a command takes to run.  
-More pandas practise [here](pandas-notebooks-csv/003-LendingClub.ipynb).   
+More pandas practise [here](LendingClub/003-LendingClub.ipynb).   
 `df.dropna(), df.isnull(), df.any(), df.sum()`
 
 --------------
 
 
 ####Day 2                                                                       
-More pandas practise [here](pandas-notebooks-csv/002-LendingClub.ipynb). 
+More pandas practise [here](LendingClub/002-LendingClub.ipynb). 
 Re-discovered the 
 usefulness of cheatsheats. Now have a number of functions for exploring the 
 data.    
