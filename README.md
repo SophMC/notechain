@@ -7,6 +7,28 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+--------------------
+####Day 27
+
+##### Markdown
+
+- use \$a_2$\ to create maths symbols $a_2$
+- [Guide](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for writing equations in Tex.
+
+##### Lending Club Linear Regression
+
+- Finished [the workbook](tutorials/026-Linear_Regression_Analysis.ipynb). Didn't show how to make predictions using the model.
+
+##### Lending Club Logistical Regression
+
+- Using the Log Function to predict the probability that score x will lead to a win.
+- Log Function = Logit function combined with Linear Model.
+  1) Work out the coefficients for multivariate linear regression
+  2) Plug the variables(we want to query) and coefficients(worked out in step 1) into Z(equation of a straight line)
+  3) Calculate the probability of Z using $p(Z) = {1 \over 1+ e^{(Z)}}$
+- Plotted how probability varies with Loan amount and FICO score (changing the colour/symbols). See 
+[here](tutorials/027-Logistical_regression.ipynb)
+
 
 --------------------
 
@@ -19,14 +41,17 @@ Python (2.7.11) distribution.
 
 ##### Lending Club Linear Regression 
 
-- Modelling Interest rate as a function of Loan amount and FICO Score. Steps:
+- Modelling Interest rate as a function of Loan Amount and FICO Score. Steps:
   - Put the pandas columns into seperate variables. Turn these into 2D arrays and into columns eg `x1=np.matrix(fico).T`
   - Put the two idependent vars into a stacked 2D array `x = np.column_stack([x1,x2])`
-  - Add a constant (a column on 1s) to x `X = sm.add_constant(x)`. X is now x.
+  - Add a constant (a column on 1s) to x:  `X = sm.add_constant(x)`. X is now x.
   - Create an ordinary least squarts model with `model = sm.OLS(y,X)`, y=response, X=independents+constant
   - Apply a fitting method to the model. `f = model.fit()`
     - There is now a list of attributes to f, such as `f.params`(coefficients), `f.pvalues`
+    
 Full notes and working [here](tutorials/026-Linear_Regression_Analysis.ipynb).
+
+
 
 --------------------
 ####Day 25
