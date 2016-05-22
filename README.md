@@ -25,7 +25,7 @@ Python (2.7.11) distribution.
 - Log Function = Logit function combined with Linear Model.
   1) Work out the coefficients for multivariate linear regression
   2) Plug the variables(we want to query) and coefficients(worked out in step 1) into Z(equation of a straight line)
-  3) Calculate the probability of Z using \begin{equation} $p(Z) = {1 \over 1+ e^{(Z)}}$ \end{equation}
+  3) Calculate the probability of Z using p(Z) = 1 \ 1+ e^(Z)
 - Plotted how probability varies with Loan amount and FICO score (changing the colour/symbols). See 
 [here](tutorials/027-Logistical_regression.ipynb)
 
