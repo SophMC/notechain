@@ -8,6 +8,24 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 --------------------
+####Day 28
+
+##### SQL 
+
+- CREATE TABLE tablename(columnname datatype constraints). 
+- constraints: PRIMARY KEY, NOT NULL, UNIQUE, FOREIGN KEY, CHECK
+- To fill the table: INSERT INTO tablename(column1,column2) VALUES(column1value, column2value)
+
+##### Lending Club Random Forests
+
+- Classification: Task of assigning objects to one of several pre-defined categories.   
+- Bootstrapping: Random sampling WITH replacements. Repeatedly sampling from the same sample.    
+- Bootstrap Aggregation (Bagging): Each model in an ensemble has an equal weight. Each model is built in parallel. Example: Random Forest.  
+ 
+- Boosting: Can be better than Bagging. Models are built sequentially and learn where previous models were strong/weak and weight them 
+accordingly. Example: AdaBoost
+
+--------------------
 ####Day 27
 
 ##### Markdown
