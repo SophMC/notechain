@@ -20,7 +20,7 @@ as using a test set the same size as the training set.
 
 - Did some initial search and replace in Kate of [this list](tutorials/Samsung/data/features_copy.txt) of 
 variable names
-- Removed Duplicate columns using df.drop_duplicates().
+- Removed duplicate columns using df.drop_duplicates().
 - Removed "()", "-" and numbers from the list of names.
 
 ##### SQL
@@ -29,8 +29,8 @@ variable names
 - Show the columns in a table:
   - SQLlite - PRAGMA table_info(tablename)
   - MySQL - SELECT * tablename.INFORMATION_SCHEMA.COLUMNS (There is a long list of other things that can be queried other than COLUMNS)
-  - GROUP BY and HAVING (an equivalent to WHERE, applied to the grouped data) (Ex 17)
-  - Couldn't do Qu 17 myself - must learn and understand the solution (copied!)
+- GROUP BY and HAVING (an equivalent to WHERE, applied to the grouped data) (Ex 17)
+- Couldn't do Qu 17 myself - must learn and understand the solution (copied!)
  
 
 --------------------
