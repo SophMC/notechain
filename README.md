@@ -18,8 +18,8 @@ as using a test set the same size as the training set.
 
 **[Data cleaning](tutorials/Samsung/notebooks/029-Samsung_cleanup.ipynb)**
 
-- Did some initial search and replace in Kate. 
-- Some initial cleaning of [this list](tutorials/Samsung/data/features_copy.txt) of variable names
+- Did some initial search and replace in Kate of [this list](tutorials/Samsung/data/features_copy.txt) of 
+variable names
 - Removed Duplicate columns using df.drop_duplicates().
 - Removed "()", "-" and numbers from the list of names.
 
