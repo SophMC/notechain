@@ -7,16 +7,42 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+-------------------
+
+####Day 29 
+
+##### Random Forests theory
+
+- Out of Bag (oob) error: Using the subset that is left out of the bootstrapping sampling to test the decision trees (models). As accurate 
+as using a test set the same size as the training set.
+
+**[Data cleaning](tutorials/Samsung/notebooks/029-Samsung_cleanup.ipynb)**
+
+- Did some initial search and replace in Kate. 
+- Some initial cleaning of [this list](tutorials/Samsung/data/features_copy.txt) of variable names
+- Removed Duplicate columns using df.drop_duplicates().
+- Removed "()", "-" and numbers from the list of names.
+
+##### SQL
+
+- ALTER TABLE tablename alteration(RENAME TO, ADD COLUMN, RENAME COLUMN TO, MODIFY COLUMN, DROP COLUMN)
+- Show the columns in a table:
+  - SQLlite - PRAGMA table_info(tablename)
+  - MySQL - SELECT * tablename.INFORMATION_SCHEMA.COLUMNS (There is a long list of other things that can be queried other than COLUMNS)
+  - GROUP BY and HAVING (an equivalent to WHERE, applied to the grouped data) (Ex 17)
+  - Couldn't do Qu 17 myself - must learn and understand the solution (copied!)
+ 
+
 --------------------
 ####Day 28
 
 ##### SQL 
 
-- CREATE TABLE tablename(columnname datatype constraints). 
+- CREATE TABLE tablename(columnname datatype constraints). (Qu 14)
 - constraints: PRIMARY KEY, NOT NULL, UNIQUE, FOREIGN KEY, CHECK
-- To fill the table: INSERT INTO tablename(column1,column2) VALUES(column1value, column2value)
+- To fill the table: INSERT INTO tablename(column1,column2) VALUES(column1value, column2value). (Qu 15)
 
-##### Lending Club Random Forests
+##### Random Forests theory
 
 - Classification: Task of assigning objects to one of several pre-defined categories.   
 - Bootstrapping: Random sampling WITH replacements. Repeatedly sampling from the same sample.    
