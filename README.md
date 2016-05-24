@@ -12,9 +12,11 @@ Python (2.7.11) distribution.
 
 ####Day 30
 
-##### Random Forests - Data cleaning
+##### Random Forests
 
-- I think I have to stick to `df.replace` and `df.contains` for dataFrames, as opposed to python `re` module, as I would need to use loops.
+*Data cleaning*
+
+- Stick to `df.replace` and `df.contains` for dataFrames, as opposed to python `re` module, which would need loops.
 - Worked out how to search for two different words within one string:
   - `df[df.name.str.contains('Body.*Mag')]`
   - Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
@@ -25,8 +27,10 @@ in the tutorial.
 
 ##### SQL
 
-- I got Qu 17 to work with my own solution!
+- I got Qu 17 to work with [my own solution](SQL/galaXQL_17.sql)!
 - Practised using GROUP BY, INNER and LEFT OUTER JOIN and understand them much better. 
+
+#####
 
 -------------------
 
@@ -69,11 +73,11 @@ variable names
 
 *Theory*
 
-- Classification: Task of assigning objects to one of several pre-defined categories.   
-- Bootstrapping: Random sampling WITH replacements. Repeatedly sampling from the same sample.    
-- Bootstrap Aggregation (Bagging): Each model in an ensemble has an equal weight. Each model is built in parallel. Example: Random Forest.  
- 
-- Boosting: Can be better than Bagging. Models are built sequentially and learn where previous models were strong/weak and weight them 
+- **Classification**: Task of assigning objects to one of several pre-defined categories.   
+- **Bootstrapping**: Random sampling WITH replacements. Repeatedly sampling from the same sample.    
+- **Bootstrap Aggregation (Bagging)**: Each model in an ensemble has an equal weight. Each model is built in parallel. Example: Random 
+Forest.   
+- **Boosting**: Can be better than Bagging. Models are built sequentially and learn where previous models were strong/weak and weight them 
 accordingly. Example: AdaBoost
 
 --------------------
