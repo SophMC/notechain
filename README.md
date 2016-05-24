@@ -14,7 +14,7 @@ Python (2.7.11) distribution.
 
 ##### Random Forests - Data cleaning
 
-- I think I have to stick to df.replace and df.contains for dataFrames, as opposed to python re module, as I would need to use loops.
+- I think I have to stick to `df.replace` and `df.contains` for dataFrames, as opposed to python `re` module, as I would need to use loops.
 - Worked out how to search for two different words within one string:
   - `df[df.name.str.contains('Body.*Mag')]`
   - Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
@@ -25,6 +25,8 @@ in the tutorial.
 
 ##### SQL
 
+- I got Qu 17 to work with my own code!
+- Practised using GROUP BY, INNER and LEFT OUTER JOIN and understand them much better. 
 
 -------------------
 
