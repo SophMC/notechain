@@ -25,19 +25,21 @@ in the tutorial.
 
 ##### SQL
 
-- I got Qu 17 to work with my own code!
+- I got Qu 17 to work with my own solution!
 - Practised using GROUP BY, INNER and LEFT OUTER JOIN and understand them much better. 
 
 -------------------
 
 ####Day 29 
 
-##### Random Forests theory
+##### Random Forests 
+
+*Theory*
 
 - Out of Bag (oob) error: Using the subset that is left out of the bootstrapping sampling to test the decision trees (models). As accurate 
 as using a test set the same size as the training set.
 
-**[Data cleaning](tutorials/Samsung/notebooks/029-Samsung_cleanup.ipynb)**
+*[Data cleaning](tutorials/Samsung/notebooks/029-Samsung_cleanup.ipynb)*
 
 - Did some initial search and replace in Kate of [this list](tutorials/Samsung/data/features_copy.txt) of 
 variable names
@@ -63,7 +65,9 @@ variable names
 - constraints: PRIMARY KEY, NOT NULL, UNIQUE, FOREIGN KEY, CHECK
 - To fill the table: INSERT INTO tablename(column1,column2) VALUES(column1value, column2value). (Qu 15)
 
-##### Random Forests theory
+##### Random Forests 
+
+*Theory*
 
 - Classification: Task of assigning objects to one of several pre-defined categories.   
 - Bootstrapping: Random sampling WITH replacements. Repeatedly sampling from the same sample.    
