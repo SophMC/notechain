@@ -41,8 +41,8 @@ notebook](windspeed/notebooks/030-group_stations.ipynb).
 
 - To add a path to a directory with modules that you want to call on:
 
-```import sys
-   sys.path.append("path/to/Modules")
+```import sys     
+   sys.path.append("path/to/Modules")        
    print sys.path```
    
 - It's better to have fewer of these though, and store most of your modules in the same place. 
