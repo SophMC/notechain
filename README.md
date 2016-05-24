@@ -7,6 +7,25 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+-------------------
+
+####Day 30
+
+##### Random Forests
+
+**Data cleaning**
+
+- I think I have to stick to df.replace and df.contains for dataFrames
+- Worked out how to search for two different words within one string:
+  - `df[df.name.str.contains('Body.*Mag')]`
+  - Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
+certain expressions. There is still work to do as my list or remaining names is not the same as that 
+[here]
+(http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/blob/master/notebooks/C2.%20Random%20Forests%20-%20Data%20Exploration.ipynb) 
+in the tutorial.
+
+
 -------------------
 
 ####Day 29 
