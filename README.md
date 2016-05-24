@@ -18,8 +18,10 @@ Python (2.7.11) distribution.
 
 - Stick to `df.replace` and `df.contains` for dataFrames, as opposed to python `re` module, which would need loops.
 - Worked out how to search for two different words within one string:
-  - `df[df.name.str.contains('Body.*Mag')]`
-  - Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
+  
+    `df[df.name.str.contains('Body.*Mag')]`
+
+- Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
 certain expressions. There is still work to do as my list of remaining names is not the same as that 
 [here]
 (http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/blob/master/notebooks/C2.%20Random%20Forests%20-%20Data%20Exploration.ipynb) 
@@ -30,7 +32,23 @@ in the tutorial.
 - I got Qu 17 to work with [my own solution](SQL/galaXQL_17.sql)!
 - Practised using GROUP BY, INNER and LEFT OUTER JOIN and understand them much better. 
 
-#####
+##### Windspeed plotting
+
+- Got the first function of [my .py script](windspeed/scripts/030-group_tseries.py) working (read_file) so that I can access it in [jupyter 
+notebook](windspeed/notebooks/030-group_stations.ipynb).
+
+##### General Python
+
+- To add a path to a directory with modules that you want to call on:
+
+```import sys
+   sys.path.append("path/to/Modules")
+   print sys.path```
+   
+- It's better to have fewer of these though, and store most of your modules in the same place. 
+
+- STUCK - if I restart the Jupyter kernel (which I think I have to do everytime I update the module group_tseries) then it no longer 
+finds the module
 
 -------------------
 
