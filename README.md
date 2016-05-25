@@ -16,6 +16,24 @@ Used as a benchmark by MonkeyLearn to [evaluate their
 performance](https://blog.monkeylearn.com/sentiment-analysis-apis-benchmark/?utm_source=Email&utm_medium=Intercom&utm_content=FP&
 utm_campaign=22-sentiment-analysis-benchmark) against other platforms such as MetaMind, AlchemyAPI, Aylien, Idol and Datumbox
 
+##### SQL - Qu 18
+
+- UNION: Combines queries, discards duplicates.   
+- UNION ALL: Same as UNION, keeps duplicates.     
+- INTERSECT: Only returns rows which match.   
+- EXCEPT: performs set subtraction (those which don't match the SELECT statement).
+
+#### Random Forests
+
+*Data cleaning*
+
+- [Final go](tutorials/Samsung/notebooks/031-Samsung_cleanup.ipynb) at reducing variables to the list in the tutorial here. There are some 
+inconsistencies in the tutorial so I didn't end up with exactly the same. 
+
+#### Windspeed plotting
+
+- [My failed attempts](windspeed/notebooks/031-group_stations.ipynb) to create a grouped dataFrame where counts less than 10 are turned 
+into Nans, without a loop. Will just do it will a loop tomorrow. 
 
 -------------------
 
