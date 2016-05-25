@@ -7,6 +7,15 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+-------------------
+####Day 31
+
+[CrowdFlower](https://www.crowdflower.com/)
+Sentiment analysis which encorporates human intelligence to identify nuances in the sentiment of text.
+Used as a benchmark by MonkeyLearn to [evaluate their 
+performance](https://blog.monkeylearn.com/sentiment-analysis-apis-benchmark/?utm_source=Email&utm_medium=Intercom&utm_content=FP&
+utm_campaign=22-sentiment-analysis-benchmark) against other platforms such as MetaMind, AlchemyAPI, Aylien, Idol and Datumbox
+
 
 -------------------
 
