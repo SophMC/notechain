@@ -8,15 +8,16 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 -------------------
-####Day 23
+####Day 32
 
-[DataKind](http://www.datakind.org/) could be a good place to find an interesting project to work on. 
+[DataKind](http://www.datakind.org/) looks like a good place to find an interesting project to work on. 
 
 
 ##### SQL - Qu 19
 
 - CREATE TRIGGER name when event ON tablename action. Another way of enforcing integrity (similar to constraints).
-- In theory my solution should work, though I checked with the author and he says there may be a bug. Investiagte tomorrow.
+- In theory my Qu 19 solution should work, but it doesn't. I checked with the author and he says there may be a bug. Investiagte 
+tomorrow.
 
 ##### Random Forests
 
