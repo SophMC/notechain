@@ -52,8 +52,7 @@ utm_campaign=22-sentiment-analysis-benchmark) against other platforms such as Me
 
 *Data cleaning*
 
-- [Final go](tutorials/Samsung/notebooks/031-Samsung_cleanup.ipynb) at reducing variables to the list in the tutorial here. There are some 
-inconsistencies in the tutorial so I didn't end up with exactly the same. 
+- [Final go](tutorials/Samsung/notebooks/031-Samsung_cleanup.ipynb) at reducing variables to the list in the tutorial. 
 
 #### Windspeed plotting
 
