@@ -21,11 +21,11 @@ tomorrow.
 
 ##### Random Forests
 
-**data cleaning**
+*data cleaning*
 
-- I have realised that I can access samtrain.csv etc. from github. Not sure it is possible to get it into the correct format with the 
+- I *can* access samtrain.csv etc...from github. Not sure it is possible to get it into the correct format with the 
 information in the tutorial.
-- Tomorrow email author and continue on with the analysis.
+- Tomorrow email author and continue with the analysis now I have correctly formatted data.
 
 ##### Windspeed plotting
 
