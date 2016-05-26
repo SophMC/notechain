@@ -8,6 +8,30 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 -------------------
+####Day 23
+
+[DataKind](http://www.datakind.org/) could be a good place to find an interesting project to work on. 
+
+
+##### SQL - Qu 19
+
+- CREATE TRIGGER name when event ON tablename action. Another way of enforcing integrity (similar to constraints).
+- In theory my solution should work, though I checked with the author and he says there may be a bug. Investiagte tomorrow.
+
+##### Random Forests
+
+**data cleaning**
+
+- I have realised that I can access samtrain.csv etc. from github. Not sure it is possible to get it into the correct format with the 
+information in the tutorial.
+- Tomorrow email author and continue on with the analysis.
+
+##### Windspeed plotting
+
+- getting my head around `map()` and `filter()` and using lambda to make functions in them. Still can't get these things to work with 
+grouped dataframes though. 
+
+-------------------
 ####Day 31
 
 [CrowdFlower](https://www.crowdflower.com/)
