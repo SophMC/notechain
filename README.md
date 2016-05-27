@@ -8,6 +8,41 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 -------------------
+####Day 33
+
+[Tau](http://www.datatau.com/) - Hackernews for data science.
+
+[Good list](https://github.com/ujjwalkarn/DataSciencePython) of Python resources for data science
+
+##### Windspeed plotting
+
+- Can't work out how to apply `map()`, `filter` or `apply()` to my messy groupby object.
+Instead of `mean` and `std` passed to agg():     
+`wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].agg(['mean','std','count'])`    
+I want to pass functions in their place which would only assign the mean for the group, if count > 10, otherwise assign nan. 
+- The difficulty is navigating the different levels of indexes (year and month) and columns (for each of 'ws', 'ws_06' there is another 
+level with mean, std and count.)
+
+i.e. ```                  ws                 ws_0              ws_06            \
+                mean       std count mean std count     mean std count   
+year month                                                               
+1984 10     3.875280       NaN     1  NaN NaN     0  3.87528 NaN     1   
+     12     3.751893  1.428763     4  NaN NaN     0  5.05555 NaN     1   
+
+              ws_12                 ws_18            
+               mean       std count  mean std count  
+year month                                           
+1984 10         NaN       NaN     0   NaN NaN     0  
+     12     3.31734  1.388895     3   NaN NaN     0  ```
+
+
+##### Random Forests (Samsung data)
+
+##### SQL 
+
+
+
+-------------------
 ####Day 32
 
 [DataKind](http://www.datakind.org/) looks like a good place to find an interesting project to work on. 
@@ -15,8 +50,8 @@ Python (2.7.11) distribution.
 
 ##### SQL - Qu 19
 
-- CREATE TRIGGER name when event ON tablename action. Another way of enforcing integrity (similar to constraints).
-- In theory my Qu 19 solution should work, but it doesn't. I checked with the author and he says there may be a bug. Investiagte 
+- `CREATE TRIGGER name when event ON tablename action`. Another way of enforcing integrity (similar to constraints).
+- In theory my Qu 19 solution should work, but it doesn't. I checked with the author and he says there may be a bug. Investigate 
 tomorrow.
 
 ##### Random Forests

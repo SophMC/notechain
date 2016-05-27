@@ -19,6 +19,9 @@ and[here]
  (https://blog.monkeylearn.com/hacker-news-categorizer-with-monkeylearn/?utm_source=Email&utm_medium=Intercom&utm_content=FP&
 utm_campaign=16-hacker-news-categorizer)
 
+- [Very quick and dirty introduction to Random Forests](http://blog.yhat.com/posts/random-forests-in-python.html) using python and iris 
+data.
+
 ### SQL
 
 - Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. 
@@ -27,9 +30,10 @@ utm_campaign=16-hacker-news-categorizer)
 
 - Find a MySQL project to work on.
 
-### Pandas
+### Pandas and Python
 
-- Work through as many of the examples as possible in a ipython notebook, making lots of notes.  
+- [Matplotlib visualisation tutorial](https://www.dataquest.io/blog/matplotlib-tutorial/) which encorporates sentiment analysis with 
+suggested futher exercises.
 
 ### Kaggle
 
