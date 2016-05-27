@@ -23,17 +23,17 @@ I want to pass functions in their place which would only assign the mean for the
 - The difficulty is navigating the different levels of indexes (year and month) and columns (for each of 'ws', 'ws_06' there is another 
 level with mean, std and count.)
 
-i.e. ```                  ws                 ws_0              ws_06            \
+i.e. `                 ws                 ws_0              ws_06            `   
                 mean       std count mean std count     mean std count   
-year month                                                               
-1984 10     3.875280       NaN     1  NaN NaN     0  3.87528 NaN     1   
-     12     3.751893  1.428763     4  NaN NaN     0  5.05555 NaN     1   
+`year month`                                                                               
+`1984 10     3.875280       NaN     1  NaN NaN     0  3.87528 NaN     1`   
+     `12     3.751893  1.428763     4  NaN NaN     0  5.05555 NaN     1`   
 
-              ws_12                 ws_18            
-               mean       std count  mean std count  
-year month                                           
-1984 10         NaN       NaN     0   NaN NaN     0  
-     12     3.31734  1.388895     3   NaN NaN     0  ```
+              `ws_12                 ws_18`            
+               `mean       std count  mean std count`  
+`year month`                                           
+`1984 10         NaN       NaN     0   NaN NaN     0`  
+     `12     3.31734  1.388895     3   NaN NaN     0  `
 
 
 ##### Random Forests (Samsung data)
