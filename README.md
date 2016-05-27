@@ -10,27 +10,36 @@ Python (2.7.11) distribution.
 -------------------
 ####Day 33
 
-[Tau](http://www.datatau.com/) - Hackernews for data science.
+[Tau](http://www.datatau.com/) - Hacker news for data science.
 
 [Good list](https://github.com/ujjwalkarn/DataSciencePython) of Python resources for data science
 
 ##### Windspeed plotting
 
-- Can't work out how to apply `map()`, `filter` or `apply()` to my messy groupby object.
+- Can't work out how to apply `map()`, `filter()` or `apply()` to my messy groupby object.    
 Instead of `mean` and `std` passed to agg():     
 `wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].agg(['mean','std','count'])`    
 I want to pass functions in their place which would only assign the mean for the group, if count > 10, otherwise assign nan. 
-- The difficulty is navigating the different levels of indexes (year and month) and columns (for each of 'ws', 'ws_06' there is another 
-level with mean, std and count.
-
-
-  
+- The difficulty is navigating the different levels of indices (year and month) and columns (for each of 'ws', 'ws_06'..etc. there is 
+another level with mean, std and count. See all this unintelligible working [here](windspeed/notebooks/033-group_stations.ipynb).
 
 
 ##### Random Forests (Samsung data)
 
+- Worked out that the remap_col() function was made by the author - I made accessible copy of the randomforests.py module to 
+get the function.     
+- Started working with sklearn.ensemble.RandomForestClassifier to build a random forest model. Will upload the workbook when it is finished 
+tomorrow.
+
+
 ##### SQL 
 
+-CREATE INDEX speeds up finding values in a table. Syntax:
+  `CREATE INDEX index_name ON table_name (column_name)(or col1,col2,col3)`    
+  `CREATE UNIQUE INDEX` to create a unique index on the table
+
+- Go through [this tutorial](http://www.sqlcourse.com/) and do the exercises. There is also an [more advanced 
+one](http://www.sqlcourse2.com/), which I have covered some material from. 
 
 
 -------------------
