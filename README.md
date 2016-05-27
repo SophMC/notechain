@@ -24,16 +24,11 @@ I want to pass functions in their place which would only assign the mean for the
 level with mean, std and count.
 
                   ws                 ws_0              ws_06            \
-                mean       std count mean std count     mean std count   
-    year month                                                               
-    1984 10     3.875280       NaN     1  NaN NaN     0  3.87528 NaN     1   
-     12     3.751893  1.428763     4  NaN NaN     0  5.05555 NaN     1   
-
-              ws_12                 ws_18            
-               mean       std count  mean std count  
-    year month                                           
-    1984 10         NaN       NaN     0   NaN NaN     0  
-     12     3.31734  1.388895     3   NaN NaN     0  
+                 mean std count   mean std count     mean std count   
+       year month                                                               
+       1984 10     3.875280       NaN     1  NaN NaN     0  3.87528 NaN     1   
+       12        3.751893  1.428763     4  NaN NaN     0  5.05555 NaN     1   
+  
 
 
 ##### Random Forests (Samsung data)
