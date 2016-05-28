@@ -24,13 +24,18 @@ data.
 
 ### SQL
 
-- Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. 
+- Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. Done! 
+
+- Do [this](http://www.sqlcourse.com/) basic tutorial, followed by [this](http://www.sqlcourse2.com/) more advanced one. Looks good with 
+lots of questions (+ answers!).
 
 - Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/examples.html) tutorial which goes through common queries from MySQL.
 
 - Find a MySQL project to work on.
 
 ### Pandas and Python
+
+- Start working through [exorcism.io](http://exercism.io/languages/python#exercises)
 
 - [Matplotlib visualisation tutorial](https://www.dataquest.io/blog/matplotlib-tutorial/) which encorporates sentiment analysis with 
 suggested futher exercises.

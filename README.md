@@ -7,6 +7,37 @@ Python, git and other tools useful for data science.
 I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
+
+------------------
+####Day 34
+
+##### Random Forests
+
+- Create an instance of the class RandomForestClassifier (rfc). We then have a large number of methods that can be applied.
+- RandomForestClassifier fits a number of decision tree classifiers on various sub-samples of the dataset and use averaging to 
+improve the predictive accuracy and control over-fitting.
+- Methods `predict()`, then `score()` - in that order are applied to our object, rfc.
+  - `rfc.predict(X)` - takes input samples, X, and returns the predicted class
+  - `rfc.score(X,y)` - returns the mean accuracy of predict(X) with respect to y (true labels for X)
+- Attributes such as 
+  - `oob_score_` - model accuracy estimate
+- Two different ways to drop the mystery "unnamed column"
+  - `samtrain = samtrain.drop(samtrain.columns[0], axis=1)`
+  - `samtrain.drop(samtrain.columns[0], axis=1, inplace=True)`           
+All this working is in [this notebook](tutorials/Samsung/notebooks/034-Samsung_analysis.ipynb).
+ 
+##### Windspeed plotting
+
+- Select a column by integer `wind.iloc[:,3]` --> select all rows in 4th column. How can iloc be combined with multiIndex?
+
+##### Python
+
+- Think about [setting up a virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for switching between Python 3 and 
+2.7.
+- I set up the exericsm.io [command line interface](http://exercism.io/cli) so I can [practise python 
+problems](http://exercism.io/languages/python) and get feedback on them. Installing 
+[linuxbrew](http://linuxbrew.sh/) seemed the easiest way to get it all set up right. 
+
 -------------------
 ####Day 33
 
@@ -17,7 +48,7 @@ Python (2.7.11) distribution.
 ##### Windspeed plotting
 
 - Can't work out how to apply `map()`, `filter()` or `apply()` to my messy groupby object.    
-Instead of `mean` and `std` passed to agg():     
+Instead of `mean` and `std` passed to agg() in the following line:     
 `wind_group = group['ws','ws_0','ws_06','ws_12','ws_18'].agg(['mean','std','count'])`    
 I want to pass functions in their place which would only assign the mean for the group, if count > 10, otherwise assign nan. 
 - The difficulty is navigating the different levels of indices (year and month) and columns (for each of 'ws', 'ws_06'..etc. there is 
@@ -34,8 +65,8 @@ tomorrow.
 
 ##### SQL 
 
--CREATE INDEX speeds up finding values in a table. Syntax:
-  `CREATE INDEX index_name ON table_name (column_name)(or col1,col2,col3)`    
+-CREATE INDEX speeds up finding values in a table.     
+Syntax: `CREATE INDEX index_name ON table_name (column_name)(or col1,col2,col3)`    
   `CREATE UNIQUE INDEX` to create a unique index on the table
 
 - Go through [this tutorial](http://www.sqlcourse.com/) and do the exercises. There is also an [more advanced 
