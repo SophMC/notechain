@@ -14,7 +14,7 @@ Python (2.7.11) distribution.
 ##### Random Forests
 
 - Create an instance of the class RandomForestClassifier (rfc). We then have a large number of methods that can be applied.
-- RandomForestClassifier fits a number of decision tree classifiers on various sub-samples of the dataset and use averaging to 
+- RandomForestClassifier fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to 
 improve the predictive accuracy and control over-fitting.
 - Methods `predict()`, then `score()` - in that order are applied to our object, rfc.
   - `rfc.predict(X)` - takes input samples, X, and returns the predicted class
@@ -23,7 +23,8 @@ improve the predictive accuracy and control over-fitting.
   - `oob_score_` - model accuracy estimate
 - Two different ways to drop the mystery "unnamed column"
   - `samtrain = samtrain.drop(samtrain.columns[0], axis=1)`
-  - `samtrain.drop(samtrain.columns[0], axis=1, inplace=True)`           
+  - `samtrain.drop(samtrain.columns[0], axis=1, inplace=True)`   
+
 All this working is in [this notebook](tutorials/Samsung/notebooks/034-Samsung_analysis.ipynb).
  
 ##### Windspeed plotting
