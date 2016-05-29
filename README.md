@@ -28,8 +28,8 @@ To create a python 3 environment to work on:
 
 ##### Python 3
 
-- exercism.io, exercise 1 "Hello World". Not as simple as I initially thought. [My 
-answer](tutorials/exercism_py3/hello-world/hello_world.py) was much longer than the two lines that most of the others ([an 
+- exercism.io, exercise 1 "Hello World". Not as simple as I initially thought.     
+[My answer](tutorials/exercism_py3/hello-world/hello_world.py) was much longer than the two lines that most of the others ([an 
 example](tutorials/exercism_py3/hello-world/hello_world2.py)) which made the tests pass but didn't do exactly what [the 
 instructions](tutorials/exercism_py3/hello-world/README.md) asked. 
 
