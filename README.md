@@ -15,21 +15,21 @@ Python (2.7.11) distribution.
 
 ##### Git
 
-- To find a particular commit, just add commit/commitnum to the end of your URL i.e.:
+- To find a particular commit, just add commit/commitnum to the end of your URL i.e.:    
 `https://github.com/SophMC/notechain/commit/d61ca5f`
 
-##### conda python 3 environment
+##### Conda python 3 environment
 
-To create a python 3 environment to work on
-`conda create -n py3 python=3.5 anaconda` : creates an environment named py3, using version 3.5
-`source activate py3` : activates the py3 env
-`source deactivate` : back to old env
-`conda remove -n py3 --all` : remove py3 environment 
+To create a python 3 environment to work on:           
+`conda create -n py3 python=3.5 anaconda` : creates an environment named py3, using version 3.5       
+`source activate py3` : activates the py3 env            
+`source deactivate` : back to old env         
+`conda remove -n py3 --all` : remove py3 environment          
 
 ##### Python 3
 
 - exercism.io exercise 1. Not as simple as I initially thought. [My answer](tutorials/exercism_py3/hello-world/hello_world.py) was much 
-longer than the two lines that most of the others ([an example](tutorials/exercism_py3/hello-world/hello_world2.py)) submitted, which made 
+longer than the two lines that most of the others ([an example](tutorials/exercism_py3/hello-world/hello_world2.py)) which made 
 the tests pass but didn't do exactly what [the instructions](README.md) asked. 
 
 
