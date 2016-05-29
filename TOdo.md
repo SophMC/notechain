@@ -29,6 +29,8 @@ data.
 - Do [this](http://www.sqlcourse.com/) basic tutorial, followed by [this](http://www.sqlcourse2.com/) more advanced one. Looks good with 
 lots of questions (+ answers!).
 
+- With a good grounding in SQL, the next step is PL/SQL. Exercism.io might be a good place to pick this up.
+
 - Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/examples.html) tutorial which goes through common queries from MySQL.
 
 - Find a MySQL project to work on.
@@ -36,6 +38,9 @@ lots of questions (+ answers!).
 ### Pandas and Python
 
 - Start working through [exorcism.io](http://exercism.io/languages/python#exercises)
+
+- Work through [these Python 3 tutorial videos](https://www.youtube.com/playlist?list=PL1A2CSdiySGJd0LJRRSwQZbPZaDP0q67j). They are nice 
+and short.
 
 - [Matplotlib visualisation tutorial](https://www.dataquest.io/blog/matplotlib-tutorial/) which encorporates sentiment analysis with 
 suggested futher exercises.

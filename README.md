@@ -8,6 +8,35 @@ I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 
+
+
+------------------
+####Day 35
+
+##### Git
+
+- To find a particular commit, just add commit/commitnum to the end of your URL i.e.:
+`https://github.com/SophMC/notechain/commit/d61ca5f`
+
+##### conda python 3 environment
+
+To create a python 3 environment to work on
+`conda create -n py3 python=3.5 anaconda` : creates an environment named py3, using version 3.5
+`source activate py3` : activates the py3 env
+`source deactivate` : back to old env
+`conda remove -n py3 --all` : remove py3 environment 
+
+##### Python 3
+
+- exercism.io exercise 1. Not as simple as I initially thought. [My answer](tutorials/exercism_py3/hello-world/hello_world.py) was much 
+longer than the two lines that most of the others ([an example](tutorials/exercism_py3/hello-world/hello_world2.py)) submitted, which made 
+the tests pass but didn't do exactly what [the instructions](README.md) asked. 
+
+
+##### Random Forest - black box method
+
+
+
 ------------------
 ####Day 34
 
@@ -23,7 +52,7 @@ improve the predictive accuracy and control over-fitting.
   - `oob_score_` - model accuracy estimate
 - Two different ways to drop the mystery "unnamed column"
   - `samtrain = samtrain.drop(samtrain.columns[0], axis=1)`
-  - `samtrain.drop(samtrain.columns[0], axis=1, inplace=True)`   
+  - `samtrain.drop(samtrain.columns[0], axis=1, inplace=True)`            
 
 All this working is in [this notebook](tutorials/Samsung/notebooks/034-Samsung_analysis.ipynb).
  
@@ -35,8 +64,8 @@ All this working is in [this notebook](tutorials/Samsung/notebooks/034-Samsung_a
 
 - Think about [setting up a virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for switching between Python 3 and 
 2.7.
-- I set up the exericsm.io [command line interface](http://exercism.io/cli) so I can [practise python 
-problems](http://exercism.io/languages/python) and get feedback on them. Installing 
+- To learn Test Driven Development(TDD) I set up the exericsm.io [command line interface](http://exercism.io/cli) so I can [practise python 
+problems](http://exercism.io/languages/python) and get feedback on them.  Installing 
 [linuxbrew](http://linuxbrew.sh/) seemed the easiest way to get it all set up right. 
 
 -------------------
