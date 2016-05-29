@@ -4,7 +4,7 @@ This is a daily diary to keep me focussed and moving.
 For ~74 days (over 3 months) I will upload something related to learning 
 Python, git and other tools useful for data science. 
 
-I'm using the [IPython Notebook](http://ipython.org) with the Anaconda (2.4.1) 
+I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) distribution.
 
 
@@ -33,10 +33,21 @@ To create a python 3 environment to work on:
 example](tutorials/exercism_py3/hello-world/hello_world2.py)) which made the tests pass but didn't do exactly what [the 
 instructions](tutorials/exercism_py3/hello-world/README.md) asked. 
 
+- no longer a dedicated `xrange()` in python 3. `range(start, stop[, step])` does the business.
+
 
 ##### Random Forest - black box method
 
+- `rfc.feature_importances_` gives the relative importance of each feature in the forest. Sum=1.     
+- plotting two confusion matrices next to each other using:         
+`fig = pl.figure()`    
+`fig.add_subplot(121)` : (122) for the second plot. 1x2 grid, 2nd plot.
+`pl.matshow(test_cm,fignum=0)` : fignum=0 was the key point to prevent a new fig being created.
 
+- In the end the black-box model is easier because you don't have to read the documentation or spend any time wrangling the column names.
+- It gives greater accuracy/precision but adding domain knowledge allows you to focus in on the relative importance of the features which 
+are important to you, depending on you are trying to find out. 
+- [Black Box notebook workings](tutorials/Samsung/notebooks/035-Samsung_analysis_blackbox.ipynb).
 
 ------------------
 ####Day 34
@@ -63,8 +74,6 @@ All this working is in [this notebook](tutorials/Samsung/notebooks/034-Samsung_a
 
 ##### Python
 
-- Think about [setting up a virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for switching between Python 3 and 
-2.7.
 - To learn Test Driven Development(TDD) I set up the exericsm.io [command line interface](http://exercism.io/cli) so I can [practise python 
 problems](http://exercism.io/languages/python) and get feedback on them.  Installing 
 [linuxbrew](http://linuxbrew.sh/) seemed the easiest way to get it all set up right. 
@@ -72,7 +81,7 @@ problems](http://exercism.io/languages/python) and get feedback on them.  Instal
 -------------------
 ####Day 33
 
-[Tau](http://www.datatau.com/) - Hacker news for data science.
+[Data Tau](http://www.datatau.com/) - Hacker news for data science.
 
 [Good list](https://github.com/ujjwalkarn/DataSciencePython) of Python resources for data science
 
