@@ -46,6 +46,9 @@ lots of questions (+ answers!).
 
 - Start working through [exorcism.io](http://exercism.io/languages/python#exercises)
 
+- [How to think like a computer scientist](http://interactivepython.org/runestone/static/thinkcspy/toc.html) with clear explanations, 
+videos and tests you as you go through.
+
 - Work through [these Python 3 tutorial videos](https://www.youtube.com/playlist?list=PL1A2CSdiySGJd0LJRRSwQZbPZaDP0q67j). They are nice 
 and short.
 

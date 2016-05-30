@@ -8,7 +8,36 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) distribution.
 
 
+------------------
+####Day 36
 
+##### SQL
+
+- `LIKE` is a powerful, similar to grep.
+  `SELECT first, city`   
+  `FROM empinfo`            
+  `WHERE first LIKE 'Er%';`  select from rows first and city in tabel empinfo where the first two letters are Er.
+  
+- CREATE TABLE: don't forget to fill in the right data type for each column:               
+`CREATE TABLE myemps_smc (first varchar(15),last varchar(20),title char(10),age number(2),salary number(8));`
+
+###### Windspeed
+
+- Solved my problem of aggregating grouped columns based on the number of observations going into each group. See working 
+[here](windspeed/notebooks/036-group_stations.ipynb) in the last cell.
+
+###### Python 3
+
+- exercism.io: Ex 2 - Determing if a year is a leap year. [My (revised) answer](tutorials/exercism_py3/leap/year4.py). A [crazy short 
+one](tutorials/exercism_py3/leap/year5.p) which passes the test. So many fascinating and different ways to do this. 
+
+###### K-means clustering
+
+- Overview. Used to discover natural groupings in data. An example of "unsupervised" learning where we don't have any original 
+classification to "train" the data. [Experimented](tutorials/K-means/Iris_explore.ipynb) with the known groupings of Iris data. 
+- K-means can be used to:
+  - determine ambiguous terms in a document. Is a Jaguar a car or an animal? What words cluster nearby? What is the whole document about?
+  - Initial exploration when training samples are not available.
 
 ------------------
 ####Day 35
