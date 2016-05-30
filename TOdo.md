@@ -4,6 +4,13 @@
 
 - Do [this](http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/tree/master/notebooks/) before the Machine Learning below.
 
+#### Baysian Statistics
+
+- Very important to get a decent grounding in this: [Programming and Bayesian Methods for 
+hackers](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/
+Prologue/Prologue.ipynb)
+
+
 
 ### Machine Learning 
 

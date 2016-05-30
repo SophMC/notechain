@@ -41,7 +41,7 @@ instructions](tutorials/exercism_py3/hello-world/README.md) asked.
 - `rfc.feature_importances_` gives the relative importance of each feature in the forest. Sum=1.     
 - plotting two confusion matrices next to each other using:         
 `fig = pl.figure()`    
-`fig.add_subplot(121)` : (122) for the second plot. 1x2 grid, 2nd plot.
+`fig.add_subplot(121)` : (122) for the second plot. 1x2 grid, 2nd plot.        
 `pl.matshow(test_cm,fignum=0)` : fignum=0 was the key point to prevent a new fig being created.
 
 - In the end the black-box model is easier because you don't have to read the documentation or spend any time wrangling the column names.
