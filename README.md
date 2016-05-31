@@ -7,13 +7,26 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+------------------
+####Day 37
+
+##### SQL
+
+- Practised INSERT INTO and UPDATE into table.
+
+##### Windspeed
+
+- More working in [this notebook](windspeed/notebooks/037-group_stations.ipynb) to plot:      
+  - Different time slices from a groupby object.      
+  - Several subplots within one figure.         
+- Implimented these things in [my script](windspeed/scripts/037-group_tseries.py), trying to use oop. Can't get it to run.
 
 ------------------
 ####Day 36
 
 ##### SQL
 
-- `LIKE` is powerful, similar to grep.
+- `LIKE` is powerful, similar to grep.    
   `SELECT first, city`   
   `FROM empinfo`            
   `WHERE first LIKE 'Er%';`  select from rows first and city in tabel empinfo where the first two letters are Er.
@@ -28,7 +41,8 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Python 3
 
-- exercism.io: Ex 2 - Determing if a year is a leap year. [My (revised) answer](tutorials/exercism_py3/leap/year4.py). A [crazy short 
+- exercism.io: 
+  - Ex 2 - Determing if a year is a leap year. [My (revised) answer](tutorials/exercism_py3/leap/year4.py). A [crazy short 
 one](tutorials/exercism_py3/leap/year5.py) which passes the test. So many fascinating and different ways to do this. 
 
 ##### K-means clustering
