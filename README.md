@@ -12,16 +12,16 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Python 3
 
-**Exercism.io Ex 3 Pangrams**
+**Ex 3 Pangrams**
 - `s.lower()` is the key to dealing with non-english letters in the line:   
-`return len(list(set(letters.lower())))== 26`.      
+`return len(list(set(letters.lower())))== 26` in my submission [here](tutorials/exercism_py3/pangram/pangram.py).      
 Also need `# -*- coding: UTF-8 -*-` at the beginning of the script.    
 - use \u to insert a unicode character       
 - `re.sub(pattern,repl,string)`       
   `letters = re.sub('[^a-zA-Z]','',s)` to get rid of anything not a letter.   
-- My submission [here](tutorials/exercism_py3/pangram/pangram.py) heavily influenced by this [amazingly short 
+- My submission was heavily influenced by this [amazingly short 
 one](tutorials/exercism_py3/pangram/pangram2.py) which helped me work my solution out.
-I started out lots of [unnecessary code](tutorials/exercism_py3/pangram_detailed.py).
+I started out lots of [unnecessary code](tutorials/exercism_py3/pangram/pangram_detailed.py).
 
 
 ------------------
