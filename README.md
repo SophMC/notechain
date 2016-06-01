@@ -8,6 +8,23 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 38
+
+##### Python 3
+
+**Exercism.io Ex 3 Pangrams**
+- `s.lower()` is the key to dealing with non-english letters in the line:   
+`return len(list(set(letters.lower())))== 26`.      
+Also need `# -*- coding: UTF-8 -*-` at the beginning of the script.    
+- use \u to insert a unicode character       
+- `re.sub(pattern,repl,string)`       
+  `letters = re.sub('[^a-zA-Z]','',s)` to get rid of anything not a letter.   
+- My submission [here](tutorials/exercism_py3/pangram/pangram.py) heavily influenced by this [amazingly short 
+one](tutorials/exercism_py3/pangram/pangram2.py) which helped me work my solution out.
+I started out lots of [unnecessary code](tutorials/exercism_py3/pangram_detailed.py).
+
+
+------------------
 ####Day 37
 
 ##### SQL
@@ -19,7 +36,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 - More working in [this notebook](windspeed/notebooks/037-group_stations.ipynb) to plot:      
   - Different time slices from a groupby object.      
   - Several subplots within one figure.         
-- Implimented these things in [my script](windspeed/scripts/037-group_tseries.py), trying to use oop. Can't get it to run.
+- Implimented the above in [my script](windspeed/scripts/037-group_tseries.py), trying to use oop. Can't get it to run.
 
 ------------------
 ####Day 36
