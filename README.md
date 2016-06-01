@@ -13,6 +13,9 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 ##### Python 3
 
 **Ex 3 Pangrams**
+- [set()](https://docs.python.org/3/library/stdtypes.html#set) creates class object which you can use to query the unique values in a list.
+e.g. `set(list) >= set(other)` or `list.issuperset(other)` : is every element of other found in list? 
+     ``
 - `s.lower()` is the key to dealing with non-english letters in the line:   
 `return len(list(set(letters.lower())))== 26` in my submission [here](tutorials/exercism_py3/pangram/pangram.py).      
 Also need `# -*- coding: UTF-8 -*-` at the beginning of the script.    
@@ -22,6 +25,35 @@ Also need `# -*- coding: UTF-8 -*-` at the beginning of the script.
 - My submission was heavily influenced by this [amazingly short 
 one](tutorials/exercism_py3/pangram/pangram2.py) which helped me work my solution out.
 I started out lots of [unnecessary code](tutorials/exercism_py3/pangram/pangram_detailed.py).
+
+##### SQL
+
+- DELETE FROM tablename : deletes all the records in a table, but the table name and column constrains remain.  
+- DROP TABLE tablename : if you want to completely remove the table.
+- Now on to [SQL Course 2!](http://www.sqlcourse2.com/) which focuses entirely on the SELECT command.
+
+##### Windspeed
+
+- In the read_file functions of [p3group_tseries](windspeed/scripts/038-group_tseries.py) I've made two small functions to calculate the 
+mean over each group, while returning nan if the group has less than 10 obs. Should these small functions (meanf,sdf) be inside or outside 
+read_file.
+I read in only read_file into the [following notebook](windspeed/scripts/038-group_tseries.py) and somehow it still accessed meanf and sdf.
+
+- One way to drop month from the tuple creating the messy xaxis (see [here](windspeed/plots/038-62124Sebha.png)) is to drop the month level 
+from the MultiIndex created when using groupby. droplevel() is one of a [few 
+methods](http://pandas.pydata.org/pandas-docs/stable/api.html#multiindex) that can be applied to MultiIndex objects
+`wind_group.index = wind_group.index.droplevel(['month'])`   
+Now gives an xaxis with just year, [here](windspeed/plots/038-62124Sebha_2.png), though 1995 is missing.
+
+##### Linux
+
+- `eog image.png` in the terminal to quickly view an image. 
+
+##### K-means clustering
+
+- Started K-means analysis [here](tutorials/K-means/038-kmeans_exploredata.ipynb)
+- numpy array [attributes](http://docs.scipy.org/doc/numpy-1.10.1/reference/arrays.ndarray.html#array-attributes) 
+and [methods](http://docs.scipy.org/doc/numpy-1.10.1/reference/arrays.ndarray.html#array-methods).
 
 
 ------------------
