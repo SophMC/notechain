@@ -28,7 +28,7 @@ I started out lots of [unnecessary code](tutorials/exercism_py3/pangram/pangram_
 
 ##### SQL
 
-- DELETE FROM tablename : deletes all the records in a table, but the table name and column constrains remain.  
+- DELETE FROM tablename : deletes all the records in a table, but the table name and column constraints remain.  
 - DROP TABLE tablename : if you want to completely remove the table.
 - Now on to [SQL Course 2!](http://www.sqlcourse2.com/) which focuses entirely on the SELECT command.
 
@@ -36,7 +36,7 @@ I started out lots of [unnecessary code](tutorials/exercism_py3/pangram/pangram_
 
 - In the read_file functions of [p3group_tseries](windspeed/scripts/038-group_tseries.py) I've made two small functions to calculate the 
 mean over each group, while returning nan if the group has less than 10 obs. Should these small functions (meanf,sdf) be inside or outside 
-read_file.
+read_file?
 I read in only read_file into the [following notebook](windspeed/scripts/038-group_tseries.py) and somehow it still accessed meanf and sdf.
 
 - One way to drop month from the tuple creating the messy xaxis (see [here](windspeed/plots/038-62124Sebha.png)) is to drop the month level 
