@@ -12,18 +12,23 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### K-means - [notebook](tutorials/K-means/039-kmeans_exploredata.ipynb)
 
-- Create a list of code books and distortions.        
-- Extract code books to a list of their own.    
+- Create a list of code books and distortions(tuples in KM).        
+- Extract code books to a list of their own(centroids).    
 - Each code book has [n_cluster, n_features], where n_features is the number of columns.     
 
 Here it gets  a little tricky
 
-- For each cluster set (ie. using 1,2,...10 clusters) we make a distance matrix. Shape=[n_rows,n_clusters]. I'm not sure where different 
-features (columns) disappear to in this step.     
+- For each cluster set (ie. using 1,2,...10 clusters) we make a distance matrix (D_k). Shape=[n_rows,n_clusters]. I'm not sure where 
+different features (columns) disappear to in this step.     
 - For each cluster set we have an accompanying indices-of-mins(cIdx) and values-of-mins(dist) matrix.
 - We find the average min for each cluster set `avgWithinSS = [sum(d)/X.shape[0] for d in dist]`. This will be used to find the k "elbow" 
 (where the improvement from increasing the number of clusters starts to drop off.)
 
+##### Windspeed
+
+- Script was getting stuck at Ouargla as there was no data in my sub-set period.
+- Have put an assertion in to warn that a station will be skipped if no data. 
+- [Script](windspeed/scripts/039-group_tseries.py) after today.
 
 ------------------
 ####Day 38
@@ -56,7 +61,8 @@ I started out lots of [unnecessary code](tutorials/exercism_py3/pangram/pangram_
 - In the read_file functions of [p3group_tseries](windspeed/scripts/038-group_tseries.py) I've made two small functions to calculate the 
 mean over each group, while returning nan if the group has less than 10 obs. Should these small functions (meanf,sdf) be inside or outside 
 read_file?
-I read in only read_file into the [following notebook](windspeed/scripts/038-group_tseries.py) and somehow it still accessed meanf and sdf.
+I read in only read_file into the [following notebook](windspeed/notebooks/038-group_tseries.ipynb) and somehow it still accessed meanf and 
+sdf.
 
 - One way to drop month from the tuple creating the messy xaxis (see [here](windspeed/plots/038-62124Sebha.png)) is to drop the month level 
 from the MultiIndex created when using groupby. droplevel() is one of a [few 
