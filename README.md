@@ -8,12 +8,30 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 39
+
+##### K-means - [notebook](tutorials/K-means/039-kmeans_exploredata.ipynb)
+
+- Create a list of code books and distortions.        
+- Extract code books to a list of their own.    
+- Each code book has [n_cluster, n_features], where n_features is the number of columns.     
+Here it gets  a little tricky
+
+- For each cluster set (ie. using 1,2,...10 clusters) we make a distance matrix. Shape=[n_rows,n_clusters]. I'm not sure where different 
+features (columns) disappear to in this step.     
+- For each cluster set we have an accompanying indices-of-mins(cIdx) and values-of-mins(dist) matrix.
+- We find the average min for each cluster set `avgWithinSS = [sum(d)/X.shape[0] for d in dist]`. This will be used to find the k "elbow" 
+(where the improvement from increasing the number of clusters starts to drop off.)
+
+
+------------------
 ####Day 38
 
 ##### Python 3
 
 **Ex 3 Pangrams**
-- [set()](https://docs.python.org/3/library/stdtypes.html#set) creates class object which you can use to query the unique values in a list.
+- [set()](https://docs.python.org/3/library/stdtypes.html#set) creates class object which you can use to query the unique values in a list. 
+   
 e.g. `set(list) >= set(other)` or `list.issuperset(other)` : is every element of other found in list? 
      ``
 - `s.lower()` is the key to dealing with non-english letters in the line:   
