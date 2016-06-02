@@ -15,6 +15,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 - Create a list of code books and distortions.        
 - Extract code books to a list of their own.    
 - Each code book has [n_cluster, n_features], where n_features is the number of columns.     
+
 Here it gets  a little tricky
 
 - For each cluster set (ie. using 1,2,...10 clusters) we make a distance matrix. Shape=[n_rows,n_clusters]. I'm not sure where different 
