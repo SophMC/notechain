@@ -8,6 +8,21 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 40
+
+##### Windspeed
+
+- If there is an observation at 1200 and 1224, these both get converted into the time index:
+`1987-04-04 12:00:00`. This leads to duplicate values in the Index (bad!).
+These are found with the code `wind.index.value_counts()`.   
+- dropped duplicated rows based on the 'date_time' column. 
+- This fixed the mysterious `ValueError: cannot reindex from a duplicate axis` which occurred at Niamey.
+- All groups are printing plots now, but still need to fix an error with the xaxis at Tidjika and Faya.
+- [Working script](windspeed/scripts/040-group_tseries.py) and the above problem [investigation](040-Niamey_issue.ipynb)
+
+
+
+------------------
 ####Day 39
 
 ##### K-means - [notebook](tutorials/K-means/039-kmeans_exploredata.ipynb)
