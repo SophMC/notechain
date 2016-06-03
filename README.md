@@ -18,7 +18,7 @@ These are found with the code `wind.index.value_counts()`.
 - dropped duplicated rows based on the 'date_time' column. 
 - This fixed the mysterious `ValueError: cannot reindex from a duplicate axis` which occurred at Niamey.
 - All groups are printing plots now, but still need to fix an error with the xaxis at Tidjika and Faya.
-- [Working script](windspeed/scripts/040-group_tseries.py) and the above problem [investigation](040-Niamey_issue.ipynb)
+- [Working script](windspeed/scripts/040-group_tseries.py) and the above problem [investigation](windspeed/notebooks/040-Niamey_issue.ipynb)
 
 
 
