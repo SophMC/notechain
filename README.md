@@ -20,7 +20,26 @@ These are found with the code `wind.index.value_counts()`.
 - All groups are printing plots now, but still need to fix an error with the xaxis at Tidjika and Faya.
 - [Working script](windspeed/scripts/040-group_tseries.py) and the above problem [investigation](windspeed/notebooks/040-Niamey_issue.ipynb)
 
+##### Kmeans
 
+- Once the optimal number of clusters is found from the elbow curve plot, you can split the data into the number of clusters. If 
+you you have 3 clusters, your data is split into 3 classes. Like, walking, standing, sitting etc. in the Samsung example. 
+- [kmeans.py](/notechain/tutorials/K-means/kmeans.py) is a good example of making your own function so that you can easily change variables 
+in a plot. What I have been trying to do for windspeed. 
+- The process is similar to Linear, Logistic and Random Forests:
+  - Set up the model (Linear `sm.OLS()`- , Logistic - `sm.Logit()`, Random Forests - `sk.RandomForestClassifier()`, Kmeans - `KMeans()`)
+  - Fit the model to some data (model.fit())
+  - Make predictions using (model.predict())
+- Tricky to set up the right plotting environment to display the predictions.
+
+
+##### Exercism Ex 4
+
+- Mapping dna sequence to rna sequence.
+- Used a dictionary to map letters `d={'G':'C','C':'G','T':'A','A':'U'}`
+- used `''.join([d[m] for m in p])` to loop over input such as 'GCTTA' and return it as 'CGAAU'
+- [My submitted solution](tutorials/exercism_py3/dna/dna.py)
+- [Another solution](tutorials/exercism_py3/dna/dna2.py) using str.maketrans(intab, outtab) - A very easy way to substitute characters.
 
 ------------------
 ####Day 39
