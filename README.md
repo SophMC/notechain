@@ -25,14 +25,17 @@ annotated it a bit further.
 
 ##### Windspeed
 
-- The only way to get the correct date on the xaxis is to convert the year and month into a datetime object. Couldn't manage it, will try 
-again tomorrow (can resort to a loop).
+- Finally managed to convert a MultiIndex into a dateTime index for date data. Full working 
+[here](windspeed/notebooks/041-Tidjika_faya.ipynb).
+  `df['date_time'] = df[['year', 'month']].apply(lambda x: pd.to_datetime('/'.join(x)), axis=1)`
+- The plot format is looking much better, though I still don't have the xaxis in the format I want.
+At the moment it is like [this](windspeed/plots/WSahel.png) and I want the month and year to be displayed on top of each other. 
 
 ##### Exercism Ex 5
 
 - Counting the differences between two dna strands
 - Got to [my solution](tutorials/exercism_py3/Ex5_hamming/hamming.py) fairly quickly. 
-[Here](tutorials/exercism_py3/Ex5_hamming/hamming2.py) is a two-liner using zip().
+[Here](tutorials/exercism_py3/Ex5_hamming/hamming2.py) is a two-liner using `zip()`.
 
 ------------------
 ####Day 40
