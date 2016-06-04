@@ -13,6 +13,8 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 Make a website for your project with [Github pages](https://pages.github.com/). An example 
 [here](http://cs109.github.io/2015/pages/projects.html).
 
+[Building a data science portfolio](https://www.dataquest.io/blog/data-science-portfolio-project/).
+
 ##### K-means
 
 - I don't fully understand each step in [this example](tutorials/K-means/MNIST.ipynb) of using PCA and Kmeans with sklearns [digits 
@@ -23,7 +25,14 @@ annotated it a bit further.
 
 ##### Windspeed
 
+- The only way to get the correct date on the xaxis is to convert the year and month into a datetime object. Couldn't manage it, will try 
+again tomorrow (can resort to a loop).
 
+##### Exercism Ex 5
+
+- Counting the differences between two dna strands
+- Got to [my solution](tutorials/exercism_py3/Ex5_hamming/hamming.py) fairly quickly. 
+[Here](tutorials/exercism_py3/Ex5_hamming/hamming2.py) is a two-liner using zip().
 
 ------------------
 ####Day 40
