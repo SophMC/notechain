@@ -8,6 +8,24 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 41
+
+Make a website for your project with [Github pages](https://pages.github.com/) for setting up a website. An example 
+[here](http://cs109.github.io/2015/pages/projects.html).
+
+##### K-means
+
+- I don't fully understand each step in [this example](tutorials/K-means/MNIST.py) of using PCA and Kmeans with sklearns [digits 
+dataset](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html) but I've tried to unpick most of it and 
+annotated it a bit further. 
+- `np.linspace(start,stop,num)` where num = num of equally spaced samples
+- `np.tolist` Return the array as a (possibly nested) list.
+
+##### Windspeed
+
+
+
+------------------
 ####Day 40
 
 ##### Windspeed

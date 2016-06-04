@@ -4,12 +4,19 @@
 
 - Do [this](http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/tree/master/notebooks/) before the Machine Learning below.
 
+- [Harvard CS09 course](http://cs109.github.io/2015/pages/videos.html). Lots of tutorials and lectures covering everything from pandas, web 
+scraping to bayesian stats. 
+  - perhaps start with the homeworks and labs which also have solutions [here](https://github.com/cs109/content)
+
 #### Baysian Statistics
 
 - Very important to get a decent grounding in this: [Programming and Bayesian Methods for 
 hackers](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/
 Prologue/Prologue.ipynb)
 
+- From the Harvard course:
+  - [Bayesian Tomatoes](http://nbviewer.jupyter.org/github/cs109/content/blob/master/HW3.ipynb)
+  - Lab 6: [Bayesianism, with MCMC] (http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab6/BayesLinear.ipynb)
 
 
 ### Machine Learning 
@@ -28,6 +35,9 @@ utm_campaign=16-hacker-news-categorizer)
 
 - [Very quick and dirty introduction to Random Forests](http://blog.yhat.com/posts/random-forests-in-python.html) using python and iris 
 data.
+
+- From harvard data science course Lab 4: [Scikit-Learn, Regression, and 
+PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4full.ipynb)
 
 ### SQL
 
