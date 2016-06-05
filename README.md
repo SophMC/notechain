@@ -8,6 +8,23 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 42
+
+##### Bayes's Theorem
+
+- Learned the following terms from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf))
+  - Conditional and Conjoint probability
+  - How to derive Bayes Theorem
+  - Diachronic Interpretation
+    - Specify a 'suite' of hypotheses that are *Mutually Exclusive* and *Collectively Exhaustive*
+    - Then you can use the *law of total probability*
+
+##### Windspeed
+
+- Resolved and closed github [issue](https://github.com/SophMC/notechain/issues/3) with DateTimeIndex.
+
+
+------------------
 ####Day 41
 
 Make a website for your project with [Github pages](https://pages.github.com/). An example 
@@ -26,7 +43,7 @@ annotated it a bit further.
 ##### Windspeed
 
 - Finally managed to convert a MultiIndex into a dateTime index for date data. Full working 
-[here](windspeed/notebooks/041-Tidjika_faya.ipynb).
+[here](windspeed/notebooks/041-Tidjika_faya.ipynb).      
   `df['date_time'] = df[['year', 'month']].apply(lambda x: pd.to_datetime('/'.join(x)), axis=1)`
 - The plot format is looking much better, though I still don't have the xaxis in the format I want.
 At the moment it is like [this](windspeed/plots/WSahel.png) and I want the month and year to be displayed on top of each other. 

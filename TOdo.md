@@ -14,6 +14,8 @@ scraping to bayesian stats.
 hackers](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/
 Prologue/Prologue.ipynb)
 
+- Recommended reading from S2DS. [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf).
+
 - From the Harvard course:
   - [Bayesian Tomatoes](http://nbviewer.jupyter.org/github/cs109/content/blob/master/HW3.ipynb)
   - Lab 6: [Bayesianism, with MCMC] (http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab6/BayesLinear.ipynb)
@@ -38,6 +40,9 @@ data.
 
 - From harvard data science course Lab 4: [Scikit-Learn, Regression, and 
 PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4full.ipynb)
+
+- [Statistical Natural Language Processing](http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb)
+
 
 ### SQL
 
@@ -65,6 +70,8 @@ and short.
 - [Matplotlib visualisation tutorial](https://www.dataquest.io/blog/matplotlib-tutorial/) which encorporates sentiment analysis with 
 suggested futher exercises.
 
+- [Statistical Natural Language Processing](http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb)
+
 ### Kaggle
 
 - Do the Titanic competition.
@@ -73,6 +80,11 @@ again](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii),
   There is also [this introduction](https://www.dataquest.io/mission/74/getting-started-with-kaggle/) from DataQuest which looks quite 
 interesting and might be a good first step into python 3.
 
+### Visualisation
+
+- Python interactive visualization library that targets modern web browsers for presentation:[Bokeh](http://bokeh.pydata.org/en/latest/)
+- [Plotly](https://plot.ly/api/)
+- Getting started with [d3](https://github.com/d3/d3/wiki/Tutorials)
 
 
 
