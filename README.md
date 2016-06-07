@@ -15,11 +15,11 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 ##### Exercism Ex 6 - Word Count
 
 - 'Write a program that given a phrase can count the occurrences of each word in that phrase'
-- My solution [here](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/wordcount2.py). I couldn't get it to pass the [last 
-test](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/word_count_test.py). It has trouble detecting the space in the 
+- My solution [here](tutorials/exercism_py3/word_count/wordcount2.py). I couldn't get it to pass the [last 
+test](tutorials/exercism_py3/word_count/word_count_test.py). It has trouble detecting the space in the 
 russian characters. 
 There is no `str.decode()` in python 3 as everything is decoded from UTF-8 already. I need to look through more of other peoples 
-submissions. [For example](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/wordcount3.py) this works but I'm not sure why 
+submissions. [For example](tutorials/exercism_py3/word_count/wordcount3.py) this works but I'm not sure why 
 yet. 
 
 ------------------
