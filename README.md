@@ -9,6 +9,20 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+
+####Day 44
+
+##### Exercism Ex 6 - Word Count
+
+- 'Write a program that given a phrase can count the occurrences of each word in that phrase'
+- My solution [here](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/wordcount2.py). I couldn't get it to pass the [last 
+test](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/word_count_test.py). It has trouble detecting the space in the 
+russian characters. 
+There is no `str.decode()` in python 3 as everything is decoded from UTF-8 already. I need to look through more of other peoples 
+submissions. [For example](/home/sophie/Python/notechain/tutorials/exercism_py3/word_count/wordcount3.py) this works but I'm not sure why 
+yet. 
+
+------------------
 ####Day 43 
 
 ##### Bayes's Theorem
@@ -16,7 +30,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 - Cookie problem and Monty Hall Problem from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf)
 - Have started using the module [ThinkBayes.py](tutorials/ThinkBayes/thinkbayes.py) written by the author, to follow the Computation 
 Statistics: Distributions chapter. Have converted bits of it from python 2 to python 3. i.e. `itervalues()` to `values()`.
-- [Cookie problem notebook](tutorials/ThinkBayes/043-Distribution.ipynb), using pmf module.
+- [Cookie problem notebook](tutorials/ThinkBayes/043-Distributions.ipynb), using pmf module.
 
 ##### Machine Learning - Titanic Kaggle comp
 
