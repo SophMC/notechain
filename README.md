@@ -7,12 +7,31 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+
+------------------
+####Day 43 
+
+##### Bayes's Theorem
+
+- Cookie problem and Monty Hall Problem from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf)
+- Have started using the module [ThinkBayes.py](tutorials/ThinkBayes/thinkbayes.py) written by the author, to follow the Computation 
+Statistics: Distributions chapter. Have converted bits of it from python 2 to python 3. i.e. `itervalues()` to `values()`.
+- [Cookie problem notebook](tutorials/ThinkBayes/043-Distribution.ipynb), using pmf module.
+
+##### Machine Learning - Titanic Kaggle comp
+
+- Going through [the tutorial](https://www.kaggle.com/c/titanic/details/getting-started-with-python) using python 3, to become acquainted 
+with open(), read_csv(), next() standard python modules, rather than pandas.  
+- [Notebook](Titanic/notebooks/Titanic_explore.ipynb) with the first step: creating a gender-based model. Consistst of Passengerid and 
+Survived, though I am confused, as it should perhaps be Sex because it is binary 1 or 0 for female/male.
+
+
 ------------------
 ####Day 42
 
 ##### Bayes's Theorem
 
-- Learned the following terms from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf))
+- Learned the following terms from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf).
   - Conditional and Conjoint probability
   - How to derive Bayes Theorem
   - Diachronic Interpretation

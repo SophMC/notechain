@@ -15,6 +15,8 @@ hackers](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Progr
 Prologue/Prologue.ipynb)
 
 - Recommended reading from S2DS. [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf).
+  - Some problems, and solutions, from the Allen Downey's 
+[Blog](http://allendowney.blogspot.co.uk/2011/10/all-your-bayes-are-belong-to-us.html)
 
 - From the Harvard course:
   - [Bayesian Tomatoes](http://nbviewer.jupyter.org/github/cs109/content/blob/master/HW3.ipynb)
