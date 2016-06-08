@@ -15,14 +15,14 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Think Bayes
 
-- [This workbook](tutorials/ThinkBayes/045-Cookie_framework.ipynb) contains the code necessary to compute POSTERIOR probabilities for a 
-suite of hypotheses, as well as being able to update these POSTERIOR probabilities with new data. Using the Cookie problem as an example.
+- [This workbook](tutorials/ThinkBayes/045-Cookie_framework.ipynb), using the "Cookie" problem, contains the code necessary to compute 
+POSTERIOR probabilities for a suite of hypotheses, as well as being able to update these POSTERIOR probabilities with new data. 
 
 ##### Titanic Machine Learning
 
-- Much clearer on what is going on [here](https://www.kaggle.com/c/titanic/details/getting-started-with-python). We use the training set 
-(with Survived) column to develop a model. Then apply the model to the test set with the final goal to produce an indexed list of 
-prediction for each passenger. 
+- I understand [this](https://www.kaggle.com/c/titanic/details/getting-started-with-python) Titanic python tutorial better now. We use the 
+training set (with Survived) column to develop a model. Then apply the model to the test set with the final goal to produce an indexed list 
+of prediction for each passenger. 
 - Working [here](Titanic/notebooks/045-Titanic.ipynb), for a model which is based on gender, class (1st,2nd,3rd) and price (4 bins of $10) 
 and produces the following prediction in [genderclassmodel.csv](Titanic/genderclassmodel.csv)
 - Can't quite get the final model to print out. 
