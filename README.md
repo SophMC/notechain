@@ -8,6 +8,29 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
+
+
+------------------
+####Day 45
+
+##### Think Bayes
+
+- [This workbook](tutorials/ThinkBayes/045-Cookie_framework.ipynb) contains the code necessary to compute POSTERIOR probabilities for a 
+suite of hypotheses, as well as being able to update these POSTERIOR probabilities with new data. Using the Cookie problem as an example.
+
+##### Titanic Machine Learning
+
+- Much clearer on what is going on [here](https://www.kaggle.com/c/titanic/details/getting-started-with-python). We use the training set 
+(with Survived) column to develop a model. Then apply the model to the test set with the final goal to produce an indexed list of 
+prediction for each passenger. 
+- Working [here](Titanic/notebooks/045-Titanic.ipynb), for a model which is based on gender, class (1st,2nd,3rd) and price (4 bins of $10).
+- Can't quite get the final model to print out. 
+
+
+##### SQL
+
+
+
 ------------------
 
 ####Day 44
@@ -30,7 +53,7 @@ yet.
 - Cookie problem and Monty Hall Problem from [Think Bayes](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf)
 - Have started using the module [ThinkBayes.py](tutorials/ThinkBayes/thinkbayes.py) written by the author, to follow the Computation 
 Statistics: Distributions chapter. Have converted bits of it from python 2 to python 3. i.e. `itervalues()` to `values()`.
-- [Cookie problem notebook](tutorials/ThinkBayes/043-Distributions.ipynb), using pmf module.
+- [Cookie problem notebook](tutorials/ThinkBayes/043-Distributions.ipynb), using pmf module. 
 
 ##### Machine Learning - Titanic Kaggle comp
 
