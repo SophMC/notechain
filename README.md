@@ -23,12 +23,15 @@ suite of hypotheses, as well as being able to update these POSTERIOR probabiliti
 - Much clearer on what is going on [here](https://www.kaggle.com/c/titanic/details/getting-started-with-python). We use the training set 
 (with Survived) column to develop a model. Then apply the model to the test set with the final goal to produce an indexed list of 
 prediction for each passenger. 
-- Working [here](Titanic/notebooks/045-Titanic.ipynb), for a model which is based on gender, class (1st,2nd,3rd) and price (4 bins of $10).
+- Working [here](Titanic/notebooks/045-Titanic.ipynb), for a model which is based on gender, class (1st,2nd,3rd) and price (4 bins of $10) 
+and produces the following prediction in [genderclassmodel.csv](Titanic/genderclassmodel.csv)
 - Can't quite get the final model to print out. 
-
 
 ##### SQL
 
+- Working through [24 SQL Interview Questions](https://www.toptal.com/sql/interview-questions) and 
+[KhanAcademy](https://www.khanacademy.org/computing/computer-programming/sql) - great interface for learning SQL. 
+- When comparing a value to Null, you must us `is`, not `=`. e.g. `null is null`, not `null = null`.
 
 
 ------------------
