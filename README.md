@@ -14,8 +14,8 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Think Bayes
 
-- Making a framework for the Monty Hall problem was the same apart from Likelihood. Notes on how this is done are in [this 
-notebook.](tutorials/ThinkBayes/046-MontyHall_framework.ipynb)
+- Making a framework for the Monty Hall problem. Notes on how this is done are in 
+[this notebook.](tutorials/ThinkBayes/046-MontyHall_framework.ipynb)
 - [Instructions](tutorials/ThinkBayes/046-ImplimentingSuite.ipynb) on how to impliment a Suite of hypotheses to create class Monty from 
 [thinkbayes.py](tutorials/ThinkBayes/thinkbayes.py). Very useful!
 - Using Suite from thinkbayes.py to calculate probability that an m&m came from a particular bag. I can't quite follow the code but have 
@@ -23,6 +23,15 @@ written notes in [this workbook.](tutorials/ThinkBayes/046-Suite_m&m.ipynb)
 - **Suite** is an *abstract* type
 - [**Monty**](tutorials/ThinkBayes/046-ImplimentingSuite.ipynb) is a *concrete* type: A class which extends an *abstract* parent class and 
 provides an implementation of the missing methods. For example, Monty extends Suite, so that it inherits Update and provides Likelihood.
+
+##### Titanic Machine Learning
+
+- A good few more tips on using Pandas for data cleaning in this Titanic tutorial [workbook](Titanic/notebooks/046-Titanic_pandas.ipynb) 
+(annotated by me):
+  - Filling in columns with nans with "probable" values. The success of your ML could depend on the techniques you use to do this.
+  - Keeping track of values which were filled in with "probable" values. 
+- To do: rewrite the [first tutorial](Titanic/notebooks/045-Titanic.ipynb) in pandas.
+
 
 ------------------
 ####Day 45
