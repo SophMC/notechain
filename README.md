@@ -15,8 +15,8 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 **Estimation**
 
-- Investigating the probability that we are rolling a 4,6,8,12 or 20 sided die, given the number (or list of numbers) that we roll.
-- Uses numbers for hypotheses, we create concrete class type (Dice) and write a new Likelihood method. Full explanation and working 
+- Investigating the probability you roll a 4,6,8,12 or 20 sided die, given the number (or list of numbers) that is rolled.
+- Using numbers for hypotheses, create concrete class type (Dice) and write a new Likelihood method. Full explanation and working 
 [here](tutorials/ThinkBayes/047-Dice.ipynb).
 
 
