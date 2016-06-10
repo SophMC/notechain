@@ -8,6 +8,34 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
+------------------
+####Day 47
+
+##### Think Bayes
+
+**Estimation**
+
+- Investigating the probability that we are rolling a 4,6,8,12 or 20 sided die, given the number (or list of numbers) that we roll.
+- Uses numbers for hypotheses, we create concrete class type (Dice) and write a new Likelihood method. Full explanation and working 
+[here](tutorials/ThinkBayes/047-Dice.ipynb).
+
+
+##### Titanic: Machine Learning
+
+- Rewrote the [first tutorial](Titanic/notebooks/045-Titanic.ipynb) in pandas, and I much prefer it. Notebook [here](Titanic/notebooks
+/047-pandas_prediction.ipynb).
+- Some particularly useful snippets
+  - `df.isnull().sum()` : null value count for each column
+  - `df['Farebin'] = df['Fare'].map(binfare)` : using map to apply a function to each value in a column
+  - `len(df[(df['Pclass'] == 2) & (df['Farebin'] == 1)])` : count how many rows match these criteria.
+
+##### SQL  
+
+- To read in a textfile delimited by spaces:
+`LOAD DATA LOCAL INFILE '../winds.txt' INTO TABLE Biskra FIELDS TERMINATED BY ' ';`
+- To create a windspeed table:
+`CREATE TABLE Biskra (year integer(4), month integer(2), day integer(2), hour integer(4), ws float(10));`
+
 
 ------------------
 ####Day 46
@@ -26,11 +54,12 @@ provides an implementation of the missing methods. For example, Monty extends Su
 
 ##### Titanic Machine Learning
 
-- A good few more tips on using Pandas for data cleaning in this Titanic tutorial [workbook](Titanic/notebooks/046-Titanic_pandas.ipynb) 
+- A good few more tips on using Pandas for data cleaning in [this Titanic tutorial workbook](Titanic/notebooks/046-Titanic_pandas.ipynb) 
 (annotated by me):
   - Filling in columns with nans with "probable" values. The success of your ML could depend on the techniques you use to do this.
   - Keeping track of values which were filled in with "probable" values. 
 - To do: rewrite the [first tutorial](Titanic/notebooks/045-Titanic.ipynb) in pandas.
+- `df.isnull().sum()` : count number of null values in each column.
 
 
 ------------------
