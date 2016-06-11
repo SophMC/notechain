@@ -9,6 +9,15 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+####Day 48
+
+##### SQL
+
+- Some good tutorials at [SQLZOO](http://sqlzoo.net/). Solutions [here](SQLtutorials/SQLZoo/Music.sql)
+- HAVING is used on GROUP BY objects, as WHERE cannot be.
+
+
+------------------
 ####Day 47
 
 ##### Think Bayes
@@ -31,9 +40,9 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### SQL  
 
-- To read in a textfile delimited by spaces:
+- To read in a textfile delimited by spaces:      
 `LOAD DATA LOCAL INFILE '../winds.txt' INTO TABLE Biskra FIELDS TERMINATED BY ' ';`
-- To create a windspeed table:
+- To create a windspeed table:      
 `CREATE TABLE Biskra (year integer(4), month integer(2), day integer(2), hour integer(4), ws float(10));`
 
 

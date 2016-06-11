@@ -50,14 +50,13 @@ PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4
 
 - Complete [this](http://sol.gfxile.net/g3/) excellent tutorial playing around with astronomy data. Done! 
 
+- [SQL Zoo](http://sqlzoo.net/) is a a good tutorial site. Work through these.   
+
 - Do [this](http://www.sqlcourse.com/) basic tutorial, followed by [this](http://www.sqlcourse2.com/) more advanced one. Looks good with 
 lots of questions (+ answers!).
 
-- With a good grounding in SQL, the next step is PL/SQL. Exercism.io might be a good place to pick this up.
-
 - Dip into [this](http://dev.mysql.com/doc/refman/5.5/en/examples.html) tutorial which goes through common queries from MySQL.
 
-- Find a MySQL project to work on.
 
 ### Pandas and Python
 
@@ -79,8 +78,6 @@ suggested futher exercises.
 - Do the Titanic competition.
   - Start with this for [Python](https://www.kaggle.com/c/titanic/details/getting-started-with-python) and [then 
 again](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii), but using pandas.
-  There is also [this introduction](https://www.dataquest.io/mission/74/getting-started-with-kaggle/) from DataQuest which looks quite 
-interesting and might be a good first step into python 3.
 
 ### Visualisation
 
