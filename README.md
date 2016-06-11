@@ -13,7 +13,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### SQL
 
-- Some good tutorials at [SQLZOO](http://sqlzoo.net/). Solutions [here](SQLtutorials/SQLZoo/Music.sql)
+- Some good tutorials at [SQLZOO](http://sqlzoo.net/). Solutions [here](https://github.com/SophMC/SQLtutorials)
 - HAVING is used on GROUP BY objects, as WHERE cannot be.
 
 
