@@ -45,6 +45,9 @@ PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4
 
 - [Statistical Natural Language Processing](http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb)
 
+- A cheatsheet of sorts for scikit-learn in Python using pandas - ['Python Machine 
+Learning'](https://github.com/rasbt/python-machine-learning-book)
+
 
 ### SQL
 
@@ -78,6 +81,8 @@ suggested futher exercises.
 - Do the Titanic competition.
   - Start with this for [Python](https://www.kaggle.com/c/titanic/details/getting-started-with-python) and [then 
 again](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii), but using pandas.
+  - Try tutorial in [Machine Learning DataBase 
+(MLDB)](https://docs.mldb.ai/ipy/notebooks/_demos/_latest/Predicting%20Titanic%20Survival.html)
 
 ### Visualisation
 

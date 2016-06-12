@@ -7,13 +7,40 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+------------------
+####Day 49
 
+##### Think Bayes
+
+**Estimation**
+
+- An example equation in Markdown:      
+`\begin{equation} PMF(x) \:\alpha \left(\frac{1}{x}\right)^\alpha \end{equation}`
+- [Locomotive example notebook](tutorials/ThinkBayes/049-Locomotive.ipynb). How many trains are there operating in a particular area? We 
+investigate the possible ways to answer this. First using a set prior (i.e 1000 or 500) which gives a very uncertain number. This is 
+improved by a) adding more data (seeing more trains) or b) improving the prior (can we start out with a more realistic prior). To use b, we 
+introduce the power law into the hypothesis prior which provides a better first guess. 
+
+**Credible Intervals and Cumulative Distribution Function (cdf)**
+
+- A credible interval is the values between which there is a 90% chance that the unknown value falls between them.
+- If we need to compute several interval values it is more efficient to use a cdf, than a pmf. These two methods shown 
+[here](tutorials/ThinkBayes/049-Credible_intervals_cdfs)
+
+#### Titanic Random Forest
+
+- Have to remove any null values and turn the whole dataframe into floats. Remove or convert string columns.
+- Repeated the data clean-up exercise for the training set, and in a [stand-alone 
+script](/home/sophie/Python/notechain/Titanic/bin/clean_test.py) for the test-set, before calculating the [survival predictions using 
+RandomForest](/home/sophie/Python/notechain/Titanic/notebooks/049-Titanic_RandomForest.ipynb).
+ 
 ------------------
 ####Day 48
 
 ##### SQL
 
-- Some good tutorials at [SQLZOO](http://sqlzoo.net/). Solutions [here](https://github.com/SophMC/SQLtutorials)
+- Some good tutorials at [SQLZOO](http://sqlzoo.net/). Have made a new repository especially for 
+SQL [here](https://github.com/SophMC/SQLtutorials).
 - HAVING is used on GROUP BY objects, as WHERE cannot be.
 
 
