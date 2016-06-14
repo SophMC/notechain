@@ -8,6 +8,30 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 50
+
+##### SQL
+
+- More Joins using [this](http://sqlzoo.net/wiki/More_JOIN_operations) tutorial. Stuck on Qu. 13.
+
+##### Think Bayes - Euro problem
+
+- Beta distribution: Allows us to update with two additions
+- Conjugate priors and distributions: If the prior and posterior distributions are in the same family.
+- Swamping the priors: Given enough data, people with different priors will tend to converge on the same posterior.
+- Cromwell's rule: Don't give a hypothesis a prior probability of 0, if there is ANY chance of it occurring. If p(H) = 0, p(H|D) will 
+always be 0, no matter the data.
+- [Notebook](tutorials/ThinkBayes/050-Euro.ipynb) with the Euro Estimation problem.
+
+##### Titanic
+
+- [Played around](Titanic/notebooks/050-pandas_vis.ipynb) trying to visualise the data with histograms to work out which features 
+are important. 
+- Overplotted subsections of histograms on each other, i.e. Age for survived/died.
+- seaborn statistical package has some nice functions for plotting features. 
+- resubmitted, changing column "FareBin" to "Fare" so that it matched the training set. It didn't make any difference. 
+
+------------------
 ####Day 49
 
 ##### Think Bayes
