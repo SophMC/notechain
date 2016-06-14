@@ -16,7 +16,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Think Bayes - Euro problem
 
-- Beta distribution: Allows us to update with two additions
+- Beta distribution: Allows an update with two additions.
 - Conjugate priors and distributions: If the prior and posterior distributions are in the same family.
 - Swamping the priors: Given enough data, people with different priors will tend to converge on the same posterior.
 - Cromwell's rule: Don't give a hypothesis a prior probability of 0, if there is ANY chance of it occurring. If p(H) = 0, p(H|D) will 
