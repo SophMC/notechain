@@ -8,6 +8,18 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 51
+
+##### SQL
+
+- Completed (and understood) Qu 13 on the Joins [Movie tutorial](http://sqlzoo.net/wiki/More_JOIN_operations). Now stuck on 16.
+
+##### Think Bayes
+
+- Baysian methods are most useful when you cannry the posterior distribution into the next step of the analysis to perform some kind of 
+decision analysis, or some kind of prediction.
+
+------------------
 ####Day 50
 
 ##### SQL
