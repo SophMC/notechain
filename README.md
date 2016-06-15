@@ -16,7 +16,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Think Bayes
 
-- Baysian methods are most useful when you cannry the posterior distribution into the next step of the analysis to perform some kind of 
+- Baysian methods are most useful when you carry the posterior distribution into the next step of the analysis to perform some kind of 
 decision analysis, or some kind of prediction.
 
 ------------------
