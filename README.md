@@ -10,16 +10,16 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 ------------------
 ####Day 52
 
-##### Titanic
+##### Titanic ML
 
-- Remove one part of a string from column 'Name' and make it into a key to search through "Title_Dictionary" in order to put it into a new 
-column, 'Title'.
+- Remove one part of a string from column 'Name' and make it into a key to search through "Title_Dictionary" in order to put into a new 
+column, 'Title'.      
   `df['Title'] = df['Name'].apply(lambda x: Title_Dictionary[x.split(',')[1].split('.')[0].strip()])` 
 - Should use a groupby object when finding the mean/median etc based on several groups. 
 - `pd.get_dummies` splits up categorical data, i.e. male/female in df['Sex'] gets turned into:  
-`Sex_female  Sex_male`
-`0  0.0        1.0`
-`1  1.0        0.0`
+`Sex_female  Sex_male`     
+`0  0.0        1.0`     
+`1  1.0        0.0`      
 - Point Biserial Correlation: used when one variable is dichotomous (jointly exhaustive and mutually exclusive), such as Gender. 
 - Spearman - can use `scipy.stats.spearmanr(a, b=None, axis=0)`. Returns: r, p-value. Unlike Pearson, Spearman does not assume that both 
 datasets are normally distributed.
@@ -28,7 +28,7 @@ datasets are normally distributed.
 - It is a good idea to make a dataFrame before visualising. 
 
 - Use **Cross Validation** : `sklearn.cross_validation.cross_val_score(clf, X, y...)` to work out how many features you need to use.
-- [Workbook]() with the above.
+- [Workbook](Titanic/notebooks/052-Titanic_new.ipynb) with the above.
 
 ------------------
 ####Day 51
