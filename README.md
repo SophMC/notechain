@@ -16,19 +16,20 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 [Another](https://www.kaggle.com/rahamoon/titanic/titanic/run/258564) interesting python/pandas feature engineering script to pick apart.
 - I have improved my ranking to 1487 through [this](Titanic/notebooks/053-Titanic_new.ipynb) feature engineering. The [.py 
-script](clean_test_53.py) which applies the same processes to test data. 
+script](Titanic/bin/clean_test_53.py) which applies the same processes to test data. 
 - [Here](Titanic/notebooks/053-DecisionTree_submit.ipynb) I try implimenting different ML techniques (DecisionTreeClassifier, 
 RandomForestClassifier, GradientBoostingClassifier) 
-- some [general advice](http://scikit-learn.org/stable/modules/tree.html#tips-on-practical-use) for using scikitlearn
+- some ["tips"](http://scikit-learn.org/stable/modules/tree.html#tips-on-practical-use) for using scikit.learn Decision Trees
 
 - As far as I can tell, there are two approaches to testing your model
   - split up your training data into test and training using `train_test_split()` and use `clf.score(X_test, y_test)`. Some knowledge may 
 "leak" from the test set into the training set and there is risk of overfitting.
   - Use `sklearn.cross_validation.cross_val_score(clf, X, y, cv= 10)` where X and y are the original training data. `cv=10` is the number 
 of times the dataset is split and it is split differently each time. This method is recommended. 
-  - From here you can use scores.mean() and scores.std() to check the validity of the score.
-  - Print out values rounded to 3 dp `print(["%.3f " %s for s in scores_std])`
-  - Could also use an F1 score with `scoring = 'f1_weighted' in `cross_val_score` but I need to look into this. F1 measures a test 
+    - From here you can use scores.mean() and scores.std() to check the validity of the score.
+
+- Print out values rounded to 3 dp `print(["%.3f " %s for s in scores_std])`
+- Could also use an F1 score with `scoring = 'f1_weighted' in `cross_val_score` but I need to look into this. F1 measures a test 
 accuracy, considering both precision and recall.
 
 
