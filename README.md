@@ -7,6 +7,38 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+
+------------------
+
+####Day 53
+
+#### Titanic ML
+
+[Another](https://www.kaggle.com/rahamoon/titanic/titanic/run/258564) interesting python/pandas feature engineering script to pick apart.
+- I have improved my ranking to 1487 through [this](Titanic/notebooks/053-Titanic_new.ipynb) feature engineering. The [.py 
+script](clean_test_53.py) which applies the same processes to test data. 
+- [Here](Titanic/notebooks/053-DecisionTree_submit.ipynb) I try implimenting different ML techniques (DecisionTreeClassifier, 
+RandomForestClassifier, GradientBoostingClassifier) 
+- some [general advice](http://scikit-learn.org/stable/modules/tree.html#tips-on-practical-use) for using scikitlearn
+
+- As far as I can tell, there are two approaches to testing your model
+  - split up your training data into test and training using `train_test_split()` and use `clf.score(X_test, y_test)`. Some knowledge may 
+"leak" from the test set into the training set and there is risk of overfitting.
+  - Use `sklearn.cross_validation.cross_val_score(clf, X, y, cv= 10)` where X and y are the original training data. `cv=10` is the number 
+of times the dataset is split and it is split differently each time. This method is recommended. 
+  - From here you can use scores.mean() and scores.std() to check the validity of the score.
+  - Print out values rounded to 3 dp `print(["%.3f " %s for s in scores_std])`
+  - Could also use an F1 score with `scoring = 'f1_weighted' in `cross_val_score` but I need to look into this. F1 measures a test 
+accuracy, considering both precision and recall.
+
+
+**Decision Trees**
+- decision node: directs with a question
+- leaf node: gives us a prediction
+- A "greedy" algorithm will, at each step, immediately choose the best option. However, there may be a better tree with a worse-looking 
+first move.
+
+
 ------------------
 ####Day 52
 
@@ -18,8 +50,8 @@ column, 'Title'.
 - Should use a groupby object when finding the mean/median etc based on several groups. 
 - `pd.get_dummies` splits up categorical data, i.e. male/female in df['Sex'] gets turned into:  
 `Sex_female  Sex_male`     
-`0  0.0        1.0`     
-`1  1.0        0.0`      
+`0   0.0         1.0`     
+`1   1.0         0.0`      
 - Point Biserial Correlation: used when one variable is dichotomous (jointly exhaustive and mutually exclusive), such as Gender. 
 - Spearman - can use `scipy.stats.spearmanr(a, b=None, axis=0)`. Returns: r, p-value. Unlike Pearson, Spearman does not assume that both 
 datasets are normally distributed.

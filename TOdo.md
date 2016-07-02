@@ -25,7 +25,10 @@ Prologue/Prologue.ipynb)
 
 ### Machine Learning 
 
-- Learn and understand [this introduction](http://www.astroml.org/sklearn_tutorial/general_concepts.html) from the python lib scikit. I also 
+- Work through the ISLR book (downloaded) with [this](https://github.com/JWarmenhoven/ISLR-python) python repo for guidance.
+
+- Learn and understand [this introduction](http://www.astroml.org/sklearn_tutorial/general_concepts.html) from the python lib scikit. I 
+also 
 like this [reference map](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html). 
 
 - Clone [this](https://github.com/ogrisel/sklearn_pycon2014) repository and work through.
