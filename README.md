@@ -10,6 +10,32 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
 
+####Day 54
+
+##### Data Science Python
+
+- a `set` is a collection of *distinct* elements
+- `sort()` and `sorted()`
+- controlling the work flow with conditionally with `if`
+- using `continue` and `break` in a loop
+- list comprehensions 
+  - in a list: `squares = [x * x for x in range(5)] #[0, 1, 4, 9, 16]`
+  - in a dictionary: `square_dict = {x : x * x for x in range(5)}`
+  - can include multiple `for`s: 
+  `pairs = [(x,y) for x in range(10) for y in range(10)] # 100 pairs (0,0) (0,1)....(9,8),(9,9)`
+- Not quite understanding `generators` and `yield`
+- `range()` in python 3 is a generator object.
+- Generating random numbers with: `random.random()`, `random.seed()`, `random.choice()`, `random.randrange()`, 
+`random.shuffle()`, `random.sample()`
+- From the re module
+  - `re.match` for beginning of strings
+  - `re.search` for anywhere in string
+  - `re.split("[ab]", "carbs")),  # split on a or b to give ['c','r','s']
+  - `re.sub("[0-9]", "-", "R2D2")])) # replace digits with dashes`
+All working in [this notebook](DSFromScratch/Chap2/054-Chap2.ipynb)
+
+------------------
+
 ####Day 53
 
 #### Titanic ML
@@ -25,11 +51,11 @@ RandomForestClassifier, GradientBoostingClassifier)
   - split up your training data into test and training using `train_test_split()` and use `clf.score(X_test, y_test)`. Some knowledge may 
 "leak" from the test set into the training set and there is risk of overfitting.
   - Use `sklearn.cross_validation.cross_val_score(clf, X, y, cv= 10)` where X and y are the original training data. `cv=10` is the number 
-of times the dataset is split and it is split differently each time. This method is recommended. 
-    - From here you can use scores.mean() and scores.std() to check the validity of the score.
+of times the dataset is split and it is split differently each time. This method is recommended.
+      - From here you can use scores.mean() and scores.std() to check the validity of the score.
 
 - Print out values rounded to 3 dp `print(["%.3f " %s for s in scores_std])`
-- Could also use an F1 score with `scoring = 'f1_weighted' in `cross_val_score` but I need to look into this. F1 measures a test 
+- Could also use an F1 score with `scoring = 'f1_weighted'` in `cross_val_score` but I need to look into this. F1 measures a test 
 accuracy, considering both precision and recall.
 
 
