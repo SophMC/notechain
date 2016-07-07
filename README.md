@@ -10,7 +10,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 ------------------
 ####Day 56
 
-#### ThinkBayes
+##### ThinkBayes
 
 - The mechanics behind representing PDFs in thinkbayes is discussed in **Representing PDFs** part of **Chap 6: Decision Analysis**.
 My notes and code are found [here](tutorials/ThinkBayes/056-RepresentingPDFs.ipynb).
@@ -24,6 +24,21 @@ My notes and code are found [here](tutorials/ThinkBayes/056-RepresentingPDFs.ipy
   - Use the posterior distribution from the above to create "Optimal bid" - maximises expected return.
 - If all you need is a mean of maximum likelihood estimate, it may not be Bayesian that you need. 
 
+##### Data Science Python
+
+- OOP - creating an equivalent to built-in `set()` with `class Set`
+- using __repr__ in a class to determine what the class object printout will be
+- using `partial` functions.
+- If you apply multiple argument functions to map() in python 3, this returns a `map object` which you must use list comprehension on:
+`>def multiply(x, y): return x * y`    
+`>products = map(multiply, [1,2], [4,5])`    
+`>[x for x in products]`
+'[4,10]'   
+- filter()
+- reduce() not built-in to python 3 use `from functools import reduce`
+- *args for unnamed arguments such as `x = [1, 2]` and **kwargs for named arguments such as `y = { "z" : 3 }` can be combined together in a 
+function such as: `func(*x, **y)` 
+- All this working in [056-Chap2](DSFromScratch/Chap2/056-Chap2.ipynb).
 
 
 ------------------
