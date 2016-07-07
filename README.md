@@ -9,6 +9,15 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+####Day 55
+
+##### Titanic
+
+- Joined up the training and test set in the beginning before doing the feature engineering! It will be split at the end again.
+- `df.replace` is an important one for substituting several values at the same time i.e. 
+`full['Title'].replace(to_replace = ['Mlle','Ms'], value = 'Miss',inplace=True)`
+
+------------------
 
 ####Day 54
 
@@ -16,21 +25,21 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 - a `set` is a collection of *distinct* elements
 - `sort()` and `sorted()`
-- controlling the work flow with conditionally with `if`
+- controlling the work flow conditionally with `if`
 - using `continue` and `break` in a loop
 - list comprehensions 
   - in a list: `squares = [x * x for x in range(5)] #[0, 1, 4, 9, 16]`
   - in a dictionary: `square_dict = {x : x * x for x in range(5)}`
-  - can include multiple `for`s: 
+  - can include multiple fors: 
   `pairs = [(x,y) for x in range(10) for y in range(10)] # 100 pairs (0,0) (0,1)....(9,8),(9,9)`
-- Not quite understanding `generators` and `yield`
+- I am unsure about `generators` and `yield`
 - `range()` in python 3 is a generator object.
 - Generating random numbers with: `random.random()`, `random.seed()`, `random.choice()`, `random.randrange()`, 
 `random.shuffle()`, `random.sample()`
 - From the re module
   - `re.match` for beginning of strings
   - `re.search` for anywhere in string
-  - `re.split("[ab]", "carbs")),  # split on a or b to give ['c','r','s']
+  - `re.split("[ab]", "carbs"))`  # split on a or b to give ['c','r','s']
   - `re.sub("[0-9]", "-", "R2D2")])) # replace digits with dashes`
 All working in [this notebook](DSFromScratch/Chap2/054-Chap2.ipynb)
 
