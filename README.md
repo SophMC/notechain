@@ -7,6 +7,24 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+------------------
+####Day 56
+
+#### ThinkBayes
+
+- The mechanics behind representing PDFs in thinkbayes is discussed in **Representing PDFs** part of Chap 6: Decision Analysis. My notes 
+and code are found [here](tutorials/ThinkBayes/056-RepresentingPDFs.ipynb). 
+  -**Kernel Density Estimation(KDE)** is an algorithm which takes a sample of data and finds an appropriately smooth pdf that fits the      
+data. 
+- Decision Analysis - given a posterior distribution, choose a bid that maximised the contestent's expected return. Steps:
+  - Model the contestents, using `error = price - guess`.
+  What is the likelihood that contestent's estimate is off by "error"? Use historical data to make `diff = price - bid` CDF.
+  - Write the Likelihood
+  - Write the Update
+  - Use the posterior distribution from the above to create "Optimal bid" - maximises expected return.
+- If all you need is a mean of maximum likelihood estimate, it may not be Bayesian that you need. 
+
+
 
 ------------------
 ####Day 55
