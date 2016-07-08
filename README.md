@@ -26,7 +26,7 @@ the likelihoods and renormalizes.
 
 - Histogram! How to plot two bars from different arrays, next to each other.
 - [Documentation](http://matplotlib.org/1.4.1/api/axes_api.html?highlight=axes.hist#matplotlib.axes.Axes.hist) on matplotlib axes.hist()
-- Mosaic plot from `statsmodels.graphics.mosaicplot`
+- Mosaic plot from `statsmodels.graphics.mosaicplot`. Working [here](Titanic/notebooks/057-Titanic_Rconvert.ipynb)
 
 ##### SQL
 
