@@ -8,14 +8,39 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 57
+
+##### ThinkBayes
+
+- Working on [Chap 6: Decision Analysis](tutorials/ThinkBayes/057-RepresentingPDFs.ipynb)
+Steps:
+- *Model the Player* as a price-guessing instrument with known error characteristics. We incorporate those characteristics using historical 
+data and computing a CDF of the differences between players bids and prices.
+- *Likelihood* - make a new Suite class which includes defining the Likelihood. Uses the hypothetical price of the showcase (we don't know 
+this, this is what we want to calculate) and the players guess and their error (price - bid).
+  - for error given by price-bid, this is then check in the player model - we carry forward the proportion of error to model-player-error.
+- *Update* - make a copy of the prior then invokes likelihood on each hypothesis (don't understand this bit), the multiplies the priors by 
+the likelihoods and renormalizes.
+
+##### Titanic
+
+- Histogram! How to plot two bars from different arrays, next to each other.
+- [Documentation](http://matplotlib.org/1.4.1/api/axes_api.html?highlight=axes.hist#matplotlib.axes.Axes.hist) on matplotlib axes.hist()
+- Mosaic plot from `statsmodels.graphics.mosaicplot`
+
+##### SQL
+
+- Started setting up VirtualBox(no probs) and Vagrant(still working on) to enable me to do the project for the Udacity course.
+
+------------------
 ####Day 56
 
 ##### ThinkBayes
 
 - The mechanics behind representing PDFs in thinkbayes is discussed in **Representing PDFs** part of **Chap 6: Decision Analysis**.
 My notes and code are found [here](tutorials/ThinkBayes/056-RepresentingPDFs.ipynb).
-  - **Kernel Density Estimation(KDE)** is an algorithm which takes a sample of data and finds an appropriately smooth pdf that fits the     
- data. 
+  - **Kernel Density Estimation(KDE)** is an algorithm which takes a sample of data and finds an appropriately smooth pdf that fits 
+the data. 
 - Decision Analysis - given a posterior distribution, choose a bid that maximised the contestent's expected return. Steps:
   - Model the contestents, using `error = price - guess`.
   What is the likelihood that contestent's estimate is off by `error`? Use historical data to make `diff = price - bid` CDF.
@@ -33,7 +58,7 @@ My notes and code are found [here](tutorials/ThinkBayes/056-RepresentingPDFs.ipy
 `>def multiply(x, y): return x * y`    
 `>products = map(multiply, [1,2], [4,5])`    
 `>[x for x in products]`    
-'[4,10]'   
+`>[4,10]`   
 - filter()
 - reduce() not built-in to python 3 use `from functools import reduce`
 - \*args for unnamed arguments such as `x = [1, 2]` and \**kwargs for named arguments such as `y = { "z" : 3 }` can be combined together in 
