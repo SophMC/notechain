@@ -8,11 +8,33 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 58
+
+##### ThinkBayes
+
+- Prior = what does the historical data tell us the price might be?
+- Update = after seeing the prizes, what do we think the price might be?
+- Posterior = The two above give us a posterior distribution, but what do we do with it? Optimal bidding.
+  - How to compute the optimal bid based on the players best guess. The optimal bid is price which maximises the 
+expected return.
+  - It is important to remember we are combining **two** sources of information: historical data about 
+past showcases and guesses about the prizes you see.  
+[Working here](tutorials/ThinkBayes/058 - Chap6_Optimization.ipynb)
+
+##### Titanic
+
+- Can use the test data to help fill in missing values. Previously I was just using training alone.
+- Only look at the non-nan values in a column: `full['Cabin'].dropna()`
+- installed `fancyimpute` so I can try out Multiple Imputation using Chained Equations (MICE) to fill in missing values.
+- Todays working [here](Titanic/notebooks/058-Titanic_Rconvert.ipynb)
+
+
+------------------
 ####Day 57
 
 ##### ThinkBayes
 
-- Working on [Chap 6: Decision Analysis](tutorials/ThinkBayes/057-RepresentingPDFs.ipynb)
+- Working on [Chap 6: Decision Analysis](tutorials/ThinkBayes/057 - Chap6DecisionAnalysis.ipynb)
 Steps:
 - *Model the Player* as a price-guessing instrument with known error characteristics. We incorporate those characteristics using historical 
 data and computing a CDF of the differences between players bids and prices.
