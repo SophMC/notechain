@@ -12,16 +12,17 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### ThinkBayes
 
+- Chapter 6: Decision Analysis
 - `class EstimatedPdf(Pdf)` takes a sample of data and makes a guassian_kde out of it. It provides method `Density(self, x)` which allows 
 you to evaluate the density at any given value x using the samples kde. This is used when you call `MakePmf()` method of parent `class 
-Pdf(object)` which takes a list of discrete values.` E.g.    
-`pdf = EstimatedPdf(prices)` 
+Pdf(object)` which takes a list of discrete values.     
+E.g.   `pdf = EstimatedPdf(prices)` 
 `pmf = pdf.MakePmf(xs)`  # call MakePmf method on the pdf object
   - `xs` is a list of discete values you use to make the pmf. 
 
 ##### Titanic
 
-- must provide index = False when you write a dataframe to csv in `to_csv`, otherwise you end up with "Unnamed: 0" when you read it in 
+- must provide `index = False` when you write a dataframe to csv in `to_csv`, otherwise you end up with `Unnamed: 0` when you read it in 
 again.
 - use `fig, axes = plt.subplots(ncols=3, nrows=2, figsize=(12, 4))` to set subplots. You can reference their positions with 
 `full['Age_IS'].plot.hist(alpha=0.5, ax=axes[0, 1])`
