@@ -26,6 +26,9 @@ E.g.   `pdf = EstimatedPdf(prices)`
 again.
 - use `fig, axes = plt.subplots(ncols=3, nrows=2, figsize=(12, 4))` to set subplots. You can reference their positions with 
 `full['Age_IS'].plot.hist(alpha=0.5, ax=axes[0, 1])`
+- Not quite able to get fancyimpute's MICE function to work, but I can extract the imputed values from the code and see if they are worth 
+keeping. Next step - compare those values with my imputed values from earlier notebooks.
+- [Today's notebook](Titanic/notebooks/059-Titanic_Rconvert.ipynb)
 
 ------------------
 ####Day 58
