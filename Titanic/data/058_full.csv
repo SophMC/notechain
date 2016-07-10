@@ -1,0 +1,1310 @@
+Age,Cabin,Embarked,Fare,Name,Parch,PassengerId,Pclass,Sex,SibSp,Survived,Ticket,Title,Surname,FamSize,FamSize_D,Survive_txt,Deck
+22.0,,S,7.25,"Braund, Mr. Owen Harris",0,1,3,male,1,0.0,A/5 21171,Mr,Braund,2,Small Family,Died,
+38.0,C85,C,71.2833,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",0,2,1,female,1,1.0,PC 17599,Mrs,Cumings,2,Small Family,Survived,C
+26.0,,S,7.925,"Heikkinen, Miss. Laina",0,3,3,female,0,1.0,STON/O2. 3101282,Miss,Heikkinen,1,Single,Survived,
+35.0,C123,S,53.1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",0,4,1,female,1,1.0,113803,Mrs,Futrelle,2,Small Family,Survived,C
+35.0,,S,8.05,"Allen, Mr. William Henry",0,5,3,male,0,0.0,373450,Mr,Allen,1,Single,Died,
+,,Q,8.4583,"Moran, Mr. James",0,6,3,male,0,0.0,330877,Mr,Moran,1,Single,Died,
+54.0,E46,S,51.8625,"McCarthy, Mr. Timothy J",0,7,1,male,0,0.0,17463,Mr,McCarthy,1,Single,Died,E
+2.0,,S,21.075,"Palsson, Master. Gosta Leonard",1,8,3,male,3,0.0,349909,Master,Palsson,5,Large Family,Died,
+27.0,,S,11.1333,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",2,9,3,female,0,1.0,347742,Mrs,Johnson,3,Small Family,Survived,
+14.0,,C,30.0708,"Nasser, Mrs. Nicholas (Adele Achem)",0,10,2,female,1,1.0,237736,Mrs,Nasser,2,Small Family,Survived,
+4.0,G6,S,16.7,"Sandstrom, Miss. Marguerite Rut",1,11,3,female,1,1.0,PP 9549,Miss,Sandstrom,3,Small Family,Survived,
+58.0,C103,S,26.55,"Bonnell, Miss. Elizabeth",0,12,1,female,0,1.0,113783,Miss,Bonnell,1,Single,Survived,C
+20.0,,S,8.05,"Saundercock, Mr. William Henry",0,13,3,male,0,0.0,A/5. 2151,Mr,Saundercock,1,Single,Died,
+39.0,,S,31.275,"Andersson, Mr. Anders Johan",5,14,3,male,1,0.0,347082,Mr,Andersson,7,Large Family,Died,
+14.0,,S,7.8542,"Vestrom, Miss. Hulda Amanda Adolfina",0,15,3,female,0,0.0,350406,Miss,Vestrom,1,Single,Died,
+55.0,,S,16.0,"Hewlett, Mrs. (Mary D Kingcome) ",0,16,2,female,0,1.0,248706,Mrs,Hewlett,1,Single,Survived,
+2.0,,Q,29.125,"Rice, Master. Eugene",1,17,3,male,4,0.0,382652,Master,Rice,6,Large Family,Died,
+,,S,13.0,"Williams, Mr. Charles Eugene",0,18,2,male,0,1.0,244373,Mr,Williams,1,Single,Survived,
+31.0,,S,18.0,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",0,19,3,female,1,0.0,345763,Mrs,Vander Planke,2,Small Family,Died,
+,,C,7.225,"Masselmani, Mrs. Fatima",0,20,3,female,0,1.0,2649,Mrs,Masselmani,1,Single,Survived,
+35.0,,S,26.0,"Fynney, Mr. Joseph J",0,21,2,male,0,0.0,239865,Mr,Fynney,1,Single,Died,
+34.0,D56,S,13.0,"Beesley, Mr. Lawrence",0,22,2,male,0,1.0,248698,Mr,Beesley,1,Single,Survived,D
+15.0,,Q,8.0292,"McGowan, Miss. Anna ""Annie""",0,23,3,female,0,1.0,330923,Miss,McGowan,1,Single,Survived,
+28.0,A6,S,35.5,"Sloper, Mr. William Thompson",0,24,1,male,0,1.0,113788,Mr,Sloper,1,Single,Survived,A
+8.0,,S,21.075,"Palsson, Miss. Torborg Danira",1,25,3,female,3,0.0,349909,Miss,Palsson,5,Large Family,Died,
+38.0,,S,31.3875,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",5,26,3,female,1,1.0,347077,Mrs,Asplund,7,Large Family,Survived,
+,,C,7.225,"Emir, Mr. Farred Chehab",0,27,3,male,0,0.0,2631,Mr,Emir,1,Single,Died,
+19.0,C23 C25 C27,S,263.0,"Fortune, Mr. Charles Alexander",2,28,1,male,3,0.0,19950,Mr,Fortune,6,Large Family,Died,C
+,,Q,7.8792,"O'Dwyer, Miss. Ellen ""Nellie""",0,29,3,female,0,1.0,330959,Miss,O'Dwyer,1,Single,Survived,
+,,S,7.8958,"Todoroff, Mr. Lalio",0,30,3,male,0,0.0,349216,Mr,Todoroff,1,Single,Died,
+40.0,,C,27.7208,"Uruchurtu, Don. Manuel E",0,31,1,male,0,0.0,PC 17601,Rare,Uruchurtu,1,Single,Died,
+,B78,C,146.5208,"Spencer, Mrs. William Augustus (Marie Eugenie)",0,32,1,female,1,1.0,PC 17569,Mrs,Spencer,2,Small Family,Survived,B
+,,Q,7.75,"Glynn, Miss. Mary Agatha",0,33,3,female,0,1.0,335677,Miss,Glynn,1,Single,Survived,
+66.0,,S,10.5,"Wheadon, Mr. Edward H",0,34,2,male,0,0.0,C.A. 24579,Mr,Wheadon,1,Single,Died,
+28.0,,C,82.1708,"Meyer, Mr. Edgar Joseph",0,35,1,male,1,0.0,PC 17604,Mr,Meyer,2,Small Family,Died,
+42.0,,S,52.0,"Holverson, Mr. Alexander Oskar",0,36,1,male,1,0.0,113789,Mr,Holverson,2,Small Family,Died,
+,,C,7.2292,"Mamee, Mr. Hanna",0,37,3,male,0,1.0,2677,Mr,Mamee,1,Single,Survived,
+21.0,,S,8.05,"Cann, Mr. Ernest Charles",0,38,3,male,0,0.0,A./5. 2152,Mr,Cann,1,Single,Died,
+18.0,,S,18.0,"Vander Planke, Miss. Augusta Maria",0,39,3,female,2,0.0,345764,Miss,Vander Planke,3,Small Family,Died,
+14.0,,C,11.2417,"Nicola-Yarred, Miss. Jamila",0,40,3,female,1,1.0,2651,Miss,Nicola-Yarred,2,Small Family,Survived,
+40.0,,S,9.475,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",0,41,3,female,1,0.0,7546,Mrs,Ahlin,2,Small Family,Died,
+27.0,,S,21.0,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",0,42,2,female,1,0.0,11668,Mrs,Turpin,2,Small Family,Died,
+,,C,7.8958,"Kraeff, Mr. Theodor",0,43,3,male,0,0.0,349253,Mr,Kraeff,1,Single,Died,
+3.0,,C,41.5792,"Laroche, Miss. Simonne Marie Anne Andree",2,44,2,female,1,1.0,SC/Paris 2123,Miss,Laroche,4,Small Family,Survived,
+19.0,,Q,7.8792,"Devaney, Miss. Margaret Delia",0,45,3,female,0,1.0,330958,Miss,Devaney,1,Single,Survived,
+,,S,8.05,"Rogers, Mr. William John",0,46,3,male,0,0.0,S.C./A.4. 23567,Mr,Rogers,1,Single,Died,
+,,Q,15.5,"Lennon, Mr. Denis",0,47,3,male,1,0.0,370371,Mr,Lennon,2,Small Family,Died,
+,,Q,7.75,"O'Driscoll, Miss. Bridget",0,48,3,female,0,1.0,14311,Miss,O'Driscoll,1,Single,Survived,
+,,C,21.6792,"Samaan, Mr. Youssef",0,49,3,male,2,0.0,2662,Mr,Samaan,3,Small Family,Died,
+18.0,,S,17.8,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",0,50,3,female,1,0.0,349237,Mrs,Arnold-Franchi,2,Small Family,Died,
+7.0,,S,39.6875,"Panula, Master. Juha Niilo",1,51,3,male,4,0.0,3101295,Master,Panula,6,Large Family,Died,
+21.0,,S,7.8,"Nosworthy, Mr. Richard Cater",0,52,3,male,0,0.0,A/4. 39886,Mr,Nosworthy,1,Single,Died,
+49.0,D33,C,76.7292,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",0,53,1,female,1,1.0,PC 17572,Mrs,Harper,2,Small Family,Survived,D
+29.0,,S,26.0,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",0,54,2,female,1,1.0,2926,Mrs,Faunthorpe,2,Small Family,Survived,
+65.0,B30,C,61.9792,"Ostby, Mr. Engelhart Cornelius",1,55,1,male,0,0.0,113509,Mr,Ostby,2,Small Family,Died,B
+,C52,S,35.5,"Woolner, Mr. Hugh",0,56,1,male,0,1.0,19947,Mr,Woolner,1,Single,Survived,C
+21.0,,S,10.5,"Rugg, Miss. Emily",0,57,2,female,0,1.0,C.A. 31026,Miss,Rugg,1,Single,Survived,
+28.5,,C,7.2292,"Novel, Mr. Mansouer",0,58,3,male,0,0.0,2697,Mr,Novel,1,Single,Died,
+5.0,,S,27.75,"West, Miss. Constance Mirium",2,59,2,female,1,1.0,C.A. 34651,Miss,West,4,Small Family,Survived,
+11.0,,S,46.9,"Goodwin, Master. William Frederick",2,60,3,male,5,0.0,CA 2144,Master,Goodwin,8,Large Family,Died,
+22.0,,C,7.2292,"Sirayanian, Mr. Orsen",0,61,3,male,0,0.0,2669,Mr,Sirayanian,1,Single,Died,
+38.0,B28,C,80.0,"Icard, Miss. Amelie",0,62,1,female,0,1.0,113572,Miss,Icard,1,Single,Survived,B
+45.0,C83,S,83.475,"Harris, Mr. Henry Birkhardt",0,63,1,male,1,0.0,36973,Mr,Harris,2,Small Family,Died,C
+4.0,,S,27.9,"Skoog, Master. Harald",2,64,3,male,3,0.0,347088,Master,Skoog,6,Large Family,Died,
+,,C,27.7208,"Stewart, Mr. Albert A",0,65,1,male,0,0.0,PC 17605,Mr,Stewart,1,Single,Died,
+,,C,15.2458,"Moubarek, Master. Gerios",1,66,3,male,1,1.0,2661,Master,Moubarek,3,Small Family,Survived,
+29.0,F33,S,10.5,"Nye, Mrs. (Elizabeth Ramell)",0,67,2,female,0,1.0,C.A. 29395,Mrs,Nye,1,Single,Survived,F
+19.0,,S,8.1583,"Crease, Mr. Ernest James",0,68,3,male,0,0.0,S.P. 3464,Mr,Crease,1,Single,Died,
+17.0,,S,7.925,"Andersson, Miss. Erna Alexandra",2,69,3,female,4,1.0,3101281,Miss,Andersson,7,Large Family,Survived,
+26.0,,S,8.6625,"Kink, Mr. Vincenz",0,70,3,male,2,0.0,315151,Mr,Kink,3,Small Family,Died,
+32.0,,S,10.5,"Jenkin, Mr. Stephen Curnow",0,71,2,male,0,0.0,C.A. 33111,Mr,Jenkin,1,Single,Died,
+16.0,,S,46.9,"Goodwin, Miss. Lillian Amy",2,72,3,female,5,0.0,CA 2144,Miss,Goodwin,8,Large Family,Died,
+21.0,,S,73.5,"Hood, Mr. Ambrose Jr",0,73,2,male,0,0.0,S.O.C. 14879,Mr,Hood,1,Single,Died,
+26.0,,C,14.4542,"Chronopoulos, Mr. Apostolos",0,74,3,male,1,0.0,2680,Mr,Chronopoulos,2,Small Family,Died,
+32.0,,S,56.4958,"Bing, Mr. Lee",0,75,3,male,0,1.0,1601,Mr,Bing,1,Single,Survived,
+25.0,F G73,S,7.65,"Moen, Mr. Sigurd Hansen",0,76,3,male,0,0.0,348123,Mr,Moen,1,Single,Died,F
+,,S,7.8958,"Staneff, Mr. Ivan",0,77,3,male,0,0.0,349208,Mr,Staneff,1,Single,Died,
+,,S,8.05,"Moutal, Mr. Rahamin Haim",0,78,3,male,0,0.0,374746,Mr,Moutal,1,Single,Died,
+0.83,,S,29.0,"Caldwell, Master. Alden Gates",2,79,2,male,0,1.0,248738,Master,Caldwell,3,Small Family,Survived,
+30.0,,S,12.475,"Dowdell, Miss. Elizabeth",0,80,3,female,0,1.0,364516,Miss,Dowdell,1,Single,Survived,
+22.0,,S,9.0,"Waelens, Mr. Achille",0,81,3,male,0,0.0,345767,Mr,Waelens,1,Single,Died,
+29.0,,S,9.5,"Sheerlinck, Mr. Jan Baptist",0,82,3,male,0,1.0,345779,Mr,Sheerlinck,1,Single,Survived,
+,,Q,7.7875,"McDermott, Miss. Brigdet Delia",0,83,3,female,0,1.0,330932,Miss,McDermott,1,Single,Survived,
+28.0,,S,47.1,"Carrau, Mr. Francisco M",0,84,1,male,0,0.0,113059,Mr,Carrau,1,Single,Died,
+17.0,,S,10.5,"Ilett, Miss. Bertha",0,85,2,female,0,1.0,SO/C 14885,Miss,Ilett,1,Single,Survived,
+33.0,,S,15.85,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",0,86,3,female,3,1.0,3101278,Mrs,Backstrom,4,Small Family,Survived,
+16.0,,S,34.375,"Ford, Mr. William Neal",3,87,3,male,1,0.0,W./C. 6608,Mr,Ford,5,Large Family,Died,
+,,S,8.05,"Slocovski, Mr. Selman Francis",0,88,3,male,0,0.0,SOTON/OQ 392086,Mr,Slocovski,1,Single,Died,
+23.0,C23 C25 C27,S,263.0,"Fortune, Miss. Mabel Helen",2,89,1,female,3,1.0,19950,Miss,Fortune,6,Large Family,Survived,C
+24.0,,S,8.05,"Celotti, Mr. Francesco",0,90,3,male,0,0.0,343275,Mr,Celotti,1,Single,Died,
+29.0,,S,8.05,"Christmann, Mr. Emil",0,91,3,male,0,0.0,343276,Mr,Christmann,1,Single,Died,
+20.0,,S,7.8542,"Andreasson, Mr. Paul Edvin",0,92,3,male,0,0.0,347466,Mr,Andreasson,1,Single,Died,
+46.0,E31,S,61.175,"Chaffee, Mr. Herbert Fuller",0,93,1,male,1,0.0,W.E.P. 5734,Mr,Chaffee,2,Small Family,Died,E
+26.0,,S,20.575,"Dean, Mr. Bertram Frank",2,94,3,male,1,0.0,C.A. 2315,Mr,Dean,4,Small Family,Died,
+59.0,,S,7.25,"Coxon, Mr. Daniel",0,95,3,male,0,0.0,364500,Mr,Coxon,1,Single,Died,
+,,S,8.05,"Shorney, Mr. Charles Joseph",0,96,3,male,0,0.0,374910,Mr,Shorney,1,Single,Died,
+71.0,A5,C,34.6542,"Goldschmidt, Mr. George B",0,97,1,male,0,0.0,PC 17754,Mr,Goldschmidt,1,Single,Died,A
+23.0,D10 D12,C,63.3583,"Greenfield, Mr. William Bertram",1,98,1,male,0,1.0,PC 17759,Mr,Greenfield,2,Small Family,Survived,D
+34.0,,S,23.0,"Doling, Mrs. John T (Ada Julia Bone)",1,99,2,female,0,1.0,231919,Mrs,Doling,2,Small Family,Survived,
+34.0,,S,26.0,"Kantor, Mr. Sinai",0,100,2,male,1,0.0,244367,Mr,Kantor,2,Small Family,Died,
+28.0,,S,7.8958,"Petranec, Miss. Matilda",0,101,3,female,0,0.0,349245,Miss,Petranec,1,Single,Died,
+,,S,7.8958,"Petroff, Mr. Pastcho (""Pentcho"")",0,102,3,male,0,0.0,349215,Mr,Petroff,1,Single,Died,
+21.0,D26,S,77.2875,"White, Mr. Richard Frasar",1,103,1,male,0,0.0,35281,Mr,White,2,Small Family,Died,D
+33.0,,S,8.6542,"Johansson, Mr. Gustaf Joel",0,104,3,male,0,0.0,7540,Mr,Johansson,1,Single,Died,
+37.0,,S,7.925,"Gustafsson, Mr. Anders Vilhelm",0,105,3,male,2,0.0,3101276,Mr,Gustafsson,3,Small Family,Died,
+28.0,,S,7.8958,"Mionoff, Mr. Stoytcho",0,106,3,male,0,0.0,349207,Mr,Mionoff,1,Single,Died,
+21.0,,S,7.65,"Salkjelsvik, Miss. Anna Kristine",0,107,3,female,0,1.0,343120,Miss,Salkjelsvik,1,Single,Survived,
+,,S,7.775,"Moss, Mr. Albert Johan",0,108,3,male,0,1.0,312991,Mr,Moss,1,Single,Survived,
+38.0,,S,7.8958,"Rekic, Mr. Tido",0,109,3,male,0,0.0,349249,Mr,Rekic,1,Single,Died,
+,,Q,24.15,"Moran, Miss. Bertha",0,110,3,female,1,1.0,371110,Miss,Moran,2,Small Family,Survived,
+47.0,C110,S,52.0,"Porter, Mr. Walter Chamberlain",0,111,1,male,0,0.0,110465,Mr,Porter,1,Single,Died,C
+14.5,,C,14.4542,"Zabour, Miss. Hileni",0,112,3,female,1,0.0,2665,Miss,Zabour,2,Small Family,Died,
+22.0,,S,8.05,"Barton, Mr. David John",0,113,3,male,0,0.0,324669,Mr,Barton,1,Single,Died,
+20.0,,S,9.825,"Jussila, Miss. Katriina",0,114,3,female,1,0.0,4136,Miss,Jussila,2,Small Family,Died,
+17.0,,C,14.4583,"Attalah, Miss. Malake",0,115,3,female,0,0.0,2627,Miss,Attalah,1,Single,Died,
+21.0,,S,7.925,"Pekoniemi, Mr. Edvard",0,116,3,male,0,0.0,STON/O 2. 3101294,Mr,Pekoniemi,1,Single,Died,
+70.5,,Q,7.75,"Connors, Mr. Patrick",0,117,3,male,0,0.0,370369,Mr,Connors,1,Single,Died,
+29.0,,S,21.0,"Turpin, Mr. William John Robert",0,118,2,male,1,0.0,11668,Mr,Turpin,2,Small Family,Died,
+24.0,B58 B60,C,247.5208,"Baxter, Mr. Quigg Edmond",1,119,1,male,0,0.0,PC 17558,Mr,Baxter,2,Small Family,Died,B
+2.0,,S,31.275,"Andersson, Miss. Ellis Anna Maria",2,120,3,female,4,0.0,347082,Miss,Andersson,7,Large Family,Died,
+21.0,,S,73.5,"Hickman, Mr. Stanley George",0,121,2,male,2,0.0,S.O.C. 14879,Mr,Hickman,3,Small Family,Died,
+,,S,8.05,"Moore, Mr. Leonard Charles",0,122,3,male,0,0.0,A4. 54510,Mr,Moore,1,Single,Died,
+32.5,,C,30.0708,"Nasser, Mr. Nicholas",0,123,2,male,1,0.0,237736,Mr,Nasser,2,Small Family,Died,
+32.5,E101,S,13.0,"Webber, Miss. Susan",0,124,2,female,0,1.0,27267,Miss,Webber,1,Single,Survived,E
+54.0,D26,S,77.2875,"White, Mr. Percival Wayland",1,125,1,male,0,0.0,35281,Mr,White,2,Small Family,Died,D
+12.0,,C,11.2417,"Nicola-Yarred, Master. Elias",0,126,3,male,1,1.0,2651,Master,Nicola-Yarred,2,Small Family,Survived,
+,,Q,7.75,"McMahon, Mr. Martin",0,127,3,male,0,0.0,370372,Mr,McMahon,1,Single,Died,
+24.0,,S,7.1417,"Madsen, Mr. Fridtjof Arne",0,128,3,male,0,1.0,C 17369,Mr,Madsen,1,Single,Survived,
+,F E69,C,22.3583,"Peter, Miss. Anna",1,129,3,female,1,1.0,2668,Miss,Peter,3,Small Family,Survived,F
+45.0,,S,6.975,"Ekstrom, Mr. Johan",0,130,3,male,0,0.0,347061,Mr,Ekstrom,1,Single,Died,
+33.0,,C,7.8958,"Drazenoic, Mr. Jozef",0,131,3,male,0,0.0,349241,Mr,Drazenoic,1,Single,Died,
+20.0,,S,7.05,"Coelho, Mr. Domingos Fernandeo",0,132,3,male,0,0.0,SOTON/O.Q. 3101307,Mr,Coelho,1,Single,Died,
+47.0,,S,14.5,"Robins, Mrs. Alexander A (Grace Charity Laury)",0,133,3,female,1,0.0,A/5. 3337,Mrs,Robins,2,Small Family,Died,
+29.0,,S,26.0,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",0,134,2,female,1,1.0,228414,Mrs,Weisz,2,Small Family,Survived,
+25.0,,S,13.0,"Sobey, Mr. Samuel James Hayden",0,135,2,male,0,0.0,C.A. 29178,Mr,Sobey,1,Single,Died,
+23.0,,C,15.0458,"Richard, Mr. Emile",0,136,2,male,0,0.0,SC/PARIS 2133,Mr,Richard,1,Single,Died,
+19.0,D47,S,26.2833,"Newsom, Miss. Helen Monypeny",2,137,1,female,0,1.0,11752,Miss,Newsom,3,Small Family,Survived,D
+37.0,C123,S,53.1,"Futrelle, Mr. Jacques Heath",0,138,1,male,1,0.0,113803,Mr,Futrelle,2,Small Family,Died,C
+16.0,,S,9.2167,"Osen, Mr. Olaf Elon",0,139,3,male,0,0.0,7534,Mr,Osen,1,Single,Died,
+24.0,B86,C,79.2,"Giglio, Mr. Victor",0,140,1,male,0,0.0,PC 17593,Mr,Giglio,1,Single,Died,B
+,,C,15.2458,"Boulos, Mrs. Joseph (Sultana)",2,141,3,female,0,0.0,2678,Mrs,Boulos,3,Small Family,Died,
+22.0,,S,7.75,"Nysten, Miss. Anna Sofia",0,142,3,female,0,1.0,347081,Miss,Nysten,1,Single,Survived,
+24.0,,S,15.85,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",0,143,3,female,1,1.0,STON/O2. 3101279,Mrs,Hakkarainen,2,Small Family,Survived,
+19.0,,Q,6.75,"Burke, Mr. Jeremiah",0,144,3,male,0,0.0,365222,Mr,Burke,1,Single,Died,
+18.0,,S,11.5,"Andrew, Mr. Edgardo Samuel",0,145,2,male,0,0.0,231945,Mr,Andrew,1,Single,Died,
+19.0,,S,36.75,"Nicholls, Mr. Joseph Charles",1,146,2,male,1,0.0,C.A. 33112,Mr,Nicholls,3,Small Family,Died,
+27.0,,S,7.7958,"Andersson, Mr. August Edvard (""Wennerstrom"")",0,147,3,male,0,1.0,350043,Mr,Andersson,1,Single,Survived,
+9.0,,S,34.375,"Ford, Miss. Robina Maggie ""Ruby""",2,148,3,female,2,0.0,W./C. 6608,Miss,Ford,5,Large Family,Died,
+36.5,F2,S,26.0,"Navratil, Mr. Michel (""Louis M Hoffman"")",2,149,2,male,0,0.0,230080,Mr,Navratil,3,Small Family,Died,F
+42.0,,S,13.0,"Byles, Rev. Thomas Roussel Davids",0,150,2,male,0,0.0,244310,Rare,Byles,1,Single,Died,
+51.0,,S,12.525,"Bateman, Rev. Robert James",0,151,2,male,0,0.0,S.O.P. 1166,Rare,Bateman,1,Single,Died,
+22.0,C2,S,66.6,"Pears, Mrs. Thomas (Edith Wearne)",0,152,1,female,1,1.0,113776,Mrs,Pears,2,Small Family,Survived,C
+55.5,,S,8.05,"Meo, Mr. Alfonzo",0,153,3,male,0,0.0,A.5. 11206,Mr,Meo,1,Single,Died,
+40.5,,S,14.5,"van Billiard, Mr. Austin Blyler",2,154,3,male,0,0.0,A/5. 851,Mr,van Billiard,3,Small Family,Died,
+,,S,7.3125,"Olsen, Mr. Ole Martin",0,155,3,male,0,0.0,Fa 265302,Mr,Olsen,1,Single,Died,
+51.0,,C,61.3792,"Williams, Mr. Charles Duane",1,156,1,male,0,0.0,PC 17597,Mr,Williams,2,Small Family,Died,
+16.0,,Q,7.7333,"Gilnagh, Miss. Katherine ""Katie""",0,157,3,female,0,1.0,35851,Miss,Gilnagh,1,Single,Survived,
+30.0,,S,8.05,"Corn, Mr. Harry",0,158,3,male,0,0.0,SOTON/OQ 392090,Mr,Corn,1,Single,Died,
+,,S,8.6625,"Smiljanic, Mr. Mile",0,159,3,male,0,0.0,315037,Mr,Smiljanic,1,Single,Died,
+,,S,69.55,"Sage, Master. Thomas Henry",2,160,3,male,8,0.0,CA. 2343,Master,Sage,11,Large Family,Died,
+44.0,,S,16.1,"Cribb, Mr. John Hatfield",1,161,3,male,0,0.0,371362,Mr,Cribb,2,Small Family,Died,
+40.0,,S,15.75,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",0,162,2,female,0,1.0,C.A. 33595,Mrs,Watt,1,Single,Survived,
+26.0,,S,7.775,"Bengtsson, Mr. John Viktor",0,163,3,male,0,0.0,347068,Mr,Bengtsson,1,Single,Died,
+17.0,,S,8.6625,"Calic, Mr. Jovo",0,164,3,male,0,0.0,315093,Mr,Calic,1,Single,Died,
+1.0,,S,39.6875,"Panula, Master. Eino Viljami",1,165,3,male,4,0.0,3101295,Master,Panula,6,Large Family,Died,
+9.0,,S,20.525,"Goldsmith, Master. Frank John William ""Frankie""",2,166,3,male,0,1.0,363291,Master,Goldsmith,3,Small Family,Survived,
+,E33,S,55.0,"Chibnall, Mrs. (Edith Martha Bowerman)",1,167,1,female,0,1.0,113505,Mrs,Chibnall,2,Small Family,Survived,E
+45.0,,S,27.9,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",4,168,3,female,1,0.0,347088,Mrs,Skoog,6,Large Family,Died,
+,,S,25.925,"Baumann, Mr. John D",0,169,1,male,0,0.0,PC 17318,Mr,Baumann,1,Single,Died,
+28.0,,S,56.4958,"Ling, Mr. Lee",0,170,3,male,0,0.0,1601,Mr,Ling,1,Single,Died,
+61.0,B19,S,33.5,"Van der hoef, Mr. Wyckoff",0,171,1,male,0,0.0,111240,Mr,Van der hoef,1,Single,Died,B
+4.0,,Q,29.125,"Rice, Master. Arthur",1,172,3,male,4,0.0,382652,Master,Rice,6,Large Family,Died,
+1.0,,S,11.1333,"Johnson, Miss. Eleanor Ileen",1,173,3,female,1,1.0,347742,Miss,Johnson,3,Small Family,Survived,
+21.0,,S,7.925,"Sivola, Mr. Antti Wilhelm",0,174,3,male,0,0.0,STON/O 2. 3101280,Mr,Sivola,1,Single,Died,
+56.0,A7,C,30.6958,"Smith, Mr. James Clinch",0,175,1,male,0,0.0,17764,Mr,Smith,1,Single,Died,A
+18.0,,S,7.8542,"Klasen, Mr. Klas Albin",1,176,3,male,1,0.0,350404,Mr,Klasen,3,Small Family,Died,
+,,S,25.4667,"Lefebre, Master. Henry Forbes",1,177,3,male,3,0.0,4133,Master,Lefebre,5,Large Family,Died,
+50.0,C49,C,28.7125,"Isham, Miss. Ann Elizabeth",0,178,1,female,0,0.0,PC 17595,Miss,Isham,1,Single,Died,C
+30.0,,S,13.0,"Hale, Mr. Reginald",0,179,2,male,0,0.0,250653,Mr,Hale,1,Single,Died,
+36.0,,S,0.0,"Leonard, Mr. Lionel",0,180,3,male,0,0.0,LINE,Mr,Leonard,1,Single,Died,
+,,S,69.55,"Sage, Miss. Constance Gladys",2,181,3,female,8,0.0,CA. 2343,Miss,Sage,11,Large Family,Died,
+,,C,15.05,"Pernot, Mr. Rene",0,182,2,male,0,0.0,SC/PARIS 2131,Mr,Pernot,1,Single,Died,
+9.0,,S,31.3875,"Asplund, Master. Clarence Gustaf Hugo",2,183,3,male,4,0.0,347077,Master,Asplund,7,Large Family,Died,
+1.0,F4,S,39.0,"Becker, Master. Richard F",1,184,2,male,2,1.0,230136,Master,Becker,4,Small Family,Survived,F
+4.0,,S,22.025,"Kink-Heilmann, Miss. Luise Gretchen",2,185,3,female,0,1.0,315153,Miss,Kink-Heilmann,3,Small Family,Survived,
+,A32,S,50.0,"Rood, Mr. Hugh Roscoe",0,186,1,male,0,0.0,113767,Mr,Rood,1,Single,Died,A
+,,Q,15.5,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",0,187,3,female,1,1.0,370365,Mrs,O'Brien,2,Small Family,Survived,
+45.0,,S,26.55,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",0,188,1,male,0,1.0,111428,Mr,Romaine,1,Single,Survived,
+40.0,,Q,15.5,"Bourke, Mr. John",1,189,3,male,1,0.0,364849,Mr,Bourke,3,Small Family,Died,
+36.0,,S,7.8958,"Turcin, Mr. Stjepan",0,190,3,male,0,0.0,349247,Mr,Turcin,1,Single,Died,
+32.0,,S,13.0,"Pinsky, Mrs. (Rosa)",0,191,2,female,0,1.0,234604,Mrs,Pinsky,1,Single,Survived,
+19.0,,S,13.0,"Carbines, Mr. William",0,192,2,male,0,0.0,28424,Mr,Carbines,1,Single,Died,
+19.0,,S,7.8542,"Andersen-Jensen, Miss. Carla Christine Nielsine",0,193,3,female,1,1.0,350046,Miss,Andersen-Jensen,2,Small Family,Survived,
+3.0,F2,S,26.0,"Navratil, Master. Michel M",1,194,2,male,1,1.0,230080,Master,Navratil,3,Small Family,Survived,F
+44.0,B4,C,27.7208,"Brown, Mrs. James Joseph (Margaret Tobin)",0,195,1,female,0,1.0,PC 17610,Mrs,Brown,1,Single,Survived,B
+58.0,B80,C,146.5208,"Lurette, Miss. Elise",0,196,1,female,0,1.0,PC 17569,Miss,Lurette,1,Single,Survived,B
+,,Q,7.75,"Mernagh, Mr. Robert",0,197,3,male,0,0.0,368703,Mr,Mernagh,1,Single,Died,
+42.0,,S,8.4042,"Olsen, Mr. Karl Siegwart Andreas",1,198,3,male,0,0.0,4579,Mr,Olsen,2,Small Family,Died,
+,,Q,7.75,"Madigan, Miss. Margaret ""Maggie""",0,199,3,female,0,1.0,370370,Miss,Madigan,1,Single,Survived,
+24.0,,S,13.0,"Yrois, Miss. Henriette (""Mrs Harbeck"")",0,200,2,female,0,0.0,248747,Miss,Yrois,1,Single,Died,
+28.0,,S,9.5,"Vande Walle, Mr. Nestor Cyriel",0,201,3,male,0,0.0,345770,Mr,Vande Walle,1,Single,Died,
+,,S,69.55,"Sage, Mr. Frederick",2,202,3,male,8,0.0,CA. 2343,Mr,Sage,11,Large Family,Died,
+34.0,,S,6.4958,"Johanson, Mr. Jakob Alfred",0,203,3,male,0,0.0,3101264,Mr,Johanson,1,Single,Died,
+45.5,,C,7.225,"Youseff, Mr. Gerious",0,204,3,male,0,0.0,2628,Mr,Youseff,1,Single,Died,
+18.0,,S,8.05,"Cohen, Mr. Gurshon ""Gus""",0,205,3,male,0,1.0,A/5 3540,Mr,Cohen,1,Single,Survived,
+2.0,G6,S,10.4625,"Strom, Miss. Telma Matilda",1,206,3,female,0,0.0,347054,Miss,Strom,2,Small Family,Died,
+32.0,,S,15.85,"Backstrom, Mr. Karl Alfred",0,207,3,male,1,0.0,3101278,Mr,Backstrom,2,Small Family,Died,
+26.0,,C,18.7875,"Albimona, Mr. Nassef Cassem",0,208,3,male,0,1.0,2699,Mr,Albimona,1,Single,Survived,
+16.0,,Q,7.75,"Carr, Miss. Helen ""Ellen""",0,209,3,female,0,1.0,367231,Miss,Carr,1,Single,Survived,
+40.0,A31,C,31.0,"Blank, Mr. Henry",0,210,1,male,0,1.0,112277,Mr,Blank,1,Single,Survived,A
+24.0,,S,7.05,"Ali, Mr. Ahmed",0,211,3,male,0,0.0,SOTON/O.Q. 3101311,Mr,Ali,1,Single,Died,
+35.0,,S,21.0,"Cameron, Miss. Clear Annie",0,212,2,female,0,1.0,F.C.C. 13528,Miss,Cameron,1,Single,Survived,
+22.0,,S,7.25,"Perkin, Mr. John Henry",0,213,3,male,0,0.0,A/5 21174,Mr,Perkin,1,Single,Died,
+30.0,,S,13.0,"Givard, Mr. Hans Kristensen",0,214,2,male,0,0.0,250646,Mr,Givard,1,Single,Died,
+,,Q,7.75,"Kiernan, Mr. Philip",0,215,3,male,1,0.0,367229,Mr,Kiernan,2,Small Family,Died,
+31.0,D36,C,113.275,"Newell, Miss. Madeleine",0,216,1,female,1,1.0,35273,Miss,Newell,2,Small Family,Survived,D
+27.0,,S,7.925,"Honkanen, Miss. Eliina",0,217,3,female,0,1.0,STON/O2. 3101283,Miss,Honkanen,1,Single,Survived,
+42.0,,S,27.0,"Jacobsohn, Mr. Sidney Samuel",0,218,2,male,1,0.0,243847,Mr,Jacobsohn,2,Small Family,Died,
+32.0,D15,C,76.2917,"Bazzani, Miss. Albina",0,219,1,female,0,1.0,11813,Miss,Bazzani,1,Single,Survived,D
+30.0,,S,10.5,"Harris, Mr. Walter",0,220,2,male,0,0.0,W/C 14208,Mr,Harris,1,Single,Died,
+16.0,,S,8.05,"Sunderland, Mr. Victor Francis",0,221,3,male,0,1.0,SOTON/OQ 392089,Mr,Sunderland,1,Single,Survived,
+27.0,,S,13.0,"Bracken, Mr. James H",0,222,2,male,0,0.0,220367,Mr,Bracken,1,Single,Died,
+51.0,,S,8.05,"Green, Mr. George Henry",0,223,3,male,0,0.0,21440,Mr,Green,1,Single,Died,
+,,S,7.8958,"Nenkoff, Mr. Christo",0,224,3,male,0,0.0,349234,Mr,Nenkoff,1,Single,Died,
+38.0,C93,S,90.0,"Hoyt, Mr. Frederick Maxfield",0,225,1,male,1,1.0,19943,Mr,Hoyt,2,Small Family,Survived,C
+22.0,,S,9.35,"Berglund, Mr. Karl Ivar Sven",0,226,3,male,0,0.0,PP 4348,Mr,Berglund,1,Single,Died,
+19.0,,S,10.5,"Mellors, Mr. William John",0,227,2,male,0,1.0,SW/PP 751,Mr,Mellors,1,Single,Survived,
+20.5,,S,7.25,"Lovell, Mr. John Hall (""Henry"")",0,228,3,male,0,0.0,A/5 21173,Mr,Lovell,1,Single,Died,
+18.0,,S,13.0,"Fahlstrom, Mr. Arne Jonas",0,229,2,male,0,0.0,236171,Mr,Fahlstrom,1,Single,Died,
+,,S,25.4667,"Lefebre, Miss. Mathilde",1,230,3,female,3,0.0,4133,Miss,Lefebre,5,Large Family,Died,
+35.0,C83,S,83.475,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",0,231,1,female,1,1.0,36973,Mrs,Harris,2,Small Family,Survived,C
+29.0,,S,7.775,"Larsson, Mr. Bengt Edvin",0,232,3,male,0,0.0,347067,Mr,Larsson,1,Single,Died,
+59.0,,S,13.5,"Sjostedt, Mr. Ernst Adolf",0,233,2,male,0,0.0,237442,Mr,Sjostedt,1,Single,Died,
+5.0,,S,31.3875,"Asplund, Miss. Lillian Gertrud",2,234,3,female,4,1.0,347077,Miss,Asplund,7,Large Family,Survived,
+24.0,,S,10.5,"Leyson, Mr. Robert William Norman",0,235,2,male,0,0.0,C.A. 29566,Mr,Leyson,1,Single,Died,
+,,S,7.55,"Harknett, Miss. Alice Phoebe",0,236,3,female,0,0.0,W./C. 6609,Miss,Harknett,1,Single,Died,
+44.0,,S,26.0,"Hold, Mr. Stephen",0,237,2,male,1,0.0,26707,Mr,Hold,2,Small Family,Died,
+8.0,,S,26.25,"Collyer, Miss. Marjorie ""Lottie""",2,238,2,female,0,1.0,C.A. 31921,Miss,Collyer,3,Small Family,Survived,
+19.0,,S,10.5,"Pengelly, Mr. Frederick William",0,239,2,male,0,0.0,28665,Mr,Pengelly,1,Single,Died,
+33.0,,S,12.275,"Hunt, Mr. George Henry",0,240,2,male,0,0.0,SCO/W 1585,Mr,Hunt,1,Single,Died,
+,,C,14.4542,"Zabour, Miss. Thamine",0,241,3,female,1,0.0,2665,Miss,Zabour,2,Small Family,Died,
+,,Q,15.5,"Murphy, Miss. Katherine ""Kate""",0,242,3,female,1,1.0,367230,Miss,Murphy,2,Small Family,Survived,
+29.0,,S,10.5,"Coleridge, Mr. Reginald Charles",0,243,2,male,0,0.0,W./C. 14263,Mr,Coleridge,1,Single,Died,
+22.0,,S,7.125,"Maenpaa, Mr. Matti Alexanteri",0,244,3,male,0,0.0,STON/O 2. 3101275,Mr,Maenpaa,1,Single,Died,
+30.0,,C,7.225,"Attalah, Mr. Sleiman",0,245,3,male,0,0.0,2694,Mr,Attalah,1,Single,Died,
+44.0,C78,Q,90.0,"Minahan, Dr. William Edward",0,246,1,male,2,0.0,19928,Rare,Minahan,3,Small Family,Died,C
+25.0,,S,7.775,"Lindahl, Miss. Agda Thorilda Viktoria",0,247,3,female,0,0.0,347071,Miss,Lindahl,1,Single,Died,
+24.0,,S,14.5,"Hamalainen, Mrs. William (Anna)",2,248,2,female,0,1.0,250649,Mrs,Hamalainen,3,Small Family,Survived,
+37.0,D35,S,52.5542,"Beckwith, Mr. Richard Leonard",1,249,1,male,1,1.0,11751,Mr,Beckwith,3,Small Family,Survived,D
+54.0,,S,26.0,"Carter, Rev. Ernest Courtenay",0,250,2,male,1,0.0,244252,Rare,Carter,2,Small Family,Died,
+,,S,7.25,"Reed, Mr. James George",0,251,3,male,0,0.0,362316,Mr,Reed,1,Single,Died,
+29.0,G6,S,10.4625,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",1,252,3,female,1,0.0,347054,Mrs,Strom,3,Small Family,Died,
+62.0,C87,S,26.55,"Stead, Mr. William Thomas",0,253,1,male,0,0.0,113514,Mr,Stead,1,Single,Died,C
+30.0,,S,16.1,"Lobb, Mr. William Arthur",0,254,3,male,1,0.0,A/5. 3336,Mr,Lobb,2,Small Family,Died,
+41.0,,S,20.2125,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",2,255,3,female,0,0.0,370129,Mrs,Rosblom,3,Small Family,Died,
+29.0,,C,15.2458,"Touma, Mrs. Darwis (Hanne Youssef Razi)",2,256,3,female,0,1.0,2650,Mrs,Touma,3,Small Family,Survived,
+,,C,79.2,"Thorne, Mrs. Gertrude Maybelle",0,257,1,female,0,1.0,PC 17585,Mrs,Thorne,1,Single,Survived,
+30.0,B77,S,86.5,"Cherry, Miss. Gladys",0,258,1,female,0,1.0,110152,Miss,Cherry,1,Single,Survived,B
+35.0,,C,512.3292,"Ward, Miss. Anna",0,259,1,female,0,1.0,PC 17755,Miss,Ward,1,Single,Survived,
+50.0,,S,26.0,"Parrish, Mrs. (Lutie Davis)",1,260,2,female,0,1.0,230433,Mrs,Parrish,2,Small Family,Survived,
+,,Q,7.75,"Smith, Mr. Thomas",0,261,3,male,0,0.0,384461,Mr,Smith,1,Single,Died,
+3.0,,S,31.3875,"Asplund, Master. Edvin Rojj Felix",2,262,3,male,4,1.0,347077,Master,Asplund,7,Large Family,Survived,
+52.0,E67,S,79.65,"Taussig, Mr. Emil",1,263,1,male,1,0.0,110413,Mr,Taussig,3,Small Family,Died,E
+40.0,B94,S,0.0,"Harrison, Mr. William",0,264,1,male,0,0.0,112059,Mr,Harrison,1,Single,Died,B
+,,Q,7.75,"Henry, Miss. Delia",0,265,3,female,0,0.0,382649,Miss,Henry,1,Single,Died,
+36.0,,S,10.5,"Reeves, Mr. David",0,266,2,male,0,0.0,C.A. 17248,Mr,Reeves,1,Single,Died,
+16.0,,S,39.6875,"Panula, Mr. Ernesti Arvid",1,267,3,male,4,0.0,3101295,Mr,Panula,6,Large Family,Died,
+25.0,,S,7.775,"Persson, Mr. Ernst Ulrik",0,268,3,male,1,1.0,347083,Mr,Persson,2,Small Family,Survived,
+58.0,C125,S,153.4625,"Graham, Mrs. William Thompson (Edith Junkins)",1,269,1,female,0,1.0,PC 17582,Mrs,Graham,2,Small Family,Survived,C
+35.0,C99,S,135.6333,"Bissette, Miss. Amelia",0,270,1,female,0,1.0,PC 17760,Miss,Bissette,1,Single,Survived,C
+,,S,31.0,"Cairns, Mr. Alexander",0,271,1,male,0,0.0,113798,Mr,Cairns,1,Single,Died,
+25.0,,S,0.0,"Tornquist, Mr. William Henry",0,272,3,male,0,1.0,LINE,Mr,Tornquist,1,Single,Survived,
+41.0,,S,19.5,"Mellinger, Mrs. (Elizabeth Anne Maidment)",1,273,2,female,0,1.0,250644,Mrs,Mellinger,2,Small Family,Survived,
+37.0,C118,C,29.7,"Natsch, Mr. Charles H",1,274,1,male,0,0.0,PC 17596,Mr,Natsch,2,Small Family,Died,C
+,,Q,7.75,"Healy, Miss. Hanora ""Nora""",0,275,3,female,0,1.0,370375,Miss,Healy,1,Single,Survived,
+63.0,D7,S,77.9583,"Andrews, Miss. Kornelia Theodosia",0,276,1,female,1,1.0,13502,Miss,Andrews,2,Small Family,Survived,D
+45.0,,S,7.75,"Lindblom, Miss. Augusta Charlotta",0,277,3,female,0,0.0,347073,Miss,Lindblom,1,Single,Died,
+,,S,0.0,"Parkes, Mr. Francis ""Frank""",0,278,2,male,0,0.0,239853,Mr,Parkes,1,Single,Died,
+7.0,,Q,29.125,"Rice, Master. Eric",1,279,3,male,4,0.0,382652,Master,Rice,6,Large Family,Died,
+35.0,,S,20.25,"Abbott, Mrs. Stanton (Rosa Hunt)",1,280,3,female,1,1.0,C.A. 2673,Mrs,Abbott,3,Small Family,Survived,
+65.0,,Q,7.75,"Duane, Mr. Frank",0,281,3,male,0,0.0,336439,Mr,Duane,1,Single,Died,
+28.0,,S,7.8542,"Olsson, Mr. Nils Johan Goransson",0,282,3,male,0,0.0,347464,Mr,Olsson,1,Single,Died,
+16.0,,S,9.5,"de Pelsmaeker, Mr. Alfons",0,283,3,male,0,0.0,345778,Mr,de Pelsmaeker,1,Single,Died,
+19.0,,S,8.05,"Dorking, Mr. Edward Arthur",0,284,3,male,0,1.0,A/5. 10482,Mr,Dorking,1,Single,Survived,
+,A19,S,26.0,"Smith, Mr. Richard William",0,285,1,male,0,0.0,113056,Mr,Smith,1,Single,Died,A
+33.0,,C,8.6625,"Stankovic, Mr. Ivan",0,286,3,male,0,0.0,349239,Mr,Stankovic,1,Single,Died,
+30.0,,S,9.5,"de Mulder, Mr. Theodore",0,287,3,male,0,1.0,345774,Mr,de Mulder,1,Single,Survived,
+22.0,,S,7.8958,"Naidenoff, Mr. Penko",0,288,3,male,0,0.0,349206,Mr,Naidenoff,1,Single,Died,
+42.0,,S,13.0,"Hosono, Mr. Masabumi",0,289,2,male,0,1.0,237798,Mr,Hosono,1,Single,Survived,
+22.0,,Q,7.75,"Connolly, Miss. Kate",0,290,3,female,0,1.0,370373,Miss,Connolly,1,Single,Survived,
+26.0,,S,78.85,"Barber, Miss. Ellen ""Nellie""",0,291,1,female,0,1.0,19877,Miss,Barber,1,Single,Survived,
+19.0,B49,C,91.0792,"Bishop, Mrs. Dickinson H (Helen Walton)",0,292,1,female,1,1.0,11967,Mrs,Bishop,2,Small Family,Survived,B
+36.0,D,C,12.875,"Levy, Mr. Rene Jacques",0,293,2,male,0,0.0,SC/Paris 2163,Mr,Levy,1,Single,Died,D
+24.0,,S,8.85,"Haas, Miss. Aloisia",0,294,3,female,0,0.0,349236,Miss,Haas,1,Single,Died,
+24.0,,S,7.8958,"Mineff, Mr. Ivan",0,295,3,male,0,0.0,349233,Mr,Mineff,1,Single,Died,
+,,C,27.7208,"Lewy, Mr. Ervin G",0,296,1,male,0,0.0,PC 17612,Mr,Lewy,1,Single,Died,
+23.5,,C,7.2292,"Hanna, Mr. Mansour",0,297,3,male,0,0.0,2693,Mr,Hanna,1,Single,Died,
+2.0,C22 C26,S,151.55,"Allison, Miss. Helen Loraine",2,298,1,female,1,0.0,113781,Miss,Allison,4,Small Family,Died,C
+,C106,S,30.5,"Saalfeld, Mr. Adolphe",0,299,1,male,0,1.0,19988,Mr,Saalfeld,1,Single,Survived,C
+50.0,B58 B60,C,247.5208,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",1,300,1,female,0,1.0,PC 17558,Mrs,Baxter,2,Small Family,Survived,B
+,,Q,7.75,"Kelly, Miss. Anna Katherine ""Annie Kate""",0,301,3,female,0,1.0,9234,Miss,Kelly,1,Single,Survived,
+,,Q,23.25,"McCoy, Mr. Bernard",0,302,3,male,2,1.0,367226,Mr,McCoy,3,Small Family,Survived,
+19.0,,S,0.0,"Johnson, Mr. William Cahoone Jr",0,303,3,male,0,0.0,LINE,Mr,Johnson,1,Single,Died,
+,E101,Q,12.35,"Keane, Miss. Nora A",0,304,2,female,0,1.0,226593,Miss,Keane,1,Single,Survived,E
+,,S,8.05,"Williams, Mr. Howard Hugh ""Harry""",0,305,3,male,0,0.0,A/5 2466,Mr,Williams,1,Single,Died,
+0.92,C22 C26,S,151.55,"Allison, Master. Hudson Trevor",2,306,1,male,1,1.0,113781,Master,Allison,4,Small Family,Survived,C
+,,C,110.8833,"Fleming, Miss. Margaret",0,307,1,female,0,1.0,17421,Miss,Fleming,1,Single,Survived,
+17.0,C65,C,108.9,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",0,308,1,female,1,1.0,PC 17758,Mrs,Penasco y Castellana,2,Small Family,Survived,C
+30.0,,C,24.0,"Abelson, Mr. Samuel",0,309,2,male,1,0.0,P/PP 3381,Mr,Abelson,2,Small Family,Died,
+30.0,E36,C,56.9292,"Francatelli, Miss. Laura Mabel",0,310,1,female,0,1.0,PC 17485,Miss,Francatelli,1,Single,Survived,E
+24.0,C54,C,83.1583,"Hays, Miss. Margaret Bechstein",0,311,1,female,0,1.0,11767,Miss,Hays,1,Single,Survived,C
+18.0,B57 B59 B63 B66,C,262.375,"Ryerson, Miss. Emily Borie",2,312,1,female,2,1.0,PC 17608,Miss,Ryerson,5,Large Family,Survived,B
+26.0,,S,26.0,"Lahtinen, Mrs. William (Anna Sylfven)",1,313,2,female,1,0.0,250651,Mrs,Lahtinen,3,Small Family,Died,
+28.0,,S,7.8958,"Hendekovic, Mr. Ignjac",0,314,3,male,0,0.0,349243,Mr,Hendekovic,1,Single,Died,
+43.0,,S,26.25,"Hart, Mr. Benjamin",1,315,2,male,1,0.0,F.C.C. 13529,Mr,Hart,3,Small Family,Died,
+26.0,,S,7.8542,"Nilsson, Miss. Helmina Josefina",0,316,3,female,0,1.0,347470,Miss,Nilsson,1,Single,Survived,
+24.0,,S,26.0,"Kantor, Mrs. Sinai (Miriam Sternin)",0,317,2,female,1,1.0,244367,Mrs,Kantor,2,Small Family,Survived,
+54.0,,S,14.0,"Moraweck, Dr. Ernest",0,318,2,male,0,0.0,29011,Rare,Moraweck,1,Single,Died,
+31.0,C7,S,164.8667,"Wick, Miss. Mary Natalie",2,319,1,female,0,1.0,36928,Miss,Wick,3,Small Family,Survived,C
+40.0,E34,C,134.5,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",1,320,1,female,1,1.0,16966,Mrs,Spedden,3,Small Family,Survived,E
+22.0,,S,7.25,"Dennis, Mr. Samuel",0,321,3,male,0,0.0,A/5 21172,Mr,Dennis,1,Single,Died,
+27.0,,S,7.8958,"Danoff, Mr. Yoto",0,322,3,male,0,0.0,349219,Mr,Danoff,1,Single,Died,
+30.0,,Q,12.35,"Slayter, Miss. Hilda Mary",0,323,2,female,0,1.0,234818,Miss,Slayter,1,Single,Survived,
+22.0,,S,29.0,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",1,324,2,female,1,1.0,248738,Mrs,Caldwell,3,Small Family,Survived,
+,,S,69.55,"Sage, Mr. George John Jr",2,325,3,male,8,0.0,CA. 2343,Mr,Sage,11,Large Family,Died,
+36.0,C32,C,135.6333,"Young, Miss. Marie Grice",0,326,1,female,0,1.0,PC 17760,Miss,Young,1,Single,Survived,C
+61.0,,S,6.2375,"Nysveen, Mr. Johan Hansen",0,327,3,male,0,0.0,345364,Mr,Nysveen,1,Single,Died,
+36.0,D,S,13.0,"Ball, Mrs. (Ada E Hall)",0,328,2,female,0,1.0,28551,Mrs,Ball,1,Single,Survived,D
+31.0,,S,20.525,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",1,329,3,female,1,1.0,363291,Mrs,Goldsmith,3,Small Family,Survived,
+16.0,B18,C,57.9792,"Hippach, Miss. Jean Gertrude",1,330,1,female,0,1.0,111361,Miss,Hippach,2,Small Family,Survived,B
+,,Q,23.25,"McCoy, Miss. Agnes",0,331,3,female,2,1.0,367226,Miss,McCoy,3,Small Family,Survived,
+45.5,C124,S,28.5,"Partner, Mr. Austen",0,332,1,male,0,0.0,113043,Mr,Partner,1,Single,Died,C
+38.0,C91,S,153.4625,"Graham, Mr. George Edward",1,333,1,male,0,0.0,PC 17582,Mr,Graham,2,Small Family,Died,C
+16.0,,S,18.0,"Vander Planke, Mr. Leo Edmondus",0,334,3,male,2,0.0,345764,Mr,Vander Planke,3,Small Family,Died,
+,,S,133.65,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",0,335,1,female,1,1.0,PC 17611,Mrs,Frauenthal,2,Small Family,Survived,
+,,S,7.8958,"Denkoff, Mr. Mitto",0,336,3,male,0,0.0,349225,Mr,Denkoff,1,Single,Died,
+29.0,C2,S,66.6,"Pears, Mr. Thomas Clinton",0,337,1,male,1,0.0,113776,Mr,Pears,2,Small Family,Died,C
+41.0,E40,C,134.5,"Burns, Miss. Elizabeth Margaret",0,338,1,female,0,1.0,16966,Miss,Burns,1,Single,Survived,E
+45.0,,S,8.05,"Dahl, Mr. Karl Edwart",0,339,3,male,0,1.0,7598,Mr,Dahl,1,Single,Survived,
+45.0,T,S,35.5,"Blackwell, Mr. Stephen Weart",0,340,1,male,0,0.0,113784,Mr,Blackwell,1,Single,Died,
+2.0,F2,S,26.0,"Navratil, Master. Edmond Roger",1,341,2,male,1,1.0,230080,Master,Navratil,3,Small Family,Survived,F
+24.0,C23 C25 C27,S,263.0,"Fortune, Miss. Alice Elizabeth",2,342,1,female,3,1.0,19950,Miss,Fortune,6,Large Family,Survived,C
+28.0,,S,13.0,"Collander, Mr. Erik Gustaf",0,343,2,male,0,0.0,248740,Mr,Collander,1,Single,Died,
+25.0,,S,13.0,"Sedgwick, Mr. Charles Frederick Waddington",0,344,2,male,0,0.0,244361,Mr,Sedgwick,1,Single,Died,
+36.0,,S,13.0,"Fox, Mr. Stanley Hubert",0,345,2,male,0,0.0,229236,Mr,Fox,1,Single,Died,
+24.0,F33,S,13.0,"Brown, Miss. Amelia ""Mildred""",0,346,2,female,0,1.0,248733,Miss,Brown,1,Single,Survived,F
+40.0,,S,13.0,"Smith, Miss. Marion Elsie",0,347,2,female,0,1.0,31418,Miss,Smith,1,Single,Survived,
+,,S,16.1,"Davison, Mrs. Thomas Henry (Mary E Finck)",0,348,3,female,1,1.0,386525,Mrs,Davison,2,Small Family,Survived,
+3.0,,S,15.9,"Coutts, Master. William Loch ""William""",1,349,3,male,1,1.0,C.A. 37671,Master,Coutts,3,Small Family,Survived,
+42.0,,S,8.6625,"Dimic, Mr. Jovan",0,350,3,male,0,0.0,315088,Mr,Dimic,1,Single,Died,
+23.0,,S,9.225,"Odahl, Mr. Nils Martin",0,351,3,male,0,0.0,7267,Mr,Odahl,1,Single,Died,
+,C128,S,35.0,"Williams-Lambert, Mr. Fletcher Fellows",0,352,1,male,0,0.0,113510,Mr,Williams-Lambert,1,Single,Died,C
+15.0,,C,7.2292,"Elias, Mr. Tannous",1,353,3,male,1,0.0,2695,Mr,Elias,3,Small Family,Died,
+25.0,,S,17.8,"Arnold-Franchi, Mr. Josef",0,354,3,male,1,0.0,349237,Mr,Arnold-Franchi,2,Small Family,Died,
+,,C,7.225,"Yousif, Mr. Wazli",0,355,3,male,0,0.0,2647,Mr,Yousif,1,Single,Died,
+28.0,,S,9.5,"Vanden Steen, Mr. Leo Peter",0,356,3,male,0,0.0,345783,Mr,Vanden Steen,1,Single,Died,
+22.0,E33,S,55.0,"Bowerman, Miss. Elsie Edith",1,357,1,female,0,1.0,113505,Miss,Bowerman,2,Small Family,Survived,E
+38.0,,S,13.0,"Funk, Miss. Annie Clemmer",0,358,2,female,0,0.0,237671,Miss,Funk,1,Single,Died,
+,,Q,7.8792,"McGovern, Miss. Mary",0,359,3,female,0,1.0,330931,Miss,McGovern,1,Single,Survived,
+,,Q,7.8792,"Mockler, Miss. Helen Mary ""Ellie""",0,360,3,female,0,1.0,330980,Miss,Mockler,1,Single,Survived,
+40.0,,S,27.9,"Skoog, Mr. Wilhelm",4,361,3,male,1,0.0,347088,Mr,Skoog,6,Large Family,Died,
+29.0,,C,27.7208,"del Carlo, Mr. Sebastiano",0,362,2,male,1,0.0,SC/PARIS 2167,Mr,del Carlo,2,Small Family,Died,
+45.0,,C,14.4542,"Barbara, Mrs. (Catherine David)",1,363,3,female,0,0.0,2691,Mrs,Barbara,2,Small Family,Died,
+35.0,,S,7.05,"Asim, Mr. Adola",0,364,3,male,0,0.0,SOTON/O.Q. 3101310,Mr,Asim,1,Single,Died,
+,,Q,15.5,"O'Brien, Mr. Thomas",0,365,3,male,1,0.0,370365,Mr,O'Brien,2,Small Family,Died,
+30.0,,S,7.25,"Adahl, Mr. Mauritz Nils Martin",0,366,3,male,0,0.0,C 7076,Mr,Adahl,1,Single,Died,
+60.0,D37,C,75.25,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",0,367,1,female,1,1.0,110813,Mrs,Warren,2,Small Family,Survived,D
+,,C,7.2292,"Moussa, Mrs. (Mantoura Boulos)",0,368,3,female,0,1.0,2626,Mrs,Moussa,1,Single,Survived,
+,,Q,7.75,"Jermyn, Miss. Annie",0,369,3,female,0,1.0,14313,Miss,Jermyn,1,Single,Survived,
+24.0,B35,C,69.3,"Aubart, Mme. Leontine Pauline",0,370,1,female,0,1.0,PC 17477,Mrs,Aubart,1,Single,Survived,B
+25.0,E50,C,55.4417,"Harder, Mr. George Achilles",0,371,1,male,1,1.0,11765,Mr,Harder,2,Small Family,Survived,E
+18.0,,S,6.4958,"Wiklund, Mr. Jakob Alfred",0,372,3,male,1,0.0,3101267,Mr,Wiklund,2,Small Family,Died,
+19.0,,S,8.05,"Beavan, Mr. William Thomas",0,373,3,male,0,0.0,323951,Mr,Beavan,1,Single,Died,
+22.0,,C,135.6333,"Ringhini, Mr. Sante",0,374,1,male,0,0.0,PC 17760,Mr,Ringhini,1,Single,Died,
+3.0,,S,21.075,"Palsson, Miss. Stina Viola",1,375,3,female,3,0.0,349909,Miss,Palsson,5,Large Family,Died,
+,,C,82.1708,"Meyer, Mrs. Edgar Joseph (Leila Saks)",0,376,1,female,1,1.0,PC 17604,Mrs,Meyer,2,Small Family,Survived,
+22.0,,S,7.25,"Landergren, Miss. Aurora Adelia",0,377,3,female,0,1.0,C 7077,Miss,Landergren,1,Single,Survived,
+27.0,C82,C,211.5,"Widener, Mr. Harry Elkins",2,378,1,male,0,0.0,113503,Mr,Widener,3,Small Family,Died,C
+20.0,,C,4.0125,"Betros, Mr. Tannous",0,379,3,male,0,0.0,2648,Mr,Betros,1,Single,Died,
+19.0,,S,7.775,"Gustafsson, Mr. Karl Gideon",0,380,3,male,0,0.0,347069,Mr,Gustafsson,1,Single,Died,
+42.0,,C,227.525,"Bidois, Miss. Rosalie",0,381,1,female,0,1.0,PC 17757,Miss,Bidois,1,Single,Survived,
+1.0,,C,15.7417,"Nakid, Miss. Maria (""Mary"")",2,382,3,female,0,1.0,2653,Miss,Nakid,3,Small Family,Survived,
+32.0,,S,7.925,"Tikkanen, Mr. Juho",0,383,3,male,0,0.0,STON/O 2. 3101293,Mr,Tikkanen,1,Single,Died,
+35.0,,S,52.0,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",0,384,1,female,1,1.0,113789,Mrs,Holverson,2,Small Family,Survived,
+,,S,7.8958,"Plotcharsky, Mr. Vasil",0,385,3,male,0,0.0,349227,Mr,Plotcharsky,1,Single,Died,
+18.0,,S,73.5,"Davies, Mr. Charles Henry",0,386,2,male,0,0.0,S.O.C. 14879,Mr,Davies,1,Single,Died,
+1.0,,S,46.9,"Goodwin, Master. Sidney Leonard",2,387,3,male,5,0.0,CA 2144,Master,Goodwin,8,Large Family,Died,
+36.0,,S,13.0,"Buss, Miss. Kate",0,388,2,female,0,1.0,27849,Miss,Buss,1,Single,Survived,
+,,Q,7.7292,"Sadlier, Mr. Matthew",0,389,3,male,0,0.0,367655,Mr,Sadlier,1,Single,Died,
+17.0,,C,12.0,"Lehmann, Miss. Bertha",0,390,2,female,0,1.0,SC 1748,Miss,Lehmann,1,Single,Survived,
+36.0,B96 B98,S,120.0,"Carter, Mr. William Ernest",2,391,1,male,1,1.0,113760,Mr,Carter,4,Small Family,Survived,B
+21.0,,S,7.7958,"Jansson, Mr. Carl Olof",0,392,3,male,0,1.0,350034,Mr,Jansson,1,Single,Survived,
+28.0,,S,7.925,"Gustafsson, Mr. Johan Birger",0,393,3,male,2,0.0,3101277,Mr,Gustafsson,3,Small Family,Died,
+23.0,D36,C,113.275,"Newell, Miss. Marjorie",0,394,1,female,1,1.0,35273,Miss,Newell,2,Small Family,Survived,D
+24.0,G6,S,16.7,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",2,395,3,female,0,1.0,PP 9549,Mrs,Sandstrom,3,Small Family,Survived,
+22.0,,S,7.7958,"Johansson, Mr. Erik",0,396,3,male,0,0.0,350052,Mr,Johansson,1,Single,Died,
+31.0,,S,7.8542,"Olsson, Miss. Elina",0,397,3,female,0,0.0,350407,Miss,Olsson,1,Single,Died,
+46.0,,S,26.0,"McKane, Mr. Peter David",0,398,2,male,0,0.0,28403,Mr,McKane,1,Single,Died,
+23.0,,S,10.5,"Pain, Dr. Alfred",0,399,2,male,0,0.0,244278,Rare,Pain,1,Single,Died,
+28.0,,S,12.65,"Trout, Mrs. William H (Jessie L)",0,400,2,female,0,1.0,240929,Mrs,Trout,1,Single,Survived,
+39.0,,S,7.925,"Niskanen, Mr. Juha",0,401,3,male,0,1.0,STON/O 2. 3101289,Mr,Niskanen,1,Single,Survived,
+26.0,,S,8.05,"Adams, Mr. John",0,402,3,male,0,0.0,341826,Mr,Adams,1,Single,Died,
+21.0,,S,9.825,"Jussila, Miss. Mari Aina",0,403,3,female,1,0.0,4137,Miss,Jussila,2,Small Family,Died,
+28.0,,S,15.85,"Hakkarainen, Mr. Pekka Pietari",0,404,3,male,1,0.0,STON/O2. 3101279,Mr,Hakkarainen,2,Small Family,Died,
+20.0,,S,8.6625,"Oreskovic, Miss. Marija",0,405,3,female,0,0.0,315096,Miss,Oreskovic,1,Single,Died,
+34.0,,S,21.0,"Gale, Mr. Shadrach",0,406,2,male,1,0.0,28664,Mr,Gale,2,Small Family,Died,
+51.0,,S,7.75,"Widegren, Mr. Carl/Charles Peter",0,407,3,male,0,0.0,347064,Mr,Widegren,1,Single,Died,
+3.0,,S,18.75,"Richards, Master. William Rowe",1,408,2,male,1,1.0,29106,Master,Richards,3,Small Family,Survived,
+21.0,,S,7.775,"Birkeland, Mr. Hans Martin Monsen",0,409,3,male,0,0.0,312992,Mr,Birkeland,1,Single,Died,
+,,S,25.4667,"Lefebre, Miss. Ida",1,410,3,female,3,0.0,4133,Miss,Lefebre,5,Large Family,Died,
+,,S,7.8958,"Sdycoff, Mr. Todor",0,411,3,male,0,0.0,349222,Mr,Sdycoff,1,Single,Died,
+,,Q,6.8583,"Hart, Mr. Henry",0,412,3,male,0,0.0,394140,Mr,Hart,1,Single,Died,
+33.0,C78,Q,90.0,"Minahan, Miss. Daisy E",0,413,1,female,1,1.0,19928,Miss,Minahan,2,Small Family,Survived,C
+,,S,0.0,"Cunningham, Mr. Alfred Fleming",0,414,2,male,0,0.0,239853,Mr,Cunningham,1,Single,Died,
+44.0,,S,7.925,"Sundman, Mr. Johan Julian",0,415,3,male,0,1.0,STON/O 2. 3101269,Mr,Sundman,1,Single,Survived,
+,,S,8.05,"Meek, Mrs. Thomas (Annie Louise Rowley)",0,416,3,female,0,0.0,343095,Mrs,Meek,1,Single,Died,
+34.0,,S,32.5,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",1,417,2,female,1,1.0,28220,Mrs,Drew,3,Small Family,Survived,
+18.0,,S,13.0,"Silven, Miss. Lyyli Karoliina",2,418,2,female,0,1.0,250652,Miss,Silven,3,Small Family,Survived,
+30.0,,S,13.0,"Matthews, Mr. William John",0,419,2,male,0,0.0,28228,Mr,Matthews,1,Single,Died,
+10.0,,S,24.15,"Van Impe, Miss. Catharina",2,420,3,female,0,0.0,345773,Miss,Van Impe,3,Small Family,Died,
+,,C,7.8958,"Gheorgheff, Mr. Stanio",0,421,3,male,0,0.0,349254,Mr,Gheorgheff,1,Single,Died,
+21.0,,Q,7.7333,"Charters, Mr. David",0,422,3,male,0,0.0,A/5. 13032,Mr,Charters,1,Single,Died,
+29.0,,S,7.875,"Zimmerman, Mr. Leo",0,423,3,male,0,0.0,315082,Mr,Zimmerman,1,Single,Died,
+28.0,,S,14.4,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",1,424,3,female,1,0.0,347080,Mrs,Danbom,3,Small Family,Died,
+18.0,,S,20.2125,"Rosblom, Mr. Viktor Richard",1,425,3,male,1,0.0,370129,Mr,Rosblom,3,Small Family,Died,
+,,S,7.25,"Wiseman, Mr. Phillippe",0,426,3,male,0,0.0,A/4. 34244,Mr,Wiseman,1,Single,Died,
+28.0,,S,26.0,"Clarke, Mrs. Charles V (Ada Maria Winfield)",0,427,2,female,1,1.0,2003,Mrs,Clarke,2,Small Family,Survived,
+19.0,,S,26.0,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",0,428,2,female,0,1.0,250655,Miss,Phillips,1,Single,Survived,
+,,Q,7.75,"Flynn, Mr. James",0,429,3,male,0,0.0,364851,Mr,Flynn,1,Single,Died,
+32.0,E10,S,8.05,"Pickard, Mr. Berk (Berk Trembisky)",0,430,3,male,0,1.0,SOTON/O.Q. 392078,Mr,Pickard,1,Single,Survived,E
+28.0,C52,S,26.55,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",0,431,1,male,0,1.0,110564,Mr,Bjornstrom-Steffansson,1,Single,Survived,C
+,,S,16.1,"Thorneycroft, Mrs. Percival (Florence Kate White)",0,432,3,female,1,1.0,376564,Mrs,Thorneycroft,2,Small Family,Survived,
+42.0,,S,26.0,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",0,433,2,female,1,1.0,SC/AH 3085,Mrs,Louch,2,Small Family,Survived,
+17.0,,S,7.125,"Kallio, Mr. Nikolai Erland",0,434,3,male,0,0.0,STON/O 2. 3101274,Mr,Kallio,1,Single,Died,
+50.0,E44,S,55.9,"Silvey, Mr. William Baird",0,435,1,male,1,0.0,13507,Mr,Silvey,2,Small Family,Died,E
+14.0,B96 B98,S,120.0,"Carter, Miss. Lucile Polk",2,436,1,female,1,1.0,113760,Miss,Carter,4,Small Family,Survived,B
+21.0,,S,34.375,"Ford, Miss. Doolina Margaret ""Daisy""",2,437,3,female,2,0.0,W./C. 6608,Miss,Ford,5,Large Family,Died,
+24.0,,S,18.75,"Richards, Mrs. Sidney (Emily Hocking)",3,438,2,female,2,1.0,29106,Mrs,Richards,6,Large Family,Survived,
+64.0,C23 C25 C27,S,263.0,"Fortune, Mr. Mark",4,439,1,male,1,0.0,19950,Mr,Fortune,6,Large Family,Died,C
+31.0,,S,10.5,"Kvillner, Mr. Johan Henrik Johannesson",0,440,2,male,0,0.0,C.A. 18723,Mr,Kvillner,1,Single,Died,
+45.0,,S,26.25,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",1,441,2,female,1,1.0,F.C.C. 13529,Mrs,Hart,3,Small Family,Survived,
+20.0,,S,9.5,"Hampe, Mr. Leon",0,442,3,male,0,0.0,345769,Mr,Hampe,1,Single,Died,
+25.0,,S,7.775,"Petterson, Mr. Johan Emil",0,443,3,male,1,0.0,347076,Mr,Petterson,2,Small Family,Died,
+28.0,,S,13.0,"Reynaldo, Ms. Encarnacion",0,444,2,female,0,1.0,230434,Miss,Reynaldo,1,Single,Survived,
+,,S,8.1125,"Johannesen-Bratthammer, Mr. Bernt",0,445,3,male,0,1.0,65306,Mr,Johannesen-Bratthammer,1,Single,Survived,
+4.0,A34,S,81.8583,"Dodge, Master. Washington",2,446,1,male,0,1.0,33638,Master,Dodge,3,Small Family,Survived,A
+13.0,,S,19.5,"Mellinger, Miss. Madeleine Violet",1,447,2,female,0,1.0,250644,Miss,Mellinger,2,Small Family,Survived,
+34.0,,S,26.55,"Seward, Mr. Frederic Kimber",0,448,1,male,0,1.0,113794,Mr,Seward,1,Single,Survived,
+5.0,,C,19.2583,"Baclini, Miss. Marie Catherine",1,449,3,female,2,1.0,2666,Miss,Baclini,4,Small Family,Survived,
+52.0,C104,S,30.5,"Peuchen, Major. Arthur Godfrey",0,450,1,male,0,1.0,113786,Rare,Peuchen,1,Single,Survived,C
+36.0,,S,27.75,"West, Mr. Edwy Arthur",2,451,2,male,1,0.0,C.A. 34651,Mr,West,4,Small Family,Died,
+,,S,19.9667,"Hagland, Mr. Ingvald Olai Olsen",0,452,3,male,1,0.0,65303,Mr,Hagland,2,Small Family,Died,
+30.0,C111,C,27.75,"Foreman, Mr. Benjamin Laventall",0,453,1,male,0,0.0,113051,Mr,Foreman,1,Single,Died,C
+49.0,C92,C,89.1042,"Goldenberg, Mr. Samuel L",0,454,1,male,1,1.0,17453,Mr,Goldenberg,2,Small Family,Survived,C
+,,S,8.05,"Peduzzi, Mr. Joseph",0,455,3,male,0,0.0,A/5 2817,Mr,Peduzzi,1,Single,Died,
+29.0,,C,7.8958,"Jalsevac, Mr. Ivan",0,456,3,male,0,1.0,349240,Mr,Jalsevac,1,Single,Survived,
+65.0,E38,S,26.55,"Millet, Mr. Francis Davis",0,457,1,male,0,0.0,13509,Mr,Millet,1,Single,Died,E
+,D21,S,51.8625,"Kenyon, Mrs. Frederick R (Marion)",0,458,1,female,1,1.0,17464,Mrs,Kenyon,2,Small Family,Survived,D
+50.0,,S,10.5,"Toomey, Miss. Ellen",0,459,2,female,0,1.0,F.C.C. 13531,Miss,Toomey,1,Single,Survived,
+,,Q,7.75,"O'Connor, Mr. Maurice",0,460,3,male,0,0.0,371060,Mr,O'Connor,1,Single,Died,
+48.0,E12,S,26.55,"Anderson, Mr. Harry",0,461,1,male,0,1.0,19952,Mr,Anderson,1,Single,Survived,E
+34.0,,S,8.05,"Morley, Mr. William",0,462,3,male,0,0.0,364506,Mr,Morley,1,Single,Died,
+47.0,E63,S,38.5,"Gee, Mr. Arthur H",0,463,1,male,0,0.0,111320,Mr,Gee,1,Single,Died,E
+48.0,,S,13.0,"Milling, Mr. Jacob Christian",0,464,2,male,0,0.0,234360,Mr,Milling,1,Single,Died,
+,,S,8.05,"Maisner, Mr. Simon",0,465,3,male,0,0.0,A/S 2816,Mr,Maisner,1,Single,Died,
+38.0,,S,7.05,"Goncalves, Mr. Manuel Estanslas",0,466,3,male,0,0.0,SOTON/O.Q. 3101306,Mr,Goncalves,1,Single,Died,
+,,S,0.0,"Campbell, Mr. William",0,467,2,male,0,0.0,239853,Mr,Campbell,1,Single,Died,
+56.0,,S,26.55,"Smart, Mr. John Montgomery",0,468,1,male,0,0.0,113792,Mr,Smart,1,Single,Died,
+,,Q,7.725,"Scanlan, Mr. James",0,469,3,male,0,0.0,36209,Mr,Scanlan,1,Single,Died,
+0.75,,C,19.2583,"Baclini, Miss. Helene Barbara",1,470,3,female,2,1.0,2666,Miss,Baclini,4,Small Family,Survived,
+,,S,7.25,"Keefe, Mr. Arthur",0,471,3,male,0,0.0,323592,Mr,Keefe,1,Single,Died,
+38.0,,S,8.6625,"Cacic, Mr. Luka",0,472,3,male,0,0.0,315089,Mr,Cacic,1,Single,Died,
+33.0,,S,27.75,"West, Mrs. Edwy Arthur (Ada Mary Worth)",2,473,2,female,1,1.0,C.A. 34651,Mrs,West,4,Small Family,Survived,
+23.0,D,C,13.7917,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",0,474,2,female,0,1.0,SC/AH Basle 541,Mrs,Jerwan,1,Single,Survived,D
+22.0,,S,9.8375,"Strandberg, Miss. Ida Sofia",0,475,3,female,0,0.0,7553,Miss,Strandberg,1,Single,Died,
+,A14,S,52.0,"Clifford, Mr. George Quincy",0,476,1,male,0,0.0,110465,Mr,Clifford,1,Single,Died,A
+34.0,,S,21.0,"Renouf, Mr. Peter Henry",0,477,2,male,1,0.0,31027,Mr,Renouf,2,Small Family,Died,
+29.0,,S,7.0458,"Braund, Mr. Lewis Richard",0,478,3,male,1,0.0,3460,Mr,Braund,2,Small Family,Died,
+22.0,,S,7.5208,"Karlsson, Mr. Nils August",0,479,3,male,0,0.0,350060,Mr,Karlsson,1,Single,Died,
+2.0,,S,12.2875,"Hirvonen, Miss. Hildur E",1,480,3,female,0,1.0,3101298,Miss,Hirvonen,2,Small Family,Survived,
+9.0,,S,46.9,"Goodwin, Master. Harold Victor",2,481,3,male,5,0.0,CA 2144,Master,Goodwin,8,Large Family,Died,
+,,S,0.0,"Frost, Mr. Anthony Wood ""Archie""",0,482,2,male,0,0.0,239854,Mr,Frost,1,Single,Died,
+50.0,,S,8.05,"Rouse, Mr. Richard Henry",0,483,3,male,0,0.0,A/5 3594,Mr,Rouse,1,Single,Died,
+63.0,,S,9.5875,"Turkula, Mrs. (Hedwig)",0,484,3,female,0,1.0,4134,Mrs,Turkula,1,Single,Survived,
+25.0,B49,C,91.0792,"Bishop, Mr. Dickinson H",0,485,1,male,1,1.0,11967,Mr,Bishop,2,Small Family,Survived,B
+,,S,25.4667,"Lefebre, Miss. Jeannie",1,486,3,female,3,0.0,4133,Miss,Lefebre,5,Large Family,Died,
+35.0,C93,S,90.0,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",0,487,1,female,1,1.0,19943,Mrs,Hoyt,2,Small Family,Survived,C
+58.0,B37,C,29.7,"Kent, Mr. Edward Austin",0,488,1,male,0,0.0,11771,Mr,Kent,1,Single,Died,B
+30.0,,S,8.05,"Somerton, Mr. Francis William",0,489,3,male,0,0.0,A.5. 18509,Mr,Somerton,1,Single,Died,
+9.0,,S,15.9,"Coutts, Master. Eden Leslie ""Neville""",1,490,3,male,1,1.0,C.A. 37671,Master,Coutts,3,Small Family,Survived,
+,,S,19.9667,"Hagland, Mr. Konrad Mathias Reiersen",0,491,3,male,1,0.0,65304,Mr,Hagland,2,Small Family,Died,
+21.0,,S,7.25,"Windelov, Mr. Einar",0,492,3,male,0,0.0,SOTON/OQ 3101317,Mr,Windelov,1,Single,Died,
+55.0,C30,S,30.5,"Molson, Mr. Harry Markland",0,493,1,male,0,0.0,113787,Mr,Molson,1,Single,Died,C
+71.0,,C,49.5042,"Artagaveytia, Mr. Ramon",0,494,1,male,0,0.0,PC 17609,Mr,Artagaveytia,1,Single,Died,
+21.0,,S,8.05,"Stanley, Mr. Edward Roland",0,495,3,male,0,0.0,A/4 45380,Mr,Stanley,1,Single,Died,
+,,C,14.4583,"Yousseff, Mr. Gerious",0,496,3,male,0,0.0,2627,Mr,Yousseff,1,Single,Died,
+54.0,D20,C,78.2667,"Eustis, Miss. Elizabeth Mussey",0,497,1,female,1,1.0,36947,Miss,Eustis,2,Small Family,Survived,D
+,,S,15.1,"Shellard, Mr. Frederick William",0,498,3,male,0,0.0,C.A. 6212,Mr,Shellard,1,Single,Died,
+25.0,C22 C26,S,151.55,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",2,499,1,female,1,0.0,113781,Mrs,Allison,4,Small Family,Died,C
+24.0,,S,7.7958,"Svensson, Mr. Olof",0,500,3,male,0,0.0,350035,Mr,Svensson,1,Single,Died,
+17.0,,S,8.6625,"Calic, Mr. Petar",0,501,3,male,0,0.0,315086,Mr,Calic,1,Single,Died,
+21.0,,Q,7.75,"Canavan, Miss. Mary",0,502,3,female,0,0.0,364846,Miss,Canavan,1,Single,Died,
+,,Q,7.6292,"O'Sullivan, Miss. Bridget Mary",0,503,3,female,0,0.0,330909,Miss,O'Sullivan,1,Single,Died,
+37.0,,S,9.5875,"Laitinen, Miss. Kristina Sofia",0,504,3,female,0,0.0,4135,Miss,Laitinen,1,Single,Died,
+16.0,B79,S,86.5,"Maioni, Miss. Roberta",0,505,1,female,0,1.0,110152,Miss,Maioni,1,Single,Survived,B
+18.0,C65,C,108.9,"Penasco y Castellana, Mr. Victor de Satode",0,506,1,male,1,0.0,PC 17758,Mr,Penasco y Castellana,2,Small Family,Died,C
+33.0,,S,26.0,"Quick, Mrs. Frederick Charles (Jane Richards)",2,507,2,female,0,1.0,26360,Mrs,Quick,3,Small Family,Survived,
+,,S,26.55,"Bradley, Mr. George (""George Arthur Brayton"")",0,508,1,male,0,1.0,111427,Mr,Bradley,1,Single,Survived,
+28.0,,S,22.525,"Olsen, Mr. Henry Margido",0,509,3,male,0,0.0,C 4001,Mr,Olsen,1,Single,Died,
+26.0,,S,56.4958,"Lang, Mr. Fang",0,510,3,male,0,1.0,1601,Mr,Lang,1,Single,Survived,
+29.0,,Q,7.75,"Daly, Mr. Eugene Patrick",0,511,3,male,0,1.0,382651,Mr,Daly,1,Single,Survived,
+,,S,8.05,"Webber, Mr. James",0,512,3,male,0,0.0,SOTON/OQ 3101316,Mr,Webber,1,Single,Died,
+36.0,E25,S,26.2875,"McGough, Mr. James Robert",0,513,1,male,0,1.0,PC 17473,Mr,McGough,1,Single,Survived,E
+54.0,,C,59.4,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",0,514,1,female,1,1.0,PC 17603,Mrs,Rothschild,2,Small Family,Survived,
+24.0,,S,7.4958,"Coleff, Mr. Satio",0,515,3,male,0,0.0,349209,Mr,Coleff,1,Single,Died,
+47.0,D46,S,34.0208,"Walker, Mr. William Anderson",0,516,1,male,0,0.0,36967,Mr,Walker,1,Single,Died,D
+34.0,F33,S,10.5,"Lemore, Mrs. (Amelia Milley)",0,517,2,female,0,1.0,C.A. 34260,Mrs,Lemore,1,Single,Survived,F
+,,Q,24.15,"Ryan, Mr. Patrick",0,518,3,male,0,0.0,371110,Mr,Ryan,1,Single,Died,
+36.0,,S,26.0,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",0,519,2,female,1,1.0,226875,Mrs,Angle,2,Small Family,Survived,
+32.0,,S,7.8958,"Pavlovic, Mr. Stefo",0,520,3,male,0,0.0,349242,Mr,Pavlovic,1,Single,Died,
+30.0,B73,S,93.5,"Perreault, Miss. Anne",0,521,1,female,0,1.0,12749,Miss,Perreault,1,Single,Survived,B
+22.0,,S,7.8958,"Vovk, Mr. Janko",0,522,3,male,0,0.0,349252,Mr,Vovk,1,Single,Died,
+,,C,7.225,"Lahoud, Mr. Sarkis",0,523,3,male,0,0.0,2624,Mr,Lahoud,1,Single,Died,
+44.0,B18,C,57.9792,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",1,524,1,female,0,1.0,111361,Mrs,Hippach,2,Small Family,Survived,B
+,,C,7.2292,"Kassem, Mr. Fared",0,525,3,male,0,0.0,2700,Mr,Kassem,1,Single,Died,
+40.5,,Q,7.75,"Farrell, Mr. James",0,526,3,male,0,0.0,367232,Mr,Farrell,1,Single,Died,
+50.0,,S,10.5,"Ridsdale, Miss. Lucy",0,527,2,female,0,1.0,W./C. 14258,Miss,Ridsdale,1,Single,Survived,
+,C95,S,221.7792,"Farthing, Mr. John",0,528,1,male,0,0.0,PC 17483,Mr,Farthing,1,Single,Died,C
+39.0,,S,7.925,"Salonen, Mr. Johan Werner",0,529,3,male,0,0.0,3101296,Mr,Salonen,1,Single,Died,
+23.0,,S,11.5,"Hocking, Mr. Richard George",1,530,2,male,2,0.0,29104,Mr,Hocking,4,Small Family,Died,
+2.0,,S,26.0,"Quick, Miss. Phyllis May",1,531,2,female,1,1.0,26360,Miss,Quick,3,Small Family,Survived,
+,,C,7.2292,"Toufik, Mr. Nakli",0,532,3,male,0,0.0,2641,Mr,Toufik,1,Single,Died,
+17.0,,C,7.2292,"Elias, Mr. Joseph Jr",1,533,3,male,1,0.0,2690,Mr,Elias,3,Small Family,Died,
+,,C,22.3583,"Peter, Mrs. Catherine (Catherine Rizk)",2,534,3,female,0,1.0,2668,Mrs,Peter,3,Small Family,Survived,
+30.0,,S,8.6625,"Cacic, Miss. Marija",0,535,3,female,0,0.0,315084,Miss,Cacic,1,Single,Died,
+7.0,,S,26.25,"Hart, Miss. Eva Miriam",2,536,2,female,0,1.0,F.C.C. 13529,Miss,Hart,3,Small Family,Survived,
+45.0,B38,S,26.55,"Butt, Major. Archibald Willingham",0,537,1,male,0,0.0,113050,Rare,Butt,1,Single,Died,B
+30.0,,C,106.425,"LeRoy, Miss. Bertha",0,538,1,female,0,1.0,PC 17761,Miss,LeRoy,1,Single,Survived,
+,,S,14.5,"Risien, Mr. Samuel Beard",0,539,3,male,0,0.0,364498,Mr,Risien,1,Single,Died,
+22.0,B39,C,49.5,"Frolicher, Miss. Hedwig Margaritha",2,540,1,female,0,1.0,13568,Miss,Frolicher,3,Small Family,Survived,B
+36.0,B22,S,71.0,"Crosby, Miss. Harriet R",2,541,1,female,0,1.0,WE/P 5735,Miss,Crosby,3,Small Family,Survived,B
+9.0,,S,31.275,"Andersson, Miss. Ingeborg Constanzia",2,542,3,female,4,0.0,347082,Miss,Andersson,7,Large Family,Died,
+11.0,,S,31.275,"Andersson, Miss. Sigrid Elisabeth",2,543,3,female,4,0.0,347082,Miss,Andersson,7,Large Family,Died,
+32.0,,S,26.0,"Beane, Mr. Edward",0,544,2,male,1,1.0,2908,Mr,Beane,2,Small Family,Survived,
+50.0,C86,C,106.425,"Douglas, Mr. Walter Donald",0,545,1,male,1,0.0,PC 17761,Mr,Douglas,2,Small Family,Died,C
+64.0,,S,26.0,"Nicholson, Mr. Arthur Ernest",0,546,1,male,0,0.0,693,Mr,Nicholson,1,Single,Died,
+19.0,,S,26.0,"Beane, Mrs. Edward (Ethel Clarke)",0,547,2,female,1,1.0,2908,Mrs,Beane,2,Small Family,Survived,
+,,C,13.8625,"Padro y Manent, Mr. Julian",0,548,2,male,0,1.0,SC/PARIS 2146,Mr,Padro y Manent,1,Single,Survived,
+33.0,,S,20.525,"Goldsmith, Mr. Frank John",1,549,3,male,1,0.0,363291,Mr,Goldsmith,3,Small Family,Died,
+8.0,,S,36.75,"Davies, Master. John Morgan Jr",1,550,2,male,1,1.0,C.A. 33112,Master,Davies,3,Small Family,Survived,
+17.0,C70,C,110.8833,"Thayer, Mr. John Borland Jr",2,551,1,male,0,1.0,17421,Mr,Thayer,3,Small Family,Survived,C
+27.0,,S,26.0,"Sharp, Mr. Percival James R",0,552,2,male,0,0.0,244358,Mr,Sharp,1,Single,Died,
+,,Q,7.8292,"O'Brien, Mr. Timothy",0,553,3,male,0,0.0,330979,Mr,O'Brien,1,Single,Died,
+22.0,,C,7.225,"Leeni, Mr. Fahim (""Philip Zenni"")",0,554,3,male,0,1.0,2620,Mr,Leeni,1,Single,Survived,
+22.0,,S,7.775,"Ohman, Miss. Velin",0,555,3,female,0,1.0,347085,Miss,Ohman,1,Single,Survived,
+62.0,,S,26.55,"Wright, Mr. George",0,556,1,male,0,0.0,113807,Mr,Wright,1,Single,Died,
+48.0,A16,C,39.6,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",0,557,1,female,1,1.0,11755,Rare,Duff Gordon,2,Small Family,Survived,A
+,,C,227.525,"Robbins, Mr. Victor",0,558,1,male,0,0.0,PC 17757,Mr,Robbins,1,Single,Died,
+39.0,E67,S,79.65,"Taussig, Mrs. Emil (Tillie Mandelbaum)",1,559,1,female,1,1.0,110413,Mrs,Taussig,3,Small Family,Survived,E
+36.0,,S,17.4,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",0,560,3,female,1,1.0,345572,Mrs,de Messemaeker,2,Small Family,Survived,
+,,Q,7.75,"Morrow, Mr. Thomas Rowan",0,561,3,male,0,0.0,372622,Mr,Morrow,1,Single,Died,
+40.0,,S,7.8958,"Sivic, Mr. Husein",0,562,3,male,0,0.0,349251,Mr,Sivic,1,Single,Died,
+28.0,,S,13.5,"Norman, Mr. Robert Douglas",0,563,2,male,0,0.0,218629,Mr,Norman,1,Single,Died,
+,,S,8.05,"Simmons, Mr. John",0,564,3,male,0,0.0,SOTON/OQ 392082,Mr,Simmons,1,Single,Died,
+,,S,8.05,"Meanwell, Miss. (Marion Ogden)",0,565,3,female,0,0.0,SOTON/O.Q. 392087,Miss,Meanwell,1,Single,Died,
+24.0,,S,24.15,"Davies, Mr. Alfred J",0,566,3,male,2,0.0,A/4 48871,Mr,Davies,3,Small Family,Died,
+19.0,,S,7.8958,"Stoytcheff, Mr. Ilia",0,567,3,male,0,0.0,349205,Mr,Stoytcheff,1,Single,Died,
+29.0,,S,21.075,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",4,568,3,female,0,0.0,349909,Mrs,Palsson,5,Large Family,Died,
+,,C,7.2292,"Doharr, Mr. Tannous",0,569,3,male,0,0.0,2686,Mr,Doharr,1,Single,Died,
+32.0,,S,7.8542,"Jonsson, Mr. Carl",0,570,3,male,0,1.0,350417,Mr,Jonsson,1,Single,Survived,
+62.0,,S,10.5,"Harris, Mr. George",0,571,2,male,0,1.0,S.W./PP 752,Mr,Harris,1,Single,Survived,
+53.0,C101,S,51.4792,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",0,572,1,female,2,1.0,11769,Mrs,Appleton,3,Small Family,Survived,C
+36.0,E25,S,26.3875,"Flynn, Mr. John Irwin (""Irving"")",0,573,1,male,0,1.0,PC 17474,Mr,Flynn,1,Single,Survived,E
+,,Q,7.75,"Kelly, Miss. Mary",0,574,3,female,0,1.0,14312,Miss,Kelly,1,Single,Survived,
+16.0,,S,8.05,"Rush, Mr. Alfred George John",0,575,3,male,0,0.0,A/4. 20589,Mr,Rush,1,Single,Died,
+19.0,,S,14.5,"Patchett, Mr. George",0,576,3,male,0,0.0,358585,Mr,Patchett,1,Single,Died,
+34.0,,S,13.0,"Garside, Miss. Ethel",0,577,2,female,0,1.0,243880,Miss,Garside,1,Single,Survived,
+39.0,E44,S,55.9,"Silvey, Mrs. William Baird (Alice Munger)",0,578,1,female,1,1.0,13507,Mrs,Silvey,2,Small Family,Survived,E
+,,C,14.4583,"Caram, Mrs. Joseph (Maria Elias)",0,579,3,female,1,0.0,2689,Mrs,Caram,2,Small Family,Died,
+32.0,,S,7.925,"Jussila, Mr. Eiriik",0,580,3,male,0,1.0,STON/O 2. 3101286,Mr,Jussila,1,Single,Survived,
+25.0,,S,30.0,"Christy, Miss. Julie Rachel",1,581,2,female,1,1.0,237789,Miss,Christy,3,Small Family,Survived,
+39.0,C68,C,110.8833,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",1,582,1,female,1,1.0,17421,Mrs,Thayer,3,Small Family,Survived,C
+54.0,,S,26.0,"Downton, Mr. William James",0,583,2,male,0,0.0,28403,Mr,Downton,1,Single,Died,
+36.0,A10,C,40.125,"Ross, Mr. John Hugo",0,584,1,male,0,0.0,13049,Mr,Ross,1,Single,Died,A
+,,C,8.7125,"Paulner, Mr. Uscher",0,585,3,male,0,0.0,3411,Mr,Paulner,1,Single,Died,
+18.0,E68,S,79.65,"Taussig, Miss. Ruth",2,586,1,female,0,1.0,110413,Miss,Taussig,3,Small Family,Survived,E
+47.0,,S,15.0,"Jarvis, Mr. John Denzil",0,587,2,male,0,0.0,237565,Mr,Jarvis,1,Single,Died,
+60.0,B41,C,79.2,"Frolicher-Stehli, Mr. Maxmillian",1,588,1,male,1,1.0,13567,Mr,Frolicher-Stehli,3,Small Family,Survived,B
+22.0,,S,8.05,"Gilinski, Mr. Eliezer",0,589,3,male,0,0.0,14973,Mr,Gilinski,1,Single,Died,
+,,S,8.05,"Murdlin, Mr. Joseph",0,590,3,male,0,0.0,A./5. 3235,Mr,Murdlin,1,Single,Died,
+35.0,,S,7.125,"Rintamaki, Mr. Matti",0,591,3,male,0,0.0,STON/O 2. 3101273,Mr,Rintamaki,1,Single,Died,
+52.0,D20,C,78.2667,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",0,592,1,female,1,1.0,36947,Mrs,Stephenson,2,Small Family,Survived,D
+47.0,,S,7.25,"Elsbury, Mr. William James",0,593,3,male,0,0.0,A/5 3902,Mr,Elsbury,1,Single,Died,
+,,Q,7.75,"Bourke, Miss. Mary",2,594,3,female,0,0.0,364848,Miss,Bourke,3,Small Family,Died,
+37.0,,S,26.0,"Chapman, Mr. John Henry",0,595,2,male,1,0.0,SC/AH 29037,Mr,Chapman,2,Small Family,Died,
+36.0,,S,24.15,"Van Impe, Mr. Jean Baptiste",1,596,3,male,1,0.0,345773,Mr,Van Impe,3,Small Family,Died,
+,,S,33.0,"Leitch, Miss. Jessie Wills",0,597,2,female,0,1.0,248727,Miss,Leitch,1,Single,Survived,
+49.0,,S,0.0,"Johnson, Mr. Alfred",0,598,3,male,0,0.0,LINE,Mr,Johnson,1,Single,Died,
+,,C,7.225,"Boulos, Mr. Hanna",0,599,3,male,0,0.0,2664,Mr,Boulos,1,Single,Died,
+49.0,A20,C,56.9292,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",0,600,1,male,1,1.0,PC 17485,Rare,Duff Gordon,2,Small Family,Survived,A
+24.0,,S,27.0,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",1,601,2,female,2,1.0,243847,Mrs,Jacobsohn,4,Small Family,Survived,
+,,S,7.8958,"Slabenoff, Mr. Petco",0,602,3,male,0,0.0,349214,Mr,Slabenoff,1,Single,Died,
+,,S,42.4,"Harrington, Mr. Charles H",0,603,1,male,0,0.0,113796,Mr,Harrington,1,Single,Died,
+44.0,,S,8.05,"Torber, Mr. Ernst William",0,604,3,male,0,0.0,364511,Mr,Torber,1,Single,Died,
+35.0,,C,26.55,"Homer, Mr. Harry (""Mr E Haven"")",0,605,1,male,0,1.0,111426,Mr,Homer,1,Single,Survived,
+36.0,,S,15.55,"Lindell, Mr. Edvard Bengtsson",0,606,3,male,1,0.0,349910,Mr,Lindell,2,Small Family,Died,
+30.0,,S,7.8958,"Karaic, Mr. Milan",0,607,3,male,0,0.0,349246,Mr,Karaic,1,Single,Died,
+27.0,,S,30.5,"Daniel, Mr. Robert Williams",0,608,1,male,0,1.0,113804,Mr,Daniel,1,Single,Survived,
+22.0,,C,41.5792,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",2,609,2,female,1,1.0,SC/Paris 2123,Mrs,Laroche,4,Small Family,Survived,
+40.0,C125,S,153.4625,"Shutes, Miss. Elizabeth W",0,610,1,female,0,1.0,PC 17582,Miss,Shutes,1,Single,Survived,C
+39.0,,S,31.275,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",5,611,3,female,1,0.0,347082,Mrs,Andersson,7,Large Family,Died,
+,,S,7.05,"Jardin, Mr. Jose Neto",0,612,3,male,0,0.0,SOTON/O.Q. 3101305,Mr,Jardin,1,Single,Died,
+,,Q,15.5,"Murphy, Miss. Margaret Jane",0,613,3,female,1,1.0,367230,Miss,Murphy,2,Small Family,Survived,
+,,Q,7.75,"Horgan, Mr. John",0,614,3,male,0,0.0,370377,Mr,Horgan,1,Single,Died,
+35.0,,S,8.05,"Brocklebank, Mr. William Alfred",0,615,3,male,0,0.0,364512,Mr,Brocklebank,1,Single,Died,
+24.0,,S,65.0,"Herman, Miss. Alice",2,616,2,female,1,1.0,220845,Miss,Herman,4,Small Family,Survived,
+34.0,,S,14.4,"Danbom, Mr. Ernst Gilbert",1,617,3,male,1,0.0,347080,Mr,Danbom,3,Small Family,Died,
+26.0,,S,16.1,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",0,618,3,female,1,0.0,A/5. 3336,Mrs,Lobb,2,Small Family,Died,
+4.0,F4,S,39.0,"Becker, Miss. Marion Louise",1,619,2,female,2,1.0,230136,Miss,Becker,4,Small Family,Survived,F
+26.0,,S,10.5,"Gavey, Mr. Lawrence",0,620,2,male,0,0.0,31028,Mr,Gavey,1,Single,Died,
+27.0,,C,14.4542,"Yasbeck, Mr. Antoni",0,621,3,male,1,0.0,2659,Mr,Yasbeck,2,Small Family,Died,
+42.0,D19,S,52.5542,"Kimball, Mr. Edwin Nelson Jr",0,622,1,male,1,1.0,11753,Mr,Kimball,2,Small Family,Survived,D
+20.0,,C,15.7417,"Nakid, Mr. Sahid",1,623,3,male,1,1.0,2653,Mr,Nakid,3,Small Family,Survived,
+21.0,,S,7.8542,"Hansen, Mr. Henry Damsgaard",0,624,3,male,0,0.0,350029,Mr,Hansen,1,Single,Died,
+21.0,,S,16.1,"Bowen, Mr. David John ""Dai""",0,625,3,male,0,0.0,54636,Mr,Bowen,1,Single,Died,
+61.0,D50,S,32.3208,"Sutton, Mr. Frederick",0,626,1,male,0,0.0,36963,Mr,Sutton,1,Single,Died,D
+57.0,,Q,12.35,"Kirkland, Rev. Charles Leonard",0,627,2,male,0,0.0,219533,Rare,Kirkland,1,Single,Died,
+21.0,D9,S,77.9583,"Longley, Miss. Gretchen Fiske",0,628,1,female,0,1.0,13502,Miss,Longley,1,Single,Survived,D
+26.0,,S,7.8958,"Bostandyeff, Mr. Guentcho",0,629,3,male,0,0.0,349224,Mr,Bostandyeff,1,Single,Died,
+,,Q,7.7333,"O'Connell, Mr. Patrick D",0,630,3,male,0,0.0,334912,Mr,O'Connell,1,Single,Died,
+80.0,A23,S,30.0,"Barkworth, Mr. Algernon Henry Wilson",0,631,1,male,0,1.0,27042,Mr,Barkworth,1,Single,Survived,A
+51.0,,S,7.0542,"Lundahl, Mr. Johan Svensson",0,632,3,male,0,0.0,347743,Mr,Lundahl,1,Single,Died,
+32.0,B50,C,30.5,"Stahelin-Maeglin, Dr. Max",0,633,1,male,0,1.0,13214,Rare,Stahelin-Maeglin,1,Single,Survived,B
+,,S,0.0,"Parr, Mr. William Henry Marsh",0,634,1,male,0,0.0,112052,Mr,Parr,1,Single,Died,
+9.0,,S,27.9,"Skoog, Miss. Mabel",2,635,3,female,3,0.0,347088,Miss,Skoog,6,Large Family,Died,
+28.0,,S,13.0,"Davis, Miss. Mary",0,636,2,female,0,1.0,237668,Miss,Davis,1,Single,Survived,
+32.0,,S,7.925,"Leinonen, Mr. Antti Gustaf",0,637,3,male,0,0.0,STON/O 2. 3101292,Mr,Leinonen,1,Single,Died,
+31.0,,S,26.25,"Collyer, Mr. Harvey",1,638,2,male,1,0.0,C.A. 31921,Mr,Collyer,3,Small Family,Died,
+41.0,,S,39.6875,"Panula, Mrs. Juha (Maria Emilia Ojala)",5,639,3,female,0,0.0,3101295,Mrs,Panula,6,Large Family,Died,
+,,S,16.1,"Thorneycroft, Mr. Percival",0,640,3,male,1,0.0,376564,Mr,Thorneycroft,2,Small Family,Died,
+20.0,,S,7.8542,"Jensen, Mr. Hans Peder",0,641,3,male,0,0.0,350050,Mr,Jensen,1,Single,Died,
+24.0,B35,C,69.3,"Sagesser, Mlle. Emma",0,642,1,female,0,1.0,PC 17477,Miss,Sagesser,1,Single,Survived,B
+2.0,,S,27.9,"Skoog, Miss. Margit Elizabeth",2,643,3,female,3,0.0,347088,Miss,Skoog,6,Large Family,Died,
+,,S,56.4958,"Foo, Mr. Choong",0,644,3,male,0,1.0,1601,Mr,Foo,1,Single,Survived,
+0.75,,C,19.2583,"Baclini, Miss. Eugenie",1,645,3,female,2,1.0,2666,Miss,Baclini,4,Small Family,Survived,
+48.0,D33,C,76.7292,"Harper, Mr. Henry Sleeper",0,646,1,male,1,1.0,PC 17572,Mr,Harper,2,Small Family,Survived,D
+19.0,,S,7.8958,"Cor, Mr. Liudevit",0,647,3,male,0,0.0,349231,Mr,Cor,1,Single,Died,
+56.0,A26,C,35.5,"Simonius-Blumer, Col. Oberst Alfons",0,648,1,male,0,1.0,13213,Rare,Simonius-Blumer,1,Single,Survived,A
+,,S,7.55,"Willey, Mr. Edward",0,649,3,male,0,0.0,S.O./P.P. 751,Mr,Willey,1,Single,Died,
+23.0,,S,7.55,"Stanley, Miss. Amy Zillah Elsie",0,650,3,female,0,1.0,CA. 2314,Miss,Stanley,1,Single,Survived,
+,,S,7.8958,"Mitkoff, Mr. Mito",0,651,3,male,0,0.0,349221,Mr,Mitkoff,1,Single,Died,
+18.0,,S,23.0,"Doling, Miss. Elsie",1,652,2,female,0,1.0,231919,Miss,Doling,2,Small Family,Survived,
+21.0,,S,8.4333,"Kalvik, Mr. Johannes Halvorsen",0,653,3,male,0,0.0,8475,Mr,Kalvik,1,Single,Died,
+,,Q,7.8292,"O'Leary, Miss. Hanora ""Norah""",0,654,3,female,0,1.0,330919,Miss,O'Leary,1,Single,Survived,
+18.0,,Q,6.75,"Hegarty, Miss. Hanora ""Nora""",0,655,3,female,0,0.0,365226,Miss,Hegarty,1,Single,Died,
+24.0,,S,73.5,"Hickman, Mr. Leonard Mark",0,656,2,male,2,0.0,S.O.C. 14879,Mr,Hickman,3,Small Family,Died,
+,,S,7.8958,"Radeff, Mr. Alexander",0,657,3,male,0,0.0,349223,Mr,Radeff,1,Single,Died,
+32.0,,Q,15.5,"Bourke, Mrs. John (Catherine)",1,658,3,female,1,0.0,364849,Mrs,Bourke,3,Small Family,Died,
+23.0,,S,13.0,"Eitemiller, Mr. George Floyd",0,659,2,male,0,0.0,29751,Mr,Eitemiller,1,Single,Died,
+58.0,D48,C,113.275,"Newell, Mr. Arthur Webster",2,660,1,male,0,0.0,35273,Mr,Newell,3,Small Family,Died,D
+50.0,,S,133.65,"Frauenthal, Dr. Henry William",0,661,1,male,2,1.0,PC 17611,Rare,Frauenthal,3,Small Family,Survived,
+40.0,,C,7.225,"Badt, Mr. Mohamed",0,662,3,male,0,0.0,2623,Mr,Badt,1,Single,Died,
+47.0,E58,S,25.5875,"Colley, Mr. Edward Pomeroy",0,663,1,male,0,0.0,5727,Mr,Colley,1,Single,Died,E
+36.0,,S,7.4958,"Coleff, Mr. Peju",0,664,3,male,0,0.0,349210,Mr,Coleff,1,Single,Died,
+20.0,,S,7.925,"Lindqvist, Mr. Eino William",0,665,3,male,1,1.0,STON/O 2. 3101285,Mr,Lindqvist,2,Small Family,Survived,
+32.0,,S,73.5,"Hickman, Mr. Lewis",0,666,2,male,2,0.0,S.O.C. 14879,Mr,Hickman,3,Small Family,Died,
+25.0,,S,13.0,"Butler, Mr. Reginald Fenton",0,667,2,male,0,0.0,234686,Mr,Butler,1,Single,Died,
+,,S,7.775,"Rommetvedt, Mr. Knud Paust",0,668,3,male,0,0.0,312993,Mr,Rommetvedt,1,Single,Died,
+43.0,,S,8.05,"Cook, Mr. Jacob",0,669,3,male,0,0.0,A/5 3536,Mr,Cook,1,Single,Died,
+,C126,S,52.0,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",0,670,1,female,1,1.0,19996,Mrs,Taylor,2,Small Family,Survived,C
+40.0,,S,39.0,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",1,671,2,female,1,1.0,29750,Mrs,Brown,3,Small Family,Survived,
+31.0,B71,S,52.0,"Davidson, Mr. Thornton",0,672,1,male,1,0.0,F.C. 12750,Mr,Davidson,2,Small Family,Died,B
+70.0,,S,10.5,"Mitchell, Mr. Henry Michael",0,673,2,male,0,0.0,C.A. 24580,Mr,Mitchell,1,Single,Died,
+31.0,,S,13.0,"Wilhelms, Mr. Charles",0,674,2,male,0,1.0,244270,Mr,Wilhelms,1,Single,Survived,
+,,S,0.0,"Watson, Mr. Ennis Hastings",0,675,2,male,0,0.0,239856,Mr,Watson,1,Single,Died,
+18.0,,S,7.775,"Edvardsson, Mr. Gustaf Hjalmar",0,676,3,male,0,0.0,349912,Mr,Edvardsson,1,Single,Died,
+24.5,,S,8.05,"Sawyer, Mr. Frederick Charles",0,677,3,male,0,0.0,342826,Mr,Sawyer,1,Single,Died,
+18.0,,S,9.8417,"Turja, Miss. Anna Sofia",0,678,3,female,0,1.0,4138,Miss,Turja,1,Single,Survived,
+43.0,,S,46.9,"Goodwin, Mrs. Frederick (Augusta Tyler)",6,679,3,female,1,0.0,CA 2144,Mrs,Goodwin,8,Large Family,Died,
+36.0,B51 B53 B55,C,512.3292,"Cardeza, Mr. Thomas Drake Martinez",1,680,1,male,0,1.0,PC 17755,Mr,Cardeza,2,Small Family,Survived,B
+,,Q,8.1375,"Peters, Miss. Katie",0,681,3,female,0,0.0,330935,Miss,Peters,1,Single,Died,
+27.0,D49,C,76.7292,"Hassab, Mr. Hammad",0,682,1,male,0,1.0,PC 17572,Mr,Hassab,1,Single,Survived,D
+20.0,,S,9.225,"Olsvigen, Mr. Thor Anderson",0,683,3,male,0,0.0,6563,Mr,Olsvigen,1,Single,Died,
+14.0,,S,46.9,"Goodwin, Mr. Charles Edward",2,684,3,male,5,0.0,CA 2144,Mr,Goodwin,8,Large Family,Died,
+60.0,,S,39.0,"Brown, Mr. Thomas William Solomon",1,685,2,male,1,0.0,29750,Mr,Brown,3,Small Family,Died,
+25.0,,C,41.5792,"Laroche, Mr. Joseph Philippe Lemercier",2,686,2,male,1,0.0,SC/Paris 2123,Mr,Laroche,4,Small Family,Died,
+14.0,,S,39.6875,"Panula, Mr. Jaako Arnold",1,687,3,male,4,0.0,3101295,Mr,Panula,6,Large Family,Died,
+19.0,,S,10.1708,"Dakic, Mr. Branko",0,688,3,male,0,0.0,349228,Mr,Dakic,1,Single,Died,
+18.0,,S,7.7958,"Fischer, Mr. Eberhard Thelander",0,689,3,male,0,0.0,350036,Mr,Fischer,1,Single,Died,
+15.0,B5,S,211.3375,"Madill, Miss. Georgette Alexandra",1,690,1,female,0,1.0,24160,Miss,Madill,2,Small Family,Survived,B
+31.0,B20,S,57.0,"Dick, Mr. Albert Adrian",0,691,1,male,1,1.0,17474,Mr,Dick,2,Small Family,Survived,B
+4.0,,C,13.4167,"Karun, Miss. Manca",1,692,3,female,0,1.0,349256,Miss,Karun,2,Small Family,Survived,
+,,S,56.4958,"Lam, Mr. Ali",0,693,3,male,0,1.0,1601,Mr,Lam,1,Single,Survived,
+25.0,,C,7.225,"Saad, Mr. Khalil",0,694,3,male,0,0.0,2672,Mr,Saad,1,Single,Died,
+60.0,,S,26.55,"Weir, Col. John",0,695,1,male,0,0.0,113800,Rare,Weir,1,Single,Died,
+52.0,,S,13.5,"Chapman, Mr. Charles Henry",0,696,2,male,0,0.0,248731,Mr,Chapman,1,Single,Died,
+44.0,,S,8.05,"Kelly, Mr. James",0,697,3,male,0,0.0,363592,Mr,Kelly,1,Single,Died,
+,,Q,7.7333,"Mullens, Miss. Katherine ""Katie""",0,698,3,female,0,1.0,35852,Miss,Mullens,1,Single,Survived,
+49.0,C68,C,110.8833,"Thayer, Mr. John Borland",1,699,1,male,1,0.0,17421,Mr,Thayer,3,Small Family,Died,C
+42.0,F G63,S,7.65,"Humblen, Mr. Adolf Mathias Nicolai Olsen",0,700,3,male,0,0.0,348121,Mr,Humblen,1,Single,Died,F
+18.0,C62 C64,C,227.525,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",0,701,1,female,1,1.0,PC 17757,Mrs,Astor,2,Small Family,Survived,C
+35.0,E24,S,26.2875,"Silverthorne, Mr. Spencer Victor",0,702,1,male,0,1.0,PC 17475,Mr,Silverthorne,1,Single,Survived,E
+18.0,,C,14.4542,"Barbara, Miss. Saiide",1,703,3,female,0,0.0,2691,Miss,Barbara,2,Small Family,Died,
+25.0,,Q,7.7417,"Gallagher, Mr. Martin",0,704,3,male,0,0.0,36864,Mr,Gallagher,1,Single,Died,
+26.0,,S,7.8542,"Hansen, Mr. Henrik Juul",0,705,3,male,1,0.0,350025,Mr,Hansen,2,Small Family,Died,
+39.0,,S,26.0,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",0,706,2,male,0,0.0,250655,Mr,Morley,1,Single,Died,
+45.0,,S,13.5,"Kelly, Mrs. Florence ""Fannie""",0,707,2,female,0,1.0,223596,Mrs,Kelly,1,Single,Survived,
+42.0,E24,S,26.2875,"Calderhead, Mr. Edward Pennington",0,708,1,male,0,1.0,PC 17476,Mr,Calderhead,1,Single,Survived,E
+22.0,,S,151.55,"Cleaver, Miss. Alice",0,709,1,female,0,1.0,113781,Miss,Cleaver,1,Single,Survived,
+,,C,15.2458,"Moubarek, Master. Halim Gonios (""William George"")",1,710,3,male,1,1.0,2661,Master,Moubarek,3,Small Family,Survived,
+24.0,C90,C,49.5042,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",0,711,1,female,0,1.0,PC 17482,Miss,Mayne,1,Single,Survived,C
+,C124,S,26.55,"Klaber, Mr. Herman",0,712,1,male,0,0.0,113028,Mr,Klaber,1,Single,Died,C
+48.0,C126,S,52.0,"Taylor, Mr. Elmer Zebley",0,713,1,male,1,1.0,19996,Mr,Taylor,2,Small Family,Survived,C
+29.0,,S,9.4833,"Larsson, Mr. August Viktor",0,714,3,male,0,0.0,7545,Mr,Larsson,1,Single,Died,
+52.0,,S,13.0,"Greenberg, Mr. Samuel",0,715,2,male,0,0.0,250647,Mr,Greenberg,1,Single,Died,
+19.0,F G73,S,7.65,"Soholt, Mr. Peter Andreas Lauritz Andersen",0,716,3,male,0,0.0,348124,Mr,Soholt,1,Single,Died,F
+38.0,C45,C,227.525,"Endres, Miss. Caroline Louise",0,717,1,female,0,1.0,PC 17757,Miss,Endres,1,Single,Survived,C
+27.0,E101,S,10.5,"Troutt, Miss. Edwina Celia ""Winnie""",0,718,2,female,0,1.0,34218,Miss,Troutt,1,Single,Survived,E
+,,Q,15.5,"McEvoy, Mr. Michael",0,719,3,male,0,0.0,36568,Mr,McEvoy,1,Single,Died,
+33.0,,S,7.775,"Johnson, Mr. Malkolm Joackim",0,720,3,male,0,0.0,347062,Mr,Johnson,1,Single,Died,
+6.0,,S,33.0,"Harper, Miss. Annie Jessie ""Nina""",1,721,2,female,0,1.0,248727,Miss,Harper,2,Small Family,Survived,
+17.0,,S,7.0542,"Jensen, Mr. Svend Lauritz",0,722,3,male,1,0.0,350048,Mr,Jensen,2,Small Family,Died,
+34.0,,S,13.0,"Gillespie, Mr. William Henry",0,723,2,male,0,0.0,12233,Mr,Gillespie,1,Single,Died,
+50.0,,S,13.0,"Hodges, Mr. Henry Price",0,724,2,male,0,0.0,250643,Mr,Hodges,1,Single,Died,
+27.0,E8,S,53.1,"Chambers, Mr. Norman Campbell",0,725,1,male,1,1.0,113806,Mr,Chambers,2,Small Family,Survived,E
+20.0,,S,8.6625,"Oreskovic, Mr. Luka",0,726,3,male,0,0.0,315094,Mr,Oreskovic,1,Single,Died,
+30.0,,S,21.0,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",0,727,2,female,3,1.0,31027,Mrs,Renouf,4,Small Family,Survived,
+,,Q,7.7375,"Mannion, Miss. Margareth",0,728,3,female,0,1.0,36866,Miss,Mannion,1,Single,Survived,
+25.0,,S,26.0,"Bryhl, Mr. Kurt Arnold Gottfrid",0,729,2,male,1,0.0,236853,Mr,Bryhl,2,Small Family,Died,
+25.0,,S,7.925,"Ilmakangas, Miss. Pieta Sofia",0,730,3,female,1,0.0,STON/O2. 3101271,Miss,Ilmakangas,2,Small Family,Died,
+29.0,B5,S,211.3375,"Allen, Miss. Elisabeth Walton",0,731,1,female,0,1.0,24160,Miss,Allen,1,Single,Survived,B
+11.0,,C,18.7875,"Hassan, Mr. Houssein G N",0,732,3,male,0,0.0,2699,Mr,Hassan,1,Single,Died,
+,,S,0.0,"Knight, Mr. Robert J",0,733,2,male,0,0.0,239855,Mr,Knight,1,Single,Died,
+23.0,,S,13.0,"Berriman, Mr. William John",0,734,2,male,0,0.0,28425,Mr,Berriman,1,Single,Died,
+23.0,,S,13.0,"Troupiansky, Mr. Moses Aaron",0,735,2,male,0,0.0,233639,Mr,Troupiansky,1,Single,Died,
+28.5,,S,16.1,"Williams, Mr. Leslie",0,736,3,male,0,0.0,54636,Mr,Williams,1,Single,Died,
+48.0,,S,34.375,"Ford, Mrs. Edward (Margaret Ann Watson)",3,737,3,female,1,0.0,W./C. 6608,Mrs,Ford,5,Large Family,Died,
+35.0,B101,C,512.3292,"Lesurer, Mr. Gustave J",0,738,1,male,0,1.0,PC 17755,Mr,Lesurer,1,Single,Survived,B
+,,S,7.8958,"Ivanoff, Mr. Kanio",0,739,3,male,0,0.0,349201,Mr,Ivanoff,1,Single,Died,
+,,S,7.8958,"Nankoff, Mr. Minko",0,740,3,male,0,0.0,349218,Mr,Nankoff,1,Single,Died,
+,D45,S,30.0,"Hawksford, Mr. Walter James",0,741,1,male,0,1.0,16988,Mr,Hawksford,1,Single,Survived,D
+36.0,C46,S,78.85,"Cavendish, Mr. Tyrell William",0,742,1,male,1,0.0,19877,Mr,Cavendish,2,Small Family,Died,C
+21.0,B57 B59 B63 B66,C,262.375,"Ryerson, Miss. Susan Parker ""Suzette""",2,743,1,female,2,1.0,PC 17608,Miss,Ryerson,5,Large Family,Survived,B
+24.0,,S,16.1,"McNamee, Mr. Neal",0,744,3,male,1,0.0,376566,Mr,McNamee,2,Small Family,Died,
+31.0,,S,7.925,"Stranden, Mr. Juho",0,745,3,male,0,1.0,STON/O 2. 3101288,Mr,Stranden,1,Single,Survived,
+70.0,B22,S,71.0,"Crosby, Capt. Edward Gifford",1,746,1,male,1,0.0,WE/P 5735,Rare,Crosby,3,Small Family,Died,B
+16.0,,S,20.25,"Abbott, Mr. Rossmore Edward",1,747,3,male,1,0.0,C.A. 2673,Mr,Abbott,3,Small Family,Died,
+30.0,,S,13.0,"Sinkkonen, Miss. Anna",0,748,2,female,0,1.0,250648,Miss,Sinkkonen,1,Single,Survived,
+19.0,D30,S,53.1,"Marvin, Mr. Daniel Warner",0,749,1,male,1,0.0,113773,Mr,Marvin,2,Small Family,Died,D
+31.0,,Q,7.75,"Connaghton, Mr. Michael",0,750,3,male,0,0.0,335097,Mr,Connaghton,1,Single,Died,
+4.0,,S,23.0,"Wells, Miss. Joan",1,751,2,female,1,1.0,29103,Miss,Wells,3,Small Family,Survived,
+6.0,E121,S,12.475,"Moor, Master. Meier",1,752,3,male,0,1.0,392096,Master,Moor,2,Small Family,Survived,E
+33.0,,S,9.5,"Vande Velde, Mr. Johannes Joseph",0,753,3,male,0,0.0,345780,Mr,Vande Velde,1,Single,Died,
+23.0,,S,7.8958,"Jonkoff, Mr. Lalio",0,754,3,male,0,0.0,349204,Mr,Jonkoff,1,Single,Died,
+48.0,,S,65.0,"Herman, Mrs. Samuel (Jane Laver)",2,755,2,female,1,1.0,220845,Mrs,Herman,4,Small Family,Survived,
+0.67,,S,14.5,"Hamalainen, Master. Viljo",1,756,2,male,1,1.0,250649,Master,Hamalainen,3,Small Family,Survived,
+28.0,,S,7.7958,"Carlsson, Mr. August Sigfrid",0,757,3,male,0,0.0,350042,Mr,Carlsson,1,Single,Died,
+18.0,,S,11.5,"Bailey, Mr. Percy Andrew",0,758,2,male,0,0.0,29108,Mr,Bailey,1,Single,Died,
+34.0,,S,8.05,"Theobald, Mr. Thomas Leonard",0,759,3,male,0,0.0,363294,Mr,Theobald,1,Single,Died,
+33.0,B77,S,86.5,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",0,760,1,female,0,1.0,110152,Rare,Rothes,1,Single,Survived,B
+,,S,14.5,"Garfirth, Mr. John",0,761,3,male,0,0.0,358585,Mr,Garfirth,1,Single,Died,
+41.0,,S,7.125,"Nirva, Mr. Iisakki Antino Aijo",0,762,3,male,0,0.0,SOTON/O2 3101272,Mr,Nirva,1,Single,Died,
+20.0,,C,7.2292,"Barah, Mr. Hanna Assi",0,763,3,male,0,1.0,2663,Mr,Barah,1,Single,Survived,
+36.0,B96 B98,S,120.0,"Carter, Mrs. William Ernest (Lucile Polk)",2,764,1,female,1,1.0,113760,Mrs,Carter,4,Small Family,Survived,B
+16.0,,S,7.775,"Eklund, Mr. Hans Linus",0,765,3,male,0,0.0,347074,Mr,Eklund,1,Single,Died,
+51.0,D11,S,77.9583,"Hogeboom, Mrs. John C (Anna Andrews)",0,766,1,female,1,1.0,13502,Mrs,Hogeboom,2,Small Family,Survived,D
+,,C,39.6,"Brewe, Dr. Arthur Jackson",0,767,1,male,0,0.0,112379,Rare,Brewe,1,Single,Died,
+30.5,,Q,7.75,"Mangan, Miss. Mary",0,768,3,female,0,0.0,364850,Miss,Mangan,1,Single,Died,
+,,Q,24.15,"Moran, Mr. Daniel J",0,769,3,male,1,0.0,371110,Mr,Moran,2,Small Family,Died,
+32.0,,S,8.3625,"Gronnestad, Mr. Daniel Danielsen",0,770,3,male,0,0.0,8471,Mr,Gronnestad,1,Single,Died,
+24.0,,S,9.5,"Lievens, Mr. Rene Aime",0,771,3,male,0,0.0,345781,Mr,Lievens,1,Single,Died,
+48.0,,S,7.8542,"Jensen, Mr. Niels Peder",0,772,3,male,0,0.0,350047,Mr,Jensen,1,Single,Died,
+57.0,E77,S,10.5,"Mack, Mrs. (Mary)",0,773,2,female,0,0.0,S.O./P.P. 3,Mrs,Mack,1,Single,Died,E
+,,C,7.225,"Elias, Mr. Dibo",0,774,3,male,0,0.0,2674,Mr,Elias,1,Single,Died,
+54.0,,S,23.0,"Hocking, Mrs. Elizabeth (Eliza Needs)",3,775,2,female,1,1.0,29105,Mrs,Hocking,5,Large Family,Survived,
+18.0,,S,7.75,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",0,776,3,male,0,0.0,347078,Mr,Myhrman,1,Single,Died,
+,F38,Q,7.75,"Tobin, Mr. Roger",0,777,3,male,0,0.0,383121,Mr,Tobin,1,Single,Died,F
+5.0,,S,12.475,"Emanuel, Miss. Virginia Ethel",0,778,3,female,0,1.0,364516,Miss,Emanuel,1,Single,Survived,
+,,Q,7.7375,"Kilgannon, Mr. Thomas J",0,779,3,male,0,0.0,36865,Mr,Kilgannon,1,Single,Died,
+43.0,B3,S,211.3375,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",1,780,1,female,0,1.0,24160,Mrs,Robert,2,Small Family,Survived,B
+13.0,,C,7.2292,"Ayoub, Miss. Banoura",0,781,3,female,0,1.0,2687,Miss,Ayoub,1,Single,Survived,
+17.0,B20,S,57.0,"Dick, Mrs. Albert Adrian (Vera Gillespie)",0,782,1,female,1,1.0,17474,Mrs,Dick,2,Small Family,Survived,B
+29.0,D6,S,30.0,"Long, Mr. Milton Clyde",0,783,1,male,0,0.0,113501,Mr,Long,1,Single,Died,D
+,,S,23.45,"Johnston, Mr. Andrew G",2,784,3,male,1,0.0,W./C. 6607,Mr,Johnston,4,Small Family,Died,
+25.0,,S,7.05,"Ali, Mr. William",0,785,3,male,0,0.0,SOTON/O.Q. 3101312,Mr,Ali,1,Single,Died,
+25.0,,S,7.25,"Harmer, Mr. Abraham (David Lishin)",0,786,3,male,0,0.0,374887,Mr,Harmer,1,Single,Died,
+18.0,,S,7.4958,"Sjoblom, Miss. Anna Sofia",0,787,3,female,0,1.0,3101265,Miss,Sjoblom,1,Single,Survived,
+8.0,,Q,29.125,"Rice, Master. George Hugh",1,788,3,male,4,0.0,382652,Master,Rice,6,Large Family,Died,
+1.0,,S,20.575,"Dean, Master. Bertram Vere",2,789,3,male,1,1.0,C.A. 2315,Master,Dean,4,Small Family,Survived,
+46.0,B82 B84,C,79.2,"Guggenheim, Mr. Benjamin",0,790,1,male,0,0.0,PC 17593,Mr,Guggenheim,1,Single,Died,B
+,,Q,7.75,"Keane, Mr. Andrew ""Andy""",0,791,3,male,0,0.0,12460,Mr,Keane,1,Single,Died,
+16.0,,S,26.0,"Gaskell, Mr. Alfred",0,792,2,male,0,0.0,239865,Mr,Gaskell,1,Single,Died,
+,,S,69.55,"Sage, Miss. Stella Anna",2,793,3,female,8,0.0,CA. 2343,Miss,Sage,11,Large Family,Died,
+,,C,30.6958,"Hoyt, Mr. William Fisher",0,794,1,male,0,0.0,PC 17600,Mr,Hoyt,1,Single,Died,
+25.0,,S,7.8958,"Dantcheff, Mr. Ristiu",0,795,3,male,0,0.0,349203,Mr,Dantcheff,1,Single,Died,
+39.0,,S,13.0,"Otter, Mr. Richard",0,796,2,male,0,0.0,28213,Mr,Otter,1,Single,Died,
+49.0,D17,S,25.9292,"Leader, Dr. Alice (Farnham)",0,797,1,female,0,1.0,17465,Rare,Leader,1,Single,Survived,D
+31.0,,S,8.6833,"Osman, Mrs. Mara",0,798,3,female,0,1.0,349244,Mrs,Osman,1,Single,Survived,
+30.0,,C,7.2292,"Ibrahim Shawah, Mr. Yousseff",0,799,3,male,0,0.0,2685,Mr,Ibrahim Shawah,1,Single,Died,
+30.0,,S,24.15,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",1,800,3,female,1,0.0,345773,Mrs,Van Impe,3,Small Family,Died,
+34.0,,S,13.0,"Ponesell, Mr. Martin",0,801,2,male,0,0.0,250647,Mr,Ponesell,1,Single,Died,
+31.0,,S,26.25,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",1,802,2,female,1,1.0,C.A. 31921,Mrs,Collyer,3,Small Family,Survived,
+11.0,B96 B98,S,120.0,"Carter, Master. William Thornton II",2,803,1,male,1,1.0,113760,Master,Carter,4,Small Family,Survived,B
+0.42,,C,8.5167,"Thomas, Master. Assad Alexander",1,804,3,male,0,1.0,2625,Master,Thomas,2,Small Family,Survived,
+27.0,,S,6.975,"Hedman, Mr. Oskar Arvid",0,805,3,male,0,1.0,347089,Mr,Hedman,1,Single,Survived,
+31.0,,S,7.775,"Johansson, Mr. Karl Johan",0,806,3,male,0,0.0,347063,Mr,Johansson,1,Single,Died,
+39.0,A36,S,0.0,"Andrews, Mr. Thomas Jr",0,807,1,male,0,0.0,112050,Mr,Andrews,1,Single,Died,A
+18.0,,S,7.775,"Pettersson, Miss. Ellen Natalia",0,808,3,female,0,0.0,347087,Miss,Pettersson,1,Single,Died,
+39.0,,S,13.0,"Meyer, Mr. August",0,809,2,male,0,0.0,248723,Mr,Meyer,1,Single,Died,
+33.0,E8,S,53.1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",0,810,1,female,1,1.0,113806,Mrs,Chambers,2,Small Family,Survived,E
+26.0,,S,7.8875,"Alexander, Mr. William",0,811,3,male,0,0.0,3474,Mr,Alexander,1,Single,Died,
+39.0,,S,24.15,"Lester, Mr. James",0,812,3,male,0,0.0,A/4 48871,Mr,Lester,1,Single,Died,
+35.0,,S,10.5,"Slemen, Mr. Richard James",0,813,2,male,0,0.0,28206,Mr,Slemen,1,Single,Died,
+6.0,,S,31.275,"Andersson, Miss. Ebba Iris Alfrida",2,814,3,female,4,0.0,347082,Miss,Andersson,7,Large Family,Died,
+30.5,,S,8.05,"Tomlin, Mr. Ernest Portage",0,815,3,male,0,0.0,364499,Mr,Tomlin,1,Single,Died,
+,B102,S,0.0,"Fry, Mr. Richard",0,816,1,male,0,0.0,112058,Mr,Fry,1,Single,Died,B
+23.0,,S,7.925,"Heininen, Miss. Wendla Maria",0,817,3,female,0,0.0,STON/O2. 3101290,Miss,Heininen,1,Single,Died,
+31.0,,C,37.0042,"Mallet, Mr. Albert",1,818,2,male,1,0.0,S.C./PARIS 2079,Mr,Mallet,3,Small Family,Died,
+43.0,,S,6.45,"Holm, Mr. John Fredrik Alexander",0,819,3,male,0,0.0,C 7075,Mr,Holm,1,Single,Died,
+10.0,,S,27.9,"Skoog, Master. Karl Thorsten",2,820,3,male,3,0.0,347088,Master,Skoog,6,Large Family,Died,
+52.0,B69,S,93.5,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",1,821,1,female,1,1.0,12749,Mrs,Hays,3,Small Family,Survived,B
+27.0,,S,8.6625,"Lulic, Mr. Nikola",0,822,3,male,0,1.0,315098,Mr,Lulic,1,Single,Survived,
+38.0,,S,0.0,"Reuchlin, Jonkheer. John George",0,823,1,male,0,0.0,19972,Rare,Reuchlin,1,Single,Died,
+27.0,E121,S,12.475,"Moor, Mrs. (Beila)",1,824,3,female,0,1.0,392096,Mrs,Moor,2,Small Family,Survived,E
+2.0,,S,39.6875,"Panula, Master. Urho Abraham",1,825,3,male,4,0.0,3101295,Master,Panula,6,Large Family,Died,
+,,Q,6.95,"Flynn, Mr. John",0,826,3,male,0,0.0,368323,Mr,Flynn,1,Single,Died,
+,,S,56.4958,"Lam, Mr. Len",0,827,3,male,0,0.0,1601,Mr,Lam,1,Single,Died,
+1.0,,C,37.0042,"Mallet, Master. Andre",2,828,2,male,0,1.0,S.C./PARIS 2079,Master,Mallet,3,Small Family,Survived,
+,,Q,7.75,"McCormack, Mr. Thomas Joseph",0,829,3,male,0,1.0,367228,Mr,McCormack,1,Single,Survived,
+62.0,B28,C,80.0,"Stone, Mrs. George Nelson (Martha Evelyn)",0,830,1,female,0,1.0,113572,Mrs,Stone,1,Single,Survived,B
+15.0,,C,14.4542,"Yasbeck, Mrs. Antoni (Selini Alexander)",0,831,3,female,1,1.0,2659,Mrs,Yasbeck,2,Small Family,Survived,
+0.83,,S,18.75,"Richards, Master. George Sibley",1,832,2,male,1,1.0,29106,Master,Richards,3,Small Family,Survived,
+,,C,7.2292,"Saad, Mr. Amin",0,833,3,male,0,0.0,2671,Mr,Saad,1,Single,Died,
+23.0,,S,7.8542,"Augustsson, Mr. Albert",0,834,3,male,0,0.0,347468,Mr,Augustsson,1,Single,Died,
+18.0,,S,8.3,"Allum, Mr. Owen George",0,835,3,male,0,0.0,2223,Mr,Allum,1,Single,Died,
+39.0,E49,C,83.1583,"Compton, Miss. Sara Rebecca",1,836,1,female,1,1.0,PC 17756,Miss,Compton,3,Small Family,Survived,E
+21.0,,S,8.6625,"Pasic, Mr. Jakob",0,837,3,male,0,0.0,315097,Mr,Pasic,1,Single,Died,
+,,S,8.05,"Sirota, Mr. Maurice",0,838,3,male,0,0.0,392092,Mr,Sirota,1,Single,Died,
+32.0,,S,56.4958,"Chip, Mr. Chang",0,839,3,male,0,1.0,1601,Mr,Chip,1,Single,Survived,
+,C47,C,29.7,"Marechal, Mr. Pierre",0,840,1,male,0,1.0,11774,Mr,Marechal,1,Single,Survived,C
+20.0,,S,7.925,"Alhomaki, Mr. Ilmari Rudolf",0,841,3,male,0,0.0,SOTON/O2 3101287,Mr,Alhomaki,1,Single,Died,
+16.0,,S,10.5,"Mudd, Mr. Thomas Charles",0,842,2,male,0,0.0,S.O./P.P. 3,Mr,Mudd,1,Single,Died,
+30.0,,C,31.0,"Serepeca, Miss. Augusta",0,843,1,female,0,1.0,113798,Miss,Serepeca,1,Single,Survived,
+34.5,,C,6.4375,"Lemberopolous, Mr. Peter L",0,844,3,male,0,0.0,2683,Mr,Lemberopolous,1,Single,Died,
+17.0,,S,8.6625,"Culumovic, Mr. Jeso",0,845,3,male,0,0.0,315090,Mr,Culumovic,1,Single,Died,
+42.0,,S,7.55,"Abbing, Mr. Anthony",0,846,3,male,0,0.0,C.A. 5547,Mr,Abbing,1,Single,Died,
+,,S,69.55,"Sage, Mr. Douglas Bullen",2,847,3,male,8,0.0,CA. 2343,Mr,Sage,11,Large Family,Died,
+35.0,,C,7.8958,"Markoff, Mr. Marin",0,848,3,male,0,0.0,349213,Mr,Markoff,1,Single,Died,
+28.0,,S,33.0,"Harper, Rev. John",1,849,2,male,0,0.0,248727,Rare,Harper,2,Small Family,Died,
+,C92,C,89.1042,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",0,850,1,female,1,1.0,17453,Mrs,Goldenberg,2,Small Family,Survived,C
+4.0,,S,31.275,"Andersson, Master. Sigvard Harald Elias",2,851,3,male,4,0.0,347082,Master,Andersson,7,Large Family,Died,
+74.0,,S,7.775,"Svensson, Mr. Johan",0,852,3,male,0,0.0,347060,Mr,Svensson,1,Single,Died,
+9.0,,C,15.2458,"Boulos, Miss. Nourelain",1,853,3,female,1,0.0,2678,Miss,Boulos,3,Small Family,Died,
+16.0,D28,S,39.4,"Lines, Miss. Mary Conover",1,854,1,female,0,1.0,PC 17592,Miss,Lines,2,Small Family,Survived,D
+44.0,,S,26.0,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",0,855,2,female,1,0.0,244252,Mrs,Carter,2,Small Family,Died,
+18.0,,S,9.35,"Aks, Mrs. Sam (Leah Rosen)",1,856,3,female,0,1.0,392091,Mrs,Aks,2,Small Family,Survived,
+45.0,,S,164.8667,"Wick, Mrs. George Dennick (Mary Hitchcock)",1,857,1,female,1,1.0,36928,Mrs,Wick,3,Small Family,Survived,
+51.0,E17,S,26.55,"Daly, Mr. Peter Denis ",0,858,1,male,0,1.0,113055,Mr,Daly,1,Single,Survived,E
+24.0,,C,19.2583,"Baclini, Mrs. Solomon (Latifa Qurban)",3,859,3,female,0,1.0,2666,Mrs,Baclini,4,Small Family,Survived,
+,,C,7.2292,"Razi, Mr. Raihed",0,860,3,male,0,0.0,2629,Mr,Razi,1,Single,Died,
+41.0,,S,14.1083,"Hansen, Mr. Claus Peter",0,861,3,male,2,0.0,350026,Mr,Hansen,3,Small Family,Died,
+21.0,,S,11.5,"Giles, Mr. Frederick Edward",0,862,2,male,1,0.0,28134,Mr,Giles,2,Small Family,Died,
+48.0,D17,S,25.9292,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",0,863,1,female,0,1.0,17466,Mrs,Swift,1,Single,Survived,D
+,,S,69.55,"Sage, Miss. Dorothy Edith ""Dolly""",2,864,3,female,8,0.0,CA. 2343,Miss,Sage,11,Large Family,Died,
+24.0,,S,13.0,"Gill, Mr. John William",0,865,2,male,0,0.0,233866,Mr,Gill,1,Single,Died,
+42.0,,S,13.0,"Bystrom, Mrs. (Karolina)",0,866,2,female,0,1.0,236852,Mrs,Bystrom,1,Single,Survived,
+27.0,,C,13.8583,"Duran y More, Miss. Asuncion",0,867,2,female,1,1.0,SC/PARIS 2149,Miss,Duran y More,2,Small Family,Survived,
+31.0,A24,S,50.4958,"Roebling, Mr. Washington Augustus II",0,868,1,male,0,0.0,PC 17590,Mr,Roebling,1,Single,Died,A
+,,S,9.5,"van Melkebeke, Mr. Philemon",0,869,3,male,0,0.0,345777,Mr,van Melkebeke,1,Single,Died,
+4.0,,S,11.1333,"Johnson, Master. Harold Theodor",1,870,3,male,1,1.0,347742,Master,Johnson,3,Small Family,Survived,
+26.0,,S,7.8958,"Balkic, Mr. Cerin",0,871,3,male,0,0.0,349248,Mr,Balkic,1,Single,Died,
+47.0,D35,S,52.5542,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",1,872,1,female,1,1.0,11751,Mrs,Beckwith,3,Small Family,Survived,D
+33.0,B51 B53 B55,S,5.0,"Carlsson, Mr. Frans Olof",0,873,1,male,0,0.0,695,Mr,Carlsson,1,Single,Died,B
+47.0,,S,9.0,"Vander Cruyssen, Mr. Victor",0,874,3,male,0,0.0,345765,Mr,Vander Cruyssen,1,Single,Died,
+28.0,,C,24.0,"Abelson, Mrs. Samuel (Hannah Wizosky)",0,875,2,female,1,1.0,P/PP 3381,Mrs,Abelson,2,Small Family,Survived,
+15.0,,C,7.225,"Najib, Miss. Adele Kiamie ""Jane""",0,876,3,female,0,1.0,2667,Miss,Najib,1,Single,Survived,
+20.0,,S,9.8458,"Gustafsson, Mr. Alfred Ossian",0,877,3,male,0,0.0,7534,Mr,Gustafsson,1,Single,Died,
+19.0,,S,7.8958,"Petroff, Mr. Nedelio",0,878,3,male,0,0.0,349212,Mr,Petroff,1,Single,Died,
+,,S,7.8958,"Laleff, Mr. Kristo",0,879,3,male,0,0.0,349217,Mr,Laleff,1,Single,Died,
+56.0,C50,C,83.1583,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",1,880,1,female,0,1.0,11767,Mrs,Potter,2,Small Family,Survived,C
+25.0,,S,26.0,"Shelley, Mrs. William (Imanita Parrish Hall)",1,881,2,female,0,1.0,230433,Mrs,Shelley,2,Small Family,Survived,
+33.0,,S,7.8958,"Markun, Mr. Johann",0,882,3,male,0,0.0,349257,Mr,Markun,1,Single,Died,
+22.0,,S,10.5167,"Dahlberg, Miss. Gerda Ulrika",0,883,3,female,0,0.0,7552,Miss,Dahlberg,1,Single,Died,
+28.0,,S,10.5,"Banfield, Mr. Frederick James",0,884,2,male,0,0.0,C.A./SOTON 34068,Mr,Banfield,1,Single,Died,
+25.0,,S,7.05,"Sutehall, Mr. Henry Jr",0,885,3,male,0,0.0,SOTON/OQ 392076,Mr,Sutehall,1,Single,Died,
+39.0,,Q,29.125,"Rice, Mrs. William (Margaret Norton)",5,886,3,female,0,0.0,382652,Mrs,Rice,6,Large Family,Died,
+27.0,,S,13.0,"Montvila, Rev. Juozas",0,887,2,male,0,0.0,211536,Rare,Montvila,1,Single,Died,
+19.0,B42,S,30.0,"Graham, Miss. Margaret Edith",0,888,1,female,0,1.0,112053,Miss,Graham,1,Single,Survived,B
+,,S,23.45,"Johnston, Miss. Catherine Helen ""Carrie""",2,889,3,female,1,0.0,W./C. 6607,Miss,Johnston,4,Small Family,Died,
+26.0,C148,C,30.0,"Behr, Mr. Karl Howell",0,890,1,male,0,1.0,111369,Mr,Behr,1,Single,Survived,C
+32.0,,Q,7.75,"Dooley, Mr. Patrick",0,891,3,male,0,0.0,370376,Mr,Dooley,1,Single,Died,
+34.5,,Q,7.8292,"Kelly, Mr. James",0,892,3,male,0,,330911,Mr,Kelly,1,Single,,
+47.0,,S,7.0,"Wilkes, Mrs. James (Ellen Needs)",0,893,3,female,1,,363272,Mrs,Wilkes,2,Small Family,,
+62.0,,Q,9.6875,"Myles, Mr. Thomas Francis",0,894,2,male,0,,240276,Mr,Myles,1,Single,,
+27.0,,S,8.6625,"Wirz, Mr. Albert",0,895,3,male,0,,315154,Mr,Wirz,1,Single,,
+22.0,,S,12.2875,"Hirvonen, Mrs. Alexander (Helga E Lindqvist)",1,896,3,female,1,,3101298,Mrs,Hirvonen,3,Small Family,,
+14.0,,S,9.225,"Svensson, Mr. Johan Cervin",0,897,3,male,0,,7538,Mr,Svensson,1,Single,,
+30.0,,Q,7.6292,"Connolly, Miss. Kate",0,898,3,female,0,,330972,Miss,Connolly,1,Single,,
+26.0,,S,29.0,"Caldwell, Mr. Albert Francis",1,899,2,male,1,,248738,Mr,Caldwell,3,Small Family,,
+18.0,,C,7.2292,"Abrahim, Mrs. Joseph (Sophie Halaut Easu)",0,900,3,female,0,,2657,Mrs,Abrahim,1,Single,,
+21.0,,S,24.15,"Davies, Mr. John Samuel",0,901,3,male,2,,A/4 48871,Mr,Davies,3,Small Family,,
+,,S,7.8958,"Ilieff, Mr. Ylio",0,902,3,male,0,,349220,Mr,Ilieff,1,Single,,
+46.0,,S,26.0,"Jones, Mr. Charles Cresson",0,903,1,male,0,,694,Mr,Jones,1,Single,,
+23.0,B45,S,82.2667,"Snyder, Mrs. John Pillsbury (Nelle Stevenson)",0,904,1,female,1,,21228,Mrs,Snyder,2,Small Family,,B
+63.0,,S,26.0,"Howard, Mr. Benjamin",0,905,2,male,1,,24065,Mr,Howard,2,Small Family,,
+47.0,E31,S,61.175,"Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)",0,906,1,female,1,,W.E.P. 5734,Mrs,Chaffee,2,Small Family,,E
+24.0,,C,27.7208,"del Carlo, Mrs. Sebastiano (Argenia Genovesi)",0,907,2,female,1,,SC/PARIS 2167,Mrs,del Carlo,2,Small Family,,
+35.0,,Q,12.35,"Keane, Mr. Daniel",0,908,2,male,0,,233734,Mr,Keane,1,Single,,
+21.0,,C,7.225,"Assaf, Mr. Gerios",0,909,3,male,0,,2692,Mr,Assaf,1,Single,,
+27.0,,S,7.925,"Ilmakangas, Miss. Ida Livija",0,910,3,female,1,,STON/O2. 3101270,Miss,Ilmakangas,2,Small Family,,
+45.0,,C,7.225,"Assaf Khalil, Mrs. Mariana (Miriam"")""",0,911,3,female,0,,2696,Mrs,Assaf Khalil,1,Single,,
+55.0,,C,59.4,"Rothschild, Mr. Martin",0,912,1,male,1,,PC 17603,Mr,Rothschild,2,Small Family,,
+9.0,,S,3.1708,"Olsen, Master. Artur Karl",1,913,3,male,0,,C 17368,Master,Olsen,2,Small Family,,
+,,S,31.6833,"Flegenheim, Mrs. Alfred (Antoinette)",0,914,1,female,0,,PC 17598,Mrs,Flegenheim,1,Single,,
+21.0,,C,61.3792,"Williams, Mr. Richard Norris II",1,915,1,male,0,,PC 17597,Mr,Williams,2,Small Family,,
+48.0,B57 B59 B63 B66,C,262.375,"Ryerson, Mrs. Arthur Larned (Emily Maria Borie)",3,916,1,female,1,,PC 17608,Mrs,Ryerson,5,Large Family,,B
+50.0,,S,14.5,"Robins, Mr. Alexander A",0,917,3,male,1,,A/5. 3337,Mr,Robins,2,Small Family,,
+22.0,B36,C,61.9792,"Ostby, Miss. Helene Ragnhild",1,918,1,female,0,,113509,Miss,Ostby,2,Small Family,,B
+22.5,,C,7.225,"Daher, Mr. Shedid",0,919,3,male,0,,2698,Mr,Daher,1,Single,,
+41.0,A21,S,30.5,"Brady, Mr. John Bertram",0,920,1,male,0,,113054,Mr,Brady,1,Single,,A
+,,C,21.6792,"Samaan, Mr. Elias",0,921,3,male,2,,2662,Mr,Samaan,3,Small Family,,
+50.0,,S,26.0,"Louch, Mr. Charles Alexander",0,922,2,male,1,,SC/AH 3085,Mr,Louch,2,Small Family,,
+24.0,,S,31.5,"Jefferys, Mr. Clifford Thomas",0,923,2,male,2,,C.A. 31029,Mr,Jefferys,3,Small Family,,
+33.0,,S,20.575,"Dean, Mrs. Bertram (Eva Georgetta Light)",2,924,3,female,1,,C.A. 2315,Mrs,Dean,4,Small Family,,
+,,S,23.45,"Johnston, Mrs. Andrew G (Elizabeth Lily"" Watson)""",2,925,3,female,1,,W./C. 6607,Mrs,Johnston,4,Small Family,,
+30.0,C78,C,57.75,"Mock, Mr. Philipp Edmund",0,926,1,male,1,,13236,Mr,Mock,2,Small Family,,C
+18.5,,C,7.2292,"Katavelas, Mr. Vassilios (Catavelas Vassilios"")""",0,927,3,male,0,,2682,Mr,Katavelas,1,Single,,
+,,S,8.05,"Roth, Miss. Sarah A",0,928,3,female,0,,342712,Miss,Roth,1,Single,,
+21.0,,S,8.6625,"Cacic, Miss. Manda",0,929,3,female,0,,315087,Miss,Cacic,1,Single,,
+25.0,,S,9.5,"Sap, Mr. Julius",0,930,3,male,0,,345768,Mr,Sap,1,Single,,
+,,S,56.4958,"Hee, Mr. Ling",0,931,3,male,0,,1601,Mr,Hee,1,Single,,
+39.0,,C,13.4167,"Karun, Mr. Franz",1,932,3,male,0,,349256,Mr,Karun,2,Small Family,,
+,D34,S,26.55,"Franklin, Mr. Thomas Parham",0,933,1,male,0,,113778,Mr,Franklin,1,Single,,D
+41.0,,S,7.85,"Goldsmith, Mr. Nathan",0,934,3,male,0,,SOTON/O.Q. 3101263,Mr,Goldsmith,1,Single,,
+30.0,,S,13.0,"Corbett, Mrs. Walter H (Irene Colvin)",0,935,2,female,0,,237249,Mrs,Corbett,1,Single,,
+45.0,D19,S,52.5542,"Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)",0,936,1,female,1,,11753,Mrs,Kimball,2,Small Family,,D
+25.0,,S,7.925,"Peltomaki, Mr. Nikolai Johannes",0,937,3,male,0,,STON/O 2. 3101291,Mr,Peltomaki,1,Single,,
+45.0,A9,C,29.7,"Chevre, Mr. Paul Romaine",0,938,1,male,0,,PC 17594,Mr,Chevre,1,Single,,A
+,,Q,7.75,"Shaughnessy, Mr. Patrick",0,939,3,male,0,,370374,Mr,Shaughnessy,1,Single,,
+60.0,D15,C,76.2917,"Bucknell, Mrs. William Robert (Emma Eliza Ward)",0,940,1,female,0,,11813,Mrs,Bucknell,1,Single,,D
+36.0,,S,15.9,"Coutts, Mrs. William (Winnie Minnie"" Treanor)""",2,941,3,female,0,,C.A. 37671,Mrs,Coutts,3,Small Family,,
+24.0,C31,S,60.0,"Smith, Mr. Lucien Philip",0,942,1,male,1,,13695,Mr,Smith,2,Small Family,,C
+27.0,,C,15.0333,"Pulbaum, Mr. Franz",0,943,2,male,0,,SC/PARIS 2168,Mr,Pulbaum,1,Single,,
+20.0,,S,23.0,"Hocking, Miss. Ellen Nellie""""",1,944,2,female,2,,29105,Miss,Hocking,4,Small Family,,
+28.0,C23 C25 C27,S,263.0,"Fortune, Miss. Ethel Flora",2,945,1,female,3,,19950,Miss,Fortune,6,Large Family,,C
+,,C,15.5792,"Mangiavacchi, Mr. Serafino Emilio",0,946,2,male,0,,SC/A.3 2861,Mr,Mangiavacchi,1,Single,,
+10.0,,Q,29.125,"Rice, Master. Albert",1,947,3,male,4,,382652,Master,Rice,6,Large Family,,
+35.0,,S,7.8958,"Cor, Mr. Bartol",0,948,3,male,0,,349230,Mr,Cor,1,Single,,
+25.0,F G63,S,7.65,"Abelseth, Mr. Olaus Jorgensen",0,949,3,male,0,,348122,Mr,Abelseth,1,Single,,F
+,,S,16.1,"Davison, Mr. Thomas Henry",0,950,3,male,1,,386525,Mr,Davison,2,Small Family,,
+36.0,B61,C,262.375,"Chaudanson, Miss. Victorine",0,951,1,female,0,,PC 17608,Miss,Chaudanson,1,Single,,B
+17.0,,S,7.8958,"Dika, Mr. Mirko",0,952,3,male,0,,349232,Mr,Dika,1,Single,,
+32.0,,S,13.5,"McCrae, Mr. Arthur Gordon",0,953,2,male,0,,237216,Mr,McCrae,1,Single,,
+18.0,,S,7.75,"Bjorklund, Mr. Ernst Herbert",0,954,3,male,0,,347090,Mr,Bjorklund,1,Single,,
+22.0,,Q,7.725,"Bradley, Miss. Bridget Delia",0,955,3,female,0,,334914,Miss,Bradley,1,Single,,
+13.0,B57 B59 B63 B66,C,262.375,"Ryerson, Master. John Borie",2,956,1,male,2,,PC 17608,Master,Ryerson,5,Large Family,,B
+,,S,21.0,"Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)",0,957,2,female,0,,F.C.C. 13534,Mrs,Corey,1,Single,,
+18.0,,Q,7.8792,"Burns, Miss. Mary Delia",0,958,3,female,0,,330963,Miss,Burns,1,Single,,
+47.0,,S,42.4,"Moore, Mr. Clarence Bloomfield",0,959,1,male,0,,113796,Mr,Moore,1,Single,,
+31.0,C53,C,28.5375,"Tucker, Mr. Gilbert Milligan Jr",0,960,1,male,0,,2543,Mr,Tucker,1,Single,,C
+60.0,C23 C25 C27,S,263.0,"Fortune, Mrs. Mark (Mary McDougald)",4,961,1,female,1,,19950,Mrs,Fortune,6,Large Family,,C
+24.0,,Q,7.75,"Mulvihill, Miss. Bertha E",0,962,3,female,0,,382653,Miss,Mulvihill,1,Single,,
+21.0,,S,7.8958,"Minkoff, Mr. Lazar",0,963,3,male,0,,349211,Mr,Minkoff,1,Single,,
+29.0,,S,7.925,"Nieminen, Miss. Manta Josefina",0,964,3,female,0,,3101297,Miss,Nieminen,1,Single,,
+28.5,D43,C,27.7208,"Ovies y Rodriguez, Mr. Servando",0,965,1,male,0,,PC 17562,Mr,Ovies y Rodriguez,1,Single,,D
+35.0,C130,C,211.5,"Geiger, Miss. Amalie",0,966,1,female,0,,113503,Miss,Geiger,1,Single,,C
+32.5,C132,C,211.5,"Keeping, Mr. Edwin",0,967,1,male,0,,113503,Mr,Keeping,1,Single,,C
+,,S,8.05,"Miles, Mr. Frank",0,968,3,male,0,,359306,Mr,Miles,1,Single,,
+55.0,C101,S,25.7,"Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)",0,969,1,female,2,,11770,Mrs,Cornell,3,Small Family,,C
+30.0,,S,13.0,"Aldworth, Mr. Charles Augustus",0,970,2,male,0,,248744,Mr,Aldworth,1,Single,,
+24.0,,Q,7.75,"Doyle, Miss. Elizabeth",0,971,3,female,0,,368702,Miss,Doyle,1,Single,,
+6.0,,C,15.2458,"Boulos, Master. Akar",1,972,3,male,1,,2678,Master,Boulos,3,Small Family,,
+67.0,C55 C57,S,221.7792,"Straus, Mr. Isidor",0,973,1,male,1,,PC 17483,Mr,Straus,2,Small Family,,C
+49.0,,S,26.0,"Case, Mr. Howard Brown",0,974,1,male,0,,19924,Mr,Case,1,Single,,
+,,S,7.8958,"Demetri, Mr. Marinko",0,975,3,male,0,,349238,Mr,Demetri,1,Single,,
+,,Q,10.7083,"Lamb, Mr. John Joseph",0,976,2,male,0,,240261,Mr,Lamb,1,Single,,
+,,C,14.4542,"Khalil, Mr. Betros",0,977,3,male,1,,2660,Mr,Khalil,2,Small Family,,
+27.0,,Q,7.8792,"Barry, Miss. Julia",0,978,3,female,0,,330844,Miss,Barry,1,Single,,
+18.0,,S,8.05,"Badman, Miss. Emily Louisa",0,979,3,female,0,,A/4 31416,Miss,Badman,1,Single,,
+,,Q,7.75,"O'Donoghue, Ms. Bridget",0,980,3,female,0,,364856,Miss,O'Donoghue,1,Single,,
+2.0,,S,23.0,"Wells, Master. Ralph Lester",1,981,2,male,1,,29103,Master,Wells,3,Small Family,,
+22.0,,S,13.9,"Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)",0,982,3,female,1,,347072,Mrs,Dyker,2,Small Family,,
+,,S,7.775,"Pedersen, Mr. Olaf",0,983,3,male,0,,345498,Mr,Pedersen,1,Single,,
+27.0,B71,S,52.0,"Davidson, Mrs. Thornton (Orian Hays)",2,984,1,female,1,,F.C. 12750,Mrs,Davidson,4,Small Family,,B
+,,S,8.05,"Guest, Mr. Robert",0,985,3,male,0,,376563,Mr,Guest,1,Single,,
+25.0,,C,26.0,"Birnbaum, Mr. Jakob",0,986,1,male,0,,13905,Mr,Birnbaum,1,Single,,
+25.0,,S,7.7958,"Tenglin, Mr. Gunnar Isidor",0,987,3,male,0,,350033,Mr,Tenglin,1,Single,,
+76.0,C46,S,78.85,"Cavendish, Mrs. Tyrell William (Julia Florence Siegel)",0,988,1,female,1,,19877,Mrs,Cavendish,2,Small Family,,C
+29.0,,S,7.925,"Makinen, Mr. Kalle Edvard",0,989,3,male,0,,STON/O 2. 3101268,Mr,Makinen,1,Single,,
+20.0,,S,7.8542,"Braf, Miss. Elin Ester Maria",0,990,3,female,0,,347471,Miss,Braf,1,Single,,
+33.0,,S,8.05,"Nancarrow, Mr. William Henry",0,991,3,male,0,,A./5. 3338,Mr,Nancarrow,1,Single,,
+43.0,C116,C,55.4417,"Stengel, Mrs. Charles Emil Henry (Annie May Morris)",0,992,1,female,1,,11778,Mrs,Stengel,2,Small Family,,C
+27.0,,S,26.0,"Weisz, Mr. Leopold",0,993,2,male,1,,228414,Mr,Weisz,2,Small Family,,
+,,Q,7.75,"Foley, Mr. William",0,994,3,male,0,,365235,Mr,Foley,1,Single,,
+26.0,,S,7.775,"Johansson Palmquist, Mr. Oskar Leander",0,995,3,male,0,,347070,Mr,Johansson Palmquist,1,Single,,
+16.0,,C,8.5167,"Thomas, Mrs. Alexander (Thamine Thelma"")""",1,996,3,female,1,,2625,Mrs,Thomas,3,Small Family,,
+28.0,,S,22.525,"Holthen, Mr. Johan Martin",0,997,3,male,0,,C 4001,Mr,Holthen,1,Single,,
+21.0,,Q,7.8208,"Buckley, Mr. Daniel",0,998,3,male,0,,330920,Mr,Buckley,1,Single,,
+,,Q,7.75,"Ryan, Mr. Edward",0,999,3,male,0,,383162,Mr,Ryan,1,Single,,
+,,S,8.7125,"Willer, Mr. Aaron (Abi Weller"")""",0,1000,3,male,0,,3410,Mr,Willer,1,Single,,
+18.5,F,S,13.0,"Swane, Mr. George",0,1001,2,male,0,,248734,Mr,Swane,1,Single,,F
+41.0,,C,15.0458,"Stanton, Mr. Samuel Ward",0,1002,2,male,0,,237734,Mr,Stanton,1,Single,,
+,,Q,7.7792,"Shine, Miss. Ellen Natalia",0,1003,3,female,0,,330968,Miss,Shine,1,Single,,
+36.0,A29,C,31.6792,"Evans, Miss. Edith Corse",0,1004,1,female,0,,PC 17531,Miss,Evans,1,Single,,A
+18.5,,Q,7.2833,"Buckley, Miss. Katherine",0,1005,3,female,0,,329944,Miss,Buckley,1,Single,,
+63.0,C55 C57,S,221.7792,"Straus, Mrs. Isidor (Rosalie Ida Blun)",0,1006,1,female,1,,PC 17483,Mrs,Straus,2,Small Family,,C
+18.0,,C,14.4542,"Chronopoulos, Mr. Demetrios",0,1007,3,male,1,,2680,Mr,Chronopoulos,2,Small Family,,
+,,C,6.4375,"Thomas, Mr. John",0,1008,3,male,0,,2681,Mr,Thomas,1,Single,,
+1.0,G6,S,16.7,"Sandstrom, Miss. Beatrice Irene",1,1009,3,female,1,,PP 9549,Miss,Sandstrom,3,Small Family,,
+36.0,C6,C,75.2417,"Beattie, Mr. Thomson",0,1010,1,male,0,,13050,Mr,Beattie,1,Single,,C
+29.0,,S,26.0,"Chapman, Mrs. John Henry (Sara Elizabeth Lawry)",0,1011,2,female,1,,SC/AH 29037,Mrs,Chapman,2,Small Family,,
+12.0,,S,15.75,"Watt, Miss. Bertha J",0,1012,2,female,0,,C.A. 33595,Miss,Watt,1,Single,,
+,,Q,7.75,"Kiernan, Mr. John",0,1013,3,male,1,,367227,Mr,Kiernan,2,Small Family,,
+35.0,C28,C,57.75,"Schabert, Mrs. Paul (Emma Mock)",0,1014,1,female,1,,13236,Mrs,Schabert,2,Small Family,,C
+28.0,,S,7.25,"Carver, Mr. Alfred John",0,1015,3,male,0,,392095,Mr,Carver,1,Single,,
+,,Q,7.75,"Kennedy, Mr. John",0,1016,3,male,0,,368783,Mr,Kennedy,1,Single,,
+17.0,,S,16.1,"Cribb, Miss. Laura Alice",1,1017,3,female,0,,371362,Miss,Cribb,2,Small Family,,
+22.0,,S,7.7958,"Brobeck, Mr. Karl Rudolf",0,1018,3,male,0,,350045,Mr,Brobeck,1,Single,,
+,,Q,23.25,"McCoy, Miss. Alicia",0,1019,3,female,2,,367226,Miss,McCoy,3,Small Family,,
+42.0,,S,13.0,"Bowenur, Mr. Solomon",0,1020,2,male,0,,211535,Mr,Bowenur,1,Single,,
+24.0,,S,8.05,"Petersen, Mr. Marius",0,1021,3,male,0,,342441,Mr,Petersen,1,Single,,
+32.0,,S,8.05,"Spinner, Mr. Henry John",0,1022,3,male,0,,STON/OQ. 369943,Mr,Spinner,1,Single,,
+53.0,C51,C,28.5,"Gracie, Col. Archibald IV",0,1023,1,male,0,,113780,Rare,Gracie,1,Single,,C
+,,S,25.4667,"Lefebre, Mrs. Frank (Frances)",4,1024,3,female,0,,4133,Mrs,Lefebre,5,Large Family,,
+,,C,6.4375,"Thomas, Mr. Charles P",0,1025,3,male,1,,2621,Mr,Thomas,2,Small Family,,
+43.0,,S,7.8958,"Dintcheff, Mr. Valtcho",0,1026,3,male,0,,349226,Mr,Dintcheff,1,Single,,
+24.0,,S,7.8542,"Carlsson, Mr. Carl Robert",0,1027,3,male,0,,350409,Mr,Carlsson,1,Single,,
+26.5,,C,7.225,"Zakarian, Mr. Mapriededer",0,1028,3,male,0,,2656,Mr,Zakarian,1,Single,,
+26.0,,S,13.0,"Schmidt, Mr. August",0,1029,2,male,0,,248659,Mr,Schmidt,1,Single,,
+23.0,,S,8.05,"Drapkin, Miss. Jennie",0,1030,3,female,0,,SOTON/OQ 392083,Miss,Drapkin,1,Single,,
+40.0,,S,46.9,"Goodwin, Mr. Charles Frederick",6,1031,3,male,1,,CA 2144,Mr,Goodwin,8,Large Family,,
+10.0,,S,46.9,"Goodwin, Miss. Jessie Allis",2,1032,3,female,5,,CA 2144,Miss,Goodwin,8,Large Family,,
+33.0,,S,151.55,"Daniels, Miss. Sarah",0,1033,1,female,0,,113781,Miss,Daniels,1,Single,,
+61.0,B57 B59 B63 B66,C,262.375,"Ryerson, Mr. Arthur Larned",3,1034,1,male,1,,PC 17608,Mr,Ryerson,5,Large Family,,B
+28.0,,S,26.0,"Beauchamp, Mr. Henry James",0,1035,2,male,0,,244358,Mr,Beauchamp,1,Single,,
+42.0,,S,26.55,"Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey"")""",0,1036,1,male,0,,17475,Mr,Lindeberg-Lind,1,Single,,
+31.0,,S,18.0,"Vander Planke, Mr. Julius",0,1037,3,male,3,,345763,Mr,Vander Planke,4,Small Family,,
+,E46,S,51.8625,"Hilliard, Mr. Herbert Henry",0,1038,1,male,0,,17463,Mr,Hilliard,1,Single,,E
+22.0,,S,8.05,"Davies, Mr. Evan",0,1039,3,male,0,,SC/A4 23568,Mr,Davies,1,Single,,
+,,S,26.55,"Crafton, Mr. John Bertram",0,1040,1,male,0,,113791,Mr,Crafton,1,Single,,
+30.0,,S,26.0,"Lahtinen, Rev. William",1,1041,2,male,1,,250651,Rare,Lahtinen,3,Small Family,,
+23.0,C54,C,83.1583,"Earnshaw, Mrs. Boulton (Olive Potter)",1,1042,1,female,0,,11767,Mrs,Earnshaw,2,Small Family,,C
+,,C,7.8958,"Matinoff, Mr. Nicola",0,1043,3,male,0,,349255,Mr,Matinoff,1,Single,,
+60.5,,S,,"Storey, Mr. Thomas",0,1044,3,male,0,,3701,Mr,Storey,1,Single,,
+36.0,,S,12.1833,"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)",2,1045,3,female,0,,350405,Mrs,Klasen,3,Small Family,,
+13.0,,S,31.3875,"Asplund, Master. Filip Oscar",2,1046,3,male,4,,347077,Master,Asplund,7,Large Family,,
+24.0,,S,7.55,"Duquemin, Mr. Joseph",0,1047,3,male,0,,S.O./P.P. 752,Mr,Duquemin,1,Single,,
+29.0,C97,S,221.7792,"Bird, Miss. Ellen",0,1048,1,female,0,,PC 17483,Miss,Bird,1,Single,,C
+23.0,,S,7.8542,"Lundin, Miss. Olga Elida",0,1049,3,female,0,,347469,Miss,Lundin,1,Single,,
+42.0,D22,S,26.55,"Borebank, Mr. John James",0,1050,1,male,0,,110489,Mr,Borebank,1,Single,,D
+26.0,,S,13.775,"Peacock, Mrs. Benjamin (Edith Nile)",2,1051,3,female,0,,SOTON/O.Q. 3101315,Mrs,Peacock,3,Small Family,,
+,,Q,7.7333,"Smyth, Miss. Julia",0,1052,3,female,0,,335432,Miss,Smyth,1,Single,,
+7.0,,C,15.2458,"Touma, Master. Georges Youssef",1,1053,3,male,1,,2650,Master,Touma,3,Small Family,,
+26.0,,S,13.5,"Wright, Miss. Marion",0,1054,2,female,0,,220844,Miss,Wright,1,Single,,
+,,S,7.0,"Pearce, Mr. Ernest",0,1055,3,male,0,,343271,Mr,Pearce,1,Single,,
+41.0,,S,13.0,"Peruschitz, Rev. Joseph Maria",0,1056,2,male,0,,237393,Rare,Peruschitz,1,Single,,
+26.0,,S,22.025,"Kink-Heilmann, Mrs. Anton (Luise Heilmann)",1,1057,3,female,1,,315153,Mrs,Kink-Heilmann,3,Small Family,,
+48.0,B10,C,50.4958,"Brandeis, Mr. Emil",0,1058,1,male,0,,PC 17591,Mr,Brandeis,1,Single,,B
+18.0,,S,34.375,"Ford, Mr. Edward Watson",2,1059,3,male,2,,W./C. 6608,Mr,Ford,5,Large Family,,
+,,C,27.7208,"Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)",0,1060,1,female,0,,17770,Mrs,Cassebeer,1,Single,,
+22.0,,S,8.9625,"Hellstrom, Miss. Hilda Maria",0,1061,3,female,0,,7548,Miss,Hellstrom,1,Single,,
+,,S,7.55,"Lithman, Mr. Simon",0,1062,3,male,0,,S.O./P.P. 251,Mr,Lithman,1,Single,,
+27.0,,C,7.225,"Zakarian, Mr. Ortin",0,1063,3,male,0,,2670,Mr,Zakarian,1,Single,,
+23.0,,S,13.9,"Dyker, Mr. Adolf Fredrik",0,1064,3,male,1,,347072,Mr,Dyker,2,Small Family,,
+,,C,7.2292,"Torfa, Mr. Assad",0,1065,3,male,0,,2673,Mr,Torfa,1,Single,,
+40.0,,S,31.3875,"Asplund, Mr. Carl Oscar Vilhelm Gustafsson",5,1066,3,male,1,,347077,Mr,Asplund,7,Large Family,,
+15.0,,S,39.0,"Brown, Miss. Edith Eileen",2,1067,2,female,0,,29750,Miss,Brown,3,Small Family,,
+20.0,,S,36.75,"Sincock, Miss. Maude",0,1068,2,female,0,,C.A. 33112,Miss,Sincock,1,Single,,
+54.0,C116,C,55.4417,"Stengel, Mr. Charles Emil Henry",0,1069,1,male,1,,11778,Mr,Stengel,2,Small Family,,C
+36.0,F4,S,39.0,"Becker, Mrs. Allen Oliver (Nellie E Baumgardner)",3,1070,2,female,0,,230136,Mrs,Becker,4,Small Family,,F
+64.0,E45,C,83.1583,"Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)",2,1071,1,female,0,,PC 17756,Mrs,Compton,3,Small Family,,E
+30.0,,S,13.0,"McCrie, Mr. James Matthew",0,1072,2,male,0,,233478,Mr,McCrie,1,Single,,
+37.0,E52,C,83.1583,"Compton, Mr. Alexander Taylor Jr",1,1073,1,male,1,,PC 17756,Mr,Compton,3,Small Family,,E
+18.0,D30,S,53.1,"Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)",0,1074,1,female,1,,113773,Mrs,Marvin,2,Small Family,,D
+,,Q,7.75,"Lane, Mr. Patrick",0,1075,3,male,0,,7935,Mr,Lane,1,Single,,
+27.0,B58 B60,C,247.5208,"Douglas, Mrs. Frederick Charles (Mary Helene Baxter)",1,1076,1,female,1,,PC 17558,Mrs,Douglas,3,Small Family,,B
+40.0,,S,16.0,"Maybery, Mr. Frank Hubert",0,1077,2,male,0,,239059,Mr,Maybery,1,Single,,
+21.0,,S,21.0,"Phillips, Miss. Alice Frances Louisa",1,1078,2,female,0,,S.O./P.P. 2,Miss,Phillips,2,Small Family,,
+17.0,,S,8.05,"Davies, Mr. Joseph",0,1079,3,male,2,,A/4 48873,Mr,Davies,3,Small Family,,
+,,S,69.55,"Sage, Miss. Ada",2,1080,3,female,8,,CA. 2343,Miss,Sage,11,Large Family,,
+40.0,,S,13.0,"Veal, Mr. James",0,1081,2,male,0,,28221,Mr,Veal,1,Single,,
+34.0,,S,26.0,"Angle, Mr. William A",0,1082,2,male,1,,226875,Mr,Angle,2,Small Family,,
+,,S,26.0,"Salomon, Mr. Abraham L",0,1083,1,male,0,,111163,Mr,Salomon,1,Single,,
+11.5,,S,14.5,"van Billiard, Master. Walter John",1,1084,3,male,1,,A/5. 851,Master,van Billiard,3,Small Family,,
+61.0,,Q,12.35,"Lingane, Mr. John",0,1085,2,male,0,,235509,Mr,Lingane,1,Single,,
+8.0,,S,32.5,"Drew, Master. Marshall Brines",2,1086,2,male,0,,28220,Master,Drew,3,Small Family,,
+33.0,,S,7.8542,"Karlsson, Mr. Julius Konrad Eugen",0,1087,3,male,0,,347465,Mr,Karlsson,1,Single,,
+6.0,E34,C,134.5,"Spedden, Master. Robert Douglas",2,1088,1,male,0,,16966,Master,Spedden,3,Small Family,,E
+18.0,,S,7.775,"Nilsson, Miss. Berta Olivia",0,1089,3,female,0,,347066,Miss,Nilsson,1,Single,,
+23.0,,S,10.5,"Baimbrigge, Mr. Charles Robert",0,1090,2,male,0,,C.A. 31030,Mr,Baimbrigge,1,Single,,
+,,S,8.1125,"Rasmussen, Mrs. (Lena Jacobsen Solvang)",0,1091,3,female,0,,65305,Mrs,Rasmussen,1,Single,,
+,,Q,15.5,"Murphy, Miss. Nora",0,1092,3,female,0,,36568,Miss,Murphy,1,Single,,
+0.33,,S,14.4,"Danbom, Master. Gilbert Sigvard Emanuel",2,1093,3,male,0,,347080,Master,Danbom,3,Small Family,,
+47.0,C62 C64,C,227.525,"Astor, Col. John Jacob",0,1094,1,male,1,,PC 17757,Rare,Astor,2,Small Family,,C
+8.0,,S,26.0,"Quick, Miss. Winifred Vera",1,1095,2,female,1,,26360,Miss,Quick,3,Small Family,,
+25.0,,S,10.5,"Andrew, Mr. Frank Thomas",0,1096,2,male,0,,C.A. 34050,Mr,Andrew,1,Single,,
+,,C,25.7417,"Omont, Mr. Alfred Fernand",0,1097,1,male,0,,F.C. 12998,Mr,Omont,1,Single,,
+35.0,,Q,7.75,"McGowan, Miss. Katherine",0,1098,3,female,0,,9232,Miss,McGowan,1,Single,,
+24.0,,S,10.5,"Collett, Mr. Sidney C Stuart",0,1099,2,male,0,,28034,Mr,Collett,1,Single,,
+33.0,A11,C,27.7208,"Rosenbaum, Miss. Edith Louise",0,1100,1,female,0,,PC 17613,Miss,Rosenbaum,1,Single,,A
+25.0,,S,7.8958,"Delalic, Mr. Redjo",0,1101,3,male,0,,349250,Mr,Delalic,1,Single,,
+32.0,,S,22.525,"Andersen, Mr. Albert Karvin",0,1102,3,male,0,,C 4001,Mr,Andersen,1,Single,,
+,,S,7.05,"Finoli, Mr. Luigi",0,1103,3,male,0,,SOTON/O.Q. 3101308,Mr,Finoli,1,Single,,
+17.0,,S,73.5,"Deacon, Mr. Percy William",0,1104,2,male,0,,S.O.C. 14879,Mr,Deacon,1,Single,,
+60.0,,S,26.0,"Howard, Mrs. Benjamin (Ellen Truelove Arman)",0,1105,2,female,1,,24065,Mrs,Howard,2,Small Family,,
+38.0,,S,7.775,"Andersson, Miss. Ida Augusta Margareta",2,1106,3,female,4,,347091,Miss,Andersson,7,Large Family,,
+42.0,B11,S,42.5,"Head, Mr. Christopher",0,1107,1,male,0,,113038,Mr,Head,1,Single,,B
+,,Q,7.8792,"Mahon, Miss. Bridget Delia",0,1108,3,female,0,,330924,Miss,Mahon,1,Single,,
+57.0,,S,164.8667,"Wick, Mr. George Dennick",1,1109,1,male,1,,36928,Mr,Wick,3,Small Family,,
+50.0,C80,C,211.5,"Widener, Mrs. George Dunton (Eleanor Elkins)",1,1110,1,female,1,,113503,Mrs,Widener,3,Small Family,,C
+,,S,8.05,"Thomson, Mr. Alexander Morrison",0,1111,3,male,0,,32302,Mr,Thomson,1,Single,,
+30.0,,C,13.8583,"Duran y More, Miss. Florentina",0,1112,2,female,1,,SC/PARIS 2148,Miss,Duran y More,2,Small Family,,
+21.0,,S,8.05,"Reynolds, Mr. Harold J",0,1113,3,male,0,,342684,Mr,Reynolds,1,Single,,
+22.0,F33,S,10.5,"Cook, Mrs. (Selena Rogers)",0,1114,2,female,0,,W./C. 14266,Mrs,Cook,1,Single,,F
+21.0,,S,7.7958,"Karlsson, Mr. Einar Gervasius",0,1115,3,male,0,,350053,Mr,Karlsson,1,Single,,
+53.0,,C,27.4458,"Candee, Mrs. Edward (Helen Churchill Hungerford)",0,1116,1,female,0,,PC 17606,Mrs,Candee,1,Single,,
+,,C,15.2458,"Moubarek, Mrs. George (Omine Amenia"" Alexander)""",2,1117,3,female,0,,2661,Mrs,Moubarek,3,Small Family,,
+23.0,,S,7.7958,"Asplund, Mr. Johan Charles",0,1118,3,male,0,,350054,Mr,Asplund,1,Single,,
+,,Q,7.75,"McNeill, Miss. Bridget",0,1119,3,female,0,,370368,Miss,McNeill,1,Single,,
+40.5,,S,15.1,"Everett, Mr. Thomas James",0,1120,3,male,0,,C.A. 6212,Mr,Everett,1,Single,,
+36.0,,S,13.0,"Hocking, Mr. Samuel James Metcalfe",0,1121,2,male,0,,242963,Mr,Hocking,1,Single,,
+14.0,,S,65.0,"Sweet, Mr. George Frederick",0,1122,2,male,0,,220845,Mr,Sweet,1,Single,,
+21.0,,S,26.55,"Willard, Miss. Constance",0,1123,1,female,0,,113795,Miss,Willard,1,Single,,
+21.0,,S,6.4958,"Wiklund, Mr. Karl Johan",0,1124,3,male,1,,3101266,Mr,Wiklund,2,Small Family,,
+,,Q,7.8792,"Linehan, Mr. Michael",0,1125,3,male,0,,330971,Mr,Linehan,1,Single,,
+39.0,C85,C,71.2833,"Cumings, Mr. John Bradley",0,1126,1,male,1,,PC 17599,Mr,Cumings,2,Small Family,,C
+20.0,,S,7.8542,"Vendel, Mr. Olof Edvin",0,1127,3,male,0,,350416,Mr,Vendel,1,Single,,
+64.0,D37,C,75.25,"Warren, Mr. Frank Manley",0,1128,1,male,1,,110813,Mr,Warren,2,Small Family,,D
+20.0,,C,7.225,"Baccos, Mr. Raffull",0,1129,3,male,0,,2679,Mr,Baccos,1,Single,,
+18.0,,S,13.0,"Hiltunen, Miss. Marta",1,1130,2,female,1,,250650,Miss,Hiltunen,3,Small Family,,
+48.0,C86,C,106.425,"Douglas, Mrs. Walter Donald (Mahala Dutton)",0,1131,1,female,1,,PC 17761,Mrs,Douglas,2,Small Family,,C
+55.0,,C,27.7208,"Lindstrom, Mrs. Carl Johan (Sigrid Posse)",0,1132,1,female,0,,112377,Mrs,Lindstrom,1,Single,,
+45.0,,S,30.0,"Christy, Mrs. (Alice Frances)",2,1133,2,female,0,,237789,Mrs,Christy,3,Small Family,,
+45.0,E34,C,134.5,"Spedden, Mr. Frederic Oakley",1,1134,1,male,1,,16966,Mr,Spedden,3,Small Family,,E
+,,S,7.8875,"Hyman, Mr. Abraham",0,1135,3,male,0,,3470,Mr,Hyman,1,Single,,
+,,S,23.45,"Johnston, Master. William Arthur Willie""""",2,1136,3,male,1,,W./C. 6607,Master,Johnston,4,Small Family,,
+41.0,D21,S,51.8625,"Kenyon, Mr. Frederick R",0,1137,1,male,1,,17464,Mr,Kenyon,2,Small Family,,D
+22.0,,S,21.0,"Karnes, Mrs. J Frank (Claire Bennett)",0,1138,2,female,0,,F.C.C. 13534,Mrs,Karnes,1,Single,,
+42.0,,S,32.5,"Drew, Mr. James Vivian",1,1139,2,male,1,,28220,Mr,Drew,3,Small Family,,
+29.0,,S,26.0,"Hold, Mrs. Stephen (Annie Margaret Hill)",0,1140,2,female,1,,26707,Mrs,Hold,2,Small Family,,
+,,C,14.4542,"Khalil, Mrs. Betros (Zahie Maria"" Elias)""",0,1141,3,female,1,,2660,Mrs,Khalil,2,Small Family,,
+0.92,,S,27.75,"West, Miss. Barbara J",2,1142,2,female,1,,C.A. 34651,Miss,West,4,Small Family,,
+20.0,,S,7.925,"Abrahamsson, Mr. Abraham August Johannes",0,1143,3,male,0,,SOTON/O2 3101284,Mr,Abrahamsson,1,Single,,
+27.0,C89,C,136.7792,"Clark, Mr. Walter Miller",0,1144,1,male,1,,13508,Mr,Clark,2,Small Family,,C
+24.0,,S,9.325,"Salander, Mr. Karl Johan",0,1145,3,male,0,,7266,Mr,Salander,1,Single,,
+32.5,,S,9.5,"Wenzel, Mr. Linhart",0,1146,3,male,0,,345775,Mr,Wenzel,1,Single,,
+,,S,7.55,"MacKay, Mr. George William",0,1147,3,male,0,,C.A. 42795,Mr,MacKay,1,Single,,
+,,Q,7.75,"Mahon, Mr. John",0,1148,3,male,0,,AQ/4 3130,Mr,Mahon,1,Single,,
+28.0,,S,8.05,"Niklasson, Mr. Samuel",0,1149,3,male,0,,363611,Mr,Niklasson,1,Single,,
+19.0,,S,13.0,"Bentham, Miss. Lilian W",0,1150,2,female,0,,28404,Miss,Bentham,1,Single,,
+21.0,,S,7.775,"Midtsjo, Mr. Karl Albert",0,1151,3,male,0,,345501,Mr,Midtsjo,1,Single,,
+36.5,,S,17.4,"de Messemaeker, Mr. Guillaume Joseph",0,1152,3,male,1,,345572,Mr,de Messemaeker,2,Small Family,,
+21.0,,S,7.8542,"Nilsson, Mr. August Ferdinand",0,1153,3,male,0,,350410,Mr,Nilsson,1,Single,,
+29.0,,S,23.0,"Wells, Mrs. Arthur Henry (Addie"" Dart Trevaskis)""",2,1154,2,female,0,,29103,Mrs,Wells,3,Small Family,,
+1.0,,S,12.1833,"Klasen, Miss. Gertrud Emilia",1,1155,3,female,1,,350405,Miss,Klasen,3,Small Family,,
+30.0,,C,12.7375,"Portaluppi, Mr. Emilio Ilario Giuseppe",0,1156,2,male,0,,C.A. 34644,Mr,Portaluppi,1,Single,,
+,,S,7.8958,"Lyntakoff, Mr. Stanko",0,1157,3,male,0,,349235,Mr,Lyntakoff,1,Single,,
+,,S,0.0,"Chisholm, Mr. Roderick Robert Crispin",0,1158,1,male,0,,112051,Mr,Chisholm,1,Single,,
+,,S,7.55,"Warren, Mr. Charles William",0,1159,3,male,0,,C.A. 49867,Mr,Warren,1,Single,,
+,,S,8.05,"Howard, Miss. May Elizabeth",0,1160,3,female,0,,A. 2. 39186,Miss,Howard,1,Single,,
+17.0,,S,8.6625,"Pokrnic, Mr. Mate",0,1161,3,male,0,,315095,Mr,Pokrnic,1,Single,,
+46.0,C6,C,75.2417,"McCaffry, Mr. Thomas Francis",0,1162,1,male,0,,13050,Mr,McCaffry,1,Single,,C
+,,Q,7.75,"Fox, Mr. Patrick",0,1163,3,male,0,,368573,Mr,Fox,1,Single,,
+26.0,C89,C,136.7792,"Clark, Mrs. Walter Miller (Virginia McDowell)",0,1164,1,female,1,,13508,Mrs,Clark,2,Small Family,,C
+,,Q,15.5,"Lennon, Miss. Mary",0,1165,3,female,1,,370371,Miss,Lennon,2,Small Family,,
+,,C,7.225,"Saade, Mr. Jean Nassr",0,1166,3,male,0,,2676,Mr,Saade,1,Single,,
+20.0,,S,26.0,"Bryhl, Miss. Dagmar Jenny Ingeborg ",0,1167,2,female,1,,236853,Miss,Bryhl,2,Small Family,,
+28.0,,S,10.5,"Parker, Mr. Clifford Richard",0,1168,2,male,0,,SC 14888,Mr,Parker,1,Single,,
+40.0,,S,26.0,"Faunthorpe, Mr. Harry",0,1169,2,male,1,,2926,Mr,Faunthorpe,2,Small Family,,
+30.0,,S,21.0,"Ware, Mr. John James",0,1170,2,male,1,,CA 31352,Mr,Ware,2,Small Family,,
+22.0,,S,10.5,"Oxenham, Mr. Percy Thomas",0,1171,2,male,0,,W./C. 14260,Mr,Oxenham,1,Single,,
+23.0,,S,8.6625,"Oreskovic, Miss. Jelka",0,1172,3,female,0,,315085,Miss,Oreskovic,1,Single,,
+0.75,,S,13.775,"Peacock, Master. Alfred Edward",1,1173,3,male,1,,SOTON/O.Q. 3101315,Master,Peacock,3,Small Family,,
+,,Q,7.75,"Fleming, Miss. Honora",0,1174,3,female,0,,364859,Miss,Fleming,1,Single,,
+9.0,,C,15.2458,"Touma, Miss. Maria Youssef",1,1175,3,female,1,,2650,Miss,Touma,3,Small Family,,
+2.0,,S,20.2125,"Rosblom, Miss. Salli Helena",1,1176,3,female,1,,370129,Miss,Rosblom,3,Small Family,,
+36.0,,S,7.25,"Dennis, Mr. William",0,1177,3,male,0,,A/5 21175,Mr,Dennis,1,Single,,
+,,S,7.25,"Franklin, Mr. Charles (Charles Fardon)",0,1178,3,male,0,,SOTON/O.Q. 3101314,Mr,Franklin,1,Single,,
+24.0,B45,S,82.2667,"Snyder, Mr. John Pillsbury",0,1179,1,male,1,,21228,Mr,Snyder,2,Small Family,,B
+,F E46,C,7.2292,"Mardirosian, Mr. Sarkis",0,1180,3,male,0,,2655,Mr,Mardirosian,1,Single,,F
+,,S,8.05,"Ford, Mr. Arthur",0,1181,3,male,0,,A/5 1478,Mr,Ford,1,Single,,
+,,S,39.6,"Rheims, Mr. George Alexander Lucien",0,1182,1,male,0,,PC 17607,Mr,Rheims,1,Single,,
+30.0,,Q,6.95,"Daly, Miss. Margaret Marcella Maggie""""",0,1183,3,female,0,,382650,Miss,Daly,1,Single,,
+,,C,7.2292,"Nasr, Mr. Mustafa",0,1184,3,male,0,,2652,Mr,Nasr,1,Single,,
+53.0,A34,S,81.8583,"Dodge, Dr. Washington",1,1185,1,male,1,,33638,Rare,Dodge,3,Small Family,,A
+36.0,,S,9.5,"Wittevrongel, Mr. Camille",0,1186,3,male,0,,345771,Mr,Wittevrongel,1,Single,,
+26.0,,S,7.8958,"Angheloff, Mr. Minko",0,1187,3,male,0,,349202,Mr,Angheloff,1,Single,,
+1.0,,C,41.5792,"Laroche, Miss. Louise",2,1188,2,female,1,,SC/Paris 2123,Miss,Laroche,4,Small Family,,
+,,C,21.6792,"Samaan, Mr. Hanna",0,1189,3,male,2,,2662,Mr,Samaan,3,Small Family,,
+30.0,,S,45.5,"Loring, Mr. Joseph Holland",0,1190,1,male,0,,113801,Mr,Loring,1,Single,,
+29.0,,S,7.8542,"Johansson, Mr. Nils",0,1191,3,male,0,,347467,Mr,Johansson,1,Single,,
+32.0,,S,7.775,"Olsson, Mr. Oscar Wilhelm",0,1192,3,male,0,,347079,Mr,Olsson,1,Single,,
+,D,C,15.0458,"Malachard, Mr. Noel",0,1193,2,male,0,,237735,Mr,Malachard,1,Single,,D
+43.0,,S,21.0,"Phillips, Mr. Escott Robert",1,1194,2,male,0,,S.O./P.P. 2,Mr,Phillips,2,Small Family,,
+24.0,,S,8.6625,"Pokrnic, Mr. Tome",0,1195,3,male,0,,315092,Mr,Pokrnic,1,Single,,
+,,Q,7.75,"McCarthy, Miss. Catherine Katie""""",0,1196,3,female,0,,383123,Miss,McCarthy,1,Single,,
+64.0,B26,S,26.55,"Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)",1,1197,1,female,1,,112901,Mrs,Crosby,3,Small Family,,B
+30.0,C22 C26,S,151.55,"Allison, Mr. Hudson Joshua Creighton",2,1198,1,male,1,,113781,Mr,Allison,4,Small Family,,C
+0.83,,S,9.35,"Aks, Master. Philip Frank",1,1199,3,male,0,,392091,Master,Aks,2,Small Family,,
+55.0,B69,S,93.5,"Hays, Mr. Charles Melville",1,1200,1,male,1,,12749,Mr,Hays,3,Small Family,,B
+45.0,,S,14.1083,"Hansen, Mrs. Claus Peter (Jennie L Howard)",0,1201,3,female,1,,350026,Mrs,Hansen,2,Small Family,,
+18.0,,S,8.6625,"Cacic, Mr. Jego Grga",0,1202,3,male,0,,315091,Mr,Cacic,1,Single,,
+22.0,,C,7.225,"Vartanian, Mr. David",0,1203,3,male,0,,2658,Mr,Vartanian,1,Single,,
+,,S,7.575,"Sadowitz, Mr. Harry",0,1204,3,male,0,,LP 1588,Mr,Sadowitz,1,Single,,
+37.0,,Q,7.75,"Carr, Miss. Jeannie",0,1205,3,female,0,,368364,Miss,Carr,1,Single,,
+55.0,C32,C,135.6333,"White, Mrs. John Stuart (Ella Holmes)",0,1206,1,female,0,,PC 17760,Mrs,White,1,Single,,C
+17.0,,Q,7.7333,"Hagardon, Miss. Kate",0,1207,3,female,0,,AQ/3. 30631,Miss,Hagardon,1,Single,,
+57.0,B78,C,146.5208,"Spencer, Mr. William Augustus",0,1208,1,male,1,,PC 17569,Mr,Spencer,2,Small Family,,B
+19.0,,S,10.5,"Rogers, Mr. Reginald Harry",0,1209,2,male,0,,28004,Mr,Rogers,1,Single,,
+27.0,,S,7.8542,"Jonsson, Mr. Nils Hilding",0,1210,3,male,0,,350408,Mr,Jonsson,1,Single,,
+22.0,,S,31.5,"Jefferys, Mr. Ernest Wilfred",0,1211,2,male,2,,C.A. 31029,Mr,Jefferys,3,Small Family,,
+26.0,,S,7.775,"Andersson, Mr. Johan Samuel",0,1212,3,male,0,,347075,Mr,Andersson,1,Single,,
+25.0,F E57,C,7.2292,"Krekorian, Mr. Neshan",0,1213,3,male,0,,2654,Mr,Krekorian,1,Single,,F
+26.0,F2,S,13.0,"Nesson, Mr. Israel",0,1214,2,male,0,,244368,Mr,Nesson,1,Single,,F
+33.0,,S,26.55,"Rowe, Mr. Alfred G",0,1215,1,male,0,,113790,Mr,Rowe,1,Single,,
+39.0,,S,211.3375,"Kreuchen, Miss. Emilie",0,1216,1,female,0,,24160,Miss,Kreuchen,1,Single,,
+23.0,,S,7.05,"Assam, Mr. Ali",0,1217,3,male,0,,SOTON/O.Q. 3101309,Mr,Assam,1,Single,,
+12.0,F4,S,39.0,"Becker, Miss. Ruth Elizabeth",1,1218,2,female,2,,230136,Miss,Becker,4,Small Family,,F
+46.0,,C,79.2,"Rosenshine, Mr. George (Mr George Thorne"")""",0,1219,1,male,0,,PC 17585,Mr,Rosenshine,1,Single,,
+29.0,,S,26.0,"Clarke, Mr. Charles Valentine",0,1220,2,male,1,,2003,Mr,Clarke,2,Small Family,,
+21.0,,S,13.0,"Enander, Mr. Ingvar",0,1221,2,male,0,,236854,Mr,Enander,1,Single,,
+48.0,,S,36.75,"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ",2,1222,2,female,0,,C.A. 33112,Mrs,Davies,3,Small Family,,
+39.0,A18,C,29.7,"Dulles, Mr. William Crothers",0,1223,1,male,0,,PC 17580,Mr,Dulles,1,Single,,A
+,,C,7.225,"Thomas, Mr. Tannous",0,1224,3,male,0,,2684,Mr,Thomas,1,Single,,
+19.0,,C,15.7417,"Nakid, Mrs. Said (Waika Mary"" Mowad)""",1,1225,3,female,1,,2653,Mrs,Nakid,3,Small Family,,
+27.0,,S,7.8958,"Cor, Mr. Ivan",0,1226,3,male,0,,349229,Mr,Cor,1,Single,,
+30.0,C106,S,26.0,"Maguire, Mr. John Edward",0,1227,1,male,0,,110469,Mr,Maguire,1,Single,,C
+32.0,,S,13.0,"de Brito, Mr. Jose Joaquim",0,1228,2,male,0,,244360,Mr,de Brito,1,Single,,
+39.0,,C,7.2292,"Elias, Mr. Joseph",2,1229,3,male,0,,2675,Mr,Elias,3,Small Family,,
+25.0,,S,31.5,"Denbury, Mr. Herbert",0,1230,2,male,0,,C.A. 31029,Mr,Denbury,1,Single,,
+,,C,7.2292,"Betros, Master. Seman",0,1231,3,male,0,,2622,Master,Betros,1,Single,,
+18.0,,S,10.5,"Fillbrook, Mr. Joseph Charles",0,1232,2,male,0,,C.A. 15185,Mr,Fillbrook,1,Single,,
+32.0,,S,7.5792,"Lundstrom, Mr. Thure Edvin",0,1233,3,male,0,,350403,Mr,Lundstrom,1,Single,,
+,,S,69.55,"Sage, Mr. John George",9,1234,3,male,1,,CA. 2343,Mr,Sage,11,Large Family,,
+58.0,B51 B53 B55,C,512.3292,"Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)",1,1235,1,female,0,,PC 17755,Mrs,Cardeza,2,Small Family,,B
+,,S,14.5,"van Billiard, Master. James William",1,1236,3,male,1,,A/5. 851,Master,van Billiard,3,Small Family,,
+16.0,,S,7.65,"Abelseth, Miss. Karen Marie",0,1237,3,female,0,,348125,Miss,Abelseth,1,Single,,
+26.0,,S,13.0,"Botsford, Mr. William Hull",0,1238,2,male,0,,237670,Mr,Botsford,1,Single,,
+38.0,,C,7.2292,"Whabee, Mrs. George Joseph (Shawneene Abi-Saab)",0,1239,3,female,0,,2688,Mrs,Whabee,1,Single,,
+24.0,,S,13.5,"Giles, Mr. Ralph",0,1240,2,male,0,,248726,Mr,Giles,1,Single,,
+31.0,,S,21.0,"Walcroft, Miss. Nellie",0,1241,2,female,0,,F.C.C. 13528,Miss,Walcroft,1,Single,,
+45.0,D10 D12,C,63.3583,"Greenfield, Mrs. Leo David (Blanche Strouse)",1,1242,1,female,0,,PC 17759,Mrs,Greenfield,2,Small Family,,D
+25.0,,S,10.5,"Stokes, Mr. Philip Joseph",0,1243,2,male,0,,F.C.C. 13540,Mr,Stokes,1,Single,,
+18.0,,S,73.5,"Dibden, Mr. William",0,1244,2,male,0,,S.O.C. 14879,Mr,Dibden,1,Single,,
+49.0,,S,65.0,"Herman, Mr. Samuel",2,1245,2,male,1,,220845,Mr,Herman,4,Small Family,,
+0.17,,S,20.575,"Dean, Miss. Elizabeth Gladys Millvina""""",2,1246,3,female,1,,C.A. 2315,Miss,Dean,4,Small Family,,
+50.0,E60,S,26.0,"Julian, Mr. Henry Forbes",0,1247,1,male,0,,113044,Mr,Julian,1,Single,,E
+59.0,C101,S,51.4792,"Brown, Mrs. John Murray (Caroline Lane Lamson)",0,1248,1,female,2,,11769,Mrs,Brown,3,Small Family,,C
+,,S,7.8792,"Lockyer, Mr. Edward",0,1249,3,male,0,,1222,Mr,Lockyer,1,Single,,
+,,Q,7.75,"O'Keefe, Mr. Patrick",0,1250,3,male,0,,368402,Mr,O'Keefe,1,Single,,
+30.0,,S,15.55,"Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)",0,1251,3,female,1,,349910,Mrs,Lindell,2,Small Family,,
+14.5,,S,69.55,"Sage, Master. William Henry",2,1252,3,male,8,,CA. 2343,Master,Sage,11,Large Family,,
+24.0,,C,37.0042,"Mallet, Mrs. Albert (Antoinette Magnin)",1,1253,2,female,1,,S.C./PARIS 2079,Mrs,Mallet,3,Small Family,,
+31.0,,S,21.0,"Ware, Mrs. John James (Florence Louise Long)",0,1254,2,female,0,,CA 31352,Mrs,Ware,1,Single,,
+27.0,,S,8.6625,"Strilic, Mr. Ivan",0,1255,3,male,0,,315083,Mr,Strilic,1,Single,,
+25.0,E50,C,55.4417,"Harder, Mrs. George Achilles (Dorothy Annan)",0,1256,1,female,1,,11765,Mrs,Harder,2,Small Family,,E
+,,S,69.55,"Sage, Mrs. John (Annie Bullen)",9,1257,3,female,1,,CA. 2343,Mrs,Sage,11,Large Family,,
+,,C,14.4583,"Caram, Mr. Joseph",0,1258,3,male,1,,2689,Mr,Caram,2,Small Family,,
+22.0,,S,39.6875,"Riihivouri, Miss. Susanna Juhantytar Sanni""""",0,1259,3,female,0,,3101295,Miss,Riihivouri,1,Single,,
+45.0,,C,59.4,"Gibson, Mrs. Leonard (Pauline C Boeson)",1,1260,1,female,0,,112378,Mrs,Gibson,2,Small Family,,
+29.0,,C,13.8583,"Pallas y Castello, Mr. Emilio",0,1261,2,male,0,,SC/PARIS 2147,Mr,Pallas y Castello,1,Single,,
+21.0,,S,11.5,"Giles, Mr. Edgar",0,1262,2,male,1,,28133,Mr,Giles,2,Small Family,,
+31.0,E39 E41,C,134.5,"Wilson, Miss. Helen Alice",0,1263,1,female,0,,16966,Miss,Wilson,1,Single,,E
+49.0,B52 B54 B56,S,0.0,"Ismay, Mr. Joseph Bruce",0,1264,1,male,0,,112058,Mr,Ismay,1,Single,,B
+44.0,,S,13.0,"Harbeck, Mr. William H",0,1265,2,male,0,,248746,Mr,Harbeck,1,Single,,
+54.0,A34,S,81.8583,"Dodge, Mrs. Washington (Ruth Vidaver)",1,1266,1,female,1,,33638,Mrs,Dodge,3,Small Family,,A
+45.0,,C,262.375,"Bowen, Miss. Grace Scott",0,1267,1,female,0,,PC 17608,Miss,Bowen,1,Single,,
+22.0,,S,8.6625,"Kink, Miss. Maria",0,1268,3,female,2,,315152,Miss,Kink,3,Small Family,,
+21.0,,S,11.5,"Cotterill, Mr. Henry Harry""""",0,1269,2,male,0,,29107,Mr,Cotterill,1,Single,,
+55.0,C39,S,50.0,"Hipkins, Mr. William Edward",0,1270,1,male,0,,680,Mr,Hipkins,1,Single,,C
+5.0,,S,31.3875,"Asplund, Master. Carl Edgar",2,1271,3,male,4,,347077,Master,Asplund,7,Large Family,,
+,,Q,7.75,"O'Connor, Mr. Patrick",0,1272,3,male,0,,366713,Mr,O'Connor,1,Single,,
+26.0,,Q,7.8792,"Foley, Mr. Joseph",0,1273,3,male,0,,330910,Mr,Foley,1,Single,,
+,,S,14.5,"Risien, Mrs. Samuel (Emma)",0,1274,3,female,0,,364498,Mrs,Risien,1,Single,,
+19.0,,S,16.1,"McNamee, Mrs. Neal (Eileen O'Leary)",0,1275,3,female,1,,376566,Mrs,McNamee,2,Small Family,,
+,,S,12.875,"Wheeler, Mr. Edwin Frederick""""",0,1276,2,male,0,,SC/PARIS 2159,Mr,Wheeler,1,Single,,
+24.0,,S,65.0,"Herman, Miss. Kate",2,1277,2,female,1,,220845,Miss,Herman,4,Small Family,,
+24.0,,S,7.775,"Aronsson, Mr. Ernst Axel Algot",0,1278,3,male,0,,349911,Mr,Aronsson,1,Single,,
+57.0,,S,13.0,"Ashby, Mr. John",0,1279,2,male,0,,244346,Mr,Ashby,1,Single,,
+21.0,,Q,7.75,"Canavan, Mr. Patrick",0,1280,3,male,0,,364858,Mr,Canavan,1,Single,,
+6.0,,S,21.075,"Palsson, Master. Paul Folke",1,1281,3,male,3,,349909,Master,Palsson,5,Large Family,,
+23.0,B24,S,93.5,"Payne, Mr. Vivian Ponsonby",0,1282,1,male,0,,12749,Mr,Payne,1,Single,,B
+51.0,D28,S,39.4,"Lines, Mrs. Ernest H (Elizabeth Lindsey James)",1,1283,1,female,0,,PC 17592,Mrs,Lines,2,Small Family,,D
+13.0,,S,20.25,"Abbott, Master. Eugene Joseph",2,1284,3,male,0,,C.A. 2673,Master,Abbott,3,Small Family,,
+47.0,,S,10.5,"Gilbert, Mr. William",0,1285,2,male,0,,C.A. 30769,Mr,Gilbert,1,Single,,
+29.0,,S,22.025,"Kink-Heilmann, Mr. Anton",1,1286,3,male,3,,315153,Mr,Kink-Heilmann,5,Large Family,,
+18.0,C31,S,60.0,"Smith, Mrs. Lucien Philip (Mary Eloise Hughes)",0,1287,1,female,1,,13695,Mrs,Smith,2,Small Family,,C
+24.0,,Q,7.25,"Colbert, Mr. Patrick",0,1288,3,male,0,,371109,Mr,Colbert,1,Single,,
+48.0,B41,C,79.2,"Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)",1,1289,1,female,1,,13567,Mrs,Frolicher-Stehli,3,Small Family,,B
+22.0,,S,7.775,"Larsson-Rondberg, Mr. Edvard A",0,1290,3,male,0,,347065,Mr,Larsson-Rondberg,1,Single,,
+31.0,,Q,7.7333,"Conlon, Mr. Thomas Henry",0,1291,3,male,0,,21332,Mr,Conlon,1,Single,,
+30.0,C7,S,164.8667,"Bonnell, Miss. Caroline",0,1292,1,female,0,,36928,Miss,Bonnell,1,Single,,C
+38.0,,S,21.0,"Gale, Mr. Harry",0,1293,2,male,1,,28664,Mr,Gale,2,Small Family,,
+22.0,,C,59.4,"Gibson, Miss. Dorothy Winifred",1,1294,1,female,0,,112378,Miss,Gibson,2,Small Family,,
+17.0,,S,47.1,"Carrau, Mr. Jose Pedro",0,1295,1,male,0,,113059,Mr,Carrau,1,Single,,
+43.0,D40,C,27.7208,"Frauenthal, Mr. Isaac Gerald",0,1296,1,male,1,,17765,Mr,Frauenthal,2,Small Family,,D
+20.0,D38,C,13.8625,"Nourney, Mr. Alfred (Baron von Drachstedt"")""",0,1297,2,male,0,,SC/PARIS 2166,Mr,Nourney,1,Single,,D
+23.0,,S,10.5,"Ware, Mr. William Jeffery",0,1298,2,male,1,,28666,Mr,Ware,2,Small Family,,
+50.0,C80,C,211.5,"Widener, Mr. George Dunton",1,1299,1,male,1,,113503,Mr,Widener,3,Small Family,,C
+,,Q,7.7208,"Riordan, Miss. Johanna Hannah""""",0,1300,3,female,0,,334915,Miss,Riordan,1,Single,,
+3.0,,S,13.775,"Peacock, Miss. Treasteall",1,1301,3,female,1,,SOTON/O.Q. 3101315,Miss,Peacock,3,Small Family,,
+,,Q,7.75,"Naughton, Miss. Hannah",0,1302,3,female,0,,365237,Miss,Naughton,1,Single,,
+37.0,C78,Q,90.0,"Minahan, Mrs. William Edward (Lillian E Thorpe)",0,1303,1,female,1,,19928,Mrs,Minahan,2,Small Family,,C
+28.0,,S,7.775,"Henriksson, Miss. Jenny Lovisa",0,1304,3,female,0,,347086,Miss,Henriksson,1,Single,,
+,,S,8.05,"Spector, Mr. Woolf",0,1305,3,male,0,,A.5. 3236,Mr,Spector,1,Single,,
+39.0,C105,C,108.9,"Oliva y Ocana, Dona. Fermina",0,1306,1,female,0,,PC 17758,Rare,Oliva y Ocana,1,Single,,C
+38.5,,S,7.25,"Saether, Mr. Simon Sivertsen",0,1307,3,male,0,,SOTON/O.Q. 3101262,Mr,Saether,1,Single,,
+,,S,8.05,"Ware, Mr. Frederick",0,1308,3,male,0,,359309,Mr,Ware,1,Single,,
+,,C,22.3583,"Peter, Master. Michael J",1,1309,3,male,1,,2668,Master,Peter,3,Small Family,,

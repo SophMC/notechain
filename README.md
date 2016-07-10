@@ -8,6 +8,25 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 59
+
+##### ThinkBayes
+
+- `class EstimatedPdf(Pdf)` takes a sample of data and makes a guassian_kde out of it. It provides method `Density(self, x)` which allows 
+you to evaluate the density at any given value x using the samples kde. This is used when you call `MakePmf()` method of parent `class 
+Pdf(object)` which takes a list of discrete values.` E.g.    
+`pdf = EstimatedPdf(prices)` 
+`pmf = pdf.MakePmf(xs)`  # call MakePmf method on the pdf object
+  - `xs` is a list of discete values you use to make the pmf. 
+
+##### Titanic
+
+- must provide index = False when you write a dataframe to csv in `to_csv`, otherwise you end up with "Unnamed: 0" when you read it in 
+again.
+- use `fig, axes = plt.subplots(ncols=3, nrows=2, figsize=(12, 4))` to set subplots. You can reference their positions with 
+`full['Age_IS'].plot.hist(alpha=0.5, ax=axes[0, 1])`
+
+------------------
 ####Day 58
 
 ##### ThinkBayes
@@ -26,11 +45,13 @@ past showcases and guesses about the prizes you see.
 - Can use the test data to help fill in missing values. Previously I was just using training alone.
 - Only look at the non-nan values in a column: `full['Cabin'].dropna()`
 - installed `fancyimpute` so I can try out Multiple Imputation using Chained Equations (MICE) to fill in missing values.
+- Make a new column with just the letter extracted i.e. from `C53` we get `C`: 
+`full['Deck'] = full['Cabin'].str.extract('(?P<letter>[ABCDEF])')`
+- Making a box and whisker in pandas: `bp = full.boxplot(column=['Fare'], by = ['Embarked','Pclass'])`
 - Todays working [here](Titanic/notebooks/058-Titanic_Rconvert.ipynb)
 
 
-------------------
-####Day 57
+--------
 
 ##### ThinkBayes
 
