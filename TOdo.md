@@ -51,6 +51,9 @@ PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4
 - A cheatsheet of sorts for scikit-learn in Python using pandas - ['Python Machine 
 Learning'](https://github.com/rasbt/python-machine-learning-book)
 
+### Social Network Analysis
+
+
 
 ### SQL
 

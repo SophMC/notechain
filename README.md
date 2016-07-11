@@ -8,6 +8,20 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 60
+
+##### Titanic
+
+- Mice.py gives an error in the `complete` method of that class. Defined a new class for `MICE` in 
+[059-Titanic_Rconvert](Titanic/notebooks/059-Titanic_Rconvert.ipynb) which allows us to create a new `complete` method for Mice (now called 
+MyMice) and to diagnose what the problem is with the Mice code in `fancyinput`.
+
+##### SQL
+
+- Lessons 1 and 2 from [Intro to Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197) on Udacity. 
+- Covers `PRIMARY KEY`, `SELECT`, `INSERT` and `JOIN`. `OFFSET` is new to me: how far into the results you want to display.
+
+------------------
 ####Day 59
 
 ##### ThinkBayes
