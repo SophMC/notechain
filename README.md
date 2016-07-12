@@ -13,15 +13,15 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### MICE Imputation
 
-- The issue with MICE is that is expects numpy arrays in `X_completed[missing_mask] = average_imputated_values`
+- The issue with MICE is that is expects numpy arrays, not pandas DataFrames, in `X_completed[missing_mask] = average_imputated_values`
 - My work around solution to get it to work [here](Titanic/notebooks/061-MICE.ipynb) is not scalable as apparently that kind of masking in 
 pandas does not work consistently. 
 - In future may be better to change the dataframe to a numpy matrix, perform `MICE` imputations, then turn back into a dataFrame:       
 Change a `full_dums` dataFrame to a numpy array `fda` :     
-`fda = full_dums.as_matrix()`
+`fda = full_dums.as_matrix()`     
 `solver = MICE(verbose=0)`   
-`fdac = solver.complete(fda)`
-This gets fdac array back to a labelled dataFrame:    
+`fdac = solver.complete(fda)`      
+This gets fdac array back to a labelled dataFrame:      
 `full_dums_filled = pd.DataFrame(fdac, columns = [x for x in list(full_dums)])`
   
 
