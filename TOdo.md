@@ -51,6 +51,9 @@ PCA](http://nbviewer.jupyter.org/github/cs109/content/blob/master/labs/lab4/Lab4
 - A cheatsheet of sorts for scikit-learn in Python using pandas - ['Python Machine 
 Learning'](https://github.com/rasbt/python-machine-learning-book)
 
+- `Scikit.learn` for large data sets [article](https://www.opendatascience.com/blog/riding-on-large-data-with-scikit-learn/) and 
+[tutorial](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/outofcore_modelpersistence.ipynb)
+
 ### Social Network Analysis
 
 

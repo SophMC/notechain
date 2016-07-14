@@ -8,6 +8,51 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 63
+
+##### Relational Databases (Udacity)
+
+- run into problems with the webpage. One was the pg_config.sh file had not been run and the other was in the script where I had 
+`pg = c.fetchall()`. This turn the database into a list which couldn't be closed with `pg.close`. 
+- Instead included c.fetchall in     
+`posts =[{'content': str(row[1]), 'time': str(row[0])} for row in c.fetchall()]`
+- Have to change `VALUES (%s) " % (content))` to `VALUES (%s) " ,(content,))` to make sure posts will not be executed as an sql statement!
+
+
+Steps to get the web server running and to test some posts out:   
+- The pg_config.sh file had not been run I think, which caused the problem of the `posts` table in `forum` db not there.
+  - `cd ~/Desktop/fullstack/vagrant`
+  - `vagrant up`
+  - `vagrant ssh`
+  - `cd /vagrant/`
+  - `python forum.py`: in theory you can now open the webpage at `localhost:8000`
+  - `vagrant halt` when finished.
+
+#### Linux basics
+
+- `ls -l pg_config.sh` : check the ownership of `pg_config.sh`
+- `chmod 744 pg_config.sh` : change ownership so that Owner=rwx, Group=r, World=r
+- More details on `chmod` codes in [here](http://www.linux.org/threads/file-permissions-chmod.4094/)
+- `sh pg_config.sh` to run the file.
+
+#### DS from Scratch: Chap 5: Basic Statistics
+
+- The *variance* is the sum of the squares of each values difference from the mean divided by n-1
+- The *covariance* is the sum of the variance for two variables at the same point. Can be easily skewed by how much data you have.
+Nearly always better to use *standard deviation* `sqrt(variation)`.
+- Some code and notes [here](DSFromScratch/Chap5/063-Chap5Statistics.ipynb).
+
+------------------
+####Day 62
+
+##### Relational Databases (Udacity)
+
+- To close a connection to a server via port 8000: `sudo fuser -k 8000/tcp`
+- Have to use python 2.7 with this course
+- By simply adding a comma after `content` we can be sure it will be recognised as plain text and not an SQL command: `c.execute("insert 
+into post(content) values ('%s') " %(content,))`
+
+------------------
 
 ####Day 61
 
@@ -21,7 +66,7 @@ Change a `full_dums` dataFrame to a numpy array `fda` :
 `fda = full_dums.as_matrix()`     
 `solver = MICE(verbose=0)`   
 `fdac = solver.complete(fda)`      
-This gets fdac array back to a labelled dataFrame:      
+This gets `fdac` array back to a labelled dataFrame:      
 `full_dums_filled = pd.DataFrame(fdac, columns = [x for x in list(full_dums)])`
   
 
