@@ -15,8 +15,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 - *Correlation* : correlation is measuring the relationship between your two variables all else being
 equal. If your data classes are assigned at random, as they might be in a well-designed
 experiment, “all else being equal” might not be a terrible assumption. But when there
-is a deeper pattern to class assignments, “all else being equal” can be an awful assump‐
-tion.
+is a deeper pattern to class assignments, “all else being equal” can be an awful assumption.
 
 ##### Central Limit Theorem
 
