@@ -8,19 +8,48 @@ I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1)
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ------------------
+####Day 64 
+
+##### DS from Scratch Chap 5: Statistics
+
+- *Correlation* : correlation is measuring the relationship between your two variables all else being
+equal. If your data classes are assigned at random, as they might be in a well-designed
+experiment, “all else being equal” might not be a terrible assumption. But when there
+is a deeper pattern to class assignments, “all else being equal” can be an awful assump‐
+tion.
+
+##### Central Limit Theorem
+
+
+- Any distribution that has a well-defined mean and variance will become increasingly normally distribution as sample size ---> infinity.
+- The frequency distribution of sample means from the above sample with well defined mean and variance is called:   
+"Sampling Distribution of the Sample Mean"
+- [Udacity](https://classroom.udacity.com/courses/st101/lessons/48720345/concepts/487245360923)
+- [Khan Academy (very 
+good!)](https://www.khanacademy.org/math/probability/statistics-inferential/sampling-distribution/v/sampling-distribution-of-the-sample-mean
+)
+
+##### Comparing different Imputation methods for Titanic
+
+- Filled in the missing values for Age with three different methods and compared their cross validation scores using a RandomForest 
+classifier [here](Titanic/notebooks/064-Compare_imputations.ipynb).
+- I'm not sure if the marginal gains from using the more complex methods were really worth it.  
+
+
+------------------
 ####Day 63
 
 ##### Relational Databases (Udacity)
 
-- run into problems with the webpage. One was the pg_config.sh file had not been run and the other was in the script where I had 
-`pg = c.fetchall()`. This turn the database into a list which couldn't be closed with `pg.close`. 
+- Ran into problems with the webpage. One was the pg_config.sh file had not been run and the other was in the script where I had 
+`pg = c.fetchall()`. This turned the database into a list which couldn't be closed with `pg.close`. 
 - Instead included c.fetchall in     
 `posts =[{'content': str(row[1]), 'time': str(row[0])} for row in c.fetchall()]`
 - Have to change `VALUES (%s) " % (content))` to `VALUES (%s) " ,(content,))` to make sure posts will not be executed as an sql statement!
 
 
 Steps to get the web server running and to test some posts out:   
-- The pg_config.sh file had not been run I think, which caused the problem of the `posts` table in `forum` db not there.
+- The pg_config.sh file had not been run I think, which resulted in `posts` table being missing from `forum` db.
   - `cd ~/Desktop/fullstack/vagrant`
   - `vagrant up`
   - `vagrant ssh`
