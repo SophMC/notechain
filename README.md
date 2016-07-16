@@ -15,9 +15,9 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 - With CLT you can can calculate the `Standard Error of the Mean` which is the Std of the sample mean distribution.    
 To find the confidence intervals above/below a mean work out how many stds that interval is above or below the mean.    
 E.g what is the confidence that a population mean is 2 years +/- a mean of 40? If we work out that the `standard error of the 
-mean`(standard deviation of all population mean distributions) is 1.5 (using `std_error = std_pop/sqrt(n_samples)`), where `std_pop` is 
+mean` is 1.5 (using `std_error = std_pop/sqrt(n_samples)`), where `std_pop` is 
 substituted with `std_samp` then 2 years is 1.33 standard deviations from the mean. Looking up 1.33 in the Z-score table gives 0.41. 2 
-years +/- means 0.82, or 82%. We are 82% sure that the mean falls within +/- 2 years of 40 year. 
+years +/- = 0.82, or 82%. We are 82% sure that the mean falls within +/- 2 years of 40 year. 
 
 
 ##### SQL - Relational Databases: tournament project
