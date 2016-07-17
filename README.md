@@ -7,6 +7,24 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+
+------------------
+
+####Day66
+
+##### SQL - Tournament Project
+
+- My final scripts which could monitor a swiss-pairings style tournament can be found 
+[here](https://github.com/SophMC/SQLtutorials/tree/master/Relational_Databases_Udacity)
+- I learned how to set up a database, and make inserts for new players, make updates for changes in the players standings, their scores 
+etc, and how to perform all of these things from a python script. 
+
+##### Titanic
+
+- Have determined that MICE might be better after all, after looking at some frequency distributions, instead of mass distributions! 
+[Here](Titanic/notebooks/066-Titanic_Rconvert.ipynb)
+
+
 ------------------
 ####Day 65
 
@@ -20,7 +38,7 @@ substituted with `std_samp` then 2 years is 1.33 standard deviations from the me
 years +/- = 0.82, or 82%. We are 82% sure that the mean falls within +/- 2 years of 40 year. 
 
 
-##### SQL - Relational Databases: tournament project
+##### SQL - Tournament Project
 
 - `CREATE DATABASE tournament` first, then run the `tournament.sql` inside psql run the CREATE TABLE (and other) commands using 
 `\i tournament.sql` . 

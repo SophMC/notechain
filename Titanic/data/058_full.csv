@@ -1042,7 +1042,7 @@ Age,Cabin,Embarked,Fare,Name,Parch,PassengerId,Pclass,Sex,SibSp,Survived,Ticket,
 30.0,,S,26.0,"Lahtinen, Rev. William",1,1041,2,male,1,,250651,Rare,Lahtinen,3,Small Family,,
 23.0,C54,C,83.1583,"Earnshaw, Mrs. Boulton (Olive Potter)",1,1042,1,female,0,,11767,Mrs,Earnshaw,2,Small Family,,C
 ,,C,7.8958,"Matinoff, Mr. Nicola",0,1043,3,male,0,,349255,Mr,Matinoff,1,Single,,
-60.5,,S,,"Storey, Mr. Thomas",0,1044,3,male,0,,3701,Mr,Storey,1,Single,,
+60.5,,S,8.0,"Storey, Mr. Thomas",0,1044,3,male,0,,3701,Mr,Storey,1,Single,,
 36.0,,S,12.1833,"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)",2,1045,3,female,0,,350405,Mrs,Klasen,3,Small Family,,
 13.0,,S,31.3875,"Asplund, Master. Filip Oscar",2,1046,3,male,4,,347077,Master,Asplund,7,Large Family,,
 24.0,,S,7.55,"Duquemin, Mr. Joseph",0,1047,3,male,0,,S.O./P.P. 752,Mr,Duquemin,1,Single,,
