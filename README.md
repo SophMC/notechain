@@ -29,7 +29,6 @@ could use this.
 - [NetworkX](http://networkx.github.io/) is a python library for the "creation, manipulation, and study of the structure, dynamics, and 
 functions of complex networks."
 - [Social Network Analysis](http://jasss.soc.surrey.ac.uk/12/2/3.html) on Udacity.
-- [Social Network Analysis](https://www.udemy.com/graphs-and-social-network-analytics-for-dummies-using-python/) on Udemy (£18).
 
 ##### Udacity Algorithms
 
