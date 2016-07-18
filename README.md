@@ -25,14 +25,14 @@ could use this.
 
 ##### Social Network Analysis
 
-- [Social Circles](http://jasss.soc.surrey.ac.uk/12/2/3.html)paper.
+- [Social Circles](http://jasss.soc.surrey.ac.uk/12/2/3.html) paper.
 - [NetworkX](http://networkx.github.io/) is a python library for the "creation, manipulation, and study of the structure, dynamics, and 
 functions of complex networks."
 - [Social Network Analysis](http://jasss.soc.surrey.ac.uk/12/2/3.html) on Udacity.
 
 ##### Udacity Algorithms
 
-- Exploring [some simple algorithms](algorithms/notebooks/Lesson1.ipynb) in Lesson 1.
+- Exploring [some simple algorithms](tutorials/algorithms/notebooks/Lesson1.ipynb) in Lesson 1.
 
 
 ------------------
