@@ -9,12 +9,40 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+#### Day 67
 
-####Day66
+##### Linux
+
+- `xdg-open filename` to open any file with it's default application
+- Swap has been decreased by 10GB to increase system space to 20GB. First (Windows) partition is very full - need to check what is in 
+there.
+
+##### Summarizing text
+
+- [Smmry](http://smmry.com/) easy online tool. Use this for pdfs.
+- Downloaded [TextTeaser](https://github.com/DataTeaser/textteaser) from github. Only takes text. If I could convert pdfs to text myself I 
+could use this.
+
+##### Social Network Analysis
+
+- [Social Circles](http://jasss.soc.surrey.ac.uk/12/2/3.html)paper.
+- [NetworkX](http://networkx.github.io/) is a python library for the "creation, manipulation, and study of the structure, dynamics, and 
+functions of complex networks."
+- [Social Network Analysis](http://jasss.soc.surrey.ac.uk/12/2/3.html) on Udacity.
+- [Social Network Analysis](https://www.udemy.com/graphs-and-social-network-analytics-for-dummies-using-python/) on Udemy (£18).
+
+##### Udacity Algorithms
+
+- Exploring [some simple algorithms](algorithms/notebooks/Lesson1.ipynb) in Lesson 1.
+
+
+------------------
+
+####Day 66
 
 ##### SQL - Tournament Project
 
-- My final scripts which could monitor a swiss-pairings style tournament can be found 
+- My final scripts which can monitor a swiss-pairings style tournament can be found 
 [here](https://github.com/SophMC/SQLtutorials/tree/master/Relational_Databases_Udacity)
 - I learned how to set up a database, and make inserts for new players, make updates for changes in the players standings, their scores 
 etc, and how to perform all of these things from a python script. 
