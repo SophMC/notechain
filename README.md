@@ -23,8 +23,8 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 ##### Algorithms
 
-- Chain, Ring, Grid and Planar graphs have a number of `edges`(m) which is linear with the number of `nodes`(n). i.e. m $\in\Theta$(n) 
-- In Big $\Theta$ notation $\in$ symbolises that a function "is in" or has membership in a set of functions describes on the rhs.
+- Chain, Ring, Grid and Planar graphs have a number of `edges`(m) which is linear with the number of `nodes`(n). i.e. m `$\in\Theta$(n)` 
+- In Big `$\Theta$` notation `$\in$` symbolises that a function "is in" or has membership in a set of functions describes on the rhs.
 - number of nodes, `n`, is always to the power of 2 in Hypercubes.
 
 ##### Titanic
