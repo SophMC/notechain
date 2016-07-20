@@ -9,6 +9,26 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+
+#### Day 67
+
+##### Algorithms 
+
+- `log$_2$n` = how many times do we have to divide n to get 1? i.e. `log$_2$4 = 2` and `log$_2$6 = 2.5`.
+- Problem set 1: Create Graph With Eulerian Tour. Answer [here](tutorials/algorithms/scripts/L1_EulerianPath.py).
+- Problem set 1 Qu 10: Find Eulerian Tour Answer [here](tutorials/algorithms/scripts/L1_Eulerian_Q10.py)
+- [Workbook](tutorials/algorithms/notebooks/067-Lesson1Qu10.ipynb) for experimenting with these problems
+
+##### Statistics (Khan)
+
+- Confidence intervals:
+  - Estimate the probability that the true population mean lies within a range around a sample mean 
+[here](https://www.khanacademy.org/math/probability/statistics-inferential/confidence-intervals/v/confidence-interval-1)
+  - Describe how to calculate a 99% confidence interval for the proportion of teachers who felt computers are an essential tool 
+[here](https://www.khanacademy.org/math/probability/statistics-inferential/confidence-intervals/v/confidence-interval-example)
+
+
+------------------
 #### Day 67
 
 ##### Linux
