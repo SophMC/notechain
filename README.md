@@ -9,6 +9,36 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+#### Day 68
+
+##### Statistics (khan)
+
+- With a small sample size ( < 30) the sample sd is a poor estimate of the pop sd. You can't assume a normal distribution for the sample. 
+- Use a two-sided T-table because we are symmetric about the mean.
+- Approximate standard error from samp sd/ sqrt(n)
+- Find how many sds you need to be 95% confident (look up with degrees of freedom (n-1))
+- multiply t-value by standard error to give the value +/- above below pop mean you are 95% confident in.
+- Video 
+[here](https://www.khanacademy.org/math/probability/statistics-inferential/confidence-intervals/v/small-sample-size-confidence-intervals)
+
+##### Algorithms
+
+- Chain, Ring, Grid and Planar graphs have a number of `edges`(m) which is linear with the number of `nodes`(n). i.e. m $\in\Theta$(n) 
+- In Big $\Theta$ notation $\in$ symbolises that a function "is in" or has membership in a set of functions describes on the rhs.
+- number of nodes, `n`, is always to the power of 2 in Hypercubes.
+
+##### Titanic
+
+- Wanted to use groupby to plot my histograms but unfortunately a couple of things aren't working: [no 
+titles](https://github.com/pydata/pandas/issues/12452) for each group and layout keyword [doesn't 
+work](https://github.com/pydata/pandas/issues/12450). Looks like they're still being worked on. 
+
+- Remember to include axis = 1 with `pd.concat` to ensure it adds an extra column, and not just more rows.
+- Workbook [here](Titanic/notebooks/068-Titanic_Rconvert.ipynb)
+
+
+
+------------------
 
 #### Day 67
 
