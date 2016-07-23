@@ -56,6 +56,7 @@ Learning'](https://github.com/rasbt/python-machine-learning-book)
 
 ### Social Network Analysis
 
+- Udacity course on [Algorithms](https://classroom.udacity.com/courses/cs215/lessons/48311839/concepts/486877000923)
 
 
 ### SQL
@@ -98,6 +99,10 @@ again](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii),
 - Python interactive visualization library that targets modern web browsers for presentation:[Bokeh](http://bokeh.pydata.org/en/latest/)
 - [Plotly](https://plot.ly/api/)
 - Getting started with [d3](https://github.com/d3/d3/wiki/Tutorials)
+
+### git
+
+- Work through [this](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit) course.
 
 
 

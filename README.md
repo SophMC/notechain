@@ -9,6 +9,31 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+#### Day 69
+
+##### DS From Scratch: NLP
+
+- Bigrams: using pairs of words to simulate a sentence of words.
+- Trigrams: same as above but grouping words together in threes
+- Gibbs sampling (not quite grasped yet). Notebook [here](/DSFromScratch/Chap20/069-Natural_Language.ipynb)
+
+Will do the Naive Bayes chapter, before coming back and finishing this.
+
+- P(X1=1,X2=2|S) - Probability that word X1 and X2 are in a spam message
+- P(S|X=x) - Probability that a message is spam given word x is present
+- To avoid *underflow* (computer not coping with floats close to 0) instead of multiplying lots of probabilities together, for p1 *...*pn we use the equiv:
+    - `exp(log(p1)+...+log(Pn))
+- *smoothing* used to avoid a problem such as: "data" vocab word only occurs in nonspam of the whole training. So P("data"|S) = 0. Any message with "data" is given p=0. Even "data on cheap viagra and rolex watches".
+This is avoided by adding pseudocount k i.e. `P(Xi|S) = (k+spamcount_wordi)/(2k + spamcount)` and reversed for `P(Xi|¬S)`(probability word i not in spam). For "data" this means `P("data"|S)=1/100` = 0.01 so we can still assign a nonzero p ofr messages with "data".
+
+[working so far](/DSFromScratch/Chap20/069-NaiveBayes.ipynb)
+
+##### git
+
+- Great introduction to git [here](https://try.github.io/levels/1/challenges/1)
+- [Next steps](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit)
+
+------------------
 #### Day 68
 
 ##### Statistics (khan)
