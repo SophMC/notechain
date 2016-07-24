@@ -7,6 +7,22 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+------------------
+#### Day 70
+
+##### Udacity - Bayes networks and Bayes Rule 
+
+- Example: cancer test. Much easier to use a table to work out the different parts of the equation. Show 
+[here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487183980923#) in the answer to 
+- Complimentary probability, Independent Probability, 
+[here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/484254390923#) 
+- Dependent probability and Bayes Rule [here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/479785610923#)
+- [Conditional Dependence] (https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/482305330923#)
+- How many parameters are needed to specify a network? 
+[Here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487276210923#)
+- D(directional) seperation - Active triplets and Inactive triplets. A useful way to work out what node is dependent on what. 
+[Here.](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487193580923#)
+
 
 ------------------
 #### Day 69
@@ -19,13 +35,13 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 Will do the Naive Bayes chapter, before coming back and finishing this.
 
-- P(X1=1,X2=2|S) - Probability that word X1 and X2 are in a spam message
+- `P(X1=1,X2=2|S)` - Probability that word X1 and X2 are in a spam message
 - P(S|X=x) - Probability that a message is spam given word x is present
-- To avoid *underflow* (computer not coping with floats close to 0) instead of multiplying lots of probabilities together, for p1 *...*pn we use the equiv:
+- To avoid *underflow* (computer not coping with floats close to 0) instead of multiplying lots of probabilities together, for p1 \*...\*pn we use the equiv:
     - `exp(log(p1)+...+log(Pn))
 - *smoothing* used to avoid a problem such as: "data" vocab word only occurs in nonspam of the whole training. So P("data"|S) = 0. Any message with "data" is given p=0. Even "data on cheap viagra and rolex watches".
-This is avoided by adding pseudocount k i.e. `P(Xi|S) = (k+spamcount_wordi)/(2k + spamcount)` and reversed for `P(Xi|¬S)`(probability word i not in spam). For "data" this means `P("data"|S)=1/100` = 0.01 so we can still assign a nonzero p ofr messages with "data".
-
+This is avoided by adding pseudocount k i.e. `P(Xi|S) = (k+spamcount_wordi)/(2k + spamcount)` and reversed for `P(Xi|notS)`(probability word 
+i not in spam). For "data" this means `P("data"|S)=1/100` = 0.01 so we can still assign a nonzero to messages with "data".
 [working so far](/DSFromScratch/Chap20/069-NaiveBayes.ipynb)
 
 ##### git
