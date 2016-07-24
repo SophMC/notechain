@@ -7,13 +7,34 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+
+------------------
+#### Day 71
+
+##### Udacity - Probabilistic Inference
+
+- Enumeration and speeding up enumeration
+- Variable Elimination
+- To go from P(R,T) to P(T) use **+** and for P(T)P(L) to P(L,T) use **x**
+- "Berkson Paradox" - conditioning on a common effect causes two previously uncorrelated variables and independent variables to become 
+dependent and correlated! See example of [rain, sprinkler and 
+sidewalk.](https://medium.com/@akelleh/understanding-bias-a-pre-requisite-for-trustworthy-results-ee590b75b1be#.vskweklb2)
+- [Likelihood weighting](https://classroom.udacity.com/courses/cs271/lessons/48743138/concepts/484039270923#)
+- [Gibbs sampling](https://classroom.udacity.com/courses/cs271/lessons/48743138/concepts/486964720923#) - uses all 
+evidence, not just upstream evidence. Sample from one variable at a time, conditioned on all the others.
+
+**NLP #1**
+
+- Language models can be *probabilistic, word-based and learned* or *tree structured, logical and based on grammatical rules*
+- Markov Assumption considers nearby words.
+
 ------------------
 #### Day 70
 
 ##### Udacity - Bayes networks and Bayes Rule 
 
-- Example: cancer test. Much easier to use a table to work out the different parts of the equation. Show 
-[here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487183980923#) in the answer to 
+- Example: cancer test. Much easier to use a table to work out the different parts of the equation. Shown 
+[here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487183980923#).
 - Complimentary probability, Independent Probability, 
 [here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/484254390923#) 
 - Dependent probability and Bayes Rule [here](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/479785610923#)
