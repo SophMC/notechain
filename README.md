@@ -9,6 +9,34 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+#### Day 72
+
+##### DS from Scratch
+
+**Chap 13 Naive Bayes**
+- [Implimentation](/DSFromScratch/Chap13/072-NaiveBayes.ipynb) of a Naive Bayes spam filter. Scikit.learn has the same filter named 
+[`bernoulliNB`](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.BernoulliNB.html). In the 
+[notebook](/DSFromScratch/Chap13/072-NaiveBayes.ipynb):
+  - Building a Naive Bayes Classifier. Includes `class NaiveBayes` with methods `train` and `classify` and external functions 
+`tokenize`,`count_words`,`word_probabilities` and `spam_probabilities`
+  - Test the classifier. Split the data into `test` and `train`. Create `classifier` object. Train the classifier object on `train`.
+  - Feed the classifier object `test` and then use `Counter` to store the results in those that are > 0.5 p of being spam.
+  - use `filter` to look at the 1) non spam messages most likely to be labelled "spam" and 2) spam messages most likely to be labelled "ham"
+  - `sorted` with a key=function argument to sort the list based on it's bayes's probability.
+  - As stemmer function could be added to improve classification i.e. "cheap" and "cheapest" - "est" could be removed.
+Naive Bayes assumes that the probabilities of different words appearing in spam are independent. Although this is a bold assumption to 
+make, in general the results are good. 
+
+#### Udacity NLP #1
+
+- [Gzip](https://classroom.udacity.com/courses/cs271/lessons/48641663/concepts/486487210923) - shows very simple shell code to identify 
+what language a document is in, using compression techniques.
+- [Segmentation](https://classroom.udacity.com/courses/cs271/lessons/48641663/concepts/483697940923#) - Naive Bayes is good for this. 
+[Code](https://classroom.udacity.com/courses/cs271/lessons/48641663/concepts/486467250923) is relatively simple to impliment.
+- [Markov might be better than Naive Bayes](https://classroom.udacity.com/courses/cs271/lessons/48641663/concepts/487124070923#) for 
+recognising when words should go together.
+
+------------------
 #### Day 71
 
 ##### Udacity - Probabilistic Inference
