@@ -24,11 +24,12 @@ Grammar e.g. `P(VP->V,NP,NP|V=gave) = 0.25` LPCFG deals with specific words rath
 ##### NLP DS from Scratch
 
 - Scraping from a website using BeautifulSoup
-- Bigram, Trigrama and Grammar models. Briefly touches on top down and bottom up approaches - also discussed 
+- Bigram, Trigram and Grammar models. Briefly touches on top down and bottom up approaches - also discussed 
 [here](https://classroom.udacity.com/courses/cs271/lessons/48734403/concepts/486736210923#)
-- Gibbs sampling - when you want to create 
+- Gibbs sampling - when you want to produce a random sample where you only know conditional distributions
 - Using two `for` loops in one line:
   - `distinct_words = set(word for document in documents for word in document)`
+- Workbook [here](DSFromScratch/Chap20/073-Natural_language.ipynb)(Still need to understand the Topic Modelling part)
 
 ------------------
 #### Day 72
