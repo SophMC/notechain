@@ -7,6 +7,28 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+------------------
+#### Day 73
+
+##### NLP #2 Udacity Intro to AI
+
+- **Smoothing** is needed to account for when p(f|label) is zero. When a particular word(f), with classification(label) does not appear in 
+a training set at all. This is likely to happen and does not mean the word will not occur in reality. 
+- `nltk.probability` contains classes for different smoothing techniques.
+- Sentence structure
+- [PCFG](https://classroom.udacity.com/courses/cs271/lessons/48734403/concepts/487300760923#): Probabilistic Context-Free Grammar e.g. 
+`P(VP->V,NP,NP|lhs=VP) = 2`
+- [LPCFG](https://classroom.udacity.com/courses/cs271/lessons/48734403/concepts/487161760923#): Lexicalized Probabilistic Context-Free 
+Grammar e.g. `P(VP->V,NP,NP|V=gave) = 0.25` LPCFG deals with specific words rather than just categories.
+
+##### NLP DS from Scratch
+
+- Scraping from a website using BeautifulSoup
+- Bigram, Trigrama and Grammar models. Briefly touches on top down and bottom up approaches - also discussed 
+[here](https://classroom.udacity.com/courses/cs271/lessons/48734403/concepts/486736210923#)
+- Gibbs sampling - when you want to create 
+- Using two `for` loops in one line:
+  - `distinct_words = set(word for document in documents for word in document)`
 
 ------------------
 #### Day 72
@@ -20,12 +42,12 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
   - Building a Naive Bayes Classifier. Includes `class NaiveBayes` with methods `train` and `classify` and external functions 
 `tokenize`,`count_words`,`word_probabilities` and `spam_probabilities`
   - Test the classifier. Split the data into `test` and `train`. Create `classifier` object. Train the classifier object on `train`.
-  - Feed the classifier object `test` and then use `Counter` to store the results in those that are > 0.5 p of being spam.
+  - Feed the classifier object `test` and then use `Counter` to store the results in those that are p > 0.5 of being spam.
   - use `filter` to look at the 1) non spam messages most likely to be labelled "spam" and 2) spam messages most likely to be labelled "ham"
   - `sorted` with a key=function argument to sort the list based on it's bayes's probability.
   - As stemmer function could be added to improve classification i.e. "cheap" and "cheapest" - "est" could be removed.
-Naive Bayes assumes that the probabilities of different words appearing in spam are independent. Although this is a bold assumption to 
-make, in general the results are good. 
+Naive Bayes assumes that the probabilities of different words appearing in spam are independent. Although this is an unrealistic assumption, 
+in general the results are good. 
 
 #### Udacity NLP #1
 
