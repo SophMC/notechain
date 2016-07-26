@@ -29,7 +29,7 @@ Grammar e.g. `P(VP->V,NP,NP|V=gave) = 0.25` LPCFG deals with specific words rath
 - Gibbs sampling - when you want to produce a random sample where you only know conditional distributions
 - Using two `for` loops in one line:
   - `distinct_words = set(word for document in documents for word in document)`
-- Workbook [here](DSFromScratch/Chap20/073-Natural_language.ipynb)(Still need to understand the Topic Modelling part)
+- Workbook [here](/DSFromScratch/Chap20/073-Natural_language.ipynb) (still need to understand the Topic Modelling part)
 
 ------------------
 #### Day 72
