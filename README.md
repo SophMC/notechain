@@ -7,6 +7,43 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+
+------------------
+#### Day 74
+
+##### DS from Scratch NLP
+
+- `Counter()` is a dictionary which contains key:value pairs which the value is the number of times key appears.
+  - to fill a dictionary: 
+  - To search though counter
+- To find a value in a nested list: use `enumerate` and `for` loops. See [here](/DSFromScratch/Chap20/074-Natural_language.ipynb)
+
+- Parts I understand of **Topic Modeling**
+  - The aim is to work out what topics a user is interested in given a list of software-related words
+  - We assign each word a *random* topic and decide there will be 4 distinct topics. So a random number 0-3 is assigned to each word
+  - We create functions to populate conditional distributions p(w|t) and p(t|d). Four weightings are assigned to each word in each 
+document- one for each topic. 
+` - These weighting are used to choose a new topic for each word. 
+- The part I don't understand:
+  - How how the weights are used to pick a new topic for each word. Something about minimising a combination of weights? The answer is 
+probably in [this paper on Latent Dirichtlet Allocation]()
+  - A recommended library for implimenting LDA is [Ida](http://pythonhosted.org/lda/) - the example there shows how to use it to get a 
+user-defined number of topics from a body of text. 
+  - [Gensim](http://radimrehurek.com/gensim/tutorial.html) - sold as "unsupervised semantic modelling from plain text"
+
+##### Kaggle Bag of Words
+
+- punctuation such as `!!!` or `:-(` are removed in this example, but consider using them in sentiment analysis.
+- "tokenization" is lower-casing and splitting up words in a passage.
+- store words which are not in a list of other words `words = [w for w in words if not w in stopwords.words("english")]` i.e. get rid of 
+the little words "a", "the".. etc in words. `words` is now a cleaner piece of text.
+- searching a `set` is much faster than searching a `list` - so convert when you can!
+- `sklearn.feature_extraction.text.CountVectorizer` can be used to fetch the raw data from files, create tokens and remove stop words.
+- This [stackoverflow](http://stackoverflow.com/questions/15899861/efficient-term-document-matrix-with-nltk) explains to me more clearly 
+what is in a `term-document matrix` and suggests using the 
+[textmining](https://pypi.python.org/pypi/textmining/1.0) package.
+
+
 ------------------
 #### Day 73
 
