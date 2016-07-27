@@ -14,7 +14,7 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 ##### DS from Scratch NLP
 
 - `Counter()` is a dictionary which contains key:value pairs which the value is the number of times key appears.
-- To find a value in a nested list: use `enumerate` and `for` loops. See [here](/DSFromScratch/Chap20/074-Natural_language.ipynb).
+- To find a value in a nested list: use `enumerate` and `for` loops. See [here](/DSFromScratch/Chap20/074-Natural_Language.ipynb).
 
 - Parts I understand of **Topic Modeling**
   - The aim is to work out what topics a user is interested in given a list of software-related words
