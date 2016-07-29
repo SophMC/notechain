@@ -7,7 +7,7 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
-
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <tutorials/KaggleNLP/300features_40minwords_10context>' -f HEAD
 ------------------
 #### Day 76
 
@@ -49,13 +49,13 @@ the remote repo for someone to decide whether to merge it or not.
 **Outline**
 
 - Find the meaning of a word based on the words around it. Can be usef on hundreds of billions of words.
-- Read in and clean the data similar to [bag of words](tutorials/KaggleNLP/075-BOW.ipynb) but keep stop words as they help determine the 
+- Read in and clean the data similar to [bag of words](tutorials/KaggleNLP/075-BOW_1.ipynb) but keep stop words as they help determine the 
 context. Output all the reviews/text as a list of sentences
 - Make a model with the sentences. `model = word2vec.Word2Vec(sentences, num_features=....etc)`
   - Use `model.init_sims(replace=True)` if no further training.
 - Save model with a meaningful name:  
 `model.save(model_name)`    
-- To reload the model later: `Word2Vec.load()`
+- To reload the model later: `Word2Vec.load()`. All working [here](tutorials/KaggleNLP/076-word_vectors.ipynb)
 
 
 ------------------
@@ -76,7 +76,7 @@ context. Output all the reviews/text as a list of sentences
    `result = forest.predict(clean_test)`
 - The main issue I have found with `textmining` module is that you can't specify the number of words you want to keep from all the possible 
 words. Perhaps it is not useful for a problem which requires that. 
-- All working in [075-BOW.ipynb](tutorials/KaggleNLP/075-BOW.ipynb).
+- All working in [075-BOW.ipynb](tutorials/KaggleNLP/075-BOW_1.ipynb).
 
 
 ------------------
