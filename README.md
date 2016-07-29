@@ -9,6 +9,77 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 
 ------------------
+#### Day 76
+
+##### Codecademy git
+
+- Played around with the free lessons [here](https://www.codecademy.com/learn/learn-git)
+- `git log` shows all the previous commits
+- `git HEAD` shows the details of the current commit
+- `git checkout HEAD filename` if you make changes in the working directory you don't want to keep.
+- `git reset HEAD filename` if you accidently change, and stage, a file and just want to go back to it's previous version (while keeping 
+other staged changes)
+- `git reset SHA` where SHA = first 7 characters of the commit key. This removes all commits, back to that one. 
+- `git checkout master` - switch back to master branch, from another branch.
+- `git merge fencing` - you are inside master when you give this command to *fast forward* master to fencing.
+- `git branch -d branch_name` : delete a branch once you have merged it with master and resolved any conflicts.
+
+**collaborating with git**
+
+- `git clone remote_host local_dir` : in future `remote host` is referred to as `origin`
+- `git remote -v` gives the details of the location and names of the remote repos.
+- `git fetch` this checks to see if someone has changed the remote repo. These are now on the origin/master branch and not my *local* 
+master.
+- Steps for collaborative working:
+
+    1) Fetch and merge changes from the remote    
+    2) Create a branch to work on a new project feature     
+    3) Develop the feature on your branch and commit your work     
+    4) Fetch and merge from the remote again (in case new commits were made while you were working)     
+    5) Push your branch up to the remote for review     
+    
+- `git push origin your_branch_name` : after you've made changes to your own working copy of origin (via a branch  you push that branch to 
+the remote repo for someone to decide whether to merge it or not. 
+
+##### Kaggle Word2Vec
+
+- When appending a list of lists to another list of lists must use `+=` instead of `append`
+- Python logging.
+
+**Outline**
+
+- Find the meaning of a word based on the words around it. Can be usef on hundreds of billions of words.
+- Read in and clean the data similar to [bag of words](tutorials/KaggleNLP/075-BOW.ipynb) but keep stop words as they help determine the 
+context. Output all the reviews/text as a list of sentences
+- Make a model with the sentences. `model = word2vec.Word2Vec(sentences, num_features=....etc)`
+  - Use `model.init_sims(replace=True)` if no further training.
+- Save model with a meaningful name:  
+`model.save(model_name)`    
+- To reload the model later: `Word2Vec.load()`
+
+
+------------------
+#### Day 75
+
+##### Kaggle Bag of Words #1
+
+**overview**
+
+- Data Cleaning and text processing
+  - Apply a function to each document which uses `BeautifulSoup` and `re` to make a list of words without stopwords, for each doc
+  - Append these new clean reviews to make a nested list
+- Get features from the data
+  - sklearn's feature extraction `CountVectorizer` is a bag-of-words tool
+  - We create a 2D vectorizer object (term-document matrix). We are shown how to query this matrix.
+- Fit a Model (an object name forest) the data using `RandomForestClassifer` with the term-document matrix
+- Apply `forest` model object to test data (clean and processed as above beforhand) like so:   
+   `result = forest.predict(clean_test)`
+- The main issue I have found with `textmining` module is that you can't specify the number of words you want to keep from all the possible 
+words. Perhaps it is not useful for a problem which requires that. 
+- All working in [075-BOW.ipynb](tutorials/KaggleNLP/075-BOW.ipynb).
+
+
+------------------
 #### Day 74
 
 ##### DS from Scratch NLP
