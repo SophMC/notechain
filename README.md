@@ -7,7 +7,34 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
-git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <tutorials/KaggleNLP/300features_40minwords_10context>' -f HEAD
+------------------
+#### Day 77
+
+##### Kaggle Word Vecs #3
+
+**Sentiment prediction using Word Vectors**
+
+- Using average vectors over a paragraph yielded ok results, not as good as bag of words.
+- Tf-idf weighting determines how important a word is to a particular document in a collection of documents or a corpus.
+- `scikit.learn` `TdidfVectorizer` has a similar interface to CountVectorizer used in [075-BOW.ipynb](tutorials/KaggleNLP/075-BOW_1.ipynb).
+- Folks at Kaggle found [no score improvement](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-3-more-fun-with-word-vectors) in 
+using either the average vectors or TF-idf methods with the vectors over Bag of Words in tutorial #1.
+
+**Clustering**
+
+- Using K-means clustering to assign each word a cluster "id". This means each word will belong to a cluster with a particular meaning. 
+- In Bag of Words we created a matrix [reviews,words] where the top 5000 words were the columns and the rows were the count of how often 
+each word occurred in that particular review.
+- Uses K-means to cluster the words into meaning. Then Bag of Words to create a term-document matrix but with cluster numbers, so in theory 
+the words are classed by meaning, rather than simply frequency. Then, Random Forest again, using the original classification to train the 
+model. 
+- The clustering approach is not much better than the original BOW because they both end up as BOW and lose the word order which is quite 
+important.
+- Kaggle Tutorial suggests [Paragraph Vector](http://cs.stanford.edu/~quocle/paragraph_vector.pdf).
+- Another high-scoring kaggler suggests: [Tutorial from fastml.com](http://fastml.com/classifying-text-with-bag-of-words-a-tutorial/) with 
+improvements and higher score. [Github](https://github.com/zygmuntz/classifying-text) for it.
+
+
 ------------------
 #### Day 76
 
