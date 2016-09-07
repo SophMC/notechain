@@ -7,6 +7,68 @@ Python, git and other tools useful for data science.
 I'm using the [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) 
 Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
+UPDATE: extending past my 3 months. 
+
+
+------------------
+
+#### Day 81
+
+##### Inferential Statistics
+
+- Standard deviation of the sample mean distribution is also called the Standard error. Calculated std/sqrt(n) where std = standard 
+deviation of the population and n = no. of samples
+- Z-Score is how many standard deviations your observed mean is, away from the population mean. What is the probability that this observed 
+mean is randomly selected? - Look up your Z-Score on the Z-table. 
+- See [workbook in python 3](tutorials/inferential_stats/081-Inferential.ipynb)
+
+------------------
+#### Day 80
+
+##### Statistics
+###### Variance and Standard Deviation
+- It is usually better to use standard deviation rather than variance because SD is expressed in the same units as the mean. 
+- Use sum(var)/n-1 to give the best estimate of the true variance. Where var = (x-meanx)^^2, for each point in the sample. n 
+underestimates, n-2 overestimates, see [Khan 
+academy](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data/sample-standard-deviation/v/another-simulation- 
+giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
+- Only use n-1 when looking at the variance of a sample. 
+- When calculating standard deviation use n. 
+
+###### Chi-squared (kai squared). Goodness of fit.
+
+- For categorical variables.
+- Work out the critial Chi-squared value based on degrees of freedom (n-1) and a chosen significance level (e.g. 0.05). Calculate the 
+Chi-squared statistic from the sum((obs-expected)^^2)/expected) for each value. See [Khan academy 
+video](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/
+v/pearson-s-chi-square-test-goodness-of-fit)
+
+------------------
+#### Day 79
+
+##### Probability
+
+- D-Separation(Reachability): [Active and Inactive 
+triplets](https://classroom.udacity.com/courses/cs271/lessons/48624746/concepts/487138290923#) Udacity vid.
+- Some [good tips](https://www.youtube.com/watch?v=iutkLjeGc6w) for using PyCharm.
+
+
+------------------
+#### Day 78
+
+- AUC - Area Under Curve: Second most popular metric for classification techniques, after accuracy. If you use probabilities to assess the 
+accuracy of your classification, you need to set a threshold at which the classification label becomes 1 or 0. AUC considers all possible 
+thresholds to get the optimal true positive/false positive rates rates when you compare *true* class labels with your *predicted* class 
+labels.
+
+- Use a linear model for high-dimensional, sparse data, such as Bag of Words.
+
+- Gradient Descent
+
+- Simple Linear Regression - find a function (build a model) which can describe the relationship between two variables. Find the unknown 
+coefficients using Least Squares or Gradient Descent. Minimizing the sum of squared errors is equivalent to maximizing the likelihood of 
+the observed data.
+
 ------------------
 #### Day 77
 
