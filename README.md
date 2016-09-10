@@ -9,6 +9,21 @@ Python (2.7.11) up to ~ day 35, and Python 3.5 thereafter.
 
 UPDATE: extending past my 3 months. 
 
+------------------
+#### Day 82
+
+##### Inferential Statistics
+
+See [this workbook](/tutorials/inferential_stats/081-Inferential.ipynb)
+- r and rsquared. Made a OLS model to explore the relationship between two variables. 
+- [Brilliant tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html) for exploring data distributions and 
+relationships in seaborn.
+
+- if the 95% confidence intervals of the pearson correlation coefficient include 0 then we have to accept the null hypothesis that the 
+correlation we see is due to chance. You should also look at the P-value for the t-statistic - is it less than alpha = 0.05?
+
+- [This workbook](/tutorials/inferential_stats/082-Flights.ipynb) for calculating the gradient of a regression line, using the std of both 
+x and y (using n-1)
 
 ------------------
 
@@ -19,7 +34,7 @@ UPDATE: extending past my 3 months.
 - Standard deviation of the sample mean distribution is also called the Standard error. Calculated std/sqrt(n) where std = standard 
 deviation of the population and n = no. of samples
 - Z-Score is how many standard deviations your observed mean is, away from the population mean. What is the probability that this observed 
-mean is randomly selected? - Look up your Z-Score on the Z-table. 
+mean is randomly selected? - Look up your Z-Score on the [Z-table](https://s3.amazonaws.com/udacity-hosted-downloads/ZTable.jpg). 
 - See [workbook in python 3](tutorials/inferential_stats/081-Inferential.ipynb)
 
 ------------------
