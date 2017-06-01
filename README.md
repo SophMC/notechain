@@ -45,8 +45,7 @@ mean is randomly selected? - Look up your Z-Score on the [Z-table](https://s3.am
 - It is usually better to use standard deviation rather than variance because SD is expressed in the same units as the mean. 
 - Use sum(var)/n-1 to give the best estimate of the true variance. Where var = (x-meanx)^^2, for each point in the sample. n 
 underestimates, n-2 overestimates, see [Khan 
-academy](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data/sample-standard-deviation/v/another-simulation- 
-giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
+academy](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data/sample-standard-deviation/v/another-simulation-giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
 - Only use n-1 when looking at the variance of a sample. 
 - When calculating standard deviation use n. 
 
@@ -55,8 +54,7 @@ giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
 - For categorical variables.
 - Work out the critial Chi-squared value based on degrees of freedom (n-1) and a chosen significance level (e.g. 0.05). Calculate the 
 Chi-squared statistic from the sum((obs-expected)^^2)/expected) for each value. See [Khan academy 
-video](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/
-v/pearson-s-chi-square-test-goodness-of-fit)
+video](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/pearson-s-chi-square-test-goodness-of-fit)
 
 ------------------
 #### Day 79
@@ -1302,8 +1300,7 @@ into Nans, without a loop. Will just do it will a loop tomorrow.
 
 - Almost there with [this workbook](tutorials/Samsung/notebooks/030-Samsung_cleanup.ipynb) - have changed strings and dropped rows with 
 certain expressions. There is still work to do as my list of remaining names is not the same as that 
-[here]
-(http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/blob/master/notebooks/C2.%20Random%20Forests%20-%20Data%20Exploration.ipynb) 
+[here](http://nbviewer.jupyter.org/github/nborwankar/LearnDataScience/blob/master/notebook/C2.%20Random%20Forests%20-%20Data%20Exploration.ipynb) 
 in the tutorial.
 
 ##### SQL
@@ -1685,8 +1682,7 @@ article which uses import.io (to scrape
 lists from the web) and Monkeylearn (to get data from text using machine 
 learning) to ["Create an Employment Analytics Visualization in Less Than 10 
 Minutes"]
-(https://blog.monkeylearn.com/how-to-create-an-empl&#160
-oyment-analytics-visualization-in-less-than-10-minutes/). It's definitely taken 
+(https://blog.monkeylearn.com/how-to-create-an-employment-analytics-visualization-in-less-than-10-minutes/). It's definitely taken 
 me more than 10 mins due to lots of teething 
 problems with import.io.
 
