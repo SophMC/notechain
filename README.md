@@ -411,7 +411,7 @@ functions of complex networks."
 
 ------------------
 
-####Day 66
+#### Day 66
 
 ##### SQL - Tournament Project
 
@@ -427,7 +427,7 @@ etc, and how to perform all of these things from a python script.
 
 
 ------------------
-####Day 65
+#### Day 65
 
 ##### Central Limit Theorem
 
@@ -446,7 +446,7 @@ years +/- = 0.82, or 82%. We are 82% sure that the mean falls within +/- 2 years
 
 
 ------------------
-####Day 64 
+#### Day 64 
 
 ##### DS from Scratch Chap 5: Statistics
 
@@ -474,7 +474,7 @@ classifier [here](Titanic/notebooks/064-Compare_imputations.ipynb).
 
 
 ------------------
-####Day 63
+#### Day 63
 
 ##### Relational Databases (Udacity)
 
@@ -509,7 +509,7 @@ Nearly always better to use *standard deviation* `sqrt(variation)`.
 - Some code and notes [here](DSFromScratch/Chap5/063-Chap5Statistics.ipynb).
 
 ------------------
-####Day 62
+#### Day 62
 
 ##### Relational Databases (Udacity)
 
@@ -520,7 +520,7 @@ into post(content) values ('%s') " %(content,))`
 
 ------------------
 
-####Day 61
+#### Day 61
 
 ##### MICE Imputation
 
@@ -538,7 +538,7 @@ This gets `fdac` array back to a labelled dataFrame:
 
 
 ------------------
-####Day 60
+#### Day 60
 
 ##### Titanic
 
@@ -552,7 +552,7 @@ MyMice) and to diagnose what the problem is with the Mice code in `fancyinput`.
 - Covers `PRIMARY KEY`, `SELECT`, `INSERT` and `JOIN`. `OFFSET` is new to me: how far into the results you want to display.
 
 ------------------
-####Day 59
+#### Day 59
 
 ##### ThinkBayes
 
@@ -575,7 +575,7 @@ keeping. Next step - compare those values with my imputed values from earlier no
 - [Today's notebook](Titanic/notebooks/059-Titanic_Rconvert.ipynb)
 
 ------------------
-####Day 58
+#### Day 58
 
 ##### ThinkBayes
 
@@ -624,7 +624,7 @@ the likelihoods and renormalizes.
 - Started setting up VirtualBox(no probs) and Vagrant(still working on) to enable me to do the project for the Udacity course.
 
 ------------------
-####Day 56
+#### Day 56
 
 ##### ThinkBayes
 
@@ -658,7 +658,7 @@ a function such as: `func(*x, **y)`
 
 
 ------------------
-####Day 55
+#### Day 55
 
 ##### Titanic
 
@@ -668,7 +668,7 @@ a function such as: `func(*x, **y)`
 
 ------------------
 
-####Day 54
+#### Day 54
 
 ##### Data Science Python
 
@@ -694,7 +694,7 @@ All working in [this notebook](DSFromScratch/Chap2/054-Chap2.ipynb)
 
 ------------------
 
-####Day 53
+#### Day 53
 
 #### Titanic ML
 
@@ -725,7 +725,7 @@ first move.
 
 
 ------------------
-####Day 52
+#### Day 52
 
 ##### Titanic ML
 
@@ -748,7 +748,7 @@ datasets are normally distributed.
 - [Workbook](Titanic/notebooks/052-Titanic_new.ipynb) with the above.
 
 ------------------
-####Day 51
+#### Day 51
 
 ##### SQL
 
@@ -760,7 +760,7 @@ datasets are normally distributed.
 decision analysis, or some kind of prediction.
 
 ------------------
-####Day 50
+#### Day 50
 
 ##### SQL
 
@@ -784,7 +784,7 @@ are important.
 - resubmitted, changing column "FareBin" to "Fare" so that it matched the training set. It didn't make any difference. 
 
 ------------------
-####Day 49
+#### Day 49
 
 ##### Think Bayes
 
@@ -813,7 +813,7 @@ script](Titanic/bin/clean_test.py) for the test-set, before calculating the [sur
 RandomForest](Titanic/notebooks/049-Titanic_RandomForest.ipynb).
  
 ------------------
-####Day 48
+#### Day 48
 
 ##### SQL
 
@@ -823,7 +823,7 @@ SQL [here](https://github.com/SophMC/SQLtutorials).
 
 
 ------------------
-####Day 47
+#### Day 47
 
 ##### Think Bayes
 
@@ -852,7 +852,7 @@ SQL [here](https://github.com/SophMC/SQLtutorials).
 
 
 ------------------
-####Day 46
+#### Day 46
 
 ##### Think Bayes
 
@@ -877,7 +877,7 @@ provides an implementation of the missing methods. For example, Monty extends Su
 
 
 ------------------
-####Day 45
+#### Day 45
 
 ##### Think Bayes
 
@@ -902,7 +902,7 @@ and produces the following prediction in [genderclassmodel.csv](Titanic/gendercl
 
 ------------------
 
-####Day 44
+#### Day 44
 
 ##### Exercism Ex 6 - Word Count
 
@@ -915,7 +915,7 @@ submissions. [For example](tutorials/exercism_py3/word_count/wordcount3.py) this
 yet. 
 
 ------------------
-####Day 43 
+#### Day 43 
 
 ##### Bayes's Theorem
 
@@ -933,7 +933,7 @@ Survived, though I am confused, as it should perhaps be Sex because it is binary
 
 
 ------------------
-####Day 42
+#### Day 42
 
 ##### Bayes's Theorem
 
@@ -950,7 +950,7 @@ Survived, though I am confused, as it should perhaps be Sex because it is binary
 
 
 ------------------
-####Day 41
+#### Day 41
 
 Make a website for your project with [Github pages](https://pages.github.com/). An example 
 [here](http://cs109.github.io/2015/pages/projects.html).
@@ -980,7 +980,7 @@ At the moment it is like [this](windspeed/plots/WSahel.png) and I want the month
 [Here](tutorials/exercism_py3/Ex5_hamming/hamming2.py) is a two-liner using `zip()`.
 
 ------------------
-####Day 40
+#### Day 40
 
 ##### Windspeed
 
@@ -1013,7 +1013,7 @@ in a plot. What I have been trying to do for windspeed.
 - [Another solution](tutorials/exercism_py3/dna/dna2.py) using `str.maketrans(intab, outtab)` - A very easy way to substitute characters.
 
 ------------------
-####Day 39
+#### Day 39
 
 ##### K-means - [notebook](tutorials/K-means/039-kmeans_exploredata.ipynb)
 
@@ -1036,7 +1036,7 @@ different features (columns) disappear to in this step.
 - [Script](windspeed/scripts/039-group_tseries.py) after today.
 
 ------------------
-####Day 38
+#### Day 38
 
 ##### Python 3
 
@@ -1087,7 +1087,7 @@ and [methods](http://docs.scipy.org/doc/numpy-1.10.1/reference/arrays.ndarray.ht
 
 
 ------------------
-####Day 37
+#### Day 37
 
 ##### SQL
 
@@ -1101,7 +1101,7 @@ and [methods](http://docs.scipy.org/doc/numpy-1.10.1/reference/arrays.ndarray.ht
 - Implimented the above in [my script](windspeed/scripts/037-group_tseries.py), trying to use oop. Can't get it to run.
 
 ------------------
-####Day 36
+#### Day 36
 
 ##### SQL
 
@@ -1133,7 +1133,7 @@ classification to "train" the data. [Experimented](tutorials/K-means/Iris_explor
   - Initial exploration when training samples are not available.
 
 ------------------
-####Day 35
+#### Day 35
 
 ##### Git
 
@@ -1172,7 +1172,7 @@ are important to you, depending on you are trying to find out.
 - [Black Box notebook workings](tutorials/Samsung/notebooks/035-Samsung_analysis_blackbox.ipynb).
 
 ------------------
-####Day 34
+#### Day 34
 
 ##### Random Forests
 
@@ -1201,7 +1201,7 @@ problems](http://exercism.io/languages/python) and get feedback on them.  Instal
 [linuxbrew](http://linuxbrew.sh/) seemed the easiest way to get it all set up right. 
 
 -------------------
-####Day 33
+#### Day 33
 
 [Data Tau](http://www.datatau.com/) - Hacker news for data science.
 
@@ -1236,7 +1236,7 @@ one](http://www.sqlcourse2.com/), which I have covered some material from.
 
 
 -------------------
-####Day 32
+#### Day 32
 
 [DataKind](http://www.datakind.org/) looks like a good place to find an interesting project to work on. 
 
@@ -1261,7 +1261,7 @@ information in the tutorial.
 grouped dataframes though. 
 
 -------------------
-####Day 31
+#### Day 31
 
 [CrowdFlower](https://www.crowdflower.com/)
 Sentiment analysis which encorporates human intelligence to identify nuances in the sentiment of text.    
@@ -1289,7 +1289,7 @@ into Nans, without a loop. Will just do it will a loop tomorrow.
 
 -------------------
 
-####Day 30
+#### Day 30
 
 ##### Random Forests
 
@@ -1331,7 +1331,7 @@ finds the module
 
 -------------------
 
-####Day 29 
+#### Day 29 
 
 ##### Random Forests 
 
@@ -1358,7 +1358,7 @@ variable names
  
 
 --------------------
-####Day 28
+#### Day 28
 
 ##### SQL 
 
@@ -1378,7 +1378,7 @@ Forest.
 accordingly. Example: AdaBoost
 
 --------------------
-####Day 27
+#### Day 27
 
 ##### Markdown
 
@@ -1402,7 +1402,7 @@ accordingly. Example: AdaBoost
 
 --------------------
 
-####Day 26
+#### Day 26
 
 ##### SQL [tutorial](http://sol.gfxile.net/g3/)
 
@@ -1424,7 +1424,7 @@ Full notes and working [here](tutorials/026-Linear_Regression_Analysis.ipynb).
 
 
 --------------------
-####Day 25
+#### Day 25
 
 ##### SQL [tutorial](http://sol.gfxile.net/g3/)
 
@@ -1455,7 +1455,7 @@ Now these will be much easier to plot against each other. Can even use a loop to
 like to get through in the next couple of months!
 
 --------------------
-####Day 24
+#### Day 24
 
 ##### SQL [tutorial](http://sol.gfxile.net/g3/)
 
@@ -1478,7 +1478,7 @@ like to get through in the next couple of months!
 - nearly broken the back of this, hope to complete tomorrow.
 
 --------------------
-####Day 23
+#### Day 23
 
 ##### SQL
 
@@ -1497,7 +1497,7 @@ in this. Notebook found [here](tutorials/023-indexing.ipynb).
 
 
 --------------------
-####Day 22
+#### Day 22
 
 #####boxplot with width = counts
 
@@ -1521,7 +1521,7 @@ Applied to a subsection of windspeed data [here](windspeed/notebooks/022-windspe
 
 --------------------
 
-####Day 21
+#### Day 21
 
 #####MySQL
 
@@ -1540,7 +1540,7 @@ Finished with [datetime selections](http://dev.mysql.com/doc/refman/5.5/en/date-
 
 --------------------
 
-####Day 20
+#### Day 20
 
 #####MySQL
 
@@ -1568,7 +1568,7 @@ of counts which correspond to each boxplot (labelled with a MultiIndex!).
 Workings [here](windspeed/notebooks/020-windspeed.ipynb)
 
 --------------------
-####Day 19
+#### Day 19
 
 #####MySQL   
 
@@ -1592,7 +1592,7 @@ Notebook found [here](windspeed/notebooks/019-windspeed.ipynb).
 *To do* - make a script to group stations, make panels of plots, and output them to a file per group. 
 
 --------------------
-####Day 18
+#### Day 18
 
 #####windspeed plotting
 
@@ -1606,7 +1606,7 @@ Have added an [updated version](windspeed/notebooks/018_2-windspeed.ipynb) of th
 how it worked [here](windspeed/notebooks/018-windspeed.ipynb).
 
 --------------------
-####Day 17
+#### Day 17
 
 #####windspeed plotting
 
@@ -1631,7 +1631,7 @@ This selects rows from march in 1984.
 
 
 --------------------
-####Day 16
+#### Day 16
 
 #####windspeed plotting
 
@@ -1654,7 +1654,7 @@ is possible to upsample it to the original array.
 
 --------------------
 
-####Day 15 
+#### Day 15 
 #####Markdown
 
 I configured Kate to extend the line length limit to 140, up from 80. This should reduce the problems from long web links.
@@ -1677,7 +1677,7 @@ This is publicly available, privacy is paid for.
 
 
 --------------------------
-####Day 14
+#### Day 14
 #####Import.io
 
 I'm trying to work through a short 
@@ -1708,7 +1708,7 @@ It took 7mins to scrape the data from 203 pages.
 
 
 --------------------------
-####Day 13 
+#### Day 13 
 
 #####Windspeed Plotting
 `list(df)` - really nice way to show dataframe column names
@@ -1736,7 +1736,7 @@ a script with classes and methods.
 
 ---------------------------
 
-####Day 12
+#### Day 12
 
 #####Web App Building
 
@@ -1767,7 +1767,7 @@ clue on how to apply them.
 
 ---------------------
 
-####Day 11
+#### Day 11
 #####Plotting windspeed
 
 
@@ -1796,7 +1796,7 @@ isin().
 
 ----------------
 
-####Day 10
+#### Day 10
 #####Plotting Windspeed
 
 Solved my [issue](https://github.com/SophMC/notechain/issues/1) on the 
@@ -1829,7 +1829,7 @@ format='%Y%m%d%H') ; print p`
 
 -----------------
 
-####Day 9
+#### Day 9
 
 Opened an [issue](https://github.com/SophMC/notechain/issues/1) on the 
 timestamp problem.
@@ -1837,7 +1837,7 @@ timestamp problem.
 ----------------
 
 
-####Day 8
+#### Day 8
 #####Web App Building
 
 Exercise 52 from [Learning Python the Hard 
@@ -1860,7 +1860,7 @@ objects to strings to allow it to do this.
 -----------------
 
 
-####Day 7
+#### Day 7
 #####Web App Building
 Exercise 52 from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex52.html)
@@ -1876,7 +1876,7 @@ inside /bin
 
 -----------------
 
-####Day 6
+#### Day 6
 #####Web App Building
 [Exercise 51](firstform) from [Learning Python the Hard 
 Way](http://learnpythonthehardway.org/book/ex51.html)
@@ -1889,7 +1889,7 @@ bin/app.py` should return `http://0.0.0.0:8080/` to the terminal.
 
 -----------------
 
-####Day 5 
+#### Day 5 
 #####Pandas Data Analysis
 The following actions are found 
 [here](LendingClub/004-LendingClub.ipynb):  
@@ -1912,7 +1912,7 @@ IMPORTANT: `df.count()` only returns non-nans.
 
 ---------------
 
-####Day 4 
+#### Day 4 
 
 #####Git:  
 If you remove from local directory you must do this before the changes will be 
@@ -1932,11 +1932,11 @@ index.html
 Did not fit in one line in my editor. When I shortened it to one line it 
 worked. An \ was needed between the message and the html emphasized text.
 
-```$if greeting:
+`$if greeting:
     I just wanted to say \    
-<em style="color: green; font-size: 2em;">$greeting</em>.```
+<em style="color: green; font-size: 2em;">$greeting</em>.`
 
-#####More Data Analysis in Pandas: 
+##### More Data Analysis in Pandas: 
 Started [plotting the data](LendingClub/004-LendingClub.ipynb) with  
 `df.plot(kind = 'box'), df.hist() and scatter_matrix(df)`
 
@@ -1946,7 +1946,7 @@ To suppress the printing of the object before a panel of plots
 
 --------------
 
-####Day 3  
+#### Day 3  
 %timeit : time how long a command takes to run.  
 More pandas practise [here](LendingClub/003-LendingClub.ipynb).   
 `df.dropna(), df.isnull(), df.any(), df.sum()`
@@ -1954,17 +1954,17 @@ More pandas practise [here](LendingClub/003-LendingClub.ipynb).
 --------------
 
 
-####Day 2                                                                       
+#### Day 2                                                                       
 More pandas practise [here](LendingClub/002-LendingClub.ipynb). 
 Re-discovered the 
 usefulness of cheatsheats. Now have a number of functions for exploring the 
 data.    
-```df.head(), df.unique(), df.describe(), df.iloc(), df.count(), 
-df.isin(), np.where()```
+`df.head(), df.unique(), df.describe(), df.iloc(), df.count(), 
+df.isin(), np.where()`
 
 --------------
 
-####Day 1                                                                
+#### Day 1                                                                
 I learned some [git commands](001-git-basics.md) and [played around 
 with some data](pandas-notebooks-csv/001-LendingClub.ipynb) in ipython using 
 DataFrames (df) in pandas library. 
